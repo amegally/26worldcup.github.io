@@ -213,7 +213,7 @@ export default function MatchDetail() {
           <HeroSide side={m.away} ph={m.phB} />
         </div>
         {m.status === 'live' && <p className="md-semilive small">{t('semiLiveNote')}</p>}
-        {m.home && m.away && probs[m.id] && m.status === 'finished' && (
+        {m.home && m.away && probs[m.id] && m.status !== 'scheduled' && (
           <button
             type="button"
             className="md-prob-show small"
@@ -223,7 +223,7 @@ export default function MatchDetail() {
             {t(showProbPast ? 'probHide' : 'probShow')}
           </button>
         )}
-        {m.home && m.away && probs[m.id] && (m.status !== 'finished' || showProbPast) && (
+        {m.home && m.away && probs[m.id] && (m.status === 'scheduled' || showProbPast) && (
           <div className="md-prob">
             <div className="md-prob-head small">
               <span>{t('probTitle')}</span>
