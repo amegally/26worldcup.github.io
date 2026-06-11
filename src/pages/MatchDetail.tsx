@@ -138,6 +138,39 @@ export default function MatchDetail() {
     return rows.sort((a, b) => (parseInt(a.minute || '0', 10) || 0) - (parseInt(b.minute || '0', 10) || 0))
   }, [lu, m])
 
+  // red cards (incl. second yellow) shown under the score; card marks for the
+  // pitch dots; substitution minutes for the bench list
+  const cardInfo = useMemo(() => {
+    const reds: GoalRow[] = []
+    const marks: Record<string, { card?: 'y' | 'r' }> = {}
+    const subOn: Record<string, string> = {}
+    const sides: [TeamLineup | null | undefined, string | null][] = [
+      [lu?.home, m?.home?.code ?? null],
+      [lu?.away, m?.away?.code ?? null],
+    ]
+    for (const [tl, code] of sides) {
+      if (!tl) continue
+      const all = [...tl.xi, ...tl.subs]
+      tl.bookings.forEach((b, i) => {
+        const red = (b.card ?? 0) >= 2
+        marks[b.player] = { card: red ? 'r' : marks[b.player]?.card === 'r' ? 'r' : 'y' }
+        if (red)
+          reds.push({
+            key: `r-${code ?? 'x'}-${i}`,
+            minute: b.minute,
+            name: all.find((x) => x.id === b.player)?.name || b.player,
+            code,
+            own: false,
+            pen: false,
+          })
+      })
+      for (const sub of tl.substitutions ?? []) if (sub.minute) subOn[sub.on] = sub.minute
+    }
+    reds.sort((a, b) => (parseInt(a.minute || '0', 10) || 0) - (parseInt(b.minute || '0', 10) || 0))
+    return { reds, marks, subOn }
+  }, [lu, m])
+  const redRows = cardInfo.reds
+
   if (!m) {
     return (
       <div className="card">
@@ -212,6 +245,60 @@ export default function MatchDetail() {
           </div>
           <HeroSide side={m.away} ph={m.phB} />
         </div>
+        {showScore && goalRows.length > 0 && (
+          <div className="md-scorers small">
+            <div className="md-scorers-side">
+              {goalRows
+                .filter((g) => g.code === m.home?.code)
+                .map((g) => (
+                  <div key={g.key}>
+                    {g.name} {g.minute}
+                    {g.own && <span className="muted"> ({t('ownGoal')})</span>}
+                    {g.pen && <span className="muted"> ({t('penaltyGoal')})</span>}
+                  </div>
+                ))}
+            </div>
+            <span className="md-scorers-ball" aria-hidden="true">
+              ⚽
+            </span>
+            <div className="md-scorers-side away">
+              {goalRows
+                .filter((g) => g.code === m.away?.code)
+                .map((g) => (
+                  <div key={g.key}>
+                    {g.name} {g.minute}
+                    {g.own && <span className="muted"> ({t('ownGoal')})</span>}
+                    {g.pen && <span className="muted"> ({t('penaltyGoal')})</span>}
+                  </div>
+                ))}
+            </div>
+          </div>
+        )}
+        {showScore && redRows.length > 0 && (
+          <div className="md-scorers small">
+            <div className="md-scorers-side">
+              {redRows
+                .filter((g) => g.code === m.home?.code)
+                .map((g) => (
+                  <div key={g.key}>
+                    {g.name} {g.minute}
+                  </div>
+                ))}
+            </div>
+            <span className="md-scorers-ball" aria-hidden="true">
+              🟥
+            </span>
+            <div className="md-scorers-side away">
+              {redRows
+                .filter((g) => g.code === m.away?.code)
+                .map((g) => (
+                  <div key={g.key}>
+                    {g.name} {g.minute}
+                  </div>
+                ))}
+            </div>
+          </div>
+        )}
         {m.status === 'live' && <p className="md-semilive small">{t('semiLiveNote')}</p>}
         {m.home && m.away && probs[m.id] && m.status !== 'scheduled' && (
           <button
@@ -472,7 +559,13 @@ export default function MatchDetail() {
       </div>
       {hasLineups && lu ? (
         <div className="card md-pitch-card">
-          <Pitch home={lu.home} away={lu.away} homeName={homeLabel} awayName={awayLabel} />
+          <Pitch
+            home={lu.home}
+            away={lu.away}
+            homeName={homeLabel}
+            awayName={awayLabel}
+            marks={cardInfo.marks}
+          />
           {((lu.home?.subs.length ?? 0) > 0 || (lu.away?.subs.length ?? 0) > 0) && (
             <div className="md-subs">
               {(
@@ -494,6 +587,11 @@ export default function MatchDetail() {
                             C
                           </span>
                         )}
+                        {cardInfo.subOn[p.id] && (
+                          <span className="md-sub-on tnum">↑ {cardInfo.subOn[p.id]}</span>
+                        )}
+                        {cardInfo.marks[p.id]?.card === 'y' && <span aria-hidden="true">🟨</span>}
+                        {cardInfo.marks[p.id]?.card === 'r' && <span aria-hidden="true">🟥</span>}
                       </div>
                     ))}
                   </div>
@@ -501,22 +599,6 @@ export default function MatchDetail() {
                   <div key={k} />
                 ),
               )}
-            </div>
-          )}
-          {goalRows.length > 0 && (
-            <div className="md-goals">
-              <h4>{t('goalsTitle')}</h4>
-              <div className="md-goallist">
-                {goalRows.map((g) => (
-                  <div className="md-goal" key={g.key}>
-                    <span className="min tnum">{g.minute || ''}</span>
-                    {g.code && <Flag team={teams[g.code]} size={18} />}
-                    <span>{g.name}</span>
-                    {g.own && <span className="muted small">({t('ownGoal')})</span>}
-                    {g.pen && <span className="muted small">({t('penaltyGoal')})</span>}
-                  </div>
-                ))}
-              </div>
             </div>
           )}
         </div>

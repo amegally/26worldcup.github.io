@@ -628,6 +628,12 @@ function parseLivePlayers(team) {
       card: b.Card,
       period: b.Period ?? null,
     })),
+    substitutions: (team.Substitutions || []).map((sub) => ({
+      off: sub.IdPlayerOff,
+      on: sub.IdPlayerOn,
+      minute: sub.Minute,
+      period: sub.Period ?? null,
+    })),
   }
 }
 

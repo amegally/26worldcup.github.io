@@ -154,6 +154,7 @@ export interface TeamLineup {
   subs: LineupPlayer[]
   goals: { player: string; minute: string | null; type: number | null; period: number | null }[]
   bookings: { player: string; minute: string | null; card: number | null; period: number | null }[]
+  substitutions?: { off: string; on: string; minute: string | null; period: number | null }[]
 }
 
 export interface MatchLineups {

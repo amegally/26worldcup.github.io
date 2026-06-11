@@ -7,8 +7,8 @@
    "group": "A",
    "date": "2026-06-11T19:00:00Z",
    "venueId": "400222084",
-   "status": "live",
-   "time": "68'",
+   "status": "finished",
+   "time": "98'",
    "home": {
     "code": "MEX",
     "score": 2,
@@ -21,8 +21,8 @@
    },
    "phA": "A1",
    "phB": "A2",
-   "winner": null,
-   "attendance": null,
+   "winner": "MEX",
+   "attendance": "80824",
    "officials": [
     {
      "id": "361561",

@@ -5,6 +5,7 @@ interface PitchProps {
   away: TeamLineup | null
   homeName: string
   awayName: string
+  marks?: Record<string, { card?: 'y' | 'r' }>
 }
 
 interface Placed {
@@ -73,7 +74,7 @@ function layout(tl: TeamLineup, half: 'top' | 'bottom'): Placed[] {
   return out
 }
 
-function PlayerDot({ pl, side }: { pl: Placed; side: 'home' | 'away' }) {
+function PlayerDot({ pl, side, card }: { pl: Placed; side: 'home' | 'away'; card?: 'y' | 'r' }) {
   const c = COLORS[side]
   return (
     <g transform={`translate(${pl.x} ${pl.y})`}>
@@ -82,6 +83,20 @@ function PlayerDot({ pl, side }: { pl: Placed; side: 'home' | 'away' }) {
         <text textAnchor="middle" y={1.45} style={{ fontSize: 3.6, fontWeight: 750, fill: c.text }}>
           {pl.p.number}
         </text>
+      )}
+      {card && (
+        <rect
+          x={-5.8}
+          y={-5.8}
+          width={2.3}
+          height={3.2}
+          rx={0.5}
+          style={{
+            fill: card === 'r' ? '#d92d20' : '#f3c513',
+            stroke: 'rgb(0 0 0 / 0.35)',
+            strokeWidth: 0.3,
+          }}
+        />
       )}
       {pl.p.captain && (
         <g transform="translate(3.5 -3.5)">
@@ -110,7 +125,7 @@ function PlayerDot({ pl, side }: { pl: Placed; side: 'home' | 'away' }) {
 }
 
 /** vertical football pitch with both starting XIs placed by tactics; pure SVG, responsive */
-export default function Pitch({ home, away, homeName, awayName }: PitchProps) {
+export default function Pitch({ home, away, homeName, awayName, marks }: PitchProps) {
   const homePlaced = home ? layout(home, 'bottom') : []
   const awayPlaced = away ? layout(away, 'top') : []
   if (!homePlaced.length && !awayPlaced.length) return null
@@ -173,10 +188,10 @@ export default function Pitch({ home, away, homeName, awayName }: PitchProps) {
 
       {/* players */}
       {awayPlaced.map((pl) => (
-        <PlayerDot key={pl.p.id} pl={pl} side="away" />
+        <PlayerDot key={pl.p.id} pl={pl} side="away" card={marks?.[pl.p.id]?.card} />
       ))}
       {homePlaced.map((pl) => (
-        <PlayerDot key={pl.p.id} pl={pl} side="home" />
+        <PlayerDot key={pl.p.id} pl={pl} side="home" card={marks?.[pl.p.id]?.card} />
       ))}
 
       {/* team label: home (bottom half) */}

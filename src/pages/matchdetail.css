@@ -441,3 +441,33 @@ a.md-side {
   font-weight: 750;
   color: var(--text);
 }
+
+/* scorers directly under the scoreline (home left, away right) */
+.md-scorers {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 2px 12px;
+  align-items: start;
+  margin: 10px auto 0;
+  max-width: 560px;
+  color: var(--text-2);
+}
+.md-scorers-side {
+  text-align: end;
+  line-height: 1.5;
+}
+.md-scorers-side.away {
+  text-align: start;
+}
+.md-scorers-ball {
+  font-size: 0.85rem;
+  padding-top: 1px;
+}
+
+/* bench: came-on minute */
+.md-sub-on {
+  color: var(--accent-2);
+  font-size: 0.74rem;
+  font-weight: 650;
+  white-space: nowrap;
+}

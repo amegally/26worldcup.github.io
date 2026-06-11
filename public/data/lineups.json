@@ -312,6 +312,44 @@
      "minute": "23'",
      "card": 1,
      "period": 3
+    },
+    {
+     "player": "395516",
+     "minute": "90'+2'",
+     "card": 2,
+     "period": 5
+    }
+   ],
+   "substitutions": [
+    {
+     "off": "464533",
+     "on": "448051",
+     "minute": "66'",
+     "period": 5
+    },
+    {
+     "off": "416576",
+     "on": "500037",
+     "minute": "66'",
+     "period": 5
+    },
+    {
+     "off": "419518",
+     "on": "400634",
+     "minute": "76'",
+     "period": 5
+    },
+    {
+     "off": "356731",
+     "on": "514336",
+     "minute": "76'",
+     "period": 5
+    },
+    {
+     "off": "429157",
+     "on": "430766",
+     "minute": "79'",
+     "period": 5
     }
    ]
   },
@@ -620,11 +658,49 @@
      "minute": "49'",
      "card": 2,
      "period": 5
+    },
+    {
+     "player": "463221",
+     "minute": "74'",
+     "card": 1,
+     "period": 5
+    },
+    {
+     "player": "395984",
+     "minute": "84'",
+     "card": 2,
+     "period": 5
+    }
+   ],
+   "substitutions": [
+    {
+     "off": "419211",
+     "on": "494248",
+     "minute": "56'",
+     "period": 5
+    },
+    {
+     "off": "463236",
+     "on": "395984",
+     "minute": "61'",
+     "period": 5
+    },
+    {
+     "off": "481242",
+     "on": "430917",
+     "minute": "76'",
+     "period": 5
+    },
+    {
+     "off": "395050",
+     "on": "419223",
+     "minute": "76'",
+     "period": 5
     }
    ]
   },
-  "matchTime": "68'",
-  "period": 5,
-  "final": false
+  "matchTime": "98'",
+  "period": 10,
+  "final": true
  }
 }
