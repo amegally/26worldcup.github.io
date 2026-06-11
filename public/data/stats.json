@@ -1,3 +1,11 @@
 {
- "scorers": []
+ "scorers": [
+  {
+   "id": "429157",
+   "name": "Julian QUINONES",
+   "code": "MEX",
+   "goals": 1,
+   "ownGoals": 0
+  }
+ ]
 }

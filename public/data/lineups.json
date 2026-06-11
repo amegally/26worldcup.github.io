@@ -292,7 +292,14 @@
      "y": null
     }
    ],
-   "goals": [],
+   "goals": [
+    {
+     "player": "429157",
+     "minute": "9'",
+     "type": 2,
+     "period": 3
+    }
+   ],
    "bookings": []
   },
   "away": {
@@ -590,7 +597,7 @@
    "goals": [],
    "bookings": []
   },
-  "matchTime": "6'",
+  "matchTime": "14'",
   "period": 3,
   "final": false
  }
