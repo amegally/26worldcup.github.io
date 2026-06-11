@@ -156,7 +156,7 @@
   white-space: nowrap;
 }
 .td-table td {
-  padding: 7px 4px;
+  padding: 7px 4px 7px 6px;
   border-top: 1px solid var(--border);
   text-align: center;
   font-variant-numeric: tabular-nums;

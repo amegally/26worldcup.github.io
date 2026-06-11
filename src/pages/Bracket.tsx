@@ -9,6 +9,7 @@ import { displayTz, fmtDate, fmtTime } from '../utils/time'
 import { placeholderLabel, STAGE_LABEL_KEY } from '../utils/helpers'
 import { resolvedSlots } from '../utils/bracketResolve'
 import Flag from '../components/Flag'
+import Trophy from '../components/Trophy'
 import TeamName from '../components/TeamName'
 import './bracket.css'
 
@@ -121,7 +122,7 @@ function BkNode({
       {big && (
         <div className="bk-final-head">
           <span className="bk-cup" aria-hidden="true">
-            🏆
+            <Trophy size={15} />
           </span>
           {t(STAGE_LABEL_KEY.final)}
         </div>
@@ -168,7 +169,22 @@ export default function Bracket() {
   const { matches, venues } = useAppData()
   const { standings } = useAppData()
   const overlay = useMemo(() => resolvedSlots(matches, standings), [matches, standings])
-  const [half, setHalf] = useState<'l' | 'r'>('l')
+  // remembered across visits (narrow-screen half-tree view)
+  const [half, setHalfState] = useState<'l' | 'r'>(() => {
+    try {
+      return localStorage.getItem('wc2026-bracket-half') === 'r' ? 'r' : 'l'
+    } catch {
+      return 'l'
+    }
+  })
+  const setHalf = (h: 'l' | 'r') => {
+    setHalfState(h)
+    try {
+      localStorage.setItem('wc2026-bracket-half', h)
+    } catch {
+      /* blocked storage */
+    }
+  }
 
   const bk = useMemo(() => {
     const ko = matches.filter((m) => m.stage !== 'group')
@@ -301,7 +317,7 @@ export default function Bracket() {
               {championCode && (
                 <div className="bk-champion">
                   <span className="bk-champ-cup" aria-hidden="true">
-                    🏆
+                    <Trophy size={26} />
                   </span>
                   <span className="bk-champ-label">{t('champion')}</span>
                   <TeamName code={championCode} bold flagSize={26} />
@@ -330,7 +346,7 @@ export default function Bracket() {
           {championCode && (
             <div className="bk-champion">
               <span className="bk-champ-cup" aria-hidden="true">
-                🏆
+                <Trophy size={26} />
               </span>
               <span className="bk-champ-label">{t('champion')}</span>
               <TeamName code={championCode} bold flagSize={26} />

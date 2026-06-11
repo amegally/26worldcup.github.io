@@ -1,32 +1,38 @@
 {
- "updatedAt": "2026-06-11T08:48:49.496Z",
+ "updatedAt": "2026-06-11T14:07:31.019Z",
  "season": "285023",
+ "titleOdds": [
+  {
+   "c": "ESP",
+   "p": 21
+  },
+  {
+   "c": "ARG",
+   "p": 16.9
+  },
+  {
+   "c": "FRA",
+   "p": 13.8
+  },
+  {
+   "c": "ENG",
+   "p": 8.4
+  },
+  {
+   "c": "BRA",
+   "p": 6
+  }
+ ],
  "counts": {
   "matches": 104,
   "teams": 48,
   "squads": 48,
-  "weather": 58,
+  "weather": 62,
   "lineups": 0,
   "flags": 179
  },
  "errors": [
-  "geocode New Tecumseth: no usable result — not cached, will retry next run",
-  "weather SoFi Stadium: The operation was aborted.",
-  "weather Mercedes-Benz Stadium: unknown certificate verification error",
-  "weather Lumen Field: The operation was aborted.",
-  "weather Estadio Azteca (Estadio Banorte): The operation was aborted.",
-  "weather Estadio BBVA: unknown certificate verification error",
-  "weather BMO Field: The operation was aborted.",
-  "weather BC Place: unknown certificate verification error",
-  "weather Lincoln Financial Field: unknown certificate verification error",
-  "weather Gillette Stadium: unknown certificate verification error",
-  "weather NRG Stadium: unknown certificate verification error",
-  "weather Estadio Akron: The operation was aborted.",
-  "weather Arrowhead Stadium (GEHA Field): unknown certificate verification error",
-  "weather Levi's Stadium: unknown certificate verification error",
-  "weather Hard Rock Stadium: unknown certificate verification error",
-  "weather AT&T Stadium: unknown certificate verification error",
-  "weather MetLife Stadium: unknown certificate verification error"
+  "geocode New Tecumseth: no usable result — not cached, will retry next run"
  ],
  "sources": [
   "api.fifa.com",

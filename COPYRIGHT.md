@@ -54,3 +54,8 @@ The compilations are released under MIT. They consist of factual information col
 | Flagpedia / flagcdn | public domain | country flags |
 | martj42/international_results | CC0 | historical results for the Elo probability model |
 | Archivo, Inter, Inter Tight | SIL OFL 1.1 | typography |
+
+### Trophy image (`public/icons/trophy.png`)
+
+AI-generated image of the World Cup trophy (no photographic source); treated as **public domain** — no copyright is claimed and none is believed to subsist. Used inline in place of the 🏆 emoji.
+

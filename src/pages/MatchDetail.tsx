@@ -248,11 +248,45 @@ export default function MatchDetail() {
                 {m.away.code} {probs[m.id].a}%
               </span>
             </div>
-            {probs[m.id].ah != null && (
-              <div className="md-prob-adv small muted">
-                {t('probAdvance')}: {m.home.code} {probs[m.id].ah}% · {m.away.code}{' '}
-                {100 - (probs[m.id].ah ?? 0)}%
-              </div>
+            {probs[m.id].eh != null ? (
+              <table className="md-prob-path small tnum">
+                <thead>
+                  <tr>
+                    <td />
+                    <th scope="col">{m.home.code}</th>
+                    <th scope="col">{m.away.code}</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">{t('prob90')}</th>
+                    <td>{probs[m.id].h}%</td>
+                    <td>{probs[m.id].a}%</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">{t('probEt')}</th>
+                    <td>+{probs[m.id].eh}%</td>
+                    <td>+{probs[m.id].ea}%</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">{t('probPens')}</th>
+                    <td>+{probs[m.id].ph}%</td>
+                    <td>+{probs[m.id].pa}%</td>
+                  </tr>
+                  <tr className="md-prob-total">
+                    <th scope="row">{t('probAdvance')}</th>
+                    <td>{probs[m.id].ah}%</td>
+                    <td>{100 - (probs[m.id].ah ?? 0)}%</td>
+                  </tr>
+                </tbody>
+              </table>
+            ) : (
+              probs[m.id].ah != null && (
+                <div className="md-prob-adv small muted">
+                  {t('probAdvance')}: {m.home.code} {probs[m.id].ah}% · {m.away.code}{' '}
+                  {100 - (probs[m.id].ah ?? 0)}%
+                </div>
+              )
             )}
             <p className="md-prob-note small muted">{t('probNote')}</p>
           </div>

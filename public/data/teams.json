@@ -76,7 +76,7 @@
    },
    "iso2": "AR",
    "ranking": 1,
-   "rankingPrev": 3,
+   "rankingPrev": 1,
    "baseCamp": {
     "city": "Kansas City",
     "facility": "Sporting KC Training Centre",
@@ -260,7 +260,7 @@
    },
    "iso2": "BA",
    "ranking": 64,
-   "rankingPrev": 65,
+   "rankingPrev": 64,
    "baseCamp": {
     "city": "Sandy",
     "facility": "RSL Stadium",
@@ -398,7 +398,7 @@
    },
    "iso2": "CI",
    "ranking": 33,
-   "rankingPrev": 34,
+   "rankingPrev": 33,
    "baseCamp": {
     "city": "Chester",
     "facility": "Philadelphia Union",
@@ -536,7 +536,7 @@
    },
    "iso2": "CV",
    "ranking": 67,
-   "rankingPrev": 69,
+   "rankingPrev": 67,
    "baseCamp": {
     "city": "Tampa",
     "facility": "Waters Sportsplex",
@@ -674,7 +674,7 @@
    },
    "iso2": "CZ",
    "ranking": 40,
-   "rankingPrev": 41,
+   "rankingPrev": 40,
    "baseCamp": {
     "city": "Mansfield",
     "facility": "Mansfield Multipurpose Stadium",
@@ -904,7 +904,7 @@
    },
    "iso2": "FR",
    "ranking": 3,
-   "rankingPrev": 1,
+   "rankingPrev": 3,
    "baseCamp": {
     "city": "Boston",
     "facility": "Bentley University",
@@ -996,7 +996,7 @@
    },
    "iso2": "GH",
    "ranking": 73,
-   "rankingPrev": 74,
+   "rankingPrev": 73,
    "baseCamp": {
     "city": "Smithfield",
     "facility": "Bryant University",
@@ -1088,7 +1088,7 @@
    },
    "iso2": "IR",
    "ranking": 20,
-   "rankingPrev": 21,
+   "rankingPrev": 20,
    "baseCamp": {
     "city": "Tijuana",
     "facility": "Centro Xoloitzcuintle",
@@ -1364,7 +1364,7 @@
    },
    "iso2": "MA",
    "ranking": 7,
-   "rankingPrev": 8,
+   "rankingPrev": 7,
    "baseCamp": {
     "city": "Basking Ridge",
     "facility": "The Pingry School",
@@ -1410,7 +1410,7 @@
    },
    "iso2": "MX",
    "ranking": 14,
-   "rankingPrev": 15,
+   "rankingPrev": 14,
    "baseCamp": {
     "city": "Mexico City",
     "facility": "Centro de Alto Rendimiento (CAR)",
@@ -1456,7 +1456,7 @@
    },
    "iso2": "NL",
    "ranking": 8,
-   "rankingPrev": 7,
+   "rankingPrev": 8,
    "baseCamp": {
     "city": "Kansas City",
     "facility": "KC Current Training Facility",
@@ -1594,7 +1594,7 @@
    },
    "iso2": "PA",
    "ranking": 34,
-   "rankingPrev": 33,
+   "rankingPrev": 34,
    "baseCamp": {
     "city": "New Tecumseth",
     "facility": "Nottawasaga Training Site",
@@ -1638,7 +1638,7 @@
    },
    "iso2": "PY",
    "ranking": 41,
-   "rankingPrev": 40,
+   "rankingPrev": 41,
    "baseCamp": {
     "city": "San Jose",
     "facility": "Spartan Soccer Complex",
@@ -1729,7 +1729,7 @@
    },
    "iso2": "QA",
    "ranking": 56,
-   "rankingPrev": 55,
+   "rankingPrev": 56,
    "baseCamp": {
     "city": "Santa Barbara",
     "facility": "Westmont College",
@@ -1821,7 +1821,7 @@
    },
    "iso2": "GB-SCT",
    "ranking": 42,
-   "rankingPrev": 43,
+   "rankingPrev": 42,
    "baseCamp": {
     "city": "Charlotte",
     "facility": "Charlotte FC",
@@ -1867,7 +1867,7 @@
    },
    "iso2": "SN",
    "ranking": 15,
-   "rankingPrev": 14,
+   "rankingPrev": 15,
    "baseCamp": {
     "city": "New Brunswick",
     "facility": "Rutgers University",
@@ -2005,7 +2005,7 @@
    },
    "iso2": "TN",
    "ranking": 45,
-   "rankingPrev": 44,
+   "rankingPrev": 45,
    "baseCamp": {
     "city": "Monterrey",
     "facility": "Rayados Training Centre",
@@ -2097,7 +2097,7 @@
    },
    "iso2": "UY",
    "ranking": 16,
-   "rankingPrev": 17,
+   "rankingPrev": 16,
    "baseCamp": {
     "city": "Playa del Carmen",
     "facility": "Mayakoba Training Centre Cancun",
@@ -2143,7 +2143,7 @@
    },
    "iso2": "US",
    "ranking": 17,
-   "rankingPrev": 16,
+   "rankingPrev": 17,
    "baseCamp": {
     "city": "Irvine",
     "facility": "Great Park Sports Complex",

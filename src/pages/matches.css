@@ -1,10 +1,50 @@
 /* ============ Matches page (prefix mxp-) ============ */
 
-/* filter bar: normal flow (collapsible on mobile) */
+/* everything above the list sticks; content fades out under it */
+.mxp-sticky {
+  position: sticky;
+  top: var(--hdr-h, 58px);
+  z-index: 30;
+  background: var(--bg);
+}
+.mxp-sticky::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  height: 28px;
+  background: linear-gradient(var(--bg), transparent);
+  pointer-events: none;
+}
+
 .mxp-bar {
-  margin: 0 0 16px;
-  padding: 4px 0 10px;
+  padding: 4px 0 0;
+}
+
+/* jump shortcuts: opener / now / knockouts / final */
+.mxp-jump {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 10px 0;
   border-bottom: 1px solid var(--border);
+}
+.mxp-jump-btn {
+  flex: none;
+  padding: 5px 13px;
+  font: inherit;
+  font-size: 0.8rem;
+  font-weight: 650;
+  color: var(--text-2);
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  cursor: pointer;
+}
+.mxp-jump-btn:hover {
+  color: var(--accent-2);
+  border-color: var(--accent-2);
 }
 
 /* mobile toggle row */
@@ -18,29 +58,14 @@
   margin-inline-start: auto;
   white-space: nowrap;
 }
-@media (min-width: 760px) {
-  .mxp-toggle-row {
-    display: none;
-  }
-}
-
-/* collapsible panel */
+/* collapsible panel (every width — the flag wall stays out of the way) */
 .mxp-panel {
   display: none;
 }
 .mxp-panel.open {
   display: flex;
   flex-direction: column;
-  gap: 10px;
   margin-top: 12px;
-}
-@media (min-width: 760px) {
-  .mxp-panel {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-top: 0;
-  }
 }
 
 /* selects + summary */
@@ -50,12 +75,17 @@
   gap: 10px;
   flex-wrap: wrap;
 }
-.mxp-field {
+/* label-less selects share the quick row, pushed to the end */
+.mxp-quick-selects {
   display: flex;
-  flex-direction: column;
-  gap: 4px;
-  flex: 1 1 150px;
-  max-width: 300px;
+  gap: 6px;
+  margin-inline-start: auto;
+  min-width: 0;
+}
+.mxp-select {
+  font-size: 0.8rem;
+  padding: 4px 8px;
+  max-width: 180px;
   min-width: 0;
 }
 .mxp-summary {
@@ -129,10 +159,133 @@
   }
 }
 
-/* day sections: sticky day headers sit right below the sticky filter bar */
+/* day sections: sticky day headers stack below the sticky filter block */
 .mxp .day-head {
-  top: var(--hdr-h, 58px);
+  top: calc(var(--hdr-h, 58px) + var(--mxp-sticky-h, 0px));
 }
 .mxp-day {
   margin-bottom: 14px;
+  scroll-margin-top: calc(var(--hdr-h, 58px) + var(--mxp-sticky-h, 0px) + 4px);
+}
+.mxp-day:first-of-type {
+  margin-top: 14px;
+}
+
+/* card shadows would ghost through the fade veil when sliding under the
+   sticky block — match-list cards sit flat (border only) */
+.mxp-day .match-card {
+  box-shadow: none;
+}
+
+/* count sits on the title row; freshness on the jump row — both flush right */
+.mxp-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 2px 12px;
+}
+.mxp-head h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  padding-top: 8px;
+}
+.mxp .page-head {
+  margin: 0;
+}
+/* the sticky block starts flush at the top on this page only */
+.shell-main:has(.mxp) {
+  padding-top: 0;
+}
+.mxp-jump-fresh {
+  margin-inline-start: auto;
+  flex: none;
+  align-self: center;
+  white-space: nowrap;
+}
+.mxp-jump-fresh > * {
+  margin: 0;
+}
+
+/* title-odds strip: first list element, links to the forecast page */
+.mxp-odds {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 14px;
+  margin: 14px 0 0;
+  padding: 9px 14px;
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: var(--r-md);
+  text-decoration: none;
+  color: var(--text);
+}
+.mxp-odds:hover {
+  border-color: var(--accent-2);
+}
+.mxp-odds-label {
+  font-size: 0.82rem;
+  font-weight: 750;
+  white-space: nowrap;
+}
+.mxp-odds-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+  font-size: 0.82rem;
+  font-weight: 650;
+}
+.mxp-odds-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  white-space: nowrap;
+}
+.mxp-odds-champ {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-weight: 800;
+}
+.mxp-odds-cta {
+  margin-inline-start: auto;
+  font-size: 0.78rem;
+  font-weight: 650;
+  color: var(--accent-2);
+  white-space: nowrap;
+}
+
+/* dismiss / restore the odds strip */
+.mxp-odds-close {
+  flex: none;
+  width: 22px;
+  height: 22px;
+  display: grid;
+  place-items: center;
+  padding: 0;
+  font-size: 0.95rem;
+  line-height: 1;
+  color: var(--text-3);
+  background: transparent;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+}
+.mxp-odds-close:hover {
+  color: var(--text);
+  background: var(--chip-bg, var(--border));
+}
+.mxp-odds-restore {
+  display: block;
+  margin: 14px 0 0;
+  padding: 4px 12px;
+  font-size: 0.85rem;
+  background: var(--bg-elev);
+  border: 1px dashed var(--border);
+  border-radius: 999px;
+  cursor: pointer;
+}
+.mxp-odds-restore:hover {
+  border-color: var(--accent-2);
 }

@@ -1030,6 +1030,7 @@ async function main() {
 
   // 8c. win/draw/loss probabilities (Elo over martj42/international_results, CC0)
   let probs = {}
+  let titleOdds = (await readJsonSafe(path.join(OUT, 'meta.json')))?.titleOdds || []
   const prevProbs = (await readJsonSafe(path.join(OUT, 'probs.json'))) || {}
   try {
     const csvPath = path.join(CACHE, 'intl-results.csv')
@@ -1144,11 +1145,27 @@ async function main() {
         f: liveRanks[code]?.pts != null ? Math.round(liveRanks[code].pts) : null,
       }
     }
-    await writeJson(path.join(OUT, 'sim-model.json'), {
+    const simModel = {
       curve: outcomeCurve.map((b) => ({ w: +b.w.toFixed(4), d: +b.d.toFixed(4) })),
       hostBonus: 60,
       teams: simTeams,
-    })
+    }
+    await writeJson(path.join(OUT, 'sim-model.json'), simModel)
+
+    // 10,000-run Monte-Carlo title odds for the schedule page strip (continue
+    // mode: real results kept, so the odds drift with the tournament)
+    const { runTournament } = await import('../src/sim/engine.ts')
+    const champs = new Map()
+    const RUNS = 10000
+    for (let i = 0; i < RUNS; i++) {
+      const run = runTournament(simModel, matches, venues, teams, 'continue')
+      champs.set(run.champion, (champs.get(run.champion) ?? 0) + 1)
+    }
+    titleOdds = [...champs.entries()]
+      .sort((x, y) => y[1] - x[1])
+      .slice(0, 5)
+      .map(([c, n]) => ({ c, p: +((n / RUNS) * 100).toFixed(1) }))
+    log(`title odds: ${titleOdds.map((o) => `${o.c} ${o.p}%`).join(', ')}`)
   } catch (e) {
     warn(`probs: ${e.message} — keeping previous file`)
     probs = prevProbs
@@ -1187,6 +1204,7 @@ async function main() {
   await writeJson(path.join(OUT, 'meta.json'), {
     updatedAt: new Date().toISOString(),
     season: ID_SEASON,
+    titleOdds,
     counts: {
       matches: matches.length,
       teams: Object.keys(teams).length,

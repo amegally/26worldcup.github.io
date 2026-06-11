@@ -413,3 +413,31 @@ a.md-side {
   color: var(--accent-2);
   border-color: var(--accent-2);
 }
+
+/* knockout path-to-victory breakdown */
+.md-prob-path {
+  margin: 10px auto 0;
+  border-collapse: collapse;
+}
+.md-prob-path th,
+.md-prob-path td {
+  padding: 2px 14px;
+  text-align: end;
+  font-weight: 500;
+  color: var(--text-2);
+}
+.md-prob-path th[scope="row"] {
+  text-align: start;
+  padding-inline-start: 0;
+  font-weight: 500;
+}
+.md-prob-path thead th {
+  font-weight: 750;
+  color: var(--text);
+}
+.md-prob-total th,
+.md-prob-total td {
+  border-top: 1px solid var(--border);
+  font-weight: 750;
+  color: var(--text);
+}

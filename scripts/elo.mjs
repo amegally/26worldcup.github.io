@@ -290,7 +290,30 @@ export function rawProbs(drIn, outcomeCurve) {
   const favLoss = Math.max(1 - favWin - d, 0.02)
   const [h, a] = dr >= 0 ? [favWin, favLoss] : [favLoss, favWin]
   const sum = h + d + a
-  return { h: h / sum, d: d / sum, a: a / sum, tilt: Math.min(Math.max(0.5 + dr / 4000, 0.38), 0.62) }
+  return { h: h / sum, d: d / sum, a: a / sum, dr, tilt: Math.min(Math.max(0.5 + dr / 4000, 0.38), 0.62) }
+}
+
+/** decompose the 90' draw mass over the knockout path: extra-time wins per
+ * side + the penalty shoot-out. Mirrors the client engine's ET model
+ * (Poisson per side, lambda = 0.85 x logistic strength share, floor 0.12);
+ * the shoot-out itself is symmetric. Returns floats summing to p.d. */
+export function koBreakdown(p) {
+  const dr = p.dr ?? (p.tilt - 0.5) * 4000
+  const share = 1 / (1 + 10 ** (-dr / 400))
+  const lh = Math.max(0.85 * share, 0.12)
+  const la = Math.max(0.85 * (1 - share), 0.12)
+  const fact = [1, 1, 2, 6, 24, 120, 720, 5040, 40320, 362880, 3628800]
+  const pois = (l, k) => (Math.exp(-l) * l ** k) / fact[k]
+  let tie = 0
+  let hw = 0
+  for (let i = 0; i <= 10; i++) {
+    for (let j = 0; j <= 10; j++) {
+      const pr = pois(lh, i) * pois(la, j)
+      if (i === j) tie += pr
+      else if (i > j) hw += pr
+    }
+  }
+  return { eh: p.d * hw, ea: p.d * (1 - tie - hw), ph: (p.d * tie) / 2, pa: (p.d * tie) / 2 }
 }
 
 /** turn raw float probs into integer percentages summing to 100 (+ ah for KO) */
@@ -308,7 +331,22 @@ export function intify(p, knockout) {
       }
     })
   const out = { h: ints[0], d: ints[1], a: ints[2] }
-  if (knockout) out.ah = Math.round((p.h + p.d * p.tilt) * 100)
+  if (knockout) {
+    const bd = koBreakdown(p)
+    const cells = [bd.eh, bd.ea, bd.ph, bd.pa].map((v) => v * 100)
+    const ci = cells.map(Math.floor)
+    let left = out.d - ci.reduce((s, v) => s + v, 0)
+    const order = cells.map((v, i) => [v - ci[i], i]).sort((x, y) => y[0] - x[0])
+    for (let k = 0; left > 0; k = (k + 1) % order.length) {
+      ci[order[k][1]]++
+      left--
+    }
+    out.eh = ci[0]
+    out.ea = ci[1]
+    out.ph = ci[2]
+    out.pa = ci[3]
+    out.ah = out.h + out.eh + out.ph
+  }
   return out
 }
 
@@ -319,6 +357,7 @@ export function blend(p1, p2) {
     h: (p1.h + p2.h) / 2,
     d: (p1.d + p2.d) / 2,
     a: (p1.a + p2.a) / 2,
+    dr: (p1.dr + p2.dr) / 2,
     tilt: (p1.tilt + p2.tilt) / 2,
   }
 }

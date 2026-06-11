@@ -817,3 +817,9 @@ input.input {
     transform: translateY(-12px);
   }
 }
+
+/* inline trophy image (emoji replacement) */
+.trophy-img {
+  display: inline-block;
+  vertical-align: -0.15em;
+}

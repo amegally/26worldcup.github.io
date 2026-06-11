@@ -216,10 +216,14 @@ export interface Broadcasters {
 }
 
 export interface MatchProbs {
-  h: number // home win %
-  d: number // draw %
-  a: number // away win %
-  ah?: number // knockout: home advance % (incl. ET/pens)
+  h: number
+  d: number
+  a: number
+  ah?: number // knockout: advance incl. ET + pens
+  eh?: number // knockout path: win in extra time (home/away)
+  ea?: number
+  ph?: number // knockout path: win on penalties (home/away)
+  pa?: number
 }
 
 export interface Stats {
@@ -229,6 +233,7 @@ export interface Stats {
 export interface Meta {
   updatedAt: string
   season: string
+  titleOdds?: { c: string; p: number }[]
   counts: Record<string, number>
   errors: string[]
   sources: string[]

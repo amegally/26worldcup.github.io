@@ -5,6 +5,7 @@ import { useAppData, useData } from '../data/DataContext'
 import { runTournament } from '../sim/engine'
 import type { SimRun, SimScore } from '../sim/engine'
 import Flag from '../components/Flag'
+import Trophy from '../components/Trophy'
 import Icon from '../components/Icon'
 import './forecast.css'
 
@@ -87,6 +88,17 @@ export default function Forecast() {
     () => matches.filter((m) => m.stage !== 'group').sort((a, b) => a.n - b.n),
     [matches],
   )
+
+  // forecast on arrival: run once with the defaults as soon as the model loads
+  const autoRan = useRef(false)
+  const runRef = useRef(run)
+  runRef.current = run
+  useEffect(() => {
+    if (simModel && !autoRan.current) {
+      autoRan.current = true
+      runRef.current()
+    }
+  }, [simModel])
 
   return (
     <div className="sim-page">
@@ -182,7 +194,9 @@ export default function Forecast() {
             <div className="sim-champ-row">
               <Flag team={teams[last.champion]} size={44} />
               <div>
-                <div className="sim-champ-label">🏆 {t('simChampion')}</div>
+                <div className="sim-champ-label">
+                  <Trophy size={16} /> {t('simChampion')}
+                </div>
                 <div className="sim-champ-name">{pick(teams[last.champion]?.name, last.champion)}</div>
               </div>
             </div>

@@ -509,3 +509,14 @@
     display: none;
   }
 }
+
+/* very narrow screens: tree nodes show flags only — full names stay in the
+   final / third-place cards below */
+@media (max-width: 469.5px) {
+  .bk-grid .bk-code {
+    display: none;
+  }
+  .bk-grid .bk-row {
+    justify-content: space-between;
+  }
+}
