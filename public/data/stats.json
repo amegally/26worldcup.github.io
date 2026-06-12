@@ -37,7 +37,7 @@
   }
  ],
  "cards": {
-  "yellow": 4,
+  "yellow": 5,
   "red": 3,
   "players": [
    {
@@ -60,6 +60,13 @@
     "code": "RSA",
     "y": 0,
     "r": 1
+   },
+   {
+    "id": "441252",
+    "name": "Alistair JOHNSTON",
+    "code": "CAN",
+    "y": 1,
+    "r": 0
    },
    {
     "id": "464533",
