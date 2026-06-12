@@ -19,5 +19,17 @@ const inWindow = matches.some((m) => {
 })
 
 const run = daily || inWindow
-console.log(`cron-guard: now=${d.toISOString()} daily=${daily} inWindow=${inWindow} -> run=${run}`)
-if (process.env.GITHUB_OUTPUT) fs.appendFileSync(process.env.GITHUB_OUTPUT, `run=${run}\n`)
+
+// bridge: if a window opens within 4h, report how long to sleep so a stray
+// cron hit (GitHub fires our grid at lottery-like times) can wait for it
+const BRIDGE_MAX = 4 * 3600 * 1000
+let wait = ''
+if (!run) {
+  const starts = matches.map((m) => Date.parse(m.date) - PRE).filter((t) => t > now && t - now <= BRIDGE_MAX)
+  if (starts.length) wait = String(Math.ceil((Math.min(...starts) - now) / 1000) + 15)
+}
+
+console.log(
+  `cron-guard: now=${d.toISOString()} daily=${daily} inWindow=${inWindow} -> run=${run} wait=${wait || '-'}`,
+)
+if (process.env.GITHUB_OUTPUT) fs.appendFileSync(process.env.GITHUB_OUTPUT, `run=${run}\nwait=${wait}\n`)

@@ -33,6 +33,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       run: ${{ steps.guard.outputs.run }}
+      wait: ${{ steps.guard.outputs.wait }}
     steps:
       - uses: actions/checkout@v4
       - id: guard
@@ -43,6 +44,25 @@ jobs:
           else
             node scripts/cron-guard.mjs
           fi
+
+  # a stray cron landing up to 4h before a window sleeps until it opens and
+  # ignites the relay chain — converts GitHub's lottery-timed schedule hits
+  # into on-time ignition. The workflow-level concurrency group makes
+  # simultaneous bridges collapse into at most one queued run.
+  bridge:
+    needs: gate
+    if: needs.gate.outputs.run != 'true' && needs.gate.outputs.wait != ''
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+    steps:
+      - name: Sleep until the window opens, then ignite
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          echo "bridging ${{ needs.gate.outputs.wait }}s to the next match window"
+          sleep "${{ needs.gate.outputs.wait }}"
+          gh workflow run update-data.yml -f relay=true --repo "$GITHUB_REPOSITORY"
 
   update:
     needs: gate
