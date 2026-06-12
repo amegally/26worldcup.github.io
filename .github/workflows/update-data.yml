@@ -142,11 +142,19 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           sleep 780
+          # fresh statuses (this run's update job just committed them): a match
+          # that is already finished stops demanding cadence — the chain dies
+          # one step after full time instead of riding out the 3h45 hard cap
+          curl -sf "https://raw.githubusercontent.com/$GITHUB_REPOSITORY/main/public/data/matches.json" -o /tmp/matches.json \
+            || cp public/data/matches.json /tmp/matches.json
           RUN=$(node -e "
-            const fs=require('fs');
-            const {matches}=JSON.parse(fs.readFileSync('public/data/matches.json','utf8'));
+            const {matches}=require('/tmp/matches.json');
             const now=Date.now();
-            const ok=matches.some(m=>{const ko=Date.parse(m.date);return now>=ko-25*60000&&now<=ko+225*60000});
+            const ok=matches.some(m=>{
+              const ko=Date.parse(m.date);
+              if(now<ko-25*60000||now>ko+225*60000) return false;
+              return m.status!=='finished';
+            });
             console.log(ok?'true':'false');
           ")
           echo "relay: in-window=$RUN"
