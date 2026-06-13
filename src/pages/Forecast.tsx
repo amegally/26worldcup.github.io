@@ -3,10 +3,13 @@ import type { Match } from '../types'
 import { useI18n } from '../i18n'
 import { useAppData, useData } from '../data/DataContext'
 import { runTournament } from '../sim/engine'
-import type { SimRun, SimScore } from '../sim/engine'
+import type { Outcome, SimRun, SimScore } from '../sim/engine'
 import Flag from '../components/Flag'
 import Trophy from '../components/Trophy'
 import Icon from '../components/Icon'
+import InfoDot from '../components/InfoDot'
+import ForecastTable from '../components/ForecastTable'
+import type { FcRow } from '../components/ForecastTable'
 import './forecast.css'
 
 const STAGES: { key: string; stages: string[] }[] = [
@@ -18,6 +21,28 @@ const STAGES: { key: string; stages: string[] }[] = [
   { key: 'stageFinal', stages: ['final'] },
 ]
 
+// which slot in the per-team tally each final outcome counts toward
+const OUT_IDX: Record<Outcome, number> = {
+  group: 4,
+  r32: 5,
+  r16: 6,
+  qf: 7,
+  fourth: 8,
+  third: 9,
+  ru: 10,
+  champ: 11,
+}
+
+type SimMode = 'now' | 'opener' | 'date' | 'match'
+
+/** local calendar day (YYYY-MM-DD) for a UTC ISO timestamp */
+const localDay = (iso: string): string => {
+  const d = new Date(iso)
+  const m = String(d.getMonth() + 1).padStart(2, '0')
+  const day = String(d.getDate()).padStart(2, '0')
+  return `${d.getFullYear()}-${m}-${day}`
+}
+
 export default function Forecast() {
   const { t, pick } = useI18n()
   const { matches, teams, venues } = useAppData()
@@ -27,8 +52,36 @@ export default function Forecast() {
   })
 
   const anyFinished = useMemo(() => matches.some((m) => m.status === 'finished'), [matches])
-  const [mode, setMode] = useState<'continue' | 'fresh'>('continue')
   const [runs, setRuns] = useState(100)
+
+  // ---- "simulate from" cut point ----
+  const [simMode, setSimMode] = useState<SimMode>('now')
+  const { minDate, maxDate } = useMemo(() => {
+    const days = matches.map((m) => localDay(m.date)).sort()
+    return { minDate: days[0] ?? '2026-06-11', maxDate: days[days.length - 1] ?? '2026-07-19' }
+  }, [matches])
+  const [cutDate, setCutDate] = useState(() => {
+    const days = matches.map((m) => localDay(m.date)).sort()
+    const lo = days[0] ?? '2026-06-11'
+    const hi = days[days.length - 1] ?? '2026-07-19'
+    const today = localDay(new Date().toISOString())
+    return today < lo ? lo : today > hi ? hi : today
+  })
+  const [cutMatch, setCutMatch] = useState(() => {
+    const upcoming = matches.filter((m) => m.status !== 'finished').map((m) => m.n)
+    return upcoming.length ? Math.min(...upcoming) : 1
+  })
+
+  // a predicate per match: keep its real finished result, or (re)simulate it
+  const keepReal = useMemo<(m: Match) => boolean>(() => {
+    if (simMode === 'opener') return () => false
+    if (simMode === 'match') return (m) => m.n < cutMatch
+    if (simMode === 'date') {
+      const cutoff = new Date(`${cutDate}T23:59:59`).getTime()
+      return (m) => Date.parse(m.date) <= cutoff
+    }
+    return () => true // 'now' — keep every finished match, simulate the rest
+  }, [simMode, cutDate, cutMatch])
 
   // slider uses a piecewise-log scale: 1/4 travel -> 100, midpoint -> 1000, end -> 10000
   const posToRuns = (p: number) =>
@@ -41,6 +94,7 @@ export default function Forecast() {
   }
   const [last, setLast] = useState<SimRun | null>(null)
   const [odds, setOdds] = useState<{ code: string; wins: number }[] | null>(null)
+  const [stats, setStats] = useState<FcRow[] | null>(null)
   const [ranToCount, setRanToCount] = useState(0)
   const [progress, setProgress] = useState<number | null>(null)
 
@@ -58,18 +112,47 @@ export default function Forecast() {
     return () => el.removeEventListener('wheel', onWheel)
   }, [])
 
+  // same wheel-to-nudge for the match-number input (also selects that mode on scroll)
+  const matchRef = useRef<HTMLInputElement>(null)
+  useEffect(() => {
+    const el = matchRef.current
+    if (!el) return
+    const onWheel = (e: WheelEvent) => {
+      e.preventDefault()
+      setCutMatch((v) => Math.min(Math.max(v + (e.deltaY < 0 ? 1 : -1), 1), 104))
+      setSimMode('match')
+    }
+    el.addEventListener('wheel', onWheel, { passive: false })
+    return () => el.removeEventListener('wheel', onWheel)
+  }, [])
+
   const run = async () => {
     if (!simModel || progress !== null) return
     const n = Math.min(Math.max(runs, 1), 10000)
+    const keep = keepReal
     const champs = new Map<string, number>()
+    // per team: [g1,g2,g3,g4, group,r32,r16,qf, 4th,3rd,ru,champ]
+    const agg = new Map<string, number[]>()
+    const bump = (code: string, i: number) => {
+      let a = agg.get(code)
+      if (!a) {
+        a = new Array(12).fill(0)
+        agg.set(code, a)
+      }
+      a[i]++
+    }
     let lastRun: SimRun | null = null
     setProgress(0)
     const BATCH = 250 // keep the UI thread responsive on big runs
     for (let done = 0; done < n; done += BATCH) {
       const upto = Math.min(done + BATCH, n)
       for (let i = done; i < upto; i++) {
-        lastRun = runTournament(simModel, matches, venues, teams, anyFinished ? mode : 'fresh')
+        lastRun = runTournament(simModel, matches, venues, teams, keep)
         champs.set(lastRun.champion, (champs.get(lastRun.champion) ?? 0) + 1)
+        for (const rows of Object.values(lastRun.groupTables)) {
+          for (let p = 0; p < rows.length && p < 4; p++) bump(rows[p].code, p)
+        }
+        for (const [code, o] of Object.entries(lastRun.outcome)) bump(code, OUT_IDX[o])
       }
       setProgress(upto)
       await new Promise((r) => requestAnimationFrame(r))
@@ -79,6 +162,24 @@ export default function Forecast() {
     setOdds(
       n > 1
         ? [...champs.entries()].map(([code, wins]) => ({ code, wins })).sort((a, b) => b.wins - a.wins)
+        : null,
+    )
+    setStats(
+      n > 1
+        ? [...agg.entries()].map(([code, c]) => ({
+            code,
+            s1: c[0] / n,
+            s2: c[1] / n,
+            s3: c[2] / n,
+            oGroup: c[4] / n,
+            oR32: c[5] / n,
+            oR16: c[6] / n,
+            oQf: c[7] / n,
+            o4: c[8] / n,
+            o3: c[9] / n,
+            oRu: c[10] / n,
+            oChamp: c[11] / n,
+          }))
         : null,
     )
     setProgress(null)
@@ -109,25 +210,78 @@ export default function Forecast() {
 
       <div className="card card-pad sim-controls">
         {anyFinished && (
-          <div className="sim-mode">
-            <label className="sim-radio">
+          <div className="sim-from" role="radiogroup" aria-label={t('simFrom')}>
+            <span className="sim-from-label">{t('simFrom')}</span>
+            <div className="sim-radio">
               <input
                 type="radio"
-                name="simmode"
-                checked={mode === 'continue'}
-                onChange={() => setMode('continue')}
+                id="sf-now"
+                name="simfrom"
+                checked={simMode === 'now'}
+                onChange={() => setSimMode('now')}
               />
-              {t('simContinue')}
-            </label>
-            <label className="sim-radio">
+              <label htmlFor="sf-now">{t('jumpNow')}</label>
+              <InfoDot text={t('simNowTip')} />
+            </div>
+            <div className="sim-radio">
               <input
                 type="radio"
-                name="simmode"
-                checked={mode === 'fresh'}
-                onChange={() => setMode('fresh')}
+                id="sf-opener"
+                name="simfrom"
+                checked={simMode === 'opener'}
+                onChange={() => setSimMode('opener')}
               />
-              {t('simFresh')}
-            </label>
+              <label htmlFor="sf-opener">{t('jumpOpener')}</label>
+              <InfoDot text={t('simOpenerTip')} />
+            </div>
+            <div className="sim-radio">
+              <input
+                type="radio"
+                id="sf-date"
+                name="simfrom"
+                checked={simMode === 'date'}
+                onChange={() => setSimMode('date')}
+              />
+              <input
+                className="input sim-date"
+                type="date"
+                min={minDate}
+                max={maxDate}
+                value={cutDate}
+                onChange={(e) => {
+                  setCutDate(e.target.value)
+                  setSimMode('date')
+                }}
+                onFocus={() => setSimMode('date')}
+                aria-label={t('simDateTip')}
+              />
+              <InfoDot text={t('simDateTip')} />
+            </div>
+            <div className="sim-radio">
+              <input
+                type="radio"
+                id="sf-match"
+                name="simfrom"
+                checked={simMode === 'match'}
+                onChange={() => setSimMode('match')}
+              />
+              <label htmlFor="sf-match">{t('simMatch')}</label>
+              <input
+                ref={matchRef}
+                className="input sim-matchno tnum"
+                type="number"
+                min={1}
+                max={104}
+                value={cutMatch}
+                onChange={(e) => {
+                  setCutMatch(Math.min(Math.max(Number(e.target.value) || 1, 1), 104))
+                  setSimMode('match')
+                }}
+                onFocus={() => setSimMode('match')}
+                aria-label={t('simMatchTip')}
+              />
+              <InfoDot text={t('simMatchTip')} />
+            </div>
           </div>
         )}
         <div className="sim-runs">
@@ -184,6 +338,13 @@ export default function Forecast() {
               </div>
             ))}
           </div>
+        </section>
+      )}
+
+      {stats && (
+        <section className="card card-pad fc-section">
+          <h2>{t('fcTitle', { n: ranToCount })}</h2>
+          <ForecastTable rows={stats} teams={teams} />
         </section>
       )}
 
@@ -290,9 +451,6 @@ export default function Forecast() {
 function KoRow({ m, r }: { m: Match; r: SimScore }) {
   const { teams } = useAppData()
   const { pick, t } = useI18n()
-  // reconstruct sides from the result winner + scores direction is ambiguous;
-  // sides were resolved at sim time — store codes on the result? derive: winner +
-  // the match's resolved opponents are not persisted, so render via winner/loser.
   const home = r.homeCode ?? m.home?.code
   const away = r.awayCode ?? m.away?.code
   return (

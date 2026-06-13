@@ -21,6 +21,11 @@ export interface SimScore {
   simulated: boolean
 }
 
+/** each team's final fate in a single run, mutually exclusive and exhaustive:
+ *  eliminated in the group stage, knocked out at r32/r16/qf, or one of the
+ *  four final placings (4th, 3rd, runner-up, champion). */
+export type Outcome = 'group' | 'r32' | 'r16' | 'qf' | 'fourth' | 'third' | 'ru' | 'champ'
+
 export interface SimRun {
   results: Record<string, SimScore> // by match id
   groupTables: Record<string, GroupRow[]>
@@ -29,6 +34,7 @@ export interface SimRun {
   runnerUp: string
   third: string
   fourth: string
+  outcome: Record<string, Outcome> // by team code
 }
 
 export interface GroupRow {
@@ -243,7 +249,9 @@ export function runTournament(
   matches: Match[],
   venues: Record<string, Venue>,
   teams: Record<string, Team>,
-  mode: 'continue' | 'fresh',
+  // per match: true keeps its real finished result, false (re)simulates it.
+  // lets the caller cut the forecast anywhere — now, the opener, a date, a match no.
+  keepReal: (m: Match) => boolean,
   rnd: () => number = Math.random,
 ): SimRun {
   const results: Record<string, SimScore> = {}
@@ -253,7 +261,7 @@ export function runTournament(
   const groupMatches = matches.filter((m) => m.stage === 'group')
   for (const m of groupMatches) {
     if (!m.home || !m.away) continue
-    if (mode === 'continue' && m.status === 'finished' && m.home.score != null && m.away.score != null) {
+    if (keepReal(m) && m.status === 'finished' && m.home.score != null && m.away.score != null) {
       results[m.id] = {
         h: m.home.score,
         a: m.away.score,
@@ -327,6 +335,9 @@ export function runTournament(
     return undefined
   }
 
+  const outcome: Record<string, Outcome> = {}
+  for (const c of Object.keys(teams)) outcome[c] = 'group'
+
   let champion = ''
   let runnerUp = ''
   let third = ''
@@ -336,7 +347,7 @@ export function runTournament(
     const away = m.away?.code ?? resolve(m.phB)
     if (!home || !away) continue
     let r: SimScore
-    if (mode === 'continue' && m.status === 'finished' && m.home?.score != null && m.away?.score != null) {
+    if (keepReal(m) && m.status === 'finished' && m.home?.score != null && m.away?.score != null) {
       const win =
         m.winner ??
         ((m.home.pen ?? 0) > (m.away.pen ?? 0)
@@ -351,16 +362,24 @@ export function runTournament(
       r = { ...simulateMatch(model, home, away, vCountry(m), true, rnd), homeCode: home, awayCode: away }
     }
     results[m.id] = r
+    const loser = r.winner === home ? away : home
     winners.set(m.n, r.winner)
-    losers.set(m.n, r.winner === home ? away : home)
+    losers.set(m.n, loser)
+    // record where each team's run ends; sf losers fall through to the
+    // third-place match, which then assigns them 'third'/'fourth'
     if (m.stage === 'final') {
       champion = r.winner
-      runnerUp = r.winner === home ? away : home
-    }
-    if (m.stage === 'third') {
+      runnerUp = loser
+      outcome[r.winner] = 'champ'
+      outcome[loser] = 'ru'
+    } else if (m.stage === 'third') {
       third = r.winner
-      fourth = r.winner === home ? away : home
-    }
+      fourth = loser
+      outcome[r.winner] = 'third'
+      outcome[loser] = 'fourth'
+    } else if (m.stage === 'r32') outcome[loser] = 'r32'
+    else if (m.stage === 'r16') outcome[loser] = 'r16'
+    else if (m.stage === 'qf') outcome[loser] = 'qf'
   }
 
   return {
@@ -375,6 +394,7 @@ export function runTournament(
     runnerUp,
     third,
     fourth,
+    outcome,
   }
 }
 

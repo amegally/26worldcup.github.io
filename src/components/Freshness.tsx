@@ -19,7 +19,7 @@ function relative(then: number, now: number, locale: string): string {
   return rtf.format(Math.round(sec / 86400), 'day')
 }
 
-/** small muted inline chip: how long ago the data snapshot was generated */
+/** footer line: "Data updated <date> (<relative>)" — ticks once a minute to stay current */
 export default function Freshness() {
   const { t, locale } = useI18n()
   const { data } = useData()
@@ -37,8 +37,8 @@ export default function Freshness() {
   if (!Number.isFinite(then)) return null
 
   return (
-    <span className="chip" title={fmtDateTime(iso, locale)}>
-      {t('updatedAt', { date: relative(then, now, locale) })}
-    </span>
+    <>
+      {t('updatedAt', { date: fmtDateTime(iso, locale) })} ({relative(then, now, locale)})
+    </>
   )
 }

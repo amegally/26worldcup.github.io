@@ -36,7 +36,7 @@ Faster, simpler, easier way to look things up than FIFA&#46;com, Google or Wikip
 ### 📊 Stats & predictions
 
 - 👟 **Golden-boot table** and tournament stats, updated throughout the competition
-- 🎲 **Match probabilities & tournament forecast**: every fixture gets a win/draw/loss **probability** from an Elo model replayed over 49,000 historical internationals blended with the official FIFA ranking, and the **forecast** page lets you **simulate** the whole tournament (group tables, knockout bracket, extra time, penalty shoot-outs) 1 to 10,000 times to see each team's title odds, like a fun **prediction** machine
+- 🎲 **Match probabilities & tournament forecast**: every fixture gets a win/draw/loss **probability** from an Elo model replayed over 49,000 historical internationals blended with the official FIFA ranking, and the **forecast** page lets you **simulate** the whole tournament (group tables, knockout bracket, extra time, penalty shoot-outs) 1 to 10,000 times, starting from now, the opening match, a date, or any match number, then shows not just each team's title odds but a full **outcome table**: how every team finishes its group, the round it bows out in, and its final placing, all the way to the trophy, like a fun **prediction** machine
 
 ### 🌍 Languages
 

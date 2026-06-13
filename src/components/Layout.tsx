@@ -3,12 +3,12 @@ import { NavLink, Outlet } from 'react-router-dom'
 import { useI18n } from '../i18n'
 import { useSettings } from '../settings/SettingsContext'
 import { useData } from '../data/DataContext'
-import { fmtDateTime } from '../utils/time'
 import { groupStageComplete } from '../utils/helpers'
 import { LANG_LABEL } from '../i18n/strings'
 import type { Lang } from '../types'
 import Icon from './Icon'
 import type { IconName } from './Icon'
+import Freshness from './Freshness'
 
 const NAV: { to: string; key: string; icon: IconName }[] = [
   { to: '/', key: 'navMatches', icon: 'calendar' },
@@ -120,7 +120,7 @@ function Logo() {
 }
 
 export default function Layout() {
-  const { t, locale } = useI18n()
+  const { t } = useI18n()
   const { data } = useData()
   const tabs = tabsFor(groupStageComplete(data?.standings))
   const headerRef = useRef<HTMLElement>(null)
@@ -203,8 +203,7 @@ export default function Layout() {
 
       <footer className="shell-footer">
         <div>
-          {/* meta.json can degrade to updatedAt: '' — fmtDateTime would throw on it */}
-          {data?.meta.updatedAt && t('updatedAt', { date: fmtDateTime(data.meta.updatedAt, locale) })}
+          <Freshness />
         </div>
         <div className="shell-footer-links">
           <a href="https://github.com/26worldcup/26worldcup.github.io" target="_blank" rel="noreferrer">

@@ -199,15 +199,6 @@
 .shell-main:has(.mxp) {
   padding-top: 0;
 }
-.mxp-jump-fresh {
-  margin-inline-start: auto;
-  flex: none;
-  align-self: center;
-  white-space: nowrap;
-}
-.mxp-jump-fresh > * {
-  margin: 0;
-}
 
 /* title-odds ticker: top of the sticky block, under the app bar.
    Dismiss tucks it toward the restore chip (top right); restore grows it back */

@@ -9,7 +9,6 @@ import { involvesTeams, sortMatches, STAGE_LABEL_KEY } from '../utils/helpers'
 import MatchCard from '../components/MatchCard'
 import Flag from '../components/Flag'
 import Trophy from '../components/Trophy'
-import Freshness from '../components/Freshness'
 import Icon from '../components/Icon'
 import './matches.css'
 
@@ -385,9 +384,6 @@ export default function Matches() {
             <button type="button" className="mxp-jump-btn" onClick={() => scrollToDay(jumps.final)}>
               {t('stageFinal')}
             </button>
-            <span className="mxp-jump-fresh">
-              <Freshness />
-            </span>
           </div>
         </div>
       </div>
