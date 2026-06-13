@@ -122,7 +122,7 @@ function BkNode({
       {big && (
         <div className="bk-final-head">
           <span className="bk-cup" aria-hidden="true">
-            <Trophy size={15} />
+            <Trophy size={16} />
           </span>
           {t(STAGE_LABEL_KEY.final)}
         </div>

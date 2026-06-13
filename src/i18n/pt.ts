@@ -151,7 +151,8 @@ const pt: Dict = {
   podium3: 'Terceiro',
   podium4: 'Quarto',
   simFrom: 'Simular a partir de',
-  simNowTip: 'Manter os resultados reais até agora e simular tudo a partir deste momento.',
+  simNowTip:
+    'Mantém os resultados reais até agora e simula tudo a partir deste momento. Os resultados provisórios dos jogos a decorrer não são tidos em conta. Depois de a final estar disputada, esta opção fica desativada.',
   simOpenerTip: 'Voltar a simular todos os jogos, a partir do jogo inaugural.',
   simDateTip: 'Simular todos os jogos disputados após esta data (hora local).',
   simMatch: 'Jogo',

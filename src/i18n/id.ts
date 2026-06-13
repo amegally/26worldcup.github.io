@@ -146,7 +146,8 @@ const id: Dict = {
   podium3: 'Peringkat 3',
   podium4: 'Peringkat 4',
   simFrom: 'Simulasikan dari',
-  simNowTip: 'Pertahankan hasil asli sejauh ini, lalu simulasikan semuanya mulai sekarang.',
+  simNowTip:
+    'Pertahankan hasil nyata sejauh ini, lalu simulasikan semua pertandingan sisanya mulai dari sekarang. Skor sementara dari pertandingan yang masih berlangsung tidak diperhitungkan. Setelah final dimainkan, opsi ini dinonaktifkan.',
   simOpenerTip: 'Simulasikan ulang setiap pertandingan, mulai dari laga pembuka.',
   simDateTip: 'Simulasikan setiap pertandingan yang dimainkan setelah tanggal ini (waktu lokal Anda).',
   simMatch: 'Laga',

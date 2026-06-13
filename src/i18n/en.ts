@@ -150,7 +150,8 @@ const en: Dict = {
   podium4: 'Fourth place',
   // ---- forecast: "simulate from" cut point ----
   simFrom: 'Simulate from',
-  simNowTip: 'Keep real results so far, then simulate everything from now on.',
+  simNowTip:
+    'Keep real results so far, then simulate everything from now on. Temporary scores of unfinished matches are not counted. Once the final is played, this option is disabled.',
   simOpenerTip: 'Resimulate every match, starting from the opening game.',
   simDateTip: 'Simulate every match played after this date (your local time).',
   simMatch: 'Match',

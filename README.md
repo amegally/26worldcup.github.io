@@ -8,6 +8,8 @@ Faster, simpler, easier way to look things up than FIFA&#46;com, Google or Wikip
 
 > **Unofficial, fan-made, not-for-profit, open-source project**, hosted on GitHub Pages. Not affiliated with, endorsed by, or connected to FIFA, any national football association, team, player, or broadcaster. Code and curated data are MIT-licensed (see [LICENSE](LICENSE.md)); third-party data terms are inventoried in [COPYRIGHT](COPYRIGHT.md).
 
+README in [français](README.fr.md) · [中文](README.zh.md)
+
 ## ✨ Features
 
 ### 🏆 Tournament

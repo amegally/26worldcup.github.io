@@ -148,7 +148,8 @@ const no: Dict = {
   podium3: '3. plass',
   podium4: '4. plass',
   simFrom: 'Simuler fra',
-  simNowTip: 'Behold de virkelige resultatene så langt, og simuler alt videre herfra.',
+  simNowTip:
+    'Behold de virkelige resultatene så langt, og simuler alt videre herfra. Midlertidige stillinger i kamper som ikke er ferdigspilt, teller ikke. Når finalen er spilt, blir dette valget deaktivert.',
   simOpenerTip: 'Simuler alle kamper på nytt, fra åpningskampen.',
   simDateTip: 'Simuler alle kamper som spilles etter denne datoen (din lokale tid).',
   simMatch: 'Kamp',

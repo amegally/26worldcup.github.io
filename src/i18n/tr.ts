@@ -146,7 +146,8 @@ const tr: Dict = {
   podium3: 'Üçüncü',
   podium4: 'Dördüncü',
   simFrom: 'Simülasyon başlangıcı',
-  simNowTip: 'Şu ana kadarki gerçek sonuçlar korunur, sonrası simüle edilir.',
+  simNowTip:
+    'Şu ana kadarki gerçek sonuçlar korunur, kalan tüm maçlar bu andan itibaren simüle edilir. Henüz bitmemiş maçların geçici skorları hesaba katılmaz. Final oynandıktan sonra bu seçenek devre dışı kalır.',
   simOpenerTip: 'Açılış maçından itibaren tüm maçlar yeniden simüle edilir.',
   simDateTip: 'Bu tarihten sonra oynanan tüm maçlar simüle edilir (yerel saatinizle).',
   simMatch: 'Maç',

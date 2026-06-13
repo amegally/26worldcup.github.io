@@ -149,7 +149,8 @@ const nl: Dict = {
   podium3: 'Derde',
   podium4: 'Vierde',
   simFrom: 'Simuleren vanaf',
-  simNowTip: 'Behoud de echte uitslagen tot nu toe en simuleer alles vanaf nu.',
+  simNowTip:
+    'Behoud de echte uitslagen tot nu toe en simuleer alles vanaf dit moment. Tussenstanden van wedstrijden die nog bezig zijn, tellen niet mee. Zodra de finale is gespeeld, is deze optie niet meer beschikbaar.',
   simOpenerTip: 'Simuleer alle wedstrijden opnieuw, te beginnen met de openingswedstrijd.',
   simDateTip: 'Simuleer elke wedstrijd die na deze datum wordt gespeeld (jouw lokale tijd).',
   simMatch: 'Wedstrijd',

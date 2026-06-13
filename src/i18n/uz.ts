@@ -147,7 +147,8 @@ const uz: Dict = {
   podium3: '3-oʻrin',
   podium4: '4-oʻrin',
   simFrom: 'Simulyatsiya boshlanishi',
-  simNowTip: "Hozirgacha bo'lgan haqiqiy natijalarni saqlab, hozirdan boshlab hammasini simulyatsiya qiladi.",
+  simNowTip:
+    "Hozirgacha bo'lgan haqiqiy natijalarni saqlab, shu paytdan boshlab qolgan hamma narsani simulyatsiya qiladi. Tugamagan o'yinlarning vaqtinchalik hisobi hisobga olinmaydi. Final o'ynalgandan so'ng bu variant o'chiriladi.",
   simOpenerTip: "Ochilish o'yinidan boshlab har bir o'yinni qayta simulyatsiya qiladi.",
   simDateTip:
     "Shu sanadan keyin o'ynaladigan har bir o'yinni simulyatsiya qiladi (mahalliy vaqtingiz bo'yicha).",

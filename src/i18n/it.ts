@@ -149,7 +149,8 @@ const it: Dict = {
   podium3: 'Terzo',
   podium4: 'Quarto',
   simFrom: 'Simula da',
-  simNowTip: 'Mantiene i risultati reali finora e simula tutto da adesso in poi.',
+  simNowTip:
+    'Mantieni i risultati reali finora, poi simula tutto da adesso in avanti. I punteggi provvisori delle partite in corso non vengono considerati. Una volta giocata la finale, questa opzione viene disattivata.',
   simOpenerTip: 'Risimula tutte le partite a partire dalla gara inaugurale.',
   simDateTip: 'Simula tutte le partite giocate dopo questa data (ora locale).',
   simMatch: 'Partita',

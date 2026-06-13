@@ -58,7 +58,7 @@ export default function Forecast() {
     () => matches.some((m) => m.stage === 'final' && m.status === 'finished'),
     [matches],
   )
-  const [runs, setRuns] = useState(100)
+  const [runs, setRuns] = useState(1000)
 
   // ---- "simulate from" cut point ----
   const [simMode, setSimMode] = useState<SimMode>(finalDone ? 'opener' : 'now')

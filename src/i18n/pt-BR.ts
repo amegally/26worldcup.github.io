@@ -149,7 +149,8 @@ const ptBR: Dict = {
   podium3: 'Terceiro',
   podium4: 'Quarto',
   simFrom: 'Simular a partir de',
-  simNowTip: 'Mantém os resultados reais até agora e simula tudo a partir deste momento.',
+  simNowTip:
+    'Mantenha os resultados reais até agora e simule todo o restante a partir deste momento. O placar provisório de partidas ainda em andamento não é considerado. Depois que a final for disputada, esta opção fica desativada.',
   simOpenerTip: 'Resimula todos os jogos, começando pela partida de abertura.',
   simDateTip: 'Simula todos os jogos disputados após esta data (no seu horário local).',
   simMatch: 'Jogo',

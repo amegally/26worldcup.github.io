@@ -1,10 +1,11 @@
-import { useMemo, useState } from 'react'
+import { type ReactNode, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import type { Team } from '../types'
 import { DATA_FALLBACK, useI18n } from '../i18n'
 import { useSettings } from '../settings/SettingsContext'
 import { makeTeamMatcher } from '../utils/teamSearch'
 import Flag from './Flag'
+import Trophy from './Trophy'
 
 /** one team's outcome distribution (all values are probabilities 0..1).
  *  s1..s3 = group finishing position; the o* group is mutually exclusive and
@@ -36,12 +37,26 @@ const ALL_COLS = SECTIONS.flatMap((s) => s.cols)
 export default function ForecastTable({ rows, teams }: { rows: FcRow[]; teams: Record<string, Team> }) {
   const { t, pick, lang } = useI18n()
   const { settings } = useSettings()
-  const [sort, setSort] = useState<ColKey>('oChamp')
+  const [sortKey, setSortKey] = useState<ColKey | null>('oChamp')
+  const [sortDir, setSortDir] = useState<'desc' | 'asc'>('desc')
   const [query, setQuery] = useState('')
   const [grp, setGrp] = useState('all')
 
+  // clicking a header cycles: descending -> ascending -> unsorted (natural) -> ...
+  const onSort = (c: ColKey) => {
+    if (sortKey !== c) {
+      setSortKey(c)
+      setSortDir('desc')
+    } else if (sortDir === 'desc') {
+      setSortDir('asc')
+    } else {
+      setSortKey(null)
+      setSortDir('desc')
+    }
+  }
+
   // header label + hover title per column (champion column gets a highlight)
-  const head: Record<ColKey, { label: string; title: string; champ?: boolean }> = {
+  const head: Record<ColKey, { label: ReactNode; title: string; champ?: boolean }> = {
     s1: { label: t('fcPos1'), title: `${t('fcSeed')} · ${t('fcPos1')}` },
     s2: { label: t('fcPos2'), title: `${t('fcSeed')} · ${t('fcPos2')}` },
     s3: { label: t('fcPos3'), title: `${t('fcSeed')} · ${t('fcPos3')}` },
@@ -52,7 +67,7 @@ export default function ForecastTable({ rows, teams }: { rows: FcRow[]; teams: R
     o4: { label: t('fcPos4'), title: t('podium4') },
     o3: { label: '🥉', title: t('podium3') },
     oRu: { label: '🥈', title: t('podium2') },
-    oChamp: { label: '🏆', title: t('simChampion'), champ: true },
+    oChamp: { label: <Trophy size={16} />, title: t('simChampion'), champ: true },
   }
 
   const groups = useMemo(
@@ -71,8 +86,10 @@ export default function ForecastTable({ rows, teams }: { rows: FcRow[]; teams: R
       const tm = teams[r.code]
       return tm ? match(tm) : false
     })
-    return [...out].sort((a, b) => b[sort] - a[sort] || b.oChamp - a.oChamp)
-  }, [rows, query, grp, sort, settings.favorites, teams, lang])
+    if (!sortKey) return out // unsorted: keep the table's natural order
+    const dir = sortDir === 'desc' ? 1 : -1
+    return [...out].sort((a, b) => dir * (b[sortKey] - a[sortKey]) || b.oChamp - a.oChamp)
+  }, [rows, query, grp, sortKey, sortDir, settings.favorites, teams, lang])
 
   const fmt = (v: number) => {
     const p = v * 100
@@ -125,15 +142,20 @@ export default function ForecastTable({ rows, teams }: { rows: FcRow[]; teams: R
                 <th
                   key={c}
                   scope="col"
-                  className={`fc-col${head[c].champ ? ' fc-champ-col' : ''}${sort === c ? ' fc-sorted' : ''}`}
+                  className={`fc-col${head[c].champ ? ' fc-champ-col' : ''}${sortKey === c ? ' fc-sorted' : ''}`}
                 >
                   <button
                     type="button"
                     className="fc-col-btn"
                     title={head[c].title}
-                    onClick={() => setSort(c)}
+                    onClick={() => onSort(c)}
                   >
                     {head[c].label}
+                    {sortKey === c && (
+                      <span className="fc-caret" aria-hidden="true">
+                        {sortDir === 'desc' ? '▾' : '▴'}
+                      </span>
+                    )}
                   </button>
                 </th>
               ))}

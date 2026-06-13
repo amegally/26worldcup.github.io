@@ -148,7 +148,8 @@ const sv: Dict = {
   podium3: 'Trea',
   podium4: 'Fyra',
   simFrom: 'Simulera från',
-  simNowTip: 'Behåll de verkliga resultaten hittills och simulera sedan allt från och med nu.',
+  simNowTip:
+    'Behåll de verkliga resultaten hittills och simulera allt återstående från och med nu. Tillfälliga resultat i matcher som fortfarande pågår räknas inte. När finalen har spelats inaktiveras det här alternativet.',
   simOpenerTip: 'Simulera om alla matcher, med start från öppningsmatchen.',
   simDateTip: 'Simulera alla matcher som spelas efter detta datum (din lokala tid).',
   simMatch: 'Match',

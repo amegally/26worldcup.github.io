@@ -148,7 +148,8 @@ const cs: Dict = {
   podium3: '3. místo',
   podium4: '4. místo',
   simFrom: 'Simulovat od',
-  simNowTip: 'Zachová dosavadní skutečné výsledky a od teď odsimuluje vše ostatní.',
+  simNowTip:
+    'Zachová dosavadní skutečné výsledky a od tohoto okamžiku odsimuluje všechny zbývající zápasy. Průběžné skóre dosud nedohraných zápasů se nezapočítává. Po odehrání finále je tato možnost nedostupná.',
   simOpenerTip: 'Znovu odsimuluje všechny zápasy od úvodního utkání.',
   simDateTip: 'Odsimuluje všechny zápasy hrané po tomto datu (váš místní čas).',
   simMatch: 'Zápas',
