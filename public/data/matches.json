@@ -539,10 +539,10 @@
    "date": "2026-06-14T17:00:00Z",
    "venueId": "400249385",
    "status": "live",
-   "time": "43'",
+   "time": null,
    "home": {
     "code": "GER",
-    "score": 2,
+    "score": 3,
     "pen": null
    },
    "away": {
