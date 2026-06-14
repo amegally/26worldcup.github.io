@@ -8,6 +8,13 @@
    "ownGoals": 0
   },
   {
+   "id": "411367",
+   "name": "HAVERTZ",
+   "code": "GER",
+   "goals": 2,
+   "ownGoals": 0
+  },
+  {
    "id": "385067",
    "name": "BOUALEM KHOUKHI",
    "code": "QAT",
@@ -29,6 +36,13 @@
    "ownGoals": 0
   },
   {
+   "id": "484851",
+   "name": "Deniz UNDAV",
+   "code": "GER",
+   "goals": 1,
+   "ownGoals": 0
+  },
+  {
    "id": "393480",
    "name": "EMBOLO",
    "code": "SUI",
@@ -39,13 +53,6 @@
    "id": "448586",
    "name": "H G OH",
    "code": "KOR",
-   "goals": 1,
-   "ownGoals": 0
-  },
-  {
-   "id": "411367",
-   "name": "HAVERTZ",
-   "code": "GER",
    "goals": 1,
    "ownGoals": 0
   },
