@@ -202,6 +202,7 @@ const ja: Dict = {
   baseCamp: 'ベースキャンプ地',
   wikipedia: 'ウィキペディア',
   officialWebsite: '公式サイト',
+  officialPage: '公式ページ',
   teamMatches: '試合',
   addFavorite: 'マイチームに追加',
   removeFavorite: 'マイチームから削除',

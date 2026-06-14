@@ -206,6 +206,7 @@ const es: Dict = {
   baseCamp: 'Campamento base',
   wikipedia: 'Wikipedia',
   officialWebsite: 'Sitio oficial',
+  officialPage: 'Página oficial',
   teamMatches: 'Partidos',
   addFavorite: 'Añadir a mis selecciones',
   removeFavorite: 'Quitar de mis selecciones',

@@ -214,6 +214,7 @@ const ar: Dict = {
   baseCamp: 'معسكر المنتخب',
   wikipedia: 'ويكيبيديا',
   officialWebsite: 'الموقع الرسمي',
+  officialPage: 'الصفحة الرسمية',
   teamMatches: 'المباريات',
   addFavorite: 'أضِف إلى منتخباتي',
   removeFavorite: 'أزِل من منتخباتي',

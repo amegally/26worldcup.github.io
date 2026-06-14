@@ -7,6 +7,7 @@ import { useAppData } from '../data/DataContext'
 import { dayKey, displayTz, fmtDateLong, fmtDateTime, fmtTime, tzAbbr } from '../utils/time'
 import {
   detectMarket,
+  fifaMatchUrl,
   fifaToIso2,
   fmtSpeed,
   fmtTemp,
@@ -398,6 +399,12 @@ export default function MatchDetail() {
             </span>
           </div>
         )}
+        <div className="md-official">
+          <a className="md-cardlink" href={fifaMatchUrl(m, lang)} target="_blank" rel="noopener noreferrer">
+            {t('officialPage')}
+            <Icon name="external" size={13} />
+          </a>
+        </div>
       </div>
 
       {/* ===== info cards ===== */}

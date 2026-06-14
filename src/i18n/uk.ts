@@ -208,6 +208,7 @@ const uk: Dict = {
   baseCamp: 'Базовий табір збірної',
   wikipedia: 'Вікіпедія',
   officialWebsite: 'Офіційний сайт',
+  officialPage: 'Офіційна сторінка',
   teamMatches: 'Матчі',
   addFavorite: 'Додати до моїх збірних',
   removeFavorite: 'Прибрати з моїх збірних',

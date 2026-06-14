@@ -205,6 +205,7 @@ const no: Dict = {
   baseCamp: 'Lagets treningsbase',
   wikipedia: 'Wikipedia',
   officialWebsite: 'Offisielt nettsted',
+  officialPage: 'Offisiell side',
   teamMatches: 'Kamper',
   addFavorite: 'Legg til i mine lag',
   removeFavorite: 'Fjern fra mine lag',

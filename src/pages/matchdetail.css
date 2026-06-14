@@ -103,6 +103,10 @@ a.md-side {
   font-size: 0.8rem;
   color: var(--text-3);
 }
+.md-official {
+  margin-top: 12px;
+  text-align: center;
+}
 
 /* --- info card grid --- */
 .md-grid {

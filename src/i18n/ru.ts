@@ -208,6 +208,7 @@ const ru: Dict = {
   baseCamp: 'Базовый лагерь сборной',
   wikipedia: 'Википедия',
   officialWebsite: 'Официальный сайт',
+  officialPage: 'Официальная страница',
   teamMatches: 'Матчи',
   addFavorite: 'Добавить в мои сборные',
   removeFavorite: 'Убрать из моих сборных',

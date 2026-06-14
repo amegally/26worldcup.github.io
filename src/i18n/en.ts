@@ -209,6 +209,7 @@ const en: Dict = {
   baseCamp: 'Team base camp',
   wikipedia: 'Wikipedia',
   officialWebsite: 'Official website',
+  officialPage: 'Official webpage',
   teamMatches: 'Matches',
   addFavorite: 'Add to my teams',
   removeFavorite: 'Remove from my teams',

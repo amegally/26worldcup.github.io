@@ -206,6 +206,7 @@ const fr: Dict = {
   baseCamp: 'Camp de base',
   wikipedia: 'Wikipédia',
   officialWebsite: 'Site officiel',
+  officialPage: 'Page officielle',
   teamMatches: 'Matchs',
   addFavorite: 'Ajouter à mes équipes',
   removeFavorite: 'Retirer de mes équipes',

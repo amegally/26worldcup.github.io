@@ -207,6 +207,7 @@ const de: Dict = {
   baseCamp: 'Teamquartier',
   wikipedia: 'Wikipedia',
   officialWebsite: 'Offizielle Website',
+  officialPage: 'Offizielle Seite',
   teamMatches: 'Spiele',
   addFavorite: 'Zu meinen Teams hinzufügen',
   removeFavorite: 'Aus meinen Teams entfernen',

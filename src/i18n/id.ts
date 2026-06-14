@@ -204,6 +204,7 @@ const id: Dict = {
   baseCamp: 'Markas tim',
   wikipedia: 'Wikipedia',
   officialWebsite: 'Situs resmi',
+  officialPage: 'Halaman resmi',
   teamMatches: 'Pertandingan',
   addFavorite: 'Tambahkan ke tim saya',
   removeFavorite: 'Hapus dari tim saya',

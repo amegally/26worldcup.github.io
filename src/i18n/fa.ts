@@ -203,6 +203,7 @@ const fa: Dict = {
   baseCamp: 'کمپ تیم',
   wikipedia: 'ویکی‌پدیا',
   officialWebsite: 'وب‌سایت رسمی',
+  officialPage: 'صفحه رسمی',
   teamMatches: 'بازی‌ها',
   addFavorite: 'افزودن به تیم‌های من',
   removeFavorite: 'حذف از تیم‌های من',

@@ -1,4 +1,4 @@
-import type { LocalizedName, Match, Stage, Standings, Team } from '../types'
+import type { Lang, LocalizedName, Match, Stage, Standings, Team } from '../types'
 import fifaIso from '../data/fifa-iso.json'
 
 /** resolve a data note that may be a plain string (legacy) or a {en,zh,fr} object */
@@ -28,6 +28,40 @@ export const STAGE_LABEL_KEY: Record<Stage, string> = {
 }
 
 export const STAGE_ORDER: Stage[] = ['group', 'r32', 'r16', 'qf', 'sf', 'third', 'final']
+
+// FIFA match-centre deep link: /{lang}/match-centre/match/{idCompetition}/{idSeason}/{idStage}/{idMatch}.
+// idCompetition (17 = men's World Cup) and idSeason (285023 = 2026) are fixed for the tournament; idStage is
+// the numeric FIFA stage id — the inverse of the STAGE_KEY map in scripts/update.mjs.
+const FIFA_STAGE_ID: Record<Stage, string> = {
+  group: '289273',
+  r32: '289287',
+  r16: '289288',
+  qf: '289289',
+  sf: '289290',
+  third: '289291',
+  final: '289292',
+}
+
+// fifa.com serves only these languages; pt-BR collapses to FIFA's single Portuguese edition (mirroring
+// DATA_FALLBACK in src/i18n), and every other UI language (zh, zh-TW, fa, nl, …) falls back to English.
+const FIFA_SITE_LANG: Partial<Record<Lang, string>> = {
+  en: 'en',
+  fr: 'fr',
+  de: 'de',
+  es: 'es',
+  pt: 'pt',
+  'pt-BR': 'pt',
+  it: 'it',
+  id: 'id',
+  ko: 'ko',
+  ja: 'ja',
+  ar: 'ar',
+}
+
+export function fifaMatchUrl(match: Match, lang: Lang): string {
+  const sl = FIFA_SITE_LANG[lang] ?? 'en'
+  return `https://www.fifa.com/${sl}/match-centre/match/17/285023/${FIFA_STAGE_ID[match.stage]}/${match.id}`
+}
 
 // flags are downloaded into public/flags/ by `npm run update`: flat, official
 // aspect ratio, 120px tall (flagcdn h120); the <Flag> box letterboxes them

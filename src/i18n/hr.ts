@@ -206,6 +206,7 @@ const hr: Dict = {
   baseCamp: 'Bazni kamp momčadi',
   wikipedia: 'Wikipedija',
   officialWebsite: 'Službena stranica',
+  officialPage: 'Službena web-stranica',
   teamMatches: 'Utakmice',
   addFavorite: 'Dodaj u moje momčadi',
   removeFavorite: 'Ukloni iz mojih momčadi',

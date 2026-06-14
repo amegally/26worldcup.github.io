@@ -207,6 +207,7 @@ const nl: Dict = {
   baseCamp: 'Basiskamp',
   wikipedia: 'Wikipedia',
   officialWebsite: 'Officiële website',
+  officialPage: 'Officiële pagina',
   teamMatches: 'Wedstrijden',
   addFavorite: 'Toevoegen aan mijn teams',
   removeFavorite: 'Verwijderen uit mijn teams',

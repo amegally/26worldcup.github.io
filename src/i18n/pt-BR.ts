@@ -207,6 +207,7 @@ const ptBR: Dict = {
   baseCamp: 'Campo-base da seleção',
   wikipedia: 'Wikipédia',
   officialWebsite: 'Site oficial',
+  officialPage: 'Página oficial',
   teamMatches: 'Jogos',
   addFavorite: 'Adicionar às minhas seleções',
   removeFavorite: 'Remover das minhas seleções',

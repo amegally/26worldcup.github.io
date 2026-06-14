@@ -206,6 +206,7 @@ const it: Dict = {
   baseCamp: 'Ritiro della squadra',
   wikipedia: 'Wikipedia',
   officialWebsite: 'Sito ufficiale',
+  officialPage: 'Pagina ufficiale',
   teamMatches: 'Partite',
   addFavorite: 'Aggiungi alle mie squadre',
   removeFavorite: 'Rimuovi dalle mie squadre',

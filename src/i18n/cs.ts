@@ -207,6 +207,7 @@ const cs: Dict = {
   baseCamp: 'Základní tábor týmu',
   wikipedia: 'Wikipedie',
   officialWebsite: 'Oficiální web',
+  officialPage: 'Oficiální stránka',
   teamMatches: 'Zápasy',
   addFavorite: 'Přidat do mých týmů',
   removeFavorite: 'Odebrat z mých týmů',

@@ -202,6 +202,7 @@ const ko: Dict = {
   baseCamp: '베이스캠프',
   wikipedia: '위키백과',
   officialWebsite: '공식 웹사이트',
+  officialPage: '공식 페이지',
   teamMatches: '경기',
   addFavorite: '내 팀에 추가',
   removeFavorite: '내 팀에서 제거',

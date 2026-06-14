@@ -202,6 +202,7 @@ const zhTW: Dict = {
   baseCamp: '球隊訓練基地',
   wikipedia: '維基百科',
   officialWebsite: '官方網站',
+  officialPage: '官方頁面',
   teamMatches: '球隊賽程',
   addFavorite: '加入我的最愛',
   removeFavorite: '從我的最愛移除',

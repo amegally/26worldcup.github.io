@@ -207,6 +207,7 @@ const uz: Dict = {
   baseCamp: 'Jamoa bazasi',
   wikipedia: 'Wikipedia',
   officialWebsite: 'Rasmiy sayt',
+  officialPage: 'Rasmiy sahifa',
   teamMatches: "O'yinlar",
   addFavorite: "Jamoalarimga qo'shish",
   removeFavorite: 'Jamoalarimdan olib tashlash',

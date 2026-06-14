@@ -205,6 +205,7 @@ const sv: Dict = {
   baseCamp: 'Lagets basläger',
   wikipedia: 'Wikipedia',
   officialWebsite: 'Officiell webbplats',
+  officialPage: 'Officiell sida',
   teamMatches: 'Matcher',
   addFavorite: 'Lägg till i mina lag',
   removeFavorite: 'Ta bort från mina lag',

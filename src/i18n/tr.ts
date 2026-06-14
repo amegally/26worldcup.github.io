@@ -203,6 +203,7 @@ const tr: Dict = {
   baseCamp: 'Takım kamp üssü',
   wikipedia: 'Vikipedi',
   officialWebsite: 'Resmî web sitesi',
+  officialPage: 'Resmî sayfa',
   teamMatches: 'Maçlar',
   addFavorite: 'Takımlarıma ekle',
   removeFavorite: 'Takımlarımdan çıkar',
