@@ -15,6 +15,13 @@
    "ownGoals": 0
   },
   {
+   "id": "430452",
+   "name": "Connor METCALFE",
+   "code": "AUS",
+   "goals": 1,
+   "ownGoals": 0
+  },
+  {
    "id": "390670",
    "name": "Cyle LARIN",
    "code": "CAN",
@@ -78,6 +85,13 @@
    "ownGoals": 0
   },
   {
+   "id": "486306",
+   "name": "Nestory IRANKUNDA",
+   "code": "AUS",
+   "goals": 1,
+   "ownGoals": 0
+  },
+  {
    "id": "356731",
    "name": "RAÚL",
    "code": "MEX",
@@ -107,7 +121,7 @@
   }
  ],
  "cards": {
-  "yellow": 24,
+  "yellow": 25,
   "red": 3,
   "players": [
    {
@@ -252,7 +266,7 @@
    }
   ]
  },
- "attAvg": 64583,
+ "attAvg": 63072,
  "biggestWin": {
   "diff": 3,
   "id": "400021458",

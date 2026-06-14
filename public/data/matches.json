@@ -302,22 +302,22 @@
    "group": "D",
    "date": "2026-06-14T04:00:00Z",
    "venueId": "400248370",
-   "status": "scheduled",
-   "time": "0'",
+   "status": "finished",
+   "time": "97'",
    "home": {
     "code": "AUS",
-    "score": null,
+    "score": 2,
     "pen": null
    },
    "away": {
     "code": "TUR",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "phA": "D3",
    "phB": "D4",
-   "winner": null,
-   "attendance": null,
+   "winner": "AUS",
+   "attendance": 52497,
    "officials": [
     {
      "id": "360305",
@@ -967,7 +967,41 @@
    "phB": "I2",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "283448",
+     "country": "AUS",
+     "role": "referee",
+     "name": {
+      "en": "Alireza FAGHANI",
+      "fr": "Alireza FAGHANI",
+      "zh": "Alireza FAGHANI",
+      "ar": "Alireza FAGHANI",
+      "es": "Alireza FAGHANI",
+      "de": "Alireza FAGHANI",
+      "pt": "Alireza FAGHANI",
+      "it": "Alireza FAGHANI",
+      "ja": "Alireza FAGHANI",
+      "ko": "Alireza FAGHANI",
+      "id": "Alireza FAGHANI",
+      "ru": "Alireza FAGHANI"
+     },
+     "typeName": {
+      "en": "Referee",
+      "fr": "Arbitre",
+      "zh": "裁判员",
+      "ar": "الحَكم",
+      "es": "Árbitro/a",
+      "de": "Schiedsrichter",
+      "pt": "Árbitro",
+      "it": "Arbitro",
+      "ja": "主審",
+      "ko": "주심",
+      "id": "Wasit",
+      "ru": "Главный судья"
+     }
+    }
+   ]
   },
   {
    "id": "400021488",
@@ -992,7 +1026,74 @@
    "phB": "I4",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "408417",
+     "country": "GAB",
+     "role": "referee",
+     "name": {
+      "en": "Pierre ATCHO",
+      "fr": "Pierre ATCHO",
+      "zh": "Pierre ATCHO",
+      "ar": "Pierre ATCHO",
+      "es": "Pierre ATCHO",
+      "de": "Pierre ATCHO",
+      "pt": "Pierre ATCHO",
+      "it": "Pierre ATCHO",
+      "ja": "Pierre ATCHO",
+      "ko": "Pierre ATCHO",
+      "id": "Pierre ATCHO",
+      "ru": "Pierre ATCHO"
+     },
+     "typeName": {
+      "en": "Referee",
+      "fr": "Arbitre",
+      "zh": "裁判员",
+      "ar": "الحَكم",
+      "es": "Árbitro/a",
+      "de": "Schiedsrichter",
+      "pt": "Árbitro",
+      "it": "Arbitro",
+      "ja": "主審",
+      "ko": "주심",
+      "id": "Wasit",
+      "ru": "Главный судья"
+     }
+    },
+    {
+     "id": "392013",
+     "country": "EGY",
+     "role": "fourth",
+     "name": {
+      "en": "Amin MOHAMED",
+      "fr": "Amin MOHAMED",
+      "zh": "Amin MOHAMED",
+      "ar": "Amin MOHAMED",
+      "es": "Amin MOHAMED",
+      "de": "Amin MOHAMED",
+      "pt": "Amin MOHAMED",
+      "it": "Amin MOHAMED",
+      "ja": "Amin MOHAMED",
+      "ko": "Amin MOHAMED",
+      "id": "Amin MOHAMED",
+      "ru": "Amin MOHAMED"
+     },
+     "typeName": {
+      "en": "Fourth official",
+      "fr": "Quatrième arbitre",
+      "zh": "第四官员",
+      "ar": "الحَكَم الرابع",
+      "es": "Cuarto/a árbitro/a",
+      "de": "Vierter Offizieller",
+      "pt": "Quarto árbitro",
+      "it": "Quarto arbitro",
+      "ja": "第 4 審判員",
+      "ko": "대기심",
+      "id": "Ofisial keempat",
+      "ru": "Четвертый судья"
+     }
+    }
+   ]
   },
   {
    "id": "400021496",
@@ -1017,7 +1118,41 @@
    "phB": "J2",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "327975",
+     "country": "POL",
+     "role": "referee",
+     "name": {
+      "en": "Szymon MARCINIAK",
+      "fr": "Szymon MARCINIAK",
+      "zh": "Szymon MARCINIAK",
+      "ar": "Szymon MARCINIAK",
+      "es": "Szymon MARCINIAK",
+      "de": "Szymon MARCINIAK",
+      "pt": "Szymon MARCINIAK",
+      "it": "Szymon MARCINIAK",
+      "ja": "Szymon MARCINIAK",
+      "ko": "Szymon MARCINIAK",
+      "id": "Szymon MARCINIAK",
+      "ru": "Szymon MARCINIAK"
+     },
+     "typeName": {
+      "en": "Referee",
+      "fr": "Arbitre",
+      "zh": "裁判员",
+      "ar": "الحَكم",
+      "es": "Árbitro/a",
+      "de": "Schiedsrichter",
+      "pt": "Árbitro",
+      "it": "Arbitro",
+      "ja": "主審",
+      "ko": "주심",
+      "id": "Wasit",
+      "ru": "Главный судья"
+     }
+    }
+   ]
   },
   {
    "id": "400021498",
@@ -1042,7 +1177,41 @@
    "phB": "J4",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "408591",
+     "country": "MTN",
+     "role": "referee",
+     "name": {
+      "en": "Dahane BEIDA",
+      "fr": "Dahane BEIDA",
+      "zh": "Dahane BEIDA",
+      "ar": "Dahane BEIDA",
+      "es": "Dahane BEIDA",
+      "de": "Dahane BEIDA",
+      "pt": "Dahane BEIDA",
+      "it": "Dahane BEIDA",
+      "ja": "Dahane BEIDA",
+      "ko": "Dahane BEIDA",
+      "id": "Dahane BEIDA",
+      "ru": "Dahane BEIDA"
+     },
+     "typeName": {
+      "en": "Referee",
+      "fr": "Arbitre",
+      "zh": "裁判员",
+      "ar": "الحَكم",
+      "es": "Árbitro/a",
+      "de": "Schiedsrichter",
+      "pt": "Árbitro",
+      "it": "Arbitro",
+      "ja": "主審",
+      "ko": "주심",
+      "id": "Wasit",
+      "ru": "Главный судья"
+     }
+    }
+   ]
   },
   {
    "id": "400021510",
