@@ -6237,7 +6237,7 @@
  },
  "400021467": {
   "home": {
-   "tactics": null,
+   "tactics": "4-4-2",
    "xi": [
     {
      "id": "405873",
@@ -6533,7 +6533,7 @@
    "substitutions": []
   },
   "away": {
-   "tactics": null,
+   "tactics": "3-4-3",
    "xi": [
     {
      "id": "441236",
