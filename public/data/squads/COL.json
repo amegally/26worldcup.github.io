@@ -15,8 +15,13 @@
    "goals": 0,
    "club": "Atlético Nacional",
    "clubNat": "COL",
+   "clubWiki": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Nacional",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/David_Ospina"
+   "wiki": "https://en.wikipedia.org/wiki/David_Ospina",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "camilo-vargas",
@@ -28,8 +33,13 @@
    "goals": 0,
    "club": "Atlas",
    "clubNat": "MEX",
+   "clubWiki": "https://en.wikipedia.org/wiki/Atlas_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Camilo_Vargas"
+   "wiki": "https://en.wikipedia.org/wiki/Camilo_Vargas",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "alvaro-montero",
@@ -41,8 +51,13 @@
    "goals": 0,
    "club": "Vélez Sarsfield",
    "clubNat": "ARG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_V%C3%A9lez_Sarsfield",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/%C3%81lvaro_Montero_(Colombian_footballer)"
+   "wiki": "https://en.wikipedia.org/wiki/%C3%81lvaro_Montero_(Colombian_footballer)",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "daniel-munoz",
@@ -54,8 +69,13 @@
    "goals": 3,
    "club": "Crystal Palace",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Crystal_Palace_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Daniel_Mu%C3%B1oz_(footballer)"
+   "wiki": "https://en.wikipedia.org/wiki/Daniel_Mu%C3%B1oz_(footballer)",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jhon-lucumi",
@@ -67,8 +87,13 @@
    "goals": 1,
    "club": "Bologna",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Bologna_FC_1909",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jhon_Lucum%C3%AD"
+   "wiki": "https://en.wikipedia.org/wiki/Jhon_Lucum%C3%AD",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "santiago-arias",
@@ -80,8 +105,13 @@
    "goals": 0,
    "club": "Independiente",
    "clubNat": "ARG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_Independiente",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Santiago_Arias"
+   "wiki": "https://en.wikipedia.org/wiki/Santiago_Arias",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "yerry-mina",
@@ -93,8 +123,13 @@
    "goals": 8,
    "club": "Cagliari",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Cagliari_Calcio",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Yerry_Mina"
+   "wiki": "https://en.wikipedia.org/wiki/Yerry_Mina",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "gustavo-puerta",
@@ -106,8 +141,13 @@
    "goals": 1,
    "club": "Racing Santander",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/Racing_de_Santander",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Gustavo_Puerta"
+   "wiki": "https://en.wikipedia.org/wiki/Gustavo_Puerta",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "johan-mojica",
@@ -119,8 +159,13 @@
    "goals": 1,
    "club": "Mallorca",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/RCD_Mallorca",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Johan_Mojica"
+   "wiki": "https://en.wikipedia.org/wiki/Johan_Mojica",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "willer-ditta",
@@ -132,8 +177,13 @@
    "goals": 0,
    "club": "Cruz Azul",
    "clubNat": "MEX",
+   "clubWiki": "https://en.wikipedia.org/wiki/Cruz_Azul",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Willer_Ditta"
+   "wiki": "https://en.wikipedia.org/wiki/Willer_Ditta",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "deiver-machado",
@@ -145,8 +195,13 @@
    "goals": 0,
    "club": "Nantes",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Nantes",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Deiver_Machado"
+   "wiki": "https://en.wikipedia.org/wiki/Deiver_Machado",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "davinson-sanchez",
@@ -158,8 +213,13 @@
    "goals": 4,
    "club": "Galatasaray",
    "clubNat": "TUR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Galatasaray_S.K._(football)",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Davinson_S%C3%A1nchez"
+   "wiki": "https://en.wikipedia.org/wiki/Davinson_S%C3%A1nchez",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "kevin-castano",
@@ -171,8 +231,13 @@
    "goals": 0,
    "club": "River Plate",
    "clubNat": "ARG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_River_Plate",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Kevin_Casta%C3%B1o"
+   "wiki": "https://en.wikipedia.org/wiki/Kevin_Casta%C3%B1o",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "richard-rios",
@@ -184,8 +249,13 @@
    "goals": 2,
    "club": "Benfica",
    "clubNat": "POR",
+   "clubWiki": "https://en.wikipedia.org/wiki/S.L._Benfica",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Richard_R%C3%ADos"
+   "wiki": "https://en.wikipedia.org/wiki/Richard_R%C3%ADos",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jorge-carrascal",
@@ -197,8 +267,13 @@
    "goals": 2,
    "club": "Flamengo",
    "clubNat": "BRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/CR_Flamengo",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jorge_Carrascal"
+   "wiki": "https://en.wikipedia.org/wiki/Jorge_Carrascal",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "james-rodriguez",
@@ -210,8 +285,13 @@
    "goals": 31,
    "club": "Minnesota United FC",
    "clubNat": "USA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Minnesota_United_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/James_Rodr%C3%ADguez"
+   "wiki": "https://en.wikipedia.org/wiki/James_Rodr%C3%ADguez",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jhon-arias",
@@ -223,8 +303,13 @@
    "goals": 6,
    "club": "Palmeiras",
    "clubNat": "BRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/SE_Palmeiras",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jhon_Arias_(footballer)"
+   "wiki": "https://en.wikipedia.org/wiki/Jhon_Arias_(footballer)",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "juan-portilla",
@@ -236,8 +321,13 @@
    "goals": 0,
    "club": "Athletico Paranaense",
    "clubNat": "BRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Club_Athletico_Paranaense",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Juan_Portilla"
+   "wiki": "https://en.wikipedia.org/wiki/Juan_Portilla",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jefferson-lerma",
@@ -249,8 +339,13 @@
    "goals": 5,
    "club": "Crystal Palace",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Crystal_Palace_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jefferson_Lerma"
+   "wiki": "https://en.wikipedia.org/wiki/Jefferson_Lerma",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "juan-fernando-quintero",
@@ -262,8 +357,13 @@
    "goals": 6,
    "club": "River Plate",
    "clubNat": "ARG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_River_Plate",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Juan_Fernando_Quintero"
+   "wiki": "https://en.wikipedia.org/wiki/Juan_Fernando_Quintero",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "luis-diaz",
@@ -275,8 +375,13 @@
    "goals": 22,
    "club": "Bayern Munich",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Bayern_Munich",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Luis_D%C3%ADaz_(footballer%2C_born_1997)"
+   "wiki": "https://en.wikipedia.org/wiki/Luis_D%C3%ADaz_(footballer%2C_born_1997)",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jhon-cordoba",
@@ -288,8 +393,13 @@
    "goals": 6,
    "club": "Krasnodar",
    "clubNat": "RUS",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Krasnodar",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jhon_C%C3%B3rdoba"
+   "wiki": "https://en.wikipedia.org/wiki/Jhon_C%C3%B3rdoba",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "cucho-hernandez",
@@ -301,8 +411,13 @@
    "goals": 2,
    "club": "Real Betis",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/Real_Betis",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Cucho_Hern%C3%A1ndez"
+   "wiki": "https://en.wikipedia.org/wiki/Cucho_Hern%C3%A1ndez",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jaminton-campaz",
@@ -314,8 +429,13 @@
    "goals": 1,
    "club": "Rosario Central",
    "clubNat": "ARG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Rosario_Central",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jaminton_Campaz"
+   "wiki": "https://en.wikipedia.org/wiki/Jaminton_Campaz",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "luis-suarez",
@@ -327,8 +447,13 @@
    "goals": 5,
    "club": "Sporting CP",
    "clubNat": "POR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Sporting_CP",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Luis_Su%C3%A1rez_(footballer%2C_born_1997)"
+   "wiki": "https://en.wikipedia.org/wiki/Luis_Su%C3%A1rez_(footballer%2C_born_1997)",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "andres-gomez",
@@ -340,8 +465,13 @@
    "goals": 2,
    "club": "Vasco da Gama",
    "clubNat": "BRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/CR_Vasco_da_Gama",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Andr%C3%A9s_G%C3%B3mez_(footballer)"
+   "wiki": "https://en.wikipedia.org/wiki/Andr%C3%A9s_G%C3%B3mez_(footballer)",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   }
  ]
 }

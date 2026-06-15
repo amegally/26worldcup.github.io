@@ -1,11 +1,12 @@
 import { useEffect, useMemo } from 'react'
 import type { CSSProperties } from 'react'
-import { Link, useParams } from 'react-router-dom'
+import { Link, useParams, useSearchParams } from 'react-router-dom'
 import type { PosBucket, SquadPlayer, Team } from '../types'
 import { useI18n } from '../i18n'
 import { useSettings } from '../settings/SettingsContext'
 import { useAppData, useData } from '../data/DataContext'
-import { fifaToIso2, qualState, sortMatches } from '../utils/helpers'
+import { fifaSquadUrl, fifaToIso2, qualState, sortMatches } from '../utils/helpers'
+import { FifaMark, HomeMark, WikipediaMark } from '../components/BrandMarks'
 import Flag from '../components/Flag'
 import Icon from '../components/Icon'
 import MapLinks from '../components/MapLinks'
@@ -29,30 +30,51 @@ function ageFrom(dob: string): number {
   return a
 }
 
+/** small Wikipedia-icon link */
+function WikiIcon({ url }: { url: string }) {
+  const { t } = useI18n()
+  return (
+    <a
+      className="td-wiki-icon"
+      href={url}
+      target="_blank"
+      rel="noopener noreferrer"
+      title={t('wikipedia')}
+      aria-label={t('wikipedia')}
+    >
+      <WikipediaMark size={15} />
+    </a>
+  )
+}
+
 function PlayerCard({ p }: { p: SquadPlayer }) {
   const { t } = useI18n()
   const clubIso = fifaToIso2(p.clubNat)
+  const clubUrl = p.club
+    ? p.clubWiki || `https://en.wikipedia.org/wiki/${encodeURIComponent(p.club.trim().replace(/ /g, '_'))}`
+    : null
   const age = p.dob ? ageFrom(p.dob) : null
-  const showStats = p.caps !== null || p.goals !== null
+  const showStats = p.caps !== null || p.goals !== null || (p.wcApps ?? 0) > 0 || (p.wcGoals ?? 0) > 0
+
+  // "<n> Apps (<g>⚽)" — first segment is this World Cup, second the national-team
+  // career; each gets its own hover tooltips for apps and goals
+  const statSeg = (apps: number, g: number, appsTitle: string, goalsTitle: string) => (
+    <span className="td-stat">
+      <span className="td-apps" title={appsTitle}>
+        <span className="tnum">{apps}</span> {t('apps')}
+      </span>{' '}
+      <span className="muted" title={goalsTitle}>
+        (<span className="tnum">{g}</span>
+        {' ⚽)'}
+      </span>
+    </span>
+  )
 
   return (
-    <div className="td-player">
+    <div className="td-player" id={p.no !== null ? `sq-p-${p.no}` : undefined}>
       {p.no !== null && <span className="td-no tnum">{p.no}</span>}
       <div className="td-p-name">
-        {p.wiki ? (
-          <a
-            className="td-wiki"
-            href={p.wiki}
-            target="_blank"
-            rel="noopener noreferrer"
-            title={t('wikipedia')}
-          >
-            {p.name}
-            <Icon name="external" size={12} />
-          </a>
-        ) : (
-          <span>{p.name}</span>
-        )}
+        <span>{p.name}</span>
         {p.captain && (
           <span className="td-cap" title={t('captain')}>
             C
@@ -60,25 +82,44 @@ function PlayerCard({ p }: { p: SquadPlayer }) {
         )}
       </div>
       <div className="td-p-rows">
-        {age !== null && (
-          <div className="td-p-row">
-            <span title={t('age')}>{t('ageN', { n: age })}</span>
+        {(age !== null || p.wiki) && (
+          <div className="td-p-row td-p-age">
+            {age !== null && <span title={t('age')}>{t('ageN', { n: age })}</span>}
+            {p.wiki && <WikiIcon url={p.wiki} />}
           </div>
         )}
         {showStats && (
-          <div className="td-p-row">
-            <span className="tnum" title={t('matchesPlayed')}>
-              {p.caps ?? 0}
-            </span>
+          <div className="td-p-row td-p-stats">
+            {statSeg(p.wcApps ?? 0, p.wcGoals ?? 0, t('appsWc'), t('goalsWc'))}
             <span className="sep">·</span>
-            <span className="tnum">{p.goals ?? 0}</span>
-            <span>{t('goals')}</span>
+            {statSeg(p.caps ?? 0, p.goals ?? 0, t('appsCareer'), t('goalsCareer'))}
+          </div>
+        )}
+        {((p.wcYellow ?? 0) > 0 || (p.wcRed ?? 0) > 0) && (
+          <div className="td-p-row td-p-cards">
+            {(p.wcYellow ?? 0) > 0 && (
+              <span title={t('statYellowCards')}>
+                🟨 <span className="tnum">{p.wcYellow}</span>
+              </span>
+            )}
+            {(p.wcYellow ?? 0) > 0 && (p.wcRed ?? 0) > 0 && <span className="sep">·</span>}
+            {(p.wcRed ?? 0) > 0 && (
+              <span title={t('statRedCards')}>
+                🟥 <span className="tnum">{p.wcRed}</span>
+              </span>
+            )}
           </div>
         )}
         {p.club && (
           <div className="td-p-row" title={t('club')}>
             {clubIso && <Flag iso2={clubIso} size={16} />}
-            <span className="clip">{p.club}</span>
+            {clubUrl ? (
+              <a className="td-wiki clip" href={clubUrl} target="_blank" rel="noopener noreferrer">
+                {p.club}
+              </a>
+            ) : (
+              <span className="clip">{p.club}</span>
+            )}
           </div>
         )}
       </div>
@@ -89,7 +130,7 @@ function PlayerCard({ p }: { p: SquadPlayer }) {
 export default function TeamDetail() {
   const params = useParams<{ code: string }>()
   const code = (params.code ?? '').toUpperCase()
-  const { t, pick, countryName } = useI18n()
+  const { t, pick, countryName, lang } = useI18n()
   const { settings, toggleFavorite } = useSettings()
   const { squads, loadSquads } = useData()
   const { teams, matches, standings, stats } = useAppData()
@@ -113,6 +154,23 @@ export default function TeamDetail() {
     for (const k of POS_ORDER) g[k].sort((a, b) => (a.no ?? 99) - (b.no ?? 99))
     return g
   }, [squad])
+
+  // deep link from lineups / scorers / cards: #/team/CODE?p=<shirt no> scrolls
+  // to that player's squad card and flashes it once the squad has loaded
+  const [searchParams] = useSearchParams()
+  const playerParam = searchParams.get('p')
+  // biome-ignore lint/correctness/useExhaustiveDependencies: re-run when the squad finishes loading or the target player changes
+  useEffect(() => {
+    if (!playerParam || !squad) return
+    const el = document.getElementById(`sq-p-${playerParam}`)
+    if (!el) return
+    const id = requestAnimationFrame(() => {
+      el.scrollIntoView({ block: 'center', behavior: 'smooth' })
+      el.classList.add('flash')
+      setTimeout(() => el.classList.remove('flash'), 1800)
+    })
+    return () => cancelAnimationFrame(id)
+  }, [playerParam, squad, code])
 
   if (!team) {
     return (
@@ -205,7 +263,21 @@ export default function TeamDetail() {
           <div className="td-row">
             <span className="td-row-l">{t('coach')}</span>
             <span className="td-row-v">
-              {squads === null ? <span className="td-skel">{t('loading')}</span> : squad?.coach || t('none')}
+              {squads === null ? (
+                <span className="td-skel">{t('loading')}</span>
+              ) : squad?.coach ? (
+                <span className="td-coach">
+                  {squad.coach}
+                  <WikiIcon
+                    url={
+                      squad.coachWiki ||
+                      `https://en.wikipedia.org/wiki/${encodeURIComponent(squad.coach.trim().replace(/ /g, '_'))}`
+                    }
+                  />
+                </span>
+              ) : (
+                t('none')
+              )}
             </span>
           </div>
           <div className="td-row">
@@ -228,28 +300,45 @@ export default function TeamDetail() {
               )}
             </span>
           </div>
-          {webUrl && (
-            <div className="td-row">
-              <span className="td-row-l">{t('officialWebsite')}</span>
-              <span className="td-row-v">
-                <a className="td-web" href={webUrl} target="_blank" rel="noopener noreferrer">
-                  {webText}
-                  <Icon name="external" size={14} />
+          <div className="td-row">
+            <span className="td-row-l">{t('links')}</span>
+            <span className="td-row-v td-links">
+              {webUrl && (
+                <a
+                  className="td-link-icon td-link-home"
+                  href={webUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title={t('officialTeamWebsite')}
+                  aria-label={t('officialTeamWebsite')}
+                >
+                  <HomeMark size={20} />
                 </a>
-              </span>
-            </div>
-          )}
-          {squad?.wiki && (
-            <div className="td-row">
-              <span className="td-row-l">{t('wikipedia')}</span>
-              <span className="td-row-v">
-                <a className="td-web" href={squad.wiki.url} target="_blank" rel="noopener noreferrer">
-                  {squad.wiki.title}
-                  <Icon name="external" size={14} />
+              )}
+              <a
+                className="td-link-icon"
+                href={fifaSquadUrl(team, lang)}
+                target="_blank"
+                rel="noopener noreferrer"
+                title={t('fifaWorldCupPage')}
+                aria-label={t('fifaWorldCupPage')}
+              >
+                <FifaMark size={19} />
+              </a>
+              {squad?.wiki && (
+                <a
+                  className="td-link-icon td-link-wiki"
+                  href={squad.wiki.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title={t('englishWikipedia')}
+                  aria-label={t('englishWikipedia')}
+                >
+                  <WikipediaMark size={19} />
                 </a>
-              </span>
-            </div>
-          )}
+              )}
+            </span>
+          </div>
         </section>
 
         <section className="card card-pad td-group">

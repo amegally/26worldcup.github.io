@@ -15,8 +15,13 @@
    "goals": 0,
    "club": "Sevilla",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/Sevilla_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/%C3%98rjan_Nyland"
+   "wiki": "https://en.wikipedia.org/wiki/%C3%98rjan_Nyland",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "sander-tangvik",
@@ -28,8 +33,13 @@
    "goals": 0,
    "club": "Hamburger SV",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/Hamburger_SV",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Sander_Tangvik"
+   "wiki": "https://en.wikipedia.org/wiki/Sander_Tangvik",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "egil-selvik",
@@ -41,8 +51,13 @@
    "goals": 0,
    "club": "Watford",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Watford_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Egil_Selvik"
+   "wiki": "https://en.wikipedia.org/wiki/Egil_Selvik",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "kristoffer-ajer",
@@ -54,8 +69,13 @@
    "goals": 2,
    "club": "Brentford",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Brentford_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Kristoffer_Ajer"
+   "wiki": "https://en.wikipedia.org/wiki/Kristoffer_Ajer",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "leo-stigard",
@@ -67,8 +87,13 @@
    "goals": 1,
    "club": "Genoa",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Genoa_CFC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Leo_%C3%98stig%C3%A5rd"
+   "wiki": "https://en.wikipedia.org/wiki/Leo_%C3%98stig%C3%A5rd",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "david-m-ller-wolfe",
@@ -80,8 +105,13 @@
    "goals": 1,
    "club": "Wolverhampton Wanderers",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Wolverhampton_Wanderers_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/David_M%C3%B8ller_Wolfe"
+   "wiki": "https://en.wikipedia.org/wiki/David_M%C3%B8ller_Wolfe",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "fredrik-andre-bj-rkan",
@@ -93,8 +123,13 @@
    "goals": 1,
    "club": "Bodø/Glimt",
    "clubNat": "NOR",
+   "clubWiki": "https://en.wikipedia.org/wiki/FK_Bod%C3%B8%2FGlimt",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Fredrik_Andr%C3%A9_Bj%C3%B8rkan"
+   "wiki": "https://en.wikipedia.org/wiki/Fredrik_Andr%C3%A9_Bj%C3%B8rkan",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "marcus-holmgren-pedersen",
@@ -106,8 +141,13 @@
    "goals": 0,
    "club": "Torino",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Torino_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Marcus_Holmgren_Pedersen"
+   "wiki": "https://en.wikipedia.org/wiki/Marcus_Holmgren_Pedersen",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "torbj-rn-heggem",
@@ -119,8 +159,13 @@
    "goals": 0,
    "club": "Bologna",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Bologna_FC_1909",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Torbj%C3%B8rn_Heggem"
+   "wiki": "https://en.wikipedia.org/wiki/Torbj%C3%B8rn_Heggem",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "sondre-langas",
@@ -132,8 +177,13 @@
    "goals": 0,
    "club": "Derby County",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Derby_County_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Sondre_Lang%C3%A5s"
+   "wiki": "https://en.wikipedia.org/wiki/Sondre_Lang%C3%A5s",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "henrik-falchener",
@@ -145,8 +195,13 @@
    "goals": 0,
    "club": "Viking",
    "clubNat": "NOR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Viking_FK",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Henrik_Falchener"
+   "wiki": "https://en.wikipedia.org/wiki/Henrik_Falchener",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "julian-ryerson",
@@ -158,8 +213,13 @@
    "goals": 1,
    "club": "Borussia Dortmund",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/Borussia_Dortmund",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Julian_Ryerson"
+   "wiki": "https://en.wikipedia.org/wiki/Julian_Ryerson",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "morten-thorsby",
@@ -171,8 +231,13 @@
    "goals": 0,
    "club": "Cremonese",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/US_Cremonese",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Morten_Thorsby"
+   "wiki": "https://en.wikipedia.org/wiki/Morten_Thorsby",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "patrick-berg",
@@ -184,8 +249,13 @@
    "goals": 0,
    "club": "Bodø/Glimt",
    "clubNat": "NOR",
+   "clubWiki": "https://en.wikipedia.org/wiki/FK_Bod%C3%B8%2FGlimt",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Patrick_Berg"
+   "wiki": "https://en.wikipedia.org/wiki/Patrick_Berg",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "sander-berge",
@@ -197,8 +267,13 @@
    "goals": 1,
    "club": "Fulham",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Fulham_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Sander_Berge"
+   "wiki": "https://en.wikipedia.org/wiki/Sander_Berge",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "martin-degaard",
@@ -210,8 +285,13 @@
    "goals": 5,
    "club": "Arsenal",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Arsenal_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Martin_%C3%98degaard"
+   "wiki": "https://en.wikipedia.org/wiki/Martin_%C3%98degaard",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "fredrik-aursnes",
@@ -223,8 +303,13 @@
    "goals": 1,
    "club": "Benfica",
    "clubNat": "POR",
+   "clubWiki": "https://en.wikipedia.org/wiki/S.L._Benfica",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Fredrik_Aursnes"
+   "wiki": "https://en.wikipedia.org/wiki/Fredrik_Aursnes",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "kristian-thorstvedt",
@@ -236,8 +321,13 @@
    "goals": 4,
    "club": "Sassuolo",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/US_Sassuolo_Calcio",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Kristian_Thorstvedt"
+   "wiki": "https://en.wikipedia.org/wiki/Kristian_Thorstvedt",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "thelo-aasgaard",
@@ -249,8 +339,13 @@
    "goals": 5,
    "club": "Rangers",
    "clubNat": "SCO",
+   "clubWiki": "https://en.wikipedia.org/wiki/Rangers_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Thelo_Aasgaard"
+   "wiki": "https://en.wikipedia.org/wiki/Thelo_Aasgaard",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "antonio-nusa",
@@ -262,8 +357,13 @@
    "goals": 8,
    "club": "RB Leipzig",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/RB_Leipzig",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Antonio_Nusa"
+   "wiki": "https://en.wikipedia.org/wiki/Antonio_Nusa",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "andreas-schjelderup",
@@ -275,8 +375,13 @@
    "goals": 1,
    "club": "Benfica",
    "clubNat": "POR",
+   "clubWiki": "https://en.wikipedia.org/wiki/S.L._Benfica",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Andreas_Schjelderup"
+   "wiki": "https://en.wikipedia.org/wiki/Andreas_Schjelderup",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "oscar-bobb",
@@ -288,8 +393,13 @@
    "goals": 2,
    "club": "Fulham",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Fulham_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Oscar_Bobb"
+   "wiki": "https://en.wikipedia.org/wiki/Oscar_Bobb",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jens-petter-hauge",
@@ -301,8 +411,13 @@
    "goals": 1,
    "club": "Bodø/Glimt",
    "clubNat": "NOR",
+   "clubWiki": "https://en.wikipedia.org/wiki/FK_Bod%C3%B8%2FGlimt",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jens_Petter_Hauge"
+   "wiki": "https://en.wikipedia.org/wiki/Jens_Petter_Hauge",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "alexander-s-rloth",
@@ -314,8 +429,13 @@
    "goals": 26,
    "club": "Atlético Madrid",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Madrid",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Alexander_S%C3%B8rloth"
+   "wiki": "https://en.wikipedia.org/wiki/Alexander_S%C3%B8rloth",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "erling-haaland",
@@ -327,8 +447,13 @@
    "goals": 55,
    "club": "Manchester City",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Manchester_City_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Erling_Haaland"
+   "wiki": "https://en.wikipedia.org/wiki/Erling_Haaland",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "j-rgen-strand-larsen",
@@ -340,8 +465,13 @@
    "goals": 6,
    "club": "Crystal Palace",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Crystal_Palace_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/J%C3%B8rgen_Strand_Larsen"
+   "wiki": "https://en.wikipedia.org/wiki/J%C3%B8rgen_Strand_Larsen",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   }
  ]
 }

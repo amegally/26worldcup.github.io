@@ -118,6 +118,55 @@
   text-decoration: underline;
 }
 
+/* merged links row: house (official site) + FIFA + Wikipedia icons */
+.td-links {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+}
+.td-link-icon {
+  display: inline-flex;
+  align-items: center;
+  color: var(--accent-2);
+}
+/* per-link colors: official site dark green, Wikipedia black (theme-aware so it
+   stays visible on dark); FIFA keeps its own blue badge */
+.td-link-home {
+  color: var(--free);
+}
+.td-link-wiki {
+  color: var(--text);
+}
+.td-link-icon img {
+  display: block;
+}
+.td-link-icon:hover {
+  opacity: 0.7;
+}
+
+/* small Wikipedia-icon link (coach row, player age row) */
+.td-coach {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+.td-wiki-icon {
+  display: inline-flex;
+  align-items: center;
+  flex: none;
+  opacity: 0.8;
+}
+.td-wiki-icon img {
+  display: block;
+}
+.td-wiki-icon:hover {
+  opacity: 1;
+}
+/* on the player age row the icon sits flush against the right edge */
+.td-p-age .td-wiki-icon {
+  margin-inline-start: auto;
+}
+
 .td-skel {
   color: var(--text-3);
   font-weight: 500;
@@ -262,6 +311,22 @@
   flex-direction: column;
   gap: 7px;
   min-width: 0;
+  scroll-margin-top: calc(var(--hdr-h, 58px) + 16px);
+}
+/* deep-linked player card flashes once to draw the eye */
+.td-player.flash {
+  animation: td-player-flash 1.8s ease-out;
+}
+@keyframes td-player-flash {
+  0%,
+  20% {
+    border-color: var(--accent-2);
+    box-shadow: 0 0 0 2px var(--accent-2);
+  }
+  100% {
+    border-color: var(--border);
+    box-shadow: var(--shadow);
+  }
 }
 .td-no {
   position: absolute;
@@ -322,6 +387,15 @@
 }
 .td-p-row .sep {
   color: var(--text-3);
+}
+/* player stat line: "<n> Apps (<g>⚽) · <n> Apps (<g>⚽)" */
+.td-p-stats {
+  flex-wrap: wrap;
+  gap: 4px 6px;
+}
+.td-apps,
+.td-p-stats .muted {
+  cursor: help;
 }
 
 /* squad loading skeleton */

@@ -15,8 +15,13 @@
    "goals": 0,
    "club": "Club Africain",
    "clubNat": "TUN",
+   "clubWiki": "https://en.wikipedia.org/wiki/Club_Africain",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Mouhib_Chamakh"
+   "wiki": "https://en.wikipedia.org/wiki/Mouhib_Chamakh",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "aymen-dahmen",
@@ -28,8 +33,13 @@
    "goals": 0,
    "club": "CS Sfaxien",
    "clubNat": "TUN",
+   "clubWiki": "https://en.wikipedia.org/wiki/CS_Sfaxien",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Aymen_Dahmen"
+   "wiki": "https://en.wikipedia.org/wiki/Aymen_Dahmen",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "sabri-ben-hessen",
@@ -41,8 +51,13 @@
    "goals": 0,
    "club": "Étoile du Sahel",
    "clubNat": "TUN",
+   "clubWiki": "https://en.wikipedia.org/wiki/%C3%89toile_Sportive_du_Sahel",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Sabri_Ben_Hessen"
+   "wiki": "https://en.wikipedia.org/wiki/Sabri_Ben_Hessen",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ali-abdi",
@@ -54,8 +69,13 @@
    "goals": 7,
    "club": "Nice",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/OGC_Nice",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ali_Abdi_(footballer)"
+   "wiki": "https://en.wikipedia.org/wiki/Ali_Abdi_(footballer)",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "montassar-talbi",
@@ -67,8 +87,13 @@
    "goals": 4,
    "club": "Lorient",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Lorient",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Montassar_Talbi"
+   "wiki": "https://en.wikipedia.org/wiki/Montassar_Talbi",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "omar-rekik",
@@ -80,8 +105,13 @@
    "goals": 0,
    "club": "Maribor",
    "clubNat": "SVN",
+   "clubWiki": "https://en.wikipedia.org/wiki/NK_Maribor",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Omar_Rekik"
+   "wiki": "https://en.wikipedia.org/wiki/Omar_Rekik",
+   "wcApps": 1,
+   "wcGoals": 1,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "adem-arous",
@@ -93,8 +123,13 @@
    "goals": 0,
    "club": "Kasımpaşa",
    "clubNat": "TUR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Kas%C4%B1mpa%C5%9Fa_S.K.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Adem_Arous"
+   "wiki": "https://en.wikipedia.org/wiki/Adem_Arous",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "dylan-bronn",
@@ -106,8 +141,13 @@
    "goals": 2,
    "club": "Servette",
    "clubNat": "SUI",
+   "clubWiki": "https://en.wikipedia.org/wiki/Servette_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Dylan_Bronn"
+   "wiki": "https://en.wikipedia.org/wiki/Dylan_Bronn",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "mortadha-ben-ouanes",
@@ -119,8 +159,13 @@
    "goals": 0,
    "club": "Kasımpaşa",
    "clubNat": "TUR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Kas%C4%B1mpa%C5%9Fa_S.K.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Mortadha_Ben_Ouanes"
+   "wiki": "https://en.wikipedia.org/wiki/Mortadha_Ben_Ouanes",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "yan-valery",
@@ -132,8 +177,13 @@
    "goals": 0,
    "club": "Young Boys",
    "clubNat": "SUI",
+   "clubWiki": "https://en.wikipedia.org/wiki/BSC_Young_Boys",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Yan_Valery"
+   "wiki": "https://en.wikipedia.org/wiki/Yan_Valery",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "mohamed-amine-ben-hamida",
@@ -145,8 +195,13 @@
    "goals": 0,
    "club": "Espérance de Tunis",
    "clubNat": "TUN",
+   "clubWiki": "https://en.wikipedia.org/wiki/Esp%C3%A9rance_Sportive_de_Tunis",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Mohamed_Amine_Ben_Hamida"
+   "wiki": "https://en.wikipedia.org/wiki/Mohamed_Amine_Ben_Hamida",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "moutaz-neffati",
@@ -158,8 +213,13 @@
    "goals": 0,
    "club": "IFK Norrköping",
    "clubNat": "SWE",
+   "clubWiki": "https://en.wikipedia.org/wiki/IFK_Norrk%C3%B6ping",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Moutaz_Neffati"
+   "wiki": "https://en.wikipedia.org/wiki/Moutaz_Neffati",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "raed-chikhaoui",
@@ -171,8 +231,13 @@
    "goals": 0,
    "club": "US Monastir",
    "clubNat": "TUN",
+   "clubWiki": "https://en.wikipedia.org/wiki/US_Monastir_(football)",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Raed_Chikhaoui"
+   "wiki": "https://en.wikipedia.org/wiki/Raed_Chikhaoui",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "hannibal-mejbri",
@@ -184,8 +249,13 @@
    "goals": 1,
    "club": "Burnley",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Burnley_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Hannibal_Mejbri"
+   "wiki": "https://en.wikipedia.org/wiki/Hannibal_Mejbri",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ismael-gharbi",
@@ -197,8 +267,13 @@
    "goals": 2,
    "club": "FC Augsburg",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Augsburg",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Isma%C3%ABl_Gharbi"
+   "wiki": "https://en.wikipedia.org/wiki/Isma%C3%ABl_Gharbi",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "rani-khedira",
@@ -210,8 +285,13 @@
    "goals": 0,
    "club": "Union Berlin",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/1._FC_Union_Berlin",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Rani_Khedira"
+   "wiki": "https://en.wikipedia.org/wiki/Rani_Khedira",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 1,
+   "wcRed": 0
   },
   {
    "id": "khalil-ayari",
@@ -223,8 +303,13 @@
    "goals": 0,
    "club": "Paris Saint-Germain",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Paris_Saint-Germain_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Khalil_Ayari"
+   "wiki": "https://en.wikipedia.org/wiki/Khalil_Ayari",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "hadj-mahmoud",
@@ -236,8 +321,13 @@
    "goals": 0,
    "club": "Lugano",
    "clubNat": "SUI",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Lugano",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Hadj_Mahmoud"
+   "wiki": "https://en.wikipedia.org/wiki/Hadj_Mahmoud",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ellyes-skhiri",
@@ -249,8 +339,13 @@
    "goals": 4,
    "club": "Eintracht Frankfurt",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/Eintracht_Frankfurt",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ellyes_Skhiri"
+   "wiki": "https://en.wikipedia.org/wiki/Ellyes_Skhiri",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "anis-ben-slimane",
@@ -262,8 +357,13 @@
    "goals": 4,
    "club": "Norwich City",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Norwich_City_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Anis_Ben_Slimane"
+   "wiki": "https://en.wikipedia.org/wiki/Anis_Ben_Slimane",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "sebastian-tounekti",
@@ -275,8 +375,13 @@
    "goals": 1,
    "club": "Celtic",
    "clubNat": "SCO",
+   "clubWiki": "https://en.wikipedia.org/wiki/Celtic_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Sebastian_Tounekti"
+   "wiki": "https://en.wikipedia.org/wiki/Sebastian_Tounekti",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "elias-achouri",
@@ -288,8 +393,13 @@
    "goals": 4,
    "club": "Copenhagen",
    "clubNat": "DEN",
+   "clubWiki": "https://en.wikipedia.org/wiki/F.C._Copenhagen",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Elias_Achouri"
+   "wiki": "https://en.wikipedia.org/wiki/Elias_Achouri",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "elias-saad",
@@ -301,8 +411,13 @@
    "goals": 4,
    "club": "Hannover 96",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/Hannover_96",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Elias_Saad"
+   "wiki": "https://en.wikipedia.org/wiki/Elias_Saad",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "hazem-mastouri",
@@ -314,8 +429,13 @@
    "goals": 4,
    "club": "Dynamo Makhachkala",
    "clubNat": "RUS",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Dynamo_Makhachkala",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Hazem_Mastouri"
+   "wiki": "https://en.wikipedia.org/wiki/Hazem_Mastouri",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "rayan-elloumi",
@@ -327,8 +447,13 @@
    "goals": 0,
    "club": "Vancouver Whitecaps FC",
    "clubNat": "CAN",
+   "clubWiki": "https://en.wikipedia.org/wiki/Vancouver_Whitecaps_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Rayan_Elloumi"
+   "wiki": "https://en.wikipedia.org/wiki/Rayan_Elloumi",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "firas-chaouat",
@@ -340,8 +465,13 @@
    "goals": 6,
    "club": "Club Africain",
    "clubNat": "TUN",
+   "clubWiki": "https://en.wikipedia.org/wiki/Club_Africain",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Firas_Chaouat"
+   "wiki": "https://en.wikipedia.org/wiki/Firas_Chaouat",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   }
  ]
 }

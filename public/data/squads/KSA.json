@@ -15,8 +15,13 @@
    "goals": 0,
    "club": "Al-Nassr",
    "clubNat": "KSA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Nassr_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Nawaf_Al-Aqidi"
+   "wiki": "https://en.wikipedia.org/wiki/Nawaf_Al-Aqidi",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "mohammed-al-owais",
@@ -28,8 +33,13 @@
    "goals": 0,
    "club": "Al-Ula",
    "clubNat": "KSA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Ula_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Mohammed_Al-Owais"
+   "wiki": "https://en.wikipedia.org/wiki/Mohammed_Al-Owais",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ahmed-al-kassar",
@@ -41,8 +51,13 @@
    "goals": 0,
    "club": "Al-Qadsiah",
    "clubNat": "KSA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al_Qadsiah_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ahmed_Al-Kassar"
+   "wiki": "https://en.wikipedia.org/wiki/Ahmed_Al-Kassar",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ali-majrashi",
@@ -54,8 +69,13 @@
    "goals": 0,
    "club": "Al-Ahli",
    "clubNat": "KSA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Ahli_Saudi_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ali_Majrashi"
+   "wiki": "https://en.wikipedia.org/wiki/Ali_Majrashi",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ali-lajami",
@@ -67,8 +87,13 @@
    "goals": 1,
    "club": "Al-Hilal",
    "clubNat": "KSA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al_Hilal_SFC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ali_Lajami"
+   "wiki": "https://en.wikipedia.org/wiki/Ali_Lajami",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "abdulelah-al-amri",
@@ -80,8 +105,13 @@
    "goals": 1,
    "club": "Al-Nassr",
    "clubNat": "KSA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Nassr_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Abdulelah_Al-Amri"
+   "wiki": "https://en.wikipedia.org/wiki/Abdulelah_Al-Amri",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "hassan-al-tambakti",
@@ -93,8 +123,13 @@
    "goals": 1,
    "club": "Al-Hilal",
    "clubNat": "KSA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al_Hilal_SFC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Hassan_Al-Tambakti"
+   "wiki": "https://en.wikipedia.org/wiki/Hassan_Al-Tambakti",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "saud-abdulhamid",
@@ -106,8 +141,13 @@
    "goals": 1,
    "club": "Lens",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/RC_Lens",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Saud_Abdulhamid"
+   "wiki": "https://en.wikipedia.org/wiki/Saud_Abdulhamid",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "nawaf-boushal",
@@ -119,8 +159,13 @@
    "goals": 0,
    "club": "Al-Nassr",
    "clubNat": "KSA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Nassr_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Nawaf_Boushal"
+   "wiki": "https://en.wikipedia.org/wiki/Nawaf_Boushal",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "hassan-kadesh",
@@ -132,8 +177,13 @@
    "goals": 2,
    "club": "Al-Ittihad",
    "clubNat": "KSA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Ittihad_Club_(Jeddah)",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Hassan_Kadesh"
+   "wiki": "https://en.wikipedia.org/wiki/Hassan_Kadesh",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "moteb-al-harbi",
@@ -145,8 +195,13 @@
    "goals": 0,
    "club": "Al-Hilal",
    "clubNat": "KSA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al_Hilal_SFC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Moteb_Al-Harbi"
+   "wiki": "https://en.wikipedia.org/wiki/Moteb_Al-Harbi",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jehad-thakri",
@@ -158,8 +213,13 @@
    "goals": 0,
    "club": "Al-Qadsiah",
    "clubNat": "KSA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al_Qadsiah_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jehad_Thakri"
+   "wiki": "https://en.wikipedia.org/wiki/Jehad_Thakri",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "mohammed-abu-al-shamat",
@@ -171,8 +231,13 @@
    "goals": 0,
    "club": "Al-Qadsiah",
    "clubNat": "KSA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al_Qadsiah_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Mohammed_Abu_Al-Shamat"
+   "wiki": "https://en.wikipedia.org/wiki/Mohammed_Abu_Al-Shamat",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "nasser-al-dawsari",
@@ -184,8 +249,13 @@
    "goals": 1,
    "club": "Al-Hilal",
    "clubNat": "KSA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al_Hilal_SFC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Nasser_Al-Dawsari"
+   "wiki": "https://en.wikipedia.org/wiki/Nasser_Al-Dawsari",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "musab-al-juwayr",
@@ -197,8 +267,13 @@
    "goals": 6,
    "club": "Al-Qadsiah",
    "clubNat": "KSA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al_Qadsiah_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Musab_Al-Juwayr"
+   "wiki": "https://en.wikipedia.org/wiki/Musab_Al-Juwayr",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "abdullah-al-khaibari",
@@ -210,8 +285,13 @@
    "goals": 0,
    "club": "Al-Nassr",
    "clubNat": "KSA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Nassr_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Abdullah_Al-Khaibari"
+   "wiki": "https://en.wikipedia.org/wiki/Abdullah_Al-Khaibari",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ziyad-al-johani",
@@ -223,8 +303,13 @@
    "goals": 0,
    "club": "Al-Ahli",
    "clubNat": "KSA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Ahli_Saudi_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ziyad_Al-Johani"
+   "wiki": "https://en.wikipedia.org/wiki/Ziyad_Al-Johani",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "alaa-al-hejji",
@@ -236,8 +321,13 @@
    "goals": 0,
    "club": "Neom",
    "clubNat": "KSA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Neom_SC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Alaa_Al-Hejji"
+   "wiki": "https://en.wikipedia.org/wiki/Alaa_Al-Hejji",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "mohamed-kanno",
@@ -249,8 +339,13 @@
    "goals": 8,
    "club": "Al-Hilal",
    "clubNat": "KSA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al_Hilal_SFC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Mohamed_Kanno"
+   "wiki": "https://en.wikipedia.org/wiki/Mohamed_Kanno",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ayman-yahya",
@@ -262,8 +357,13 @@
    "goals": 0,
    "club": "Al-Nassr",
    "clubNat": "KSA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Nassr_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ayman_Yahya"
+   "wiki": "https://en.wikipedia.org/wiki/Ayman_Yahya",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "firas-al-buraikan",
@@ -275,8 +375,13 @@
    "goals": 16,
    "club": "Al-Ahli",
    "clubNat": "KSA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Ahli_Saudi_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Firas_Al-Buraikan"
+   "wiki": "https://en.wikipedia.org/wiki/Firas_Al-Buraikan",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "salem-al-dawsari",
@@ -288,8 +393,13 @@
    "goals": 27,
    "club": "Al-Hilal",
    "clubNat": "KSA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al_Hilal_SFC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Salem_Al-Dawsari"
+   "wiki": "https://en.wikipedia.org/wiki/Salem_Al-Dawsari",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "saleh-al-shehri",
@@ -301,8 +411,13 @@
    "goals": 17,
    "club": "Al-Ittihad",
    "clubNat": "KSA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Ittihad_Club_(Jeddah)",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Saleh_Al-Shehri"
+   "wiki": "https://en.wikipedia.org/wiki/Saleh_Al-Shehri",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "khalid-al-ghannam",
@@ -314,8 +429,13 @@
    "goals": 0,
    "club": "Al-Ettifaq",
    "clubNat": "KSA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Ettifaq_Club",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Khalid_Al-Ghannam"
+   "wiki": "https://en.wikipedia.org/wiki/Khalid_Al-Ghannam",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "abdullah-al-hamdan",
@@ -327,8 +447,13 @@
    "goals": 13,
    "club": "Al-Nassr",
    "clubNat": "KSA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Nassr_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Abdullah_Al-Hamdan"
+   "wiki": "https://en.wikipedia.org/wiki/Abdullah_Al-Hamdan",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "sultan-mandash",
@@ -340,8 +465,13 @@
    "goals": 2,
    "club": "Al-Hilal",
    "clubNat": "KSA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al_Hilal_SFC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Sultan_Mandash"
+   "wiki": "https://en.wikipedia.org/wiki/Sultan_Mandash",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   }
  ]
 }

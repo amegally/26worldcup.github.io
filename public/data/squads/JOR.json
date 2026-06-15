@@ -15,8 +15,13 @@
    "goals": 0,
    "club": "Al-Hussein",
    "clubNat": "JOR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Hussein_SC_(Irbid)",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Yazeed_Abulaila"
+   "wiki": "https://en.wikipedia.org/wiki/Yazeed_Abulaila",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "nour-bani-attiah",
@@ -28,8 +33,13 @@
    "goals": 0,
    "club": "Al-Faisaly",
    "clubNat": "JOR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Faisaly_SC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Nour_Bani_Attiah"
+   "wiki": "https://en.wikipedia.org/wiki/Nour_Bani_Attiah",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "abdallah-al-fakhouri",
@@ -41,8 +51,13 @@
    "goals": 0,
    "club": "Al-Wehdat",
    "clubNat": "JOR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Wehdat_SC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Abdallah_Al-Fakhouri"
+   "wiki": "https://en.wikipedia.org/wiki/Abdallah_Al-Fakhouri",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "mohammad-abu-hashish",
@@ -54,8 +69,13 @@
    "goals": 1,
    "club": "Al-Karma",
    "clubNat": "IRQ",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Karma_SC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Mohammad_Abu_Hashish"
+   "wiki": "https://en.wikipedia.org/wiki/Mohammad_Abu_Hashish",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "abdallah-nasib",
@@ -67,8 +87,13 @@
    "goals": 3,
    "club": "Al-Zawraa",
    "clubNat": "IRQ",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Zawraa_SC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Abdallah_Nasib"
+   "wiki": "https://en.wikipedia.org/wiki/Abdallah_Nasib",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "husam-abu-dahab",
@@ -80,8 +105,13 @@
    "goals": 0,
    "club": "Al-Faisaly",
    "clubNat": "JOR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Faisaly_SC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Husam_Abu_Dahab"
+   "wiki": "https://en.wikipedia.org/wiki/Husam_Abu_Dahab",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "yazan-al-arab",
@@ -93,8 +123,13 @@
    "goals": 3,
    "club": "FC Seoul",
    "clubNat": "KOR",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Seoul",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Yazan_Al-Arab"
+   "wiki": "https://en.wikipedia.org/wiki/Yazan_Al-Arab",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "mo-abualnadi",
@@ -106,8 +141,13 @@
    "goals": 0,
    "club": "Selangor",
    "clubNat": "MAS",
+   "clubWiki": "https://en.wikipedia.org/wiki/Selangor_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Mo_Abualnadi"
+   "wiki": "https://en.wikipedia.org/wiki/Mo_Abualnadi",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "salim-obaid",
@@ -119,8 +159,13 @@
    "goals": 0,
    "club": "Al-Hussein",
    "clubNat": "JOR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Hussein_SC_(Irbid)",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Salim_Obaid"
+   "wiki": "https://en.wikipedia.org/wiki/Salim_Obaid",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "saed-al-rosan",
@@ -132,8 +177,13 @@
    "goals": 2,
    "club": "Al-Hussein",
    "clubNat": "JOR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Hussein_SC_(Irbid)",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Saed_Al-Rosan"
+   "wiki": "https://en.wikipedia.org/wiki/Saed_Al-Rosan",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ihsan-haddad",
@@ -145,8 +195,13 @@
    "goals": 2,
    "club": "Al-Hussein",
    "clubNat": "JOR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Hussein_SC_(Irbid)",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ihsan_Haddad"
+   "wiki": "https://en.wikipedia.org/wiki/Ihsan_Haddad",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "anas-badawi",
@@ -158,8 +213,13 @@
    "goals": 0,
    "club": "Al-Faisaly",
    "clubNat": "JOR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Faisaly_SC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Anas_Badawi"
+   "wiki": "https://en.wikipedia.org/wiki/Anas_Badawi",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "amer-jamous",
@@ -171,8 +231,13 @@
    "goals": 1,
    "club": "Al-Zawraa",
    "clubNat": "IRQ",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Zawraa_SC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Amer_Jamous"
+   "wiki": "https://en.wikipedia.org/wiki/Amer_Jamous",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "noor-al-rawabdeh",
@@ -184,8 +249,13 @@
    "goals": 3,
    "club": "Selangor",
    "clubNat": "MAS",
+   "clubWiki": "https://en.wikipedia.org/wiki/Selangor_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Noor_Al-Rawabdeh"
+   "wiki": "https://en.wikipedia.org/wiki/Noor_Al-Rawabdeh",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "rajaei-ayed",
@@ -197,8 +267,13 @@
    "goals": 0,
    "club": "Al-Hussein",
    "clubNat": "JOR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Hussein_SC_(Irbid)",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Rajaei_Ayed"
+   "wiki": "https://en.wikipedia.org/wiki/Rajaei_Ayed",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ibrahim-sadeh",
@@ -210,8 +285,13 @@
    "goals": 3,
    "club": "Al-Karma",
    "clubNat": "IRQ",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Karma_SC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ibrahim_Sadeh"
+   "wiki": "https://en.wikipedia.org/wiki/Ibrahim_Sadeh",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "mohammad-taha",
@@ -223,8 +303,13 @@
    "goals": 0,
    "club": "Al-Hussein",
    "clubNat": "JOR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Hussein_SC_(Irbid)",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Mohammad_Taha_(footballer)"
+   "wiki": "https://en.wikipedia.org/wiki/Mohammad_Taha_(footballer)",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "mohannad-abu-taha",
@@ -236,8 +321,13 @@
    "goals": 1,
    "club": "Al-Quwa Al-Jawiya",
    "clubNat": "IRQ",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Quwa_Al-Jawiya",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Mohannad_Abu_Taha"
+   "wiki": "https://en.wikipedia.org/wiki/Mohannad_Abu_Taha",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "nizar-al-rashdan",
@@ -249,8 +339,13 @@
    "goals": 4,
    "club": "Qatar SC",
    "clubNat": "QAT",
+   "clubWiki": "https://en.wikipedia.org/wiki/Qatar_SC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Nizar_Al-Rashdan"
+   "wiki": "https://en.wikipedia.org/wiki/Nizar_Al-Rashdan",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "mohammad-al-dawoud",
@@ -262,8 +357,13 @@
    "goals": 1,
    "club": "Al-Wehdat",
    "clubNat": "JOR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Wehdat_SC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Mohammad_Al-Dawoud"
+   "wiki": "https://en.wikipedia.org/wiki/Mohammad_Al-Dawoud",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "mohammad-abu-zrayq",
@@ -275,8 +375,13 @@
    "goals": 5,
    "club": "Raja Casablanca",
    "clubNat": "MAR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Raja_CA",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Mohammad_Abu_Zrayq"
+   "wiki": "https://en.wikipedia.org/wiki/Mohammad_Abu_Zrayq",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ali-olwan",
@@ -288,8 +393,13 @@
    "goals": 29,
    "club": "Al-Sailiya",
    "clubNat": "QAT",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Sailiya_SC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ali_Olwan"
+   "wiki": "https://en.wikipedia.org/wiki/Ali_Olwan",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "musa-al-taamari",
@@ -301,8 +411,13 @@
    "goals": 24,
    "club": "Rennes",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Stade_Rennais_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Musa_Al-Taamari"
+   "wiki": "https://en.wikipedia.org/wiki/Musa_Al-Taamari",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "odeh-al-fakhouri",
@@ -314,8 +429,13 @@
    "goals": 1,
    "club": "Pyramids",
    "clubNat": "EGY",
+   "clubWiki": "https://en.wikipedia.org/wiki/Pyramids_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Odeh_Al-Fakhouri"
+   "wiki": "https://en.wikipedia.org/wiki/Odeh_Al-Fakhouri",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "mahmoud-al-mardi",
@@ -327,8 +447,13 @@
    "goals": 9,
    "club": "Al-Hussein",
    "clubNat": "JOR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Hussein_SC_(Irbid)",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Mahmoud_Al-Mardi"
+   "wiki": "https://en.wikipedia.org/wiki/Mahmoud_Al-Mardi",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ali-azaizeh",
@@ -340,8 +465,13 @@
    "goals": 0,
    "club": "Al-Shabab",
    "clubNat": "KSA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al_Shabab_Club",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ali_Azaizeh"
+   "wiki": "https://en.wikipedia.org/wiki/Ali_Azaizeh",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   }
  ]
 }

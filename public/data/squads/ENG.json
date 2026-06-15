@@ -15,8 +15,13 @@
    "goals": 0,
    "club": "Everton",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Everton_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jordan_Pickford"
+   "wiki": "https://en.wikipedia.org/wiki/Jordan_Pickford",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "dean-henderson",
@@ -28,8 +33,13 @@
    "goals": 0,
    "club": "Crystal Palace",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Crystal_Palace_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Dean_Henderson"
+   "wiki": "https://en.wikipedia.org/wiki/Dean_Henderson",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "james-trafford",
@@ -41,8 +51,13 @@
    "goals": 0,
    "club": "Manchester City",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Manchester_City_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/James_Trafford"
+   "wiki": "https://en.wikipedia.org/wiki/James_Trafford",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ezri-konsa",
@@ -54,8 +69,13 @@
    "goals": 1,
    "club": "Aston Villa",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Aston_Villa_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ezri_Konsa"
+   "wiki": "https://en.wikipedia.org/wiki/Ezri_Konsa",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "nico-o-reilly",
@@ -67,8 +87,13 @@
    "goals": 0,
    "club": "Manchester City",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Manchester_City_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Nico_O'Reilly"
+   "wiki": "https://en.wikipedia.org/wiki/Nico_O'Reilly",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "john-stones",
@@ -80,8 +105,13 @@
    "goals": 3,
    "club": "Manchester City",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Manchester_City_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/John_Stones"
+   "wiki": "https://en.wikipedia.org/wiki/John_Stones",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "marc-guehi",
@@ -93,8 +123,13 @@
    "goals": 1,
    "club": "Manchester City",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Manchester_City_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Marc_Gu%C3%A9hi"
+   "wiki": "https://en.wikipedia.org/wiki/Marc_Gu%C3%A9hi",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "tino-livramento",
@@ -106,8 +141,13 @@
    "goals": 0,
    "club": "Newcastle United",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Newcastle_United_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Tino_Livramento"
+   "wiki": "https://en.wikipedia.org/wiki/Tino_Livramento",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "dan-burn",
@@ -119,8 +159,13 @@
    "goals": 0,
    "club": "Newcastle United",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Newcastle_United_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Dan_Burn"
+   "wiki": "https://en.wikipedia.org/wiki/Dan_Burn",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "reece-james",
@@ -132,8 +177,13 @@
    "goals": 1,
    "club": "Chelsea",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Chelsea_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Reece_James"
+   "wiki": "https://en.wikipedia.org/wiki/Reece_James",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "djed-spence",
@@ -145,8 +195,13 @@
    "goals": 0,
    "club": "Tottenham Hotspur",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Tottenham_Hotspur_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Djed_Spence"
+   "wiki": "https://en.wikipedia.org/wiki/Djed_Spence",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jarell-quansah",
@@ -158,8 +213,13 @@
    "goals": 0,
    "club": "Bayer Leverkusen",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/Bayer_04_Leverkusen",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jarell_Quansah"
+   "wiki": "https://en.wikipedia.org/wiki/Jarell_Quansah",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "declan-rice",
@@ -171,8 +231,13 @@
    "goals": 7,
    "club": "Arsenal",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Arsenal_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Declan_Rice"
+   "wiki": "https://en.wikipedia.org/wiki/Declan_Rice",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "elliot-anderson",
@@ -184,8 +249,13 @@
    "goals": 0,
    "club": "Nottingham Forest",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Nottingham_Forest_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Elliot_Anderson_(footballer)"
+   "wiki": "https://en.wikipedia.org/wiki/Elliot_Anderson_(footballer)",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jude-bellingham",
@@ -197,8 +267,13 @@
    "goals": 6,
    "club": "Real Madrid",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/Real_Madrid_CF",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jude_Bellingham"
+   "wiki": "https://en.wikipedia.org/wiki/Jude_Bellingham",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jordan-henderson",
@@ -210,8 +285,13 @@
    "goals": 3,
    "club": "Brentford",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Brentford_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jordan_Henderson"
+   "wiki": "https://en.wikipedia.org/wiki/Jordan_Henderson",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "kobbie-mainoo",
@@ -223,8 +303,13 @@
    "goals": 0,
    "club": "Manchester United",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Manchester_United_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Kobbie_Mainoo"
+   "wiki": "https://en.wikipedia.org/wiki/Kobbie_Mainoo",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "morgan-rogers",
@@ -236,8 +321,13 @@
    "goals": 1,
    "club": "Aston Villa",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Aston_Villa_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Morgan_Rogers"
+   "wiki": "https://en.wikipedia.org/wiki/Morgan_Rogers",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "eberechi-eze",
@@ -249,8 +339,13 @@
    "goals": 3,
    "club": "Arsenal",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Arsenal_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Eberechi_Eze"
+   "wiki": "https://en.wikipedia.org/wiki/Eberechi_Eze",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "bukayo-saka",
@@ -262,8 +357,13 @@
    "goals": 14,
    "club": "Arsenal",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Arsenal_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Bukayo_Saka"
+   "wiki": "https://en.wikipedia.org/wiki/Bukayo_Saka",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "harry-kane",
@@ -275,8 +375,13 @@
    "goals": 79,
    "club": "Bayern Munich",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Bayern_Munich",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Harry_Kane"
+   "wiki": "https://en.wikipedia.org/wiki/Harry_Kane",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "marcus-rashford",
@@ -288,8 +393,13 @@
    "goals": 18,
    "club": "Barcelona",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Barcelona",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Marcus_Rashford"
+   "wiki": "https://en.wikipedia.org/wiki/Marcus_Rashford",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "anthony-gordon",
@@ -301,8 +411,13 @@
    "goals": 3,
    "club": "Newcastle United",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Newcastle_United_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Anthony_Gordon_(footballer)"
+   "wiki": "https://en.wikipedia.org/wiki/Anthony_Gordon_(footballer)",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ollie-watkins",
@@ -314,8 +429,13 @@
    "goals": 7,
    "club": "Aston Villa",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Aston_Villa_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ollie_Watkins"
+   "wiki": "https://en.wikipedia.org/wiki/Ollie_Watkins",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "noni-madueke",
@@ -327,8 +447,13 @@
    "goals": 1,
    "club": "Arsenal",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Arsenal_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Noni_Madueke"
+   "wiki": "https://en.wikipedia.org/wiki/Noni_Madueke",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ivan-toney",
@@ -340,8 +465,13 @@
    "goals": 1,
    "club": "Al-Ahli",
    "clubNat": "KSA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Ahli_Saudi_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ivan_Toney"
+   "wiki": "https://en.wikipedia.org/wiki/Ivan_Toney",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   }
  ]
 }

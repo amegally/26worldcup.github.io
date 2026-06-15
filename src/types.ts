@@ -183,16 +183,22 @@ export interface SquadPlayer {
   pos: PosBucket
   name: string
   dob: string | null
-  caps: number | null
-  goals: number | null
+  caps: number | null // national-team career appearances
+  goals: number | null // national-team career goals
+  wcApps?: number // appearances in this World Cup
+  wcGoals?: number // goals in this World Cup
+  wcYellow?: number // yellow cards in this World Cup
+  wcRed?: number // red cards in this World Cup (incl. second yellow)
   club: string | null
   clubNat: string | null
+  clubWiki?: string | null // club's English Wikipedia article URL
   captain: boolean
   wiki: string | null // English Wikipedia article URL
 }
 
 export interface TeamSquad {
   coach: string | null
+  coachWiki?: string | null // coach's English Wikipedia article URL
   wiki: { title: string; url: string } | null
   players: SquadPlayer[]
 }
@@ -228,11 +234,11 @@ export interface MatchProbs {
 }
 
 export interface Stats {
-  scorers: { id: string; name: string; code: string; goals: number; ownGoals: number }[]
+  scorers: { id: string; name: string; code: string; no?: number; goals: number; ownGoals: number }[]
   cards?: {
     yellow: number
     red: number
-    players: { id: string; name: string; code: string; y: number; r: number }[]
+    players: { id: string; name: string; code: string; no?: number; y: number; r: number }[]
   }
   attAvg?: number | null
   biggestWin?: { diff: number; id?: string; h: string; a: string; hs: number; as: number } | null

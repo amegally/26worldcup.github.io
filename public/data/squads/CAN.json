@@ -15,8 +15,13 @@
    "goals": 0,
    "club": "Inter Miami CF",
    "clubNat": "USA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Inter_Miami_CF",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Dayne_St._Clair"
+   "wiki": "https://en.wikipedia.org/wiki/Dayne_St._Clair",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "maxime-crepeau",
@@ -28,8 +33,13 @@
    "goals": 0,
    "club": "Orlando City SC",
    "clubNat": "USA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Orlando_City_SC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Maxime_Cr%C3%A9peau"
+   "wiki": "https://en.wikipedia.org/wiki/Maxime_Cr%C3%A9peau",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "owen-goodman",
@@ -41,8 +51,13 @@
    "goals": 0,
    "club": "Barnsley",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Barnsley_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Owen_Goodman"
+   "wiki": "https://en.wikipedia.org/wiki/Owen_Goodman",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "alistair-johnston",
@@ -54,8 +69,13 @@
    "goals": 1,
    "club": "Celtic",
    "clubNat": "SCO",
+   "clubWiki": "https://en.wikipedia.org/wiki/Celtic_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Alistair_Johnston"
+   "wiki": "https://en.wikipedia.org/wiki/Alistair_Johnston",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 1,
+   "wcRed": 0
   },
   {
    "id": "alfie-jones",
@@ -67,8 +87,13 @@
    "goals": 0,
    "club": "Middlesbrough",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Middlesbrough_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Alfie_Jones"
+   "wiki": "https://en.wikipedia.org/wiki/Alfie_Jones",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "luc-de-fougerolles",
@@ -80,8 +105,13 @@
    "goals": 0,
    "club": "Dender",
    "clubNat": "BEL",
+   "clubWiki": "https://en.wikipedia.org/wiki/FCV_Dender_EH",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Luc_de_Fougerolles"
+   "wiki": "https://en.wikipedia.org/wiki/Luc_de_Fougerolles",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 1,
+   "wcRed": 0
   },
   {
    "id": "joel-waterman",
@@ -93,8 +123,13 @@
    "goals": 0,
    "club": "Chicago Fire FC",
    "clubNat": "USA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Chicago_Fire_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Joel_Waterman"
+   "wiki": "https://en.wikipedia.org/wiki/Joel_Waterman",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "derek-cornelius",
@@ -106,8 +141,13 @@
    "goals": 1,
    "club": "Rangers",
    "clubNat": "SCO",
+   "clubWiki": "https://en.wikipedia.org/wiki/Rangers_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Derek_Cornelius"
+   "wiki": "https://en.wikipedia.org/wiki/Derek_Cornelius",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "moise-bombito",
@@ -119,8 +159,13 @@
    "goals": 0,
    "club": "Nice",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/OGC_Nice",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Mo%C3%AFse_Bombito"
+   "wiki": "https://en.wikipedia.org/wiki/Mo%C3%AFse_Bombito",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "alphonso-davies",
@@ -132,8 +177,13 @@
    "goals": 15,
    "club": "Bayern Munich",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Bayern_Munich",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Alphonso_Davies"
+   "wiki": "https://en.wikipedia.org/wiki/Alphonso_Davies",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "richie-laryea",
@@ -145,8 +195,13 @@
    "goals": 1,
    "club": "Toronto FC",
    "clubNat": "CAN",
+   "clubWiki": "https://en.wikipedia.org/wiki/Toronto_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Richie_Laryea"
+   "wiki": "https://en.wikipedia.org/wiki/Richie_Laryea",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "niko-sigur",
@@ -158,8 +213,13 @@
    "goals": 2,
    "club": "Hajduk Split",
    "clubNat": "CRO",
+   "clubWiki": "https://en.wikipedia.org/wiki/HNK_Hajduk_Split",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Niko_Sigur"
+   "wiki": "https://en.wikipedia.org/wiki/Niko_Sigur",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "mathieu-choiniere",
@@ -171,8 +231,13 @@
    "goals": 0,
    "club": "Los Angeles FC",
    "clubNat": "USA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Los_Angeles_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Mathieu_Choini%C3%A8re"
+   "wiki": "https://en.wikipedia.org/wiki/Mathieu_Choini%C3%A8re",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "stephen-eustaquio",
@@ -184,8 +249,13 @@
    "goals": 4,
    "club": "Los Angeles FC",
    "clubNat": "USA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Los_Angeles_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Stephen_Eust%C3%A1quio"
+   "wiki": "https://en.wikipedia.org/wiki/Stephen_Eust%C3%A1quio",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ismael-kone",
@@ -197,8 +267,13 @@
    "goals": 4,
    "club": "Sassuolo",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/US_Sassuolo_Calcio",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Isma%C3%ABl_Kon%C3%A9"
+   "wiki": "https://en.wikipedia.org/wiki/Isma%C3%ABl_Kon%C3%A9",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "liam-millar",
@@ -210,8 +285,13 @@
    "goals": 1,
    "club": "Hull City",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Hull_City_A.F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Liam_Millar"
+   "wiki": "https://en.wikipedia.org/wiki/Liam_Millar",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jacob-shaffelburg",
@@ -223,8 +303,13 @@
    "goals": 6,
    "club": "Los Angeles FC",
    "clubNat": "USA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Los_Angeles_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jacob_Shaffelburg"
+   "wiki": "https://en.wikipedia.org/wiki/Jacob_Shaffelburg",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jonathan-osorio",
@@ -236,8 +321,13 @@
    "goals": 10,
    "club": "Toronto FC",
    "clubNat": "CAN",
+   "clubWiki": "https://en.wikipedia.org/wiki/Toronto_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jonathan_Osorio"
+   "wiki": "https://en.wikipedia.org/wiki/Jonathan_Osorio",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "nathan-saliba",
@@ -249,8 +339,13 @@
    "goals": 2,
    "club": "Anderlecht",
    "clubNat": "BEL",
+   "clubWiki": "https://en.wikipedia.org/wiki/RSC_Anderlecht",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Nathan_Saliba"
+   "wiki": "https://en.wikipedia.org/wiki/Nathan_Saliba",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "cyle-larin",
@@ -262,8 +357,13 @@
    "goals": 30,
    "club": "Southampton",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Southampton_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Cyle_Larin"
+   "wiki": "https://en.wikipedia.org/wiki/Cyle_Larin",
+   "wcApps": 1,
+   "wcGoals": 1,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jonathan-david",
@@ -275,8 +375,13 @@
    "goals": 39,
    "club": "Juventus",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Juventus_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jonathan_David"
+   "wiki": "https://en.wikipedia.org/wiki/Jonathan_David",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "tani-oluwaseyi",
@@ -288,8 +393,13 @@
    "goals": 2,
    "club": "Villarreal",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/Villarreal_CF",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Tani_Oluwaseyi"
+   "wiki": "https://en.wikipedia.org/wiki/Tani_Oluwaseyi",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "tajon-buchanan",
@@ -301,8 +411,13 @@
    "goals": 8,
    "club": "Villarreal",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/Villarreal_CF",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Tajon_Buchanan"
+   "wiki": "https://en.wikipedia.org/wiki/Tajon_Buchanan",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ali-ahmed",
@@ -314,8 +429,13 @@
    "goals": 1,
    "club": "Norwich City",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Norwich_City_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ali_Ahmed_(soccer)"
+   "wiki": "https://en.wikipedia.org/wiki/Ali_Ahmed_(soccer)",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "promise-david",
@@ -327,8 +447,13 @@
    "goals": 3,
    "club": "Union Saint-Gilloise",
    "clubNat": "BEL",
+   "clubWiki": "https://en.wikipedia.org/wiki/Royale_Union_Saint-Gilloise",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Promise_David"
+   "wiki": "https://en.wikipedia.org/wiki/Promise_David",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jayden-nelson",
@@ -340,8 +465,13 @@
    "goals": 3,
    "club": "Austin FC",
    "clubNat": "USA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Austin_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jayden_Nelson"
+   "wiki": "https://en.wikipedia.org/wiki/Jayden_Nelson",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   }
  ]
 }

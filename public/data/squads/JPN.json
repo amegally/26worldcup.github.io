@@ -15,8 +15,13 @@
    "goals": 0,
    "club": "Parma",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Parma_Calcio_1913",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Zion_Suzuki"
+   "wiki": "https://en.wikipedia.org/wiki/Zion_Suzuki",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "keisuke-osako",
@@ -28,8 +33,13 @@
    "goals": 0,
    "club": "Sanfrecce Hiroshima",
    "clubNat": "JPN",
+   "clubWiki": "https://en.wikipedia.org/wiki/Sanfrecce_Hiroshima",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Keisuke_%C5%8Csako"
+   "wiki": "https://en.wikipedia.org/wiki/Keisuke_%C5%8Csako",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "tomoki-hayakawa",
@@ -41,8 +51,13 @@
    "goals": 0,
    "club": "Kashima Antlers",
    "clubNat": "JPN",
+   "clubWiki": "https://en.wikipedia.org/wiki/Kashima_Antlers",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Tomoki_Hayakawa"
+   "wiki": "https://en.wikipedia.org/wiki/Tomoki_Hayakawa",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "yukinari-sugawara",
@@ -54,8 +69,13 @@
    "goals": 2,
    "club": "Werder Bremen",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/SV_Werder_Bremen",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Yukinari_Sugawara"
+   "wiki": "https://en.wikipedia.org/wiki/Yukinari_Sugawara",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "shogo-taniguchi",
@@ -67,8 +87,13 @@
    "goals": 1,
    "club": "Sint-Truiden",
    "clubNat": "BEL",
+   "clubWiki": "https://en.wikipedia.org/wiki/Sint-Truidense_VV",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Sh%C5%8Dgo_Taniguchi"
+   "wiki": "https://en.wikipedia.org/wiki/Sh%C5%8Dgo_Taniguchi",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ko-itakura",
@@ -80,8 +105,13 @@
    "goals": 2,
    "club": "Ajax",
    "clubNat": "NED",
+   "clubWiki": "https://en.wikipedia.org/wiki/AFC_Ajax",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/K%C5%8D_Itakura"
+   "wiki": "https://en.wikipedia.org/wiki/K%C5%8D_Itakura",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "yuto-nagatomo",
@@ -93,8 +123,13 @@
    "goals": 4,
    "club": "FC Tokyo",
    "clubNat": "JPN",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Tokyo",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Y%C5%ABto_Nagatomo"
+   "wiki": "https://en.wikipedia.org/wiki/Y%C5%ABto_Nagatomo",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "tsuyoshi-watanabe",
@@ -106,8 +141,13 @@
    "goals": 0,
    "club": "Feyenoord",
    "clubNat": "NED",
+   "clubWiki": "https://en.wikipedia.org/wiki/Feyenoord",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Tsuyoshi_Watanabe"
+   "wiki": "https://en.wikipedia.org/wiki/Tsuyoshi_Watanabe",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ayumu-seko",
@@ -119,8 +159,13 @@
    "goals": 0,
    "club": "Le Havre",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Le_Havre_AC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ayumu_Seko"
+   "wiki": "https://en.wikipedia.org/wiki/Ayumu_Seko",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "hiroki-ito",
@@ -132,8 +177,13 @@
    "goals": 1,
    "club": "Bayern Munich",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Bayern_Munich",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Hiroki_It%C5%8D_(footballer%2C_born_1999)"
+   "wiki": "https://en.wikipedia.org/wiki/Hiroki_It%C5%8D_(footballer%2C_born_1999)",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "takehiro-tomiyasu",
@@ -145,8 +195,13 @@
    "goals": 1,
    "club": "Ajax",
    "clubNat": "NED",
+   "clubWiki": "https://en.wikipedia.org/wiki/AFC_Ajax",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Takehiro_Tomiyasu"
+   "wiki": "https://en.wikipedia.org/wiki/Takehiro_Tomiyasu",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "junnosuke-suzuki",
@@ -158,8 +213,13 @@
    "goals": 0,
    "club": "Copenhagen",
    "clubNat": "DEN",
+   "clubWiki": "https://en.wikipedia.org/wiki/F.C._Copenhagen",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Junnosuke_Suzuki"
+   "wiki": "https://en.wikipedia.org/wiki/Junnosuke_Suzuki",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ao-tanaka",
@@ -171,8 +231,13 @@
    "goals": 8,
    "club": "Leeds United",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Leeds_United_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ao_Tanaka"
+   "wiki": "https://en.wikipedia.org/wiki/Ao_Tanaka",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "takefusa-kubo",
@@ -184,8 +249,13 @@
    "goals": 7,
    "club": "Real Sociedad",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/Real_Sociedad",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Takefusa_Kubo"
+   "wiki": "https://en.wikipedia.org/wiki/Takefusa_Kubo",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ritsu-doan",
@@ -197,8 +267,13 @@
    "goals": 11,
    "club": "Eintracht Frankfurt",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/Eintracht_Frankfurt",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ritsu_D%C5%8Dan"
+   "wiki": "https://en.wikipedia.org/wiki/Ritsu_D%C5%8Dan",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "daizen-maeda",
@@ -210,8 +285,13 @@
    "goals": 4,
    "club": "Celtic",
    "clubNat": "SCO",
+   "clubWiki": "https://en.wikipedia.org/wiki/Celtic_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Daizen_Maeda"
+   "wiki": "https://en.wikipedia.org/wiki/Daizen_Maeda",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "keito-nakamura",
@@ -223,8 +303,13 @@
    "goals": 10,
    "club": "Reims",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Stade_de_Reims",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Keito_Nakamura"
+   "wiki": "https://en.wikipedia.org/wiki/Keito_Nakamura",
+   "wcApps": 1,
+   "wcGoals": 1,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "junya-ito",
@@ -236,8 +321,13 @@
    "goals": 15,
    "club": "Genk",
    "clubNat": "BEL",
+   "clubWiki": "https://en.wikipedia.org/wiki/KRC_Genk",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Junya_It%C5%8D"
+   "wiki": "https://en.wikipedia.org/wiki/Junya_It%C5%8D",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "daichi-kamada",
@@ -249,8 +339,13 @@
    "goals": 12,
    "club": "Crystal Palace",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Crystal_Palace_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Daichi_Kamada"
+   "wiki": "https://en.wikipedia.org/wiki/Daichi_Kamada",
+   "wcApps": 1,
+   "wcGoals": 1,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "yuito-suzuki",
@@ -262,8 +357,13 @@
    "goals": 0,
    "club": "SC Freiburg",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/SC_Freiburg",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Yuito_Suzuki"
+   "wiki": "https://en.wikipedia.org/wiki/Yuito_Suzuki",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "kaishu-sano",
@@ -275,8 +375,13 @@
    "goals": 0,
    "club": "Mainz 05",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/1._FSV_Mainz_05",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Kaish%C5%AB_Sano"
+   "wiki": "https://en.wikipedia.org/wiki/Kaish%C5%AB_Sano",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "shuto-machino",
@@ -288,8 +393,13 @@
    "goals": 5,
    "club": "Borussia Mönchengladbach",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/Borussia_M%C3%B6nchengladbach",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Sh%C5%ABto_Machino"
+   "wiki": "https://en.wikipedia.org/wiki/Sh%C5%ABto_Machino",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "keisuke-goto",
@@ -301,8 +411,13 @@
    "goals": 0,
    "club": "Sint-Truiden",
    "clubNat": "BEL",
+   "clubWiki": "https://en.wikipedia.org/wiki/Sint-Truidense_VV",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Keisuke_Got%C5%8D"
+   "wiki": "https://en.wikipedia.org/wiki/Keisuke_Got%C5%8D",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ayase-ueda",
@@ -314,8 +429,13 @@
    "goals": 16,
    "club": "Feyenoord",
    "clubNat": "NED",
+   "clubWiki": "https://en.wikipedia.org/wiki/Feyenoord",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ayase_Ueda"
+   "wiki": "https://en.wikipedia.org/wiki/Ayase_Ueda",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "koki-ogawa",
@@ -327,8 +447,13 @@
    "goals": 11,
    "club": "NEC",
    "clubNat": "NED",
+   "clubWiki": "https://en.wikipedia.org/wiki/NEC_Nijmegen",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/K%C5%8Dki_Ogawa_(footballer)"
+   "wiki": "https://en.wikipedia.org/wiki/K%C5%8Dki_Ogawa_(footballer)",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "kento-shiogai",
@@ -340,8 +465,13 @@
    "goals": 0,
    "club": "VfL Wolfsburg",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/VfL_Wolfsburg",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Kento_Shiogai"
+   "wiki": "https://en.wikipedia.org/wiki/Kento_Shiogai",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   }
  ]
 }

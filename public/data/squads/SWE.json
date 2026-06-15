@@ -15,8 +15,13 @@
    "goals": 0,
    "club": "Derby County",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Derby_County_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jacob_Widell_Zetterstr%C3%B6m"
+   "wiki": "https://en.wikipedia.org/wiki/Jacob_Widell_Zetterstr%C3%B6m",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "viktor-johansson",
@@ -28,8 +33,13 @@
    "goals": 0,
    "club": "Stoke City",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Stoke_City_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Viktor_Johansson"
+   "wiki": "https://en.wikipedia.org/wiki/Viktor_Johansson",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "kristoffer-nordfeldt",
@@ -41,8 +51,13 @@
    "goals": 0,
    "club": "AIK",
    "clubNat": "SWE",
+   "clubWiki": "https://en.wikipedia.org/wiki/AIK_Fotboll",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Kristoffer_Nordfeldt"
+   "wiki": "https://en.wikipedia.org/wiki/Kristoffer_Nordfeldt",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "gustaf-lagerbielke",
@@ -54,8 +69,13 @@
    "goals": 2,
    "club": "Braga",
    "clubNat": "POR",
+   "clubWiki": "https://en.wikipedia.org/wiki/S.C._Braga",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Gustaf_Lagerbielke_(footballer)"
+   "wiki": "https://en.wikipedia.org/wiki/Gustaf_Lagerbielke_(footballer)",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "victor-lindelof",
@@ -67,8 +87,13 @@
    "goals": 3,
    "club": "Aston Villa",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Aston_Villa_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Victor_Lindel%C3%B6f"
+   "wiki": "https://en.wikipedia.org/wiki/Victor_Lindel%C3%B6f",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "isak-hien",
@@ -80,8 +105,13 @@
    "goals": 0,
    "club": "Atalanta",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Atalanta_BC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Isak_Hien"
+   "wiki": "https://en.wikipedia.org/wiki/Isak_Hien",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "gabriel-gudmundsson",
@@ -93,8 +123,13 @@
    "goals": 0,
    "club": "Leeds United",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Leeds_United_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Gabriel_Gudmundsson"
+   "wiki": "https://en.wikipedia.org/wiki/Gabriel_Gudmundsson",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "herman-johansson",
@@ -106,8 +141,13 @@
    "goals": 0,
    "club": "FC Dallas",
    "clubNat": "USA",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Dallas",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Herman_Johansson"
+   "wiki": "https://en.wikipedia.org/wiki/Herman_Johansson",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "daniel-svensson",
@@ -119,8 +159,13 @@
    "goals": 0,
    "club": "Borussia Dortmund",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/Borussia_Dortmund",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Daniel_Svensson_(footballer%2C_born_2002)"
+   "wiki": "https://en.wikipedia.org/wiki/Daniel_Svensson_(footballer%2C_born_2002)",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "hjalmar-ekdal",
@@ -132,8 +177,13 @@
    "goals": 0,
    "club": "Burnley",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Burnley_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Hjalmar_Ekdal"
+   "wiki": "https://en.wikipedia.org/wiki/Hjalmar_Ekdal",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "carl-starfelt",
@@ -145,8 +195,13 @@
    "goals": 0,
    "club": "Celta Vigo",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/RC_Celta_de_Vigo",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Carl_Starfelt"
+   "wiki": "https://en.wikipedia.org/wiki/Carl_Starfelt",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "eric-smith",
@@ -158,8 +213,13 @@
    "goals": 0,
    "club": "FC St. Pauli",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_St._Pauli",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Eric_Smith_(Swedish_footballer)"
+   "wiki": "https://en.wikipedia.org/wiki/Eric_Smith_(Swedish_footballer)",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "alexander-bernhardsson",
@@ -171,8 +231,13 @@
    "goals": 0,
    "club": "Holstein Kiel",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/Holstein_Kiel",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Alexander_Bernhardsson"
+   "wiki": "https://en.wikipedia.org/wiki/Alexander_Bernhardsson",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "elliot-stroud",
@@ -184,8 +249,13 @@
    "goals": 0,
    "club": "Mjällby AIF",
    "clubNat": "SWE",
+   "clubWiki": "https://en.wikipedia.org/wiki/Mj%C3%A4llby_AIF",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Elliot_Stroud"
+   "wiki": "https://en.wikipedia.org/wiki/Elliot_Stroud",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "lucas-bergvall",
@@ -197,8 +267,13 @@
    "goals": 0,
    "club": "Tottenham Hotspur",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Tottenham_Hotspur_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Lucas_Bergvall"
+   "wiki": "https://en.wikipedia.org/wiki/Lucas_Bergvall",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "benjamin-nygren",
@@ -210,8 +285,13 @@
    "goals": 3,
    "club": "Celtic",
    "clubNat": "SCO",
+   "clubWiki": "https://en.wikipedia.org/wiki/Celtic_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Benjamin_Nygren"
+   "wiki": "https://en.wikipedia.org/wiki/Benjamin_Nygren",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ken-sema",
@@ -223,8 +303,13 @@
    "goals": 5,
    "club": "Pafos",
    "clubNat": "CYP",
+   "clubWiki": "https://en.wikipedia.org/wiki/Pafos_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ken_Sema"
+   "wiki": "https://en.wikipedia.org/wiki/Ken_Sema",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jesper-karlstrom",
@@ -236,8 +321,13 @@
    "goals": 0,
    "club": "Udinese",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Udinese_Calcio",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jesper_Karlstr%C3%B6m"
+   "wiki": "https://en.wikipedia.org/wiki/Jesper_Karlstr%C3%B6m",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "yasin-ayari",
@@ -249,8 +339,13 @@
    "goals": 3,
    "club": "Brighton & Hove Albion",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Brighton_%26_Hove_Albion_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Yasin_Ayari"
+   "wiki": "https://en.wikipedia.org/wiki/Yasin_Ayari",
+   "wcApps": 1,
+   "wcGoals": 2,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "mattias-svanberg",
@@ -262,8 +357,13 @@
    "goals": 2,
    "club": "VfL Wolfsburg",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/VfL_Wolfsburg",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Mattias_Svanberg"
+   "wiki": "https://en.wikipedia.org/wiki/Mattias_Svanberg",
+   "wcApps": 1,
+   "wcGoals": 1,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "besfort-zeneli",
@@ -275,8 +375,13 @@
    "goals": 0,
    "club": "Union Saint-Gilloise",
    "clubNat": "BEL",
+   "clubWiki": "https://en.wikipedia.org/wiki/Royale_Union_Saint-Gilloise",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Besfort_Zeneli"
+   "wiki": "https://en.wikipedia.org/wiki/Besfort_Zeneli",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "alexander-isak",
@@ -288,8 +393,13 @@
    "goals": 17,
    "club": "Liverpool",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Liverpool_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Alexander_Isak"
+   "wiki": "https://en.wikipedia.org/wiki/Alexander_Isak",
+   "wcApps": 1,
+   "wcGoals": 1,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "anthony-elanga",
@@ -301,8 +411,13 @@
    "goals": 6,
    "club": "Newcastle United",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Newcastle_United_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Anthony_Elanga"
+   "wiki": "https://en.wikipedia.org/wiki/Anthony_Elanga",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "viktor-gyokeres",
@@ -314,8 +429,13 @@
    "goals": 20,
    "club": "Arsenal",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Arsenal_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Viktor_Gy%C3%B6keres"
+   "wiki": "https://en.wikipedia.org/wiki/Viktor_Gy%C3%B6keres",
+   "wcApps": 1,
+   "wcGoals": 1,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "gustaf-nilsson",
@@ -327,8 +447,13 @@
    "goals": 4,
    "club": "Club Brugge",
    "clubNat": "BEL",
+   "clubWiki": "https://en.wikipedia.org/wiki/Club_Brugge_KV",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Gustaf_Nilsson_(footballer%2C_born_1997)"
+   "wiki": "https://en.wikipedia.org/wiki/Gustaf_Nilsson_(footballer%2C_born_1997)",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "taha-ali",
@@ -340,8 +465,13 @@
    "goals": 0,
    "club": "Malmö FF",
    "clubNat": "SWE",
+   "clubWiki": "https://en.wikipedia.org/wiki/Malm%C3%B6_FF",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Taha_Ali"
+   "wiki": "https://en.wikipedia.org/wiki/Taha_Ali",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   }
  ]
 }

@@ -533,6 +533,13 @@ function parseWikiPlayer(line) {
     const [y, mo, d] = bd[1] ? nums.slice(3, 6) : nums.slice(0, 3) // age2 carries the 2026-06-11 anchor first
     if (y && mo && d) dob = `${y}-${String(mo).padStart(2, '0')}-${String(d).padStart(2, '0')}`
   }
+  // the [[Article|Display]] club link target = the club's enwiki page; the
+  // display text often differs (e.g. [[SK Slavia Prague|Slavia Prague]]), so
+  // build the URL from the target, never the display name
+  const clubLinkM = params.club ? /\[\[([^|\]]+)(?:\|[^\]]*)?\]\]/.exec(params.club) : null
+  const clubWiki = clubLinkM
+    ? `https://en.wikipedia.org/wiki/${encodeURIComponent(clubLinkM[1].trim().replace(/ /g, '_'))}`
+    : null
   return {
     id: name
       .normalize('NFD')
@@ -547,6 +554,7 @@ function parseWikiPlayer(line) {
     goals: params.goals !== undefined && params.goals !== '' ? parseInt(params.goals, 10) || 0 : null,
     club: params.club ? stripLinks(params.club) : null,
     clubNat: params.clubnat || null,
+    clubWiki,
     captain,
     wiki,
   }
@@ -579,8 +587,15 @@ async function fetchWikiSquads() {
     }
     if (!players.length) continue
     let coach = null
+    let coachWiki = null
     const cm = /^\s*(?:head\s+)?coach\s*:\s*(.+)$/im.exec(body)
-    if (cm) coach = stripLinks(cm[1]).trim() || null
+    if (cm) {
+      coach = stripLinks(cm[1]).trim() || null
+      // the [[Article]] link target = the coach's enwiki page (same as players)
+      const cl = /\[\[([^|\]]+)(?:\|[^\]]*)?\]\]/.exec(cm[1])
+      if (cl)
+        coachWiki = `https://en.wikipedia.org/wiki/${encodeURIComponent(cl[1].trim().replace(/ /g, '_'))}`
+    }
     // the team's enwiki article, e.g. "South Korea national football team",
     // "United States men's national soccer team" — taken from the section's own links
     const wm = /\[\[([^|\]]*national [^|\]]*?team)(?:\|[^\]]*)?\]\]/i.exec(body)
@@ -591,7 +606,7 @@ async function fetchWikiSquads() {
     }
     const order = { GK: 0, DF: 1, MF: 2, FW: 3 }
     players.sort((a, b) => order[a.pos] - order[b.pos] || (a.no ?? 99) - (b.no ?? 99))
-    squads[code] = { coach, wiki, players }
+    squads[code] = { coach, coachWiki, wiki, players }
   }
   if (Object.keys(squads).length < 48) warn(`wiki squads: only ${Object.keys(squads).length}/48 teams parsed`)
   return squads
@@ -753,9 +768,71 @@ function computeSuspensions(lineups, matches) {
   return out
 }
 
+// per-player tournament tallies (apps + goals + cards) taken from match lineups
+// and written onto each squad player. Wikipedia squad names never match the FIFA
+// lineup names, but the shirt number does, so (team, number) is the join key.
+function attachWcStats(squads, lineups, matches) {
+  const byId = Object.fromEntries(matches.map((m) => [m.id, m]))
+  const byTeam = {} // code -> { [shirtNo]: { apps, goals, yellow, red } }
+  const cell = (code, no) => {
+    byTeam[code] ??= {}
+    byTeam[code][no] ??= { apps: 0, goals: 0, yellow: 0, red: 0 }
+    return byTeam[code][no]
+  }
+  for (const [mid, lu] of Object.entries(lineups)) {
+    const m = byId[mid]
+    if (!m) continue
+    for (const side of ['home', 'away']) {
+      const tl = lu[side]
+      const code = m[side]?.code
+      if (!tl || !code) continue
+      const idToNo = {}
+      for (const p of [...(tl.xi || []), ...(tl.subs || [])]) if (p.number != null) idToNo[p.id] = p.number
+      // appearances: starters + substitutes who came on
+      const appeared = new Set()
+      for (const p of tl.xi || []) if (p.number != null) appeared.add(p.number)
+      for (const sub of tl.substitutions || []) {
+        const no = idToNo[sub.on]
+        if (no != null) appeared.add(no)
+      }
+      for (const no of appeared) cell(code, no).apps++
+      // goals: open play + penalties, excluding own goals (type 3) and shootout
+      for (const g of tl.goals || []) {
+        if (g.type === 3 || g.period === 11) continue
+        const no = idToNo[g.player]
+        if (no != null) cell(code, no).goals++
+      }
+      // cards: booking card 1 = yellow, >=2 = red (incl. second yellow)
+      for (const b of tl.bookings || []) {
+        const no = idToNo[b.player]
+        if (no == null) continue
+        if ((b.card ?? 0) >= 2) cell(code, no).red++
+        else cell(code, no).yellow++
+      }
+    }
+  }
+  for (const [code, sq] of Object.entries(squads)) {
+    const tally = byTeam[code] || {}
+    for (const p of sq.players || []) {
+      const s = p.no != null ? tally[p.no] : null
+      p.wcApps = s?.apps ?? 0
+      p.wcGoals = s?.goals ?? 0
+      p.wcYellow = s?.yellow ?? 0
+      p.wcRed = s?.red ?? 0
+    }
+  }
+}
+
 function computeStats(lineups, matches) {
   const scorers = {}
   const byId = Object.fromEntries(matches.map((m) => [m.id, m]))
+  // FIFA player id -> shirt number (stable across the tournament); lets the UI
+  // link a scorer/booking to that player's squad card (joined by team + number)
+  const numberOf = {}
+  for (const lu of Object.values(lineups))
+    for (const side of ['home', 'away'])
+      for (const p of [...(lu[side]?.xi || []), ...(lu[side]?.subs || [])])
+        if (p.number != null) numberOf[p.id] = p.number
   for (const [matchId, lu] of Object.entries(lineups)) {
     const m = byId[matchId]
     if (!m) continue
@@ -772,12 +849,26 @@ function computeStats(lineups, matches) {
         if (own) {
           const code = m[other]?.code // the scorer plays for the other side
           if (!code) continue
-          scorers[key] ??= { id: g.player, name: nameIn(other, g.player), code, goals: 0, ownGoals: 0 }
+          scorers[key] ??= {
+            id: g.player,
+            name: nameIn(other, g.player),
+            code,
+            no: numberOf[g.player],
+            goals: 0,
+            ownGoals: 0,
+          }
           scorers[key].ownGoals++
         } else {
           const code = m[side]?.code
           if (!code) continue
-          scorers[key] ??= { id: g.player, name: nameIn(side, g.player), code, goals: 0, ownGoals: 0 }
+          scorers[key] ??= {
+            id: g.player,
+            name: nameIn(side, g.player),
+            code,
+            no: numberOf[g.player],
+            goals: 0,
+            ownGoals: 0,
+          }
           scorers[key].goals++
         }
       }
@@ -802,7 +893,7 @@ function computeStats(lineups, matches) {
         if (isRed) red++
         else yellow++
         const key = `${b.player}`
-        carded[key] ??= { id: b.player, name: nameOf(b.player), code, y: 0, r: 0 }
+        carded[key] ??= { id: b.player, name: nameOf(b.player), code, no: numberOf[b.player], y: 0, r: 0 }
         if (isRed) carded[key].r++
         else carded[key].y++
       }
@@ -1160,6 +1251,7 @@ async function main() {
   const lineups = await fetchLiveDetails(matches, rawById)
   const stats = computeStats(lineups, matches)
   stats.suspensions = computeSuspensions(lineups, matches)
+  attachWcStats(squads, lineups, matches) // per-player apps/goals onto squads
 
   // 8. weather
   let weather = (await readJsonSafe(path.join(OUT, 'weather.json'))) || {}

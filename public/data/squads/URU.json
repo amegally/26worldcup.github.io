@@ -15,8 +15,13 @@
    "goals": 0,
    "club": "Internacional",
    "clubNat": "BRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/SC_Internacional",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Sergio_Rochet"
+   "wiki": "https://en.wikipedia.org/wiki/Sergio_Rochet",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "santiago-mele",
@@ -28,8 +33,13 @@
    "goals": 0,
    "club": "Monterrey",
    "clubNat": "MEX",
+   "clubWiki": "https://en.wikipedia.org/wiki/C.F._Monterrey",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Santiago_Mele"
+   "wiki": "https://en.wikipedia.org/wiki/Santiago_Mele",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "fernando-muslera",
@@ -41,8 +51,13 @@
    "goals": 0,
    "club": "Estudiantes",
    "clubNat": "ARG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Estudiantes_de_La_Plata",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Fernando_Muslera"
+   "wiki": "https://en.wikipedia.org/wiki/Fernando_Muslera",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jose-maria-gimenez",
@@ -54,8 +69,13 @@
    "goals": 8,
    "club": "Atlético Madrid",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Madrid",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jos%C3%A9_Mar%C3%ADa_Gim%C3%A9nez"
+   "wiki": "https://en.wikipedia.org/wiki/Jos%C3%A9_Mar%C3%ADa_Gim%C3%A9nez",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "sebastian-caceres",
@@ -67,8 +87,13 @@
    "goals": 0,
    "club": "América",
    "clubNat": "MEX",
+   "clubWiki": "https://en.wikipedia.org/wiki/Club_Am%C3%A9rica",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Sebasti%C3%A1n_C%C3%A1ceres"
+   "wiki": "https://en.wikipedia.org/wiki/Sebasti%C3%A1n_C%C3%A1ceres",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ronald-araujo",
@@ -80,8 +105,13 @@
    "goals": 1,
    "club": "Barcelona",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Barcelona",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ronald_Ara%C3%BAjo"
+   "wiki": "https://en.wikipedia.org/wiki/Ronald_Ara%C3%BAjo",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "guillermo-varela",
@@ -93,8 +123,13 @@
    "goals": 0,
    "club": "Flamengo",
    "clubNat": "BRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/CR_Flamengo",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Guillermo_Varela"
+   "wiki": "https://en.wikipedia.org/wiki/Guillermo_Varela",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "mathias-olivera",
@@ -106,8 +141,13 @@
    "goals": 2,
    "club": "Napoli",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/SSC_Napoli",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Math%C3%ADas_Olivera"
+   "wiki": "https://en.wikipedia.org/wiki/Math%C3%ADas_Olivera",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "matias-vina",
@@ -119,8 +159,13 @@
    "goals": 1,
    "club": "River Plate",
    "clubNat": "ARG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_River_Plate",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Mat%C3%ADas_Vi%C3%B1a"
+   "wiki": "https://en.wikipedia.org/wiki/Mat%C3%ADas_Vi%C3%B1a",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "santiago-bueno",
@@ -132,8 +177,13 @@
    "goals": 0,
    "club": "Wolverhampton Wanderers",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Wolverhampton_Wanderers_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Santiago_Bueno"
+   "wiki": "https://en.wikipedia.org/wiki/Santiago_Bueno",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "manuel-ugarte",
@@ -145,8 +195,13 @@
    "goals": 1,
    "club": "Manchester United",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Manchester_United_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Manuel_Ugarte_(footballer)"
+   "wiki": "https://en.wikipedia.org/wiki/Manuel_Ugarte_(footballer)",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "rodrigo-bentancur",
@@ -158,8 +213,13 @@
    "goals": 3,
    "club": "Tottenham Hotspur",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Tottenham_Hotspur_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Rodrigo_Bentancur"
+   "wiki": "https://en.wikipedia.org/wiki/Rodrigo_Bentancur",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "nicolas-de-la-cruz",
@@ -171,8 +231,13 @@
    "goals": 5,
    "club": "Flamengo",
    "clubNat": "BRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/CR_Flamengo",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Nicol%C3%A1s_de_la_Cruz"
+   "wiki": "https://en.wikipedia.org/wiki/Nicol%C3%A1s_de_la_Cruz",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "federico-valverde",
@@ -184,8 +249,13 @@
    "goals": 9,
    "club": "Real Madrid",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/Real_Madrid_CF",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Federico_Valverde"
+   "wiki": "https://en.wikipedia.org/wiki/Federico_Valverde",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "giorgian-de-arrascaeta",
@@ -197,8 +267,13 @@
    "goals": 13,
    "club": "Flamengo",
    "clubNat": "BRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/CR_Flamengo",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Giorgian_de_Arrascaeta"
+   "wiki": "https://en.wikipedia.org/wiki/Giorgian_de_Arrascaeta",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "agustin-canobbio",
@@ -210,8 +285,13 @@
    "goals": 1,
    "club": "Fluminense",
    "clubNat": "BRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Fluminense_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Agust%C3%ADn_Canobbio"
+   "wiki": "https://en.wikipedia.org/wiki/Agust%C3%ADn_Canobbio",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "emiliano-martinez",
@@ -223,8 +303,13 @@
    "goals": 0,
    "club": "Palmeiras",
    "clubNat": "BRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/SE_Palmeiras",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Emiliano_Mart%C3%ADnez_(footballer%2C_born_1999)"
+   "wiki": "https://en.wikipedia.org/wiki/Emiliano_Mart%C3%ADnez_(footballer%2C_born_1999)",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "maximiliano-araujo",
@@ -236,8 +321,13 @@
    "goals": 3,
    "club": "Sporting CP",
    "clubNat": "POR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Sporting_CP",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Maximiliano_Ara%C3%BAjo"
+   "wiki": "https://en.wikipedia.org/wiki/Maximiliano_Ara%C3%BAjo",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "joaquin-piquerez",
@@ -249,8 +339,13 @@
    "goals": 0,
    "club": "Palmeiras",
    "clubNat": "BRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/SE_Palmeiras",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Joaqu%C3%ADn_Piquerez"
+   "wiki": "https://en.wikipedia.org/wiki/Joaqu%C3%ADn_Piquerez",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "juan-manuel-sanabria",
@@ -262,8 +357,13 @@
    "goals": 1,
    "club": "Real Salt Lake",
    "clubNat": "USA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Real_Salt_Lake",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Juan_Manuel_Sanabria"
+   "wiki": "https://en.wikipedia.org/wiki/Juan_Manuel_Sanabria",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "rodrigo-zalazar",
@@ -275,8 +375,13 @@
    "goals": 2,
    "club": "Braga",
    "clubNat": "POR",
+   "clubWiki": "https://en.wikipedia.org/wiki/S.C._Braga",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Rodrigo_Zalazar"
+   "wiki": "https://en.wikipedia.org/wiki/Rodrigo_Zalazar",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "darwin-nunez",
@@ -288,8 +393,13 @@
    "goals": 13,
    "club": "Al-Hilal",
    "clubNat": "KSA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al_Hilal_SFC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Darwin_N%C3%BA%C3%B1ez"
+   "wiki": "https://en.wikipedia.org/wiki/Darwin_N%C3%BA%C3%B1ez",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "facundo-pellistri",
@@ -301,8 +411,13 @@
    "goals": 2,
    "club": "Panathinaikos",
    "clubNat": "GRE",
+   "clubWiki": "https://en.wikipedia.org/wiki/Panathinaikos_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Facundo_Pellistri"
+   "wiki": "https://en.wikipedia.org/wiki/Facundo_Pellistri",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "brian-rodriguez",
@@ -314,8 +429,13 @@
    "goals": 4,
    "club": "América",
    "clubNat": "MEX",
+   "clubWiki": "https://en.wikipedia.org/wiki/Club_Am%C3%A9rica",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Brian_Rodr%C3%ADguez"
+   "wiki": "https://en.wikipedia.org/wiki/Brian_Rodr%C3%ADguez",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "rodrigo-aguirre",
@@ -327,8 +447,13 @@
    "goals": 3,
    "club": "Tigres UANL",
    "clubNat": "MEX",
+   "clubWiki": "https://en.wikipedia.org/wiki/Tigres_UANL",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Rodrigo_Aguirre"
+   "wiki": "https://en.wikipedia.org/wiki/Rodrigo_Aguirre",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "federico-vinas",
@@ -340,8 +465,13 @@
    "goals": 2,
    "club": "Oviedo",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/Real_Oviedo",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Federico_Vi%C3%B1as"
+   "wiki": "https://en.wikipedia.org/wiki/Federico_Vi%C3%B1as",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   }
  ]
 }

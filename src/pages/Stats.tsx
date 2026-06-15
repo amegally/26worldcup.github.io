@@ -132,7 +132,15 @@ export default function Stats() {
                   return (
                     <tr key={s.id}>
                       <td className="sx-pos tnum">{s.rank}</td>
-                      <td className="sx-player">{s.name}</td>
+                      <td className="sx-player">
+                        {team && s.no != null ? (
+                          <Link className="sx-pname" to={`/team/${s.code}?p=${s.no}`}>
+                            {s.name}
+                          </Link>
+                        ) : (
+                          s.name
+                        )}
+                      </td>
                       <td className="sx-team-cell">
                         {team ? (
                           <Link to={`/team/${s.code}`} className="team-inline sx-team">
@@ -169,7 +177,15 @@ export default function Stats() {
                   const team = teams[c.code]
                   return (
                     <tr key={c.id}>
-                      <td className="sx-player">{c.name}</td>
+                      <td className="sx-player">
+                        {team && c.no != null ? (
+                          <Link className="sx-pname" to={`/team/${c.code}?p=${c.no}`}>
+                            {c.name}
+                          </Link>
+                        ) : (
+                          c.name
+                        )}
+                      </td>
                       <td className="sx-team-cell">
                         {team ? (
                           <Link to={`/team/${c.code}`} className="team-inline sx-team">

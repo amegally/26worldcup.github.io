@@ -15,8 +15,13 @@
    "goals": 0,
    "club": "Nice",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/OGC_Nice",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Yehvann_Diouf"
+   "wiki": "https://en.wikipedia.org/wiki/Yehvann_Diouf",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "edouard-mendy",
@@ -28,8 +33,13 @@
    "goals": 0,
    "club": "Al-Ahli",
    "clubNat": "KSA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Ahli_Saudi_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/%C3%89douard_Mendy"
+   "wiki": "https://en.wikipedia.org/wiki/%C3%89douard_Mendy",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "mory-diaw",
@@ -41,8 +51,13 @@
    "goals": 0,
    "club": "Le Havre",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Le_Havre_AC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Mory_Diaw"
+   "wiki": "https://en.wikipedia.org/wiki/Mory_Diaw",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "mamadou-sarr",
@@ -54,8 +69,13 @@
    "goals": 0,
    "club": "Chelsea",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Chelsea_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Mamadou_Sarr"
+   "wiki": "https://en.wikipedia.org/wiki/Mamadou_Sarr",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "kalidou-koulibaly",
@@ -67,8 +87,13 @@
    "goals": 2,
    "club": "Al-Hilal",
    "clubNat": "KSA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al_Hilal_SFC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Kalidou_Koulibaly"
+   "wiki": "https://en.wikipedia.org/wiki/Kalidou_Koulibaly",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "abdoulaye-seck",
@@ -80,8 +105,13 @@
    "goals": 4,
    "club": "Maccabi Haifa",
    "clubNat": "ISR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Maccabi_Haifa_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Abdoulaye_Seck_(footballer%2C_born_1992)"
+   "wiki": "https://en.wikipedia.org/wiki/Abdoulaye_Seck_(footballer%2C_born_1992)",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ismail-jakobs",
@@ -93,8 +123,13 @@
    "goals": 0,
    "club": "Galatasaray",
    "clubNat": "TUR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Galatasaray_S.K._(football)",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ismail_Jakobs"
+   "wiki": "https://en.wikipedia.org/wiki/Ismail_Jakobs",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "krepin-diatta",
@@ -106,8 +141,13 @@
    "goals": 2,
    "club": "Monaco",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/AS_Monaco_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Kr%C3%A9pin_Diatta"
+   "wiki": "https://en.wikipedia.org/wiki/Kr%C3%A9pin_Diatta",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "moussa-niakhate",
@@ -119,8 +159,13 @@
    "goals": 0,
    "club": "Lyon",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Olympique_Lyonnais",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Moussa_Niakhat%C3%A9"
+   "wiki": "https://en.wikipedia.org/wiki/Moussa_Niakhat%C3%A9",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "antoine-mendy",
@@ -132,8 +177,13 @@
    "goals": 0,
    "club": "Nice",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/OGC_Nice",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Antoine_Mendy_(footballer)"
+   "wiki": "https://en.wikipedia.org/wiki/Antoine_Mendy_(footballer)",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "el-hadji-malick-diouf",
@@ -145,8 +195,13 @@
    "goals": 1,
    "club": "West Ham United",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/West_Ham_United_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/El_Hadji_Malick_Diouf"
+   "wiki": "https://en.wikipedia.org/wiki/El_Hadji_Malick_Diouf",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "idrissa-gueye",
@@ -158,8 +213,13 @@
    "goals": 7,
    "club": "Everton",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Everton_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Idrissa_Gueye"
+   "wiki": "https://en.wikipedia.org/wiki/Idrissa_Gueye",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "pathe-ciss",
@@ -171,8 +231,13 @@
    "goals": 0,
    "club": "Rayo Vallecano",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/Rayo_Vallecano",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Path%C3%A9_Ciss"
+   "wiki": "https://en.wikipedia.org/wiki/Path%C3%A9_Ciss",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "lamine-camara",
@@ -184,8 +249,13 @@
    "goals": 7,
    "club": "Monaco",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/AS_Monaco_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Lamine_Camara"
+   "wiki": "https://en.wikipedia.org/wiki/Lamine_Camara",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "pape-matar-sarr",
@@ -197,8 +267,13 @@
    "goals": 4,
    "club": "Tottenham Hotspur",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Tottenham_Hotspur_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Pape_Matar_Sarr"
+   "wiki": "https://en.wikipedia.org/wiki/Pape_Matar_Sarr",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "habib-diarra",
@@ -210,8 +285,13 @@
    "goals": 4,
    "club": "Sunderland",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Sunderland_A.F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Habib_Diarra"
+   "wiki": "https://en.wikipedia.org/wiki/Habib_Diarra",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "bara-sapoko-ndiaye",
@@ -223,8 +303,13 @@
    "goals": 0,
    "club": "Bayern Munich",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Bayern_Munich",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Bara_Sapoko_Ndiaye"
+   "wiki": "https://en.wikipedia.org/wiki/Bara_Sapoko_Ndiaye",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "pape-gueye",
@@ -236,8 +321,13 @@
    "goals": 5,
    "club": "Villarreal",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/Villarreal_CF",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Pape_Gueye"
+   "wiki": "https://en.wikipedia.org/wiki/Pape_Gueye",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "assane-diao",
@@ -249,8 +339,13 @@
    "goals": 0,
    "club": "Como",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Como_1907",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Assane_Diao"
+   "wiki": "https://en.wikipedia.org/wiki/Assane_Diao",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "bamba-dieng",
@@ -262,8 +357,13 @@
    "goals": 2,
    "club": "Lorient",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Lorient",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Bamba_Dieng"
+   "wiki": "https://en.wikipedia.org/wiki/Bamba_Dieng",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "sadio-mane",
@@ -275,8 +375,13 @@
    "goals": 55,
    "club": "Al-Nassr",
    "clubNat": "KSA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Nassr_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Sadio_Man%C3%A9"
+   "wiki": "https://en.wikipedia.org/wiki/Sadio_Man%C3%A9",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "nicolas-jackson",
@@ -288,8 +393,13 @@
    "goals": 8,
    "club": "Bayern Munich",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Bayern_Munich",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Nicolas_Jackson"
+   "wiki": "https://en.wikipedia.org/wiki/Nicolas_Jackson",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "cherif-ndiaye",
@@ -301,8 +411,13 @@
    "goals": 4,
    "club": "Samsunspor",
    "clubNat": "TUR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Samsunspor",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Cherif_Ndiaye"
+   "wiki": "https://en.wikipedia.org/wiki/Cherif_Ndiaye",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "iliman-ndiaye",
@@ -314,8 +429,13 @@
    "goals": 4,
    "club": "Everton",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Everton_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Iliman_Ndiaye"
+   "wiki": "https://en.wikipedia.org/wiki/Iliman_Ndiaye",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ismaila-sarr",
@@ -327,8 +447,13 @@
    "goals": 19,
    "club": "Crystal Palace",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Crystal_Palace_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Isma%C3%AFla_Sarr"
+   "wiki": "https://en.wikipedia.org/wiki/Isma%C3%AFla_Sarr",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ibrahim-mbaye",
@@ -340,8 +465,13 @@
    "goals": 3,
    "club": "Paris Saint-Germain",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Paris_Saint-Germain_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ibrahim_Mbaye"
+   "wiki": "https://en.wikipedia.org/wiki/Ibrahim_Mbaye",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   }
  ]
 }

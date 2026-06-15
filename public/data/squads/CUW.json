@@ -15,8 +15,13 @@
    "goals": 0,
    "club": "Miami FC",
    "clubNat": "USA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Miami_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Eloy_Room"
+   "wiki": "https://en.wikipedia.org/wiki/Eloy_Room",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "tyrick-bodak",
@@ -28,8 +33,13 @@
    "goals": 0,
    "club": "Telstar",
    "clubNat": "NED",
+   "clubWiki": "https://en.wikipedia.org/wiki/SC_Telstar",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Tyrick_Bodak"
+   "wiki": "https://en.wikipedia.org/wiki/Tyrick_Bodak",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "trevor-doornbusch",
@@ -41,8 +51,13 @@
    "goals": 0,
    "club": "VVV-Venlo",
    "clubNat": "NED",
+   "clubWiki": "https://en.wikipedia.org/wiki/VVV-Venlo",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Trevor_Doornbusch"
+   "wiki": "https://en.wikipedia.org/wiki/Trevor_Doornbusch",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "shurandy-sambo",
@@ -54,8 +69,13 @@
    "goals": 0,
    "club": "Sparta Rotterdam",
    "clubNat": "NED",
+   "clubWiki": "https://en.wikipedia.org/wiki/Sparta_Rotterdam",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Shurandy_Sambo"
+   "wiki": "https://en.wikipedia.org/wiki/Shurandy_Sambo",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jurien-gaari",
@@ -67,8 +87,13 @@
    "goals": 1,
    "club": "Abha",
    "clubNat": "KSA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Abha_Club",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Juri%C3%ABn_Gaari"
+   "wiki": "https://en.wikipedia.org/wiki/Juri%C3%ABn_Gaari",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "roshon-van-eijma",
@@ -80,8 +105,13 @@
    "goals": 1,
    "club": "RKC Waalwijk",
    "clubNat": "NED",
+   "clubWiki": "https://en.wikipedia.org/wiki/RKC_Waalwijk",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Roshon_van_Eijma"
+   "wiki": "https://en.wikipedia.org/wiki/Roshon_van_Eijma",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "sherel-floranus",
@@ -93,8 +123,13 @@
    "goals": 0,
    "club": "PEC Zwolle",
    "clubNat": "NED",
+   "clubWiki": "https://en.wikipedia.org/wiki/PEC_Zwolle",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Sherel_Floranus"
+   "wiki": "https://en.wikipedia.org/wiki/Sherel_Floranus",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "armando-obispo",
@@ -106,8 +141,13 @@
    "goals": 0,
    "club": "PSV Eindhoven",
    "clubNat": "NED",
+   "clubWiki": "https://en.wikipedia.org/wiki/PSV_Eindhoven",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Armando_Obispo"
+   "wiki": "https://en.wikipedia.org/wiki/Armando_Obispo",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "joshua-brenet",
@@ -119,8 +159,13 @@
    "goals": 2,
    "club": "Kayserispor",
    "clubNat": "TUR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Kayserispor",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Joshua_Brenet"
+   "wiki": "https://en.wikipedia.org/wiki/Joshua_Brenet",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "riechedly-bazoer",
@@ -132,8 +177,13 @@
    "goals": 0,
    "club": "Konyaspor",
    "clubNat": "TUR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Konyaspor",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Riechedly_Bazoer"
+   "wiki": "https://en.wikipedia.org/wiki/Riechedly_Bazoer",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "deveron-fonville",
@@ -145,8 +195,13 @@
    "goals": 0,
    "club": "NEC",
    "clubNat": "NED",
+   "clubWiki": "https://en.wikipedia.org/wiki/NEC_Nijmegen",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Deveron_Fonville"
+   "wiki": "https://en.wikipedia.org/wiki/Deveron_Fonville",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "godfried-roemeratoe",
@@ -158,8 +213,13 @@
    "goals": 1,
    "club": "RKC Waalwijk",
    "clubNat": "NED",
+   "clubWiki": "https://en.wikipedia.org/wiki/RKC_Waalwijk",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Godfried_Roemeratoe"
+   "wiki": "https://en.wikipedia.org/wiki/Godfried_Roemeratoe",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "juninho-bacuna",
@@ -171,8 +231,13 @@
    "goals": 15,
    "club": "Volendam",
    "clubNat": "NED",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Volendam",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Juninho_Bacuna"
+   "wiki": "https://en.wikipedia.org/wiki/Juninho_Bacuna",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "livano-comenencia",
@@ -184,8 +249,13 @@
    "goals": 2,
    "club": "Zürich",
    "clubNat": "SUI",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Z%C3%BCrich",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Livano_Comenencia"
+   "wiki": "https://en.wikipedia.org/wiki/Livano_Comenencia",
+   "wcApps": 1,
+   "wcGoals": 1,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "leandro-bacuna",
@@ -197,8 +267,13 @@
    "goals": 16,
    "club": "Iğdır",
    "clubNat": "TUR",
+   "clubWiki": "https://en.wikipedia.org/wiki/I%C4%9Fd%C4%B1r_F.K.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Leandro_Bacuna"
+   "wiki": "https://en.wikipedia.org/wiki/Leandro_Bacuna",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ar-jany-martha",
@@ -210,8 +285,13 @@
    "goals": 2,
    "club": "Rotherham United",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Rotherham_United_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ar'jany_Martha"
+   "wiki": "https://en.wikipedia.org/wiki/Ar'jany_Martha",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "tahith-chong",
@@ -223,8 +303,13 @@
    "goals": 3,
    "club": "Sheffield United",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Sheffield_United_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Tahith_Chong"
+   "wiki": "https://en.wikipedia.org/wiki/Tahith_Chong",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "kevin-felida",
@@ -236,8 +321,13 @@
    "goals": 1,
    "club": "Den Bosch",
    "clubNat": "NED",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Den_Bosch",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Kevin_Felida"
+   "wiki": "https://en.wikipedia.org/wiki/Kevin_Felida",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jurgen-locadia",
@@ -249,8 +339,13 @@
    "goals": 1,
    "club": "Miami FC",
    "clubNat": "USA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Miami_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/J%C3%BCrgen_Locadia"
+   "wiki": "https://en.wikipedia.org/wiki/J%C3%BCrgen_Locadia",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jeremy-antonisse",
@@ -262,8 +357,13 @@
    "goals": 4,
    "club": "Kifisia",
    "clubNat": "GRE",
+   "clubWiki": "https://en.wikipedia.org/wiki/A.E._Kifisia_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jeremy_Antonisse"
+   "wiki": "https://en.wikipedia.org/wiki/Jeremy_Antonisse",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "sontje-hansen",
@@ -275,8 +375,13 @@
    "goals": 1,
    "club": "Middlesbrough",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Middlesbrough_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Sontje_Hansen"
+   "wiki": "https://en.wikipedia.org/wiki/Sontje_Hansen",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "tyrese-noslin",
@@ -288,8 +393,13 @@
    "goals": 1,
    "club": "Telstar",
    "clubNat": "NED",
+   "clubWiki": "https://en.wikipedia.org/wiki/SC_Telstar",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Tyrese_Noslin"
+   "wiki": "https://en.wikipedia.org/wiki/Tyrese_Noslin",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "kenji-gorre",
@@ -301,8 +411,13 @@
    "goals": 6,
    "club": "Maccabi Haifa",
    "clubNat": "ISR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Maccabi_Haifa_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Kenji_Gorr%C3%A9"
+   "wiki": "https://en.wikipedia.org/wiki/Kenji_Gorr%C3%A9",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jearl-margaritha",
@@ -314,8 +429,13 @@
    "goals": 5,
    "club": "Beveren",
    "clubNat": "BEL",
+   "clubWiki": "https://en.wikipedia.org/wiki/SK_Beveren",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jearl_Margaritha"
+   "wiki": "https://en.wikipedia.org/wiki/Jearl_Margaritha",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "brandley-kuwas",
@@ -327,8 +447,13 @@
    "goals": 2,
    "club": "Volendam",
    "clubNat": "NED",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Volendam",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Brandley_Kuwas"
+   "wiki": "https://en.wikipedia.org/wiki/Brandley_Kuwas",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "gervane-kastaneer",
@@ -340,8 +465,13 @@
    "goals": 9,
    "club": "Terengganu",
    "clubNat": "MAS",
+   "clubWiki": "https://en.wikipedia.org/wiki/Terengganu_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Gervane_Kastaneer"
+   "wiki": "https://en.wikipedia.org/wiki/Gervane_Kastaneer",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   }
  ]
 }

@@ -15,8 +15,13 @@
    "goals": 0,
    "club": "Cerro Porteño",
    "clubNat": "PAR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Cerro_Porte%C3%B1o",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Gatito_Fern%C3%A1ndez"
+   "wiki": "https://en.wikipedia.org/wiki/Gatito_Fern%C3%A1ndez",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "orlando-gill",
@@ -28,8 +33,13 @@
    "goals": 0,
    "club": "San Lorenzo",
    "clubNat": "ARG",
+   "clubWiki": "https://en.wikipedia.org/wiki/San_Lorenzo_de_Almagro",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Orlando_Gill"
+   "wiki": "https://en.wikipedia.org/wiki/Orlando_Gill",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "gaston-olveira",
@@ -41,8 +51,13 @@
    "goals": 0,
    "club": "Olimpia",
    "clubNat": "PAR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Club_Olimpia",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Gast%C3%B3n_Olveira"
+   "wiki": "https://en.wikipedia.org/wiki/Gast%C3%B3n_Olveira",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "gustavo-velazquez",
@@ -54,8 +69,13 @@
    "goals": 1,
    "club": "Cerro Porteño",
    "clubNat": "PAR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Cerro_Porte%C3%B1o",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Gustavo_Vel%C3%A1zquez"
+   "wiki": "https://en.wikipedia.org/wiki/Gustavo_Vel%C3%A1zquez",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "omar-alderete",
@@ -67,8 +87,13 @@
    "goals": 3,
    "club": "Sunderland",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Sunderland_A.F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Omar_Alderete"
+   "wiki": "https://en.wikipedia.org/wiki/Omar_Alderete",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "juan-jose-caceres",
@@ -80,8 +105,13 @@
    "goals": 0,
    "club": "Dynamo Moscow",
    "clubNat": "RUS",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Dynamo_Moscow",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Juan_Jos%C3%A9_C%C3%A1ceres"
+   "wiki": "https://en.wikipedia.org/wiki/Juan_Jos%C3%A9_C%C3%A1ceres",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 1,
+   "wcRed": 0
   },
   {
    "id": "fabian-balbuena",
@@ -93,8 +123,13 @@
    "goals": 2,
    "club": "Grêmio",
    "clubNat": "BRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Gr%C3%AAmio_FBPA",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Fabi%C3%A1n_Balbuena"
+   "wiki": "https://en.wikipedia.org/wiki/Fabi%C3%A1n_Balbuena",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "junior-alonso",
@@ -106,8 +141,13 @@
    "goals": 3,
    "club": "Atlético Mineiro",
    "clubNat": "BRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Clube_Atl%C3%A9tico_Mineiro",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/J%C3%BAnior_Alonso"
+   "wiki": "https://en.wikipedia.org/wiki/J%C3%BAnior_Alonso",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 1,
+   "wcRed": 0
   },
   {
    "id": "jose-canale",
@@ -119,8 +159,13 @@
    "goals": 0,
    "club": "Lanús",
    "clubNat": "ARG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_Lan%C3%BAs",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jos%C3%A9_Canale"
+   "wiki": "https://en.wikipedia.org/wiki/Jos%C3%A9_Canale",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "gustavo-gomez",
@@ -132,8 +177,13 @@
    "goals": 4,
    "club": "Palmeiras",
    "clubNat": "BRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/SE_Palmeiras",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Gustavo_G%C3%B3mez"
+   "wiki": "https://en.wikipedia.org/wiki/Gustavo_G%C3%B3mez",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "alexandro-maidana",
@@ -145,8 +195,13 @@
    "goals": 1,
    "club": "Talleres",
    "clubNat": "ARG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Talleres_de_C%C3%B3rdoba",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Alexandro_Maidana"
+   "wiki": "https://en.wikipedia.org/wiki/Alexandro_Maidana",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ramon-sosa",
@@ -158,8 +213,13 @@
    "goals": 1,
    "club": "Palmeiras",
    "clubNat": "BRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/SE_Palmeiras",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ram%C3%B3n_Sosa"
+   "wiki": "https://en.wikipedia.org/wiki/Ram%C3%B3n_Sosa",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "diego-gomez",
@@ -171,8 +231,13 @@
    "goals": 3,
    "club": "Brighton & Hove Albion",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Brighton_%26_Hove_Albion_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Diego_G%C3%B3mez_(Paraguayan_footballer)"
+   "wiki": "https://en.wikipedia.org/wiki/Diego_G%C3%B3mez_(Paraguayan_footballer)",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 1,
+   "wcRed": 0
   },
   {
    "id": "miguel-almiron",
@@ -184,8 +249,13 @@
    "goals": 10,
    "club": "Atlanta United FC",
    "clubNat": "USA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Atlanta_United_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Miguel_Almir%C3%B3n"
+   "wiki": "https://en.wikipedia.org/wiki/Miguel_Almir%C3%B3n",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 1,
+   "wcRed": 0
   },
   {
    "id": "mauricio",
@@ -197,8 +267,13 @@
    "goals": 0,
    "club": "Palmeiras",
    "clubNat": "BRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/SE_Palmeiras",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Maur%C3%ADcio_(footballer%2C_born_2001)"
+   "wiki": "https://en.wikipedia.org/wiki/Maur%C3%ADcio_(footballer%2C_born_2001)",
+   "wcApps": 1,
+   "wcGoals": 1,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "andres-cubas",
@@ -210,8 +285,13 @@
    "goals": 0,
    "club": "Vancouver Whitecaps FC",
    "clubNat": "CAN",
+   "clubWiki": "https://en.wikipedia.org/wiki/Vancouver_Whitecaps_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Andr%C3%A9s_Cubas"
+   "wiki": "https://en.wikipedia.org/wiki/Andr%C3%A9s_Cubas",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "damian-bobadilla",
@@ -223,8 +303,13 @@
    "goals": 1,
    "club": "São Paulo",
    "clubNat": "BRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Dami%C3%A1n_Bobadilla"
+   "wiki": "https://en.wikipedia.org/wiki/Dami%C3%A1n_Bobadilla",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "braian-ojeda",
@@ -236,8 +321,13 @@
    "goals": 0,
    "club": "Orlando City SC",
    "clubNat": "USA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Orlando_City_SC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Braian_Ojeda"
+   "wiki": "https://en.wikipedia.org/wiki/Braian_Ojeda",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "matias-galarza",
@@ -249,8 +339,13 @@
    "goals": 3,
    "club": "Atlanta United FC",
    "clubNat": "USA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Atlanta_United_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Mat%C3%ADas_Galarza_(Paraguayan_footballer)"
+   "wiki": "https://en.wikipedia.org/wiki/Mat%C3%ADas_Galarza_(Paraguayan_footballer)",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "gustavo-caballero",
@@ -262,8 +357,13 @@
    "goals": 1,
    "club": "Portsmouth",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Portsmouth_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Gustavo_Caballero"
+   "wiki": "https://en.wikipedia.org/wiki/Gustavo_Caballero",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "antonio-sanabria",
@@ -275,8 +375,13 @@
    "goals": 7,
    "club": "Cremonese",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/US_Cremonese",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Antonio_Sanabria"
+   "wiki": "https://en.wikipedia.org/wiki/Antonio_Sanabria",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "kaku",
@@ -288,8 +393,13 @@
    "goals": 6,
    "club": "Al Ain",
    "clubNat": "UAE",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al_Ain_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Kaku_(footballer)"
+   "wiki": "https://en.wikipedia.org/wiki/Kaku_(footballer)",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "alex-arce",
@@ -301,8 +411,13 @@
    "goals": 1,
    "club": "Independiente Rivadavia",
    "clubNat": "ARG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Independiente_Rivadavia",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/%C3%81lex_Arce"
+   "wiki": "https://en.wikipedia.org/wiki/%C3%81lex_Arce",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 1,
+   "wcRed": 0
   },
   {
    "id": "julio-enciso",
@@ -314,8 +429,13 @@
    "goals": 4,
    "club": "Strasbourg",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/RC_Strasbourg_Alsace",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Julio_Enciso_(footballer%2C_born_2004)"
+   "wiki": "https://en.wikipedia.org/wiki/Julio_Enciso_(footballer%2C_born_2004)",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "gabriel-avalos",
@@ -327,8 +447,13 @@
    "goals": 2,
    "club": "Independiente",
    "clubNat": "ARG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_Independiente",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Gabriel_%C3%81valos"
+   "wiki": "https://en.wikipedia.org/wiki/Gabriel_%C3%81valos",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "isidro-pitta",
@@ -340,8 +465,13 @@
    "goals": 0,
    "club": "Red Bull Bragantino",
    "clubNat": "BRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Red_Bull_Bragantino",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Isidro_Pitta"
+   "wiki": "https://en.wikipedia.org/wiki/Isidro_Pitta",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   }
  ]
 }

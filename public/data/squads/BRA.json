@@ -15,8 +15,13 @@
    "goals": 0,
    "club": "Liverpool",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Liverpool_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Alisson_Becker"
+   "wiki": "https://en.wikipedia.org/wiki/Alisson_Becker",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "weverton",
@@ -28,8 +33,13 @@
    "goals": 0,
    "club": "Grêmio",
    "clubNat": "BRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Gr%C3%AAmio_FBPA",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Weverton_(footballer%2C_born_1987)"
+   "wiki": "https://en.wikipedia.org/wiki/Weverton_(footballer%2C_born_1987)",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ederson-moraes",
@@ -41,8 +51,13 @@
    "goals": 0,
    "club": "Fenerbahçe",
    "clubNat": "TUR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Fenerbah%C3%A7e_S.K._(football)",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ederson_(footballer%2C_born_1993)"
+   "wiki": "https://en.wikipedia.org/wiki/Ederson_(footballer%2C_born_1993)",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "gabriel-magalhaes",
@@ -54,8 +69,13 @@
    "goals": 1,
    "club": "Arsenal",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Arsenal_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Gabriel_Magalh%C3%A3es"
+   "wiki": "https://en.wikipedia.org/wiki/Gabriel_Magalh%C3%A3es",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "marquinhos",
@@ -67,8 +87,13 @@
    "goals": 7,
    "club": "Paris Saint-Germain",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Paris_Saint-Germain_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Marquinhos"
+   "wiki": "https://en.wikipedia.org/wiki/Marquinhos",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "alex-sandro",
@@ -80,8 +105,13 @@
    "goals": 2,
    "club": "Flamengo",
    "clubNat": "BRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/CR_Flamengo",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Alex_Sandro"
+   "wiki": "https://en.wikipedia.org/wiki/Alex_Sandro",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "danilo-luiz",
@@ -93,8 +123,13 @@
    "goals": 1,
    "club": "Flamengo",
    "clubNat": "BRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/CR_Flamengo",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Danilo_(footballer%2C_born_July_1991)"
+   "wiki": "https://en.wikipedia.org/wiki/Danilo_(footballer%2C_born_July_1991)",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "bremer",
@@ -106,8 +141,13 @@
    "goals": 1,
    "club": "Juventus",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Juventus_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Gleison_Bremer"
+   "wiki": "https://en.wikipedia.org/wiki/Gleison_Bremer",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "leo-pereira",
@@ -119,8 +159,13 @@
    "goals": 0,
    "club": "Flamengo",
    "clubNat": "BRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/CR_Flamengo",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/L%C3%A9o_Pereira_(footballer%2C_born_1996)"
+   "wiki": "https://en.wikipedia.org/wiki/L%C3%A9o_Pereira_(footballer%2C_born_1996)",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "douglas-santos",
@@ -132,8 +177,13 @@
    "goals": 0,
    "club": "Zenit Saint Petersburg",
    "clubNat": "RUS",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Zenit_Saint_Petersburg",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Douglas_Santos_(footballer%2C_born_1994)"
+   "wiki": "https://en.wikipedia.org/wiki/Douglas_Santos_(footballer%2C_born_1994)",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "roger-ibanez",
@@ -145,8 +195,13 @@
    "goals": 0,
    "club": "Al-Ahli",
    "clubNat": "KSA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Ahli_Saudi_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Roger_Iba%C3%B1ez"
+   "wiki": "https://en.wikipedia.org/wiki/Roger_Iba%C3%B1ez",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 1,
+   "wcRed": 0
   },
   {
    "id": "ederson-silva",
@@ -158,8 +213,13 @@
    "goals": 0,
    "club": "Atalanta",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Atalanta_BC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/%C3%89derson_(footballer%2C_born_1999)"
+   "wiki": "https://en.wikipedia.org/wiki/%C3%89derson_(footballer%2C_born_1999)",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "casemiro",
@@ -171,8 +231,13 @@
    "goals": 9,
    "club": "Manchester United",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Manchester_United_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Casemiro"
+   "wiki": "https://en.wikipedia.org/wiki/Casemiro",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 1,
+   "wcRed": 0
   },
   {
    "id": "bruno-guimaraes",
@@ -184,8 +249,13 @@
    "goals": 3,
    "club": "Newcastle United",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Newcastle_United_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Bruno_Guimar%C3%A3es"
+   "wiki": "https://en.wikipedia.org/wiki/Bruno_Guimar%C3%A3es",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "fabinho",
@@ -197,8 +267,13 @@
    "goals": 0,
    "club": "Al-Ittihad",
    "clubNat": "KSA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Ittihad_Club_(Jeddah)",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Fabinho_(footballer%2C_born_1993)"
+   "wiki": "https://en.wikipedia.org/wiki/Fabinho_(footballer%2C_born_1993)",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "danilo-santos",
@@ -210,8 +285,13 @@
    "goals": 2,
    "club": "Botafogo",
    "clubNat": "BRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Botafogo_FR",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Danilo_(footballer%2C_born_2001)"
+   "wiki": "https://en.wikipedia.org/wiki/Danilo_(footballer%2C_born_2001)",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "lucas-paqueta",
@@ -223,8 +303,13 @@
    "goals": 13,
    "club": "Flamengo",
    "clubNat": "BRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/CR_Flamengo",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Lucas_Paquet%C3%A1"
+   "wiki": "https://en.wikipedia.org/wiki/Lucas_Paquet%C3%A1",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "vinicius-junior",
@@ -236,8 +321,13 @@
    "goals": 9,
    "club": "Real Madrid",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/Real_Madrid_CF",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Vin%C3%ADcius_J%C3%BAnior"
+   "wiki": "https://en.wikipedia.org/wiki/Vin%C3%ADcius_J%C3%BAnior",
+   "wcApps": 1,
+   "wcGoals": 1,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "matheus-cunha",
@@ -249,8 +339,13 @@
    "goals": 1,
    "club": "Manchester United",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Manchester_United_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Matheus_Cunha"
+   "wiki": "https://en.wikipedia.org/wiki/Matheus_Cunha",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "neymar",
@@ -262,8 +357,13 @@
    "goals": 79,
    "club": "Santos",
    "clubNat": "BRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Santos_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Neymar"
+   "wiki": "https://en.wikipedia.org/wiki/Neymar",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "raphinha",
@@ -275,8 +375,13 @@
    "goals": 11,
    "club": "Barcelona",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Barcelona",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Raphinha"
+   "wiki": "https://en.wikipedia.org/wiki/Raphinha",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "endrick",
@@ -288,8 +393,13 @@
    "goals": 4,
    "club": "Lyon",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Olympique_Lyonnais",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Endrick_(footballer%2C_born_2006)"
+   "wiki": "https://en.wikipedia.org/wiki/Endrick_(footballer%2C_born_2006)",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "luiz-henrique",
@@ -301,8 +411,13 @@
    "goals": 2,
    "club": "Zenit Saint Petersburg",
    "clubNat": "RUS",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Zenit_Saint_Petersburg",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Luiz_Henrique_(footballer%2C_born_2001)"
+   "wiki": "https://en.wikipedia.org/wiki/Luiz_Henrique_(footballer%2C_born_2001)",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "gabriel-martinelli",
@@ -314,8 +429,13 @@
    "goals": 4,
    "club": "Arsenal",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Arsenal_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Gabriel_Martinelli"
+   "wiki": "https://en.wikipedia.org/wiki/Gabriel_Martinelli",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "igor-thiago",
@@ -327,8 +447,13 @@
    "goals": 2,
    "club": "Brentford",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Brentford_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Igor_Thiago"
+   "wiki": "https://en.wikipedia.org/wiki/Igor_Thiago",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "rayan",
@@ -340,8 +465,13 @@
    "goals": 1,
    "club": "Bournemouth",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/AFC_Bournemouth",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Rayan_(footballer%2C_born_2006)"
+   "wiki": "https://en.wikipedia.org/wiki/Rayan_(footballer%2C_born_2006)",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   }
  ]
 }

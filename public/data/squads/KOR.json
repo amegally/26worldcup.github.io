@@ -15,8 +15,13 @@
    "goals": 0,
    "club": "FC Tokyo",
    "clubNat": "JPN",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Tokyo",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Kim_Seung-gyu"
+   "wiki": "https://en.wikipedia.org/wiki/Kim_Seung-gyu",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "song-bum-keun",
@@ -28,8 +33,13 @@
    "goals": 0,
    "club": "Jeonbuk Hyundai Motors",
    "clubNat": "KOR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Jeonbuk_Hyundai_Motors",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Song_Bum-keun"
+   "wiki": "https://en.wikipedia.org/wiki/Song_Bum-keun",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jo-hyeon-woo",
@@ -41,8 +51,13 @@
    "goals": 0,
    "club": "Ulsan HD",
    "clubNat": "KOR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Ulsan_HD_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jo_Hyeon-woo"
+   "wiki": "https://en.wikipedia.org/wiki/Jo_Hyeon-woo",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "lee-han-beom",
@@ -54,8 +69,13 @@
    "goals": 0,
    "club": "Midtjylland",
    "clubNat": "DEN",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Midtjylland",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Lee_Han-beom"
+   "wiki": "https://en.wikipedia.org/wiki/Lee_Han-beom",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "kim-min-jae",
@@ -67,8 +87,13 @@
    "goals": 4,
    "club": "Bayern Munich",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Bayern_Munich",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Kim_Min-jae_(footballer)"
+   "wiki": "https://en.wikipedia.org/wiki/Kim_Min-jae_(footballer)",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "kim-tae-hyeon",
@@ -80,8 +105,13 @@
    "goals": 0,
    "club": "Kashima Antlers",
    "clubNat": "JPN",
+   "clubWiki": "https://en.wikipedia.org/wiki/Kashima_Antlers",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Kim_Tae-hyeon"
+   "wiki": "https://en.wikipedia.org/wiki/Kim_Tae-hyeon",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "lee-tae-seok",
@@ -93,8 +123,13 @@
    "goals": 1,
    "club": "Austria Wien",
    "clubNat": "AUT",
+   "clubWiki": "https://en.wikipedia.org/wiki/FK_Austria_Wien",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Lee_Tae-seok"
+   "wiki": "https://en.wikipedia.org/wiki/Lee_Tae-seok",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "cho-wi-je",
@@ -106,8 +141,13 @@
    "goals": 0,
    "club": "Jeonbuk Hyundai Motors",
    "clubNat": "KOR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Jeonbuk_Hyundai_Motors",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Cho_Wi-je"
+   "wiki": "https://en.wikipedia.org/wiki/Cho_Wi-je",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "kim-moon-hwan",
@@ -119,8 +159,13 @@
    "goals": 0,
    "club": "Daejeon Hana Citizen",
    "clubNat": "KOR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Daejeon_Hana_Citizen",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Kim_Moon-hwan"
+   "wiki": "https://en.wikipedia.org/wiki/Kim_Moon-hwan",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "park-jin-seob",
@@ -132,8 +177,13 @@
    "goals": 1,
    "club": "Zhejiang",
    "clubNat": "CHN",
+   "clubWiki": "https://en.wikipedia.org/wiki/Zhejiang_Professional_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Park_Jin-seob_(footballer%2C_born_1995)"
+   "wiki": "https://en.wikipedia.org/wiki/Park_Jin-seob_(footballer%2C_born_1995)",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "seol-young-woo",
@@ -145,8 +195,13 @@
    "goals": 0,
    "club": "Red Star Belgrade",
    "clubNat": "SRB",
+   "clubWiki": "https://en.wikipedia.org/wiki/Red_Star_Belgrade",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Seol_Young-woo"
+   "wiki": "https://en.wikipedia.org/wiki/Seol_Young-woo",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jens-castrop",
@@ -158,8 +213,13 @@
    "goals": 0,
    "club": "Borussia Mönchengladbach",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/Borussia_M%C3%B6nchengladbach",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jens_Castrop"
+   "wiki": "https://en.wikipedia.org/wiki/Jens_Castrop",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "lee-gi-hyuk",
@@ -171,8 +231,13 @@
    "goals": 0,
    "club": "Gangwon FC",
    "clubNat": "KOR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Gangwon_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Lee_Gi-hyuk"
+   "wiki": "https://en.wikipedia.org/wiki/Lee_Gi-hyuk",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 1,
+   "wcRed": 0
   },
   {
    "id": "hwang-in-beom",
@@ -184,8 +249,13 @@
    "goals": 6,
    "club": "Feyenoord",
    "clubNat": "NED",
+   "clubWiki": "https://en.wikipedia.org/wiki/Feyenoord",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Hwang_In-beom"
+   "wiki": "https://en.wikipedia.org/wiki/Hwang_In-beom",
+   "wcApps": 1,
+   "wcGoals": 1,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "paik-seung-ho",
@@ -197,8 +267,13 @@
    "goals": 3,
    "club": "Birmingham City",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Birmingham_City_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Paik_Seung-ho"
+   "wiki": "https://en.wikipedia.org/wiki/Paik_Seung-ho",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "lee-jae-sung",
@@ -210,8 +285,13 @@
    "goals": 15,
    "club": "Mainz 05",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/1._FSV_Mainz_05",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Lee_Jae-sung"
+   "wiki": "https://en.wikipedia.org/wiki/Lee_Jae-sung",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "hwang-hee-chan",
@@ -223,8 +303,13 @@
    "goals": 17,
    "club": "Wolverhampton Wanderers",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Wolverhampton_Wanderers_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Hwang_Hee-chan"
+   "wiki": "https://en.wikipedia.org/wiki/Hwang_Hee-chan",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "bae-jun-ho",
@@ -236,8 +321,13 @@
    "goals": 2,
    "club": "Stoke City",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Stoke_City_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Bae_Jun-ho"
+   "wiki": "https://en.wikipedia.org/wiki/Bae_Jun-ho",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "lee-kang-in",
@@ -249,8 +339,13 @@
    "goals": 11,
    "club": "Paris Saint-Germain",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Paris_Saint-Germain_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Lee_Kang-in"
+   "wiki": "https://en.wikipedia.org/wiki/Lee_Kang-in",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "yang-hyun-jun",
@@ -262,8 +357,13 @@
    "goals": 0,
    "club": "Celtic",
    "clubNat": "SCO",
+   "clubWiki": "https://en.wikipedia.org/wiki/Celtic_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Yang_Hyun-jun"
+   "wiki": "https://en.wikipedia.org/wiki/Yang_Hyun-jun",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "kim-jin-gyu",
@@ -275,8 +375,13 @@
    "goals": 3,
    "club": "Jeonbuk Hyundai Motors",
    "clubNat": "KOR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Jeonbuk_Hyundai_Motors",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Kim_Jin-gyu_(footballer%2C_born_1997)"
+   "wiki": "https://en.wikipedia.org/wiki/Kim_Jin-gyu_(footballer%2C_born_1997)",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "eom-ji-sung",
@@ -288,8 +393,13 @@
    "goals": 2,
    "club": "Swansea City",
    "clubNat": "WAL",
+   "clubWiki": "https://en.wikipedia.org/wiki/Swansea_City_A.F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Eom_Ji-sung"
+   "wiki": "https://en.wikipedia.org/wiki/Eom_Ji-sung",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "lee-dong-gyeong",
@@ -301,8 +411,13 @@
    "goals": 4,
    "club": "Ulsan HD",
    "clubNat": "KOR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Ulsan_HD_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Lee_Dong-gyeong"
+   "wiki": "https://en.wikipedia.org/wiki/Lee_Dong-gyeong",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "son-heung-min",
@@ -314,8 +429,13 @@
    "goals": 56,
    "club": "Los Angeles FC",
    "clubNat": "USA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Los_Angeles_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Son_Heung-min"
+   "wiki": "https://en.wikipedia.org/wiki/Son_Heung-min",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "cho-gue-sung",
@@ -327,8 +447,13 @@
    "goals": 12,
    "club": "Midtjylland",
    "clubNat": "DEN",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Midtjylland",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Cho_Gue-sung"
+   "wiki": "https://en.wikipedia.org/wiki/Cho_Gue-sung",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "oh-hyeon-gyu",
@@ -340,8 +465,13 @@
    "goals": 6,
    "club": "Beşiktaş",
    "clubNat": "TUR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Be%C5%9Fikta%C5%9F_J.K.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Oh_Hyeon-gyu"
+   "wiki": "https://en.wikipedia.org/wiki/Oh_Hyeon-gyu",
+   "wcApps": 1,
+   "wcGoals": 1,
+   "wcYellow": 0,
+   "wcRed": 0
   }
  ]
 }

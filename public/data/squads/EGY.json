@@ -15,8 +15,13 @@
    "goals": 0,
    "club": "Al Ahly",
    "clubNat": "EGY",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al_Ahly_SC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Mohamed_El_Shenawy"
+   "wiki": "https://en.wikipedia.org/wiki/Mohamed_El_Shenawy",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "el-mahdy-soliman",
@@ -28,8 +33,13 @@
    "goals": 0,
    "club": "Zamalek",
    "clubNat": "EGY",
+   "clubWiki": "https://en.wikipedia.org/wiki/Zamalek_SC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/El_Mahdy_Soliman"
+   "wiki": "https://en.wikipedia.org/wiki/El_Mahdy_Soliman",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "mostafa-shobeir",
@@ -41,8 +51,13 @@
    "goals": 0,
    "club": "Al Ahly",
    "clubNat": "EGY",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al_Ahly_SC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Mostafa_Shobeir"
+   "wiki": "https://en.wikipedia.org/wiki/Mostafa_Shobeir",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "mohamed-alaa",
@@ -54,8 +69,13 @@
    "goals": 0,
    "club": "El Gouna",
    "clubNat": "EGY",
+   "clubWiki": "https://en.wikipedia.org/wiki/El_Gouna_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Mohamed_Alaa"
+   "wiki": "https://en.wikipedia.org/wiki/Mohamed_Alaa",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "yasser-ibrahim",
@@ -67,8 +87,13 @@
    "goals": 1,
    "club": "Al Ahly",
    "clubNat": "EGY",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al_Ahly_SC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Yasser_Ibrahim"
+   "wiki": "https://en.wikipedia.org/wiki/Yasser_Ibrahim",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "mohamed-hany",
@@ -80,8 +105,13 @@
    "goals": 0,
    "club": "Al Ahly",
    "clubNat": "EGY",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al_Ahly_SC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Mohamed_Hany"
+   "wiki": "https://en.wikipedia.org/wiki/Mohamed_Hany",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "hossam-abdelmaguid",
@@ -93,8 +123,13 @@
    "goals": 0,
    "club": "Zamalek",
    "clubNat": "EGY",
+   "clubWiki": "https://en.wikipedia.org/wiki/Zamalek_SC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Hossam_Abdelmaguid"
+   "wiki": "https://en.wikipedia.org/wiki/Hossam_Abdelmaguid",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ramy-rabia",
@@ -106,8 +141,13 @@
    "goals": 5,
    "club": "Al Ain",
    "clubNat": "UAE",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al_Ain_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ramy_Rabia"
+   "wiki": "https://en.wikipedia.org/wiki/Ramy_Rabia",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "mohamed-abdelmonem",
@@ -119,8 +159,13 @@
    "goals": 3,
    "club": "Nice",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/OGC_Nice",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Mohamed_Abdelmonem"
+   "wiki": "https://en.wikipedia.org/wiki/Mohamed_Abdelmonem",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ahmed-fatouh",
@@ -132,8 +177,13 @@
    "goals": 1,
    "club": "Zamalek",
    "clubNat": "EGY",
+   "clubWiki": "https://en.wikipedia.org/wiki/Zamalek_SC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ahmed_Fatouh"
+   "wiki": "https://en.wikipedia.org/wiki/Ahmed_Fatouh",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "karim-hafez",
@@ -145,8 +195,13 @@
    "goals": 0,
    "club": "Pyramids",
    "clubNat": "EGY",
+   "clubWiki": "https://en.wikipedia.org/wiki/Pyramids_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Karim_Hafez"
+   "wiki": "https://en.wikipedia.org/wiki/Karim_Hafez",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "tarek-alaa",
@@ -158,8 +213,13 @@
    "goals": 0,
    "club": "ZED",
    "clubNat": "EGY",
+   "clubWiki": "https://en.wikipedia.org/wiki/ZED_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Tarek_Alaa_(footballer%2C_born_2002)"
+   "wiki": "https://en.wikipedia.org/wiki/Tarek_Alaa_(footballer%2C_born_2002)",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "emam-ashour",
@@ -171,8 +231,13 @@
    "goals": 0,
    "club": "Al Ahly",
    "clubNat": "EGY",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al_Ahly_SC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Emam_Ashour"
+   "wiki": "https://en.wikipedia.org/wiki/Emam_Ashour",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "mostafa-ziko",
@@ -184,8 +249,13 @@
    "goals": 2,
    "club": "Pyramids",
    "clubNat": "EGY",
+   "clubWiki": "https://en.wikipedia.org/wiki/Pyramids_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Mostafa_Ziko"
+   "wiki": "https://en.wikipedia.org/wiki/Mostafa_Ziko",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "hamdy-fathy",
@@ -197,8 +267,13 @@
    "goals": 3,
    "club": "Al-Wakrah",
    "clubNat": "QAT",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Wakrah_SC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Hamdy_Fathy"
+   "wiki": "https://en.wikipedia.org/wiki/Hamdy_Fathy",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "mohanad-lasheen",
@@ -210,8 +285,13 @@
    "goals": 0,
    "club": "Pyramids",
    "clubNat": "EGY",
+   "clubWiki": "https://en.wikipedia.org/wiki/Pyramids_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Mohanad_Lasheen"
+   "wiki": "https://en.wikipedia.org/wiki/Mohanad_Lasheen",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "nabil-emad",
@@ -223,8 +303,13 @@
    "goals": 0,
    "club": "Al-Najma",
    "clubNat": "KSA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Najma_SC_(Saudi_Arabia)",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Nabil_Emad"
+   "wiki": "https://en.wikipedia.org/wiki/Nabil_Emad",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "marwan-attia",
@@ -236,8 +321,13 @@
    "goals": 1,
    "club": "Al Ahly",
    "clubNat": "EGY",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al_Ahly_SC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Marwan_Attia"
+   "wiki": "https://en.wikipedia.org/wiki/Marwan_Attia",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "mahmoud-saber",
@@ -249,8 +339,13 @@
    "goals": 1,
    "club": "ZED",
    "clubNat": "EGY",
+   "clubWiki": "https://en.wikipedia.org/wiki/ZED_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Mahmoud_Saber"
+   "wiki": "https://en.wikipedia.org/wiki/Mahmoud_Saber",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "trezeguet",
@@ -262,8 +357,13 @@
    "goals": 23,
    "club": "Al Ahly",
    "clubNat": "EGY",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al_Ahly_SC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Tr%C3%A9z%C3%A9guet_(Egyptian_footballer)"
+   "wiki": "https://en.wikipedia.org/wiki/Tr%C3%A9z%C3%A9guet_(Egyptian_footballer)",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "hamza-abdelkarim",
@@ -275,8 +375,13 @@
    "goals": 0,
    "club": "Barcelona B",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Barcelona_Atl%C3%A8tic",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Hamza_Abdelkarim"
+   "wiki": "https://en.wikipedia.org/wiki/Hamza_Abdelkarim",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "mohamed-salah",
@@ -288,8 +393,13 @@
    "goals": 67,
    "club": "Liverpool",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Liverpool_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Mohamed_Salah"
+   "wiki": "https://en.wikipedia.org/wiki/Mohamed_Salah",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "haissem-hassan",
@@ -301,8 +411,13 @@
    "goals": 0,
    "club": "Oviedo",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/Real_Oviedo",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Haissem_Hassan"
+   "wiki": "https://en.wikipedia.org/wiki/Haissem_Hassan",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ibrahim-adel",
@@ -314,8 +429,13 @@
    "goals": 3,
    "club": "Nordsjælland",
    "clubNat": "DEN",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Nordsj%C3%A6lland",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ibrahim_Adel"
+   "wiki": "https://en.wikipedia.org/wiki/Ibrahim_Adel",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "omar-marmoush",
@@ -327,8 +447,13 @@
    "goals": 11,
    "club": "Manchester City",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Manchester_City_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Omar_Marmoush"
+   "wiki": "https://en.wikipedia.org/wiki/Omar_Marmoush",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "zizo",
@@ -340,8 +465,13 @@
    "goals": 5,
    "club": "Al Ahly",
    "clubNat": "EGY",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al_Ahly_SC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Zizo_(footballer)"
+   "wiki": "https://en.wikipedia.org/wiki/Zizo_(footballer)",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   }
  ]
 }

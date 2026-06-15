@@ -1,3 +1,5 @@
+import { WikipediaMark } from './BrandMarks'
+
 /** Google Maps + Apple Maps links shown as the official app icons
  * (sourced from Wikimedia Commons; trademarks of Google/Apple, used only to
  * identify links to their services — see COPYRIGHT.md). */
@@ -33,7 +35,7 @@ export default function MapLinks({
       </a>
       {wiki && (
         <a href={wiki.url} target="_blank" rel="noreferrer" title={wiki.title} aria-label={wiki.title}>
-          <img src="/icons/wikipedia.png" alt="Wikipedia" width={size} height={size} loading="lazy" />
+          <WikipediaMark size={size} />
         </a>
       )}
     </span>

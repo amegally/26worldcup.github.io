@@ -4,6 +4,7 @@
    "id": "466624",
    "name": "Folarin BALOGUN",
    "code": "USA",
+   "no": 20,
    "goals": 2,
    "ownGoals": 0
   },
@@ -11,6 +12,7 @@
    "id": "411367",
    "name": "HAVERTZ",
    "code": "GER",
+   "no": 7,
    "goals": 2,
    "ownGoals": 0
   },
@@ -18,6 +20,7 @@
    "id": "489688",
    "name": "Yasin AYARI",
    "code": "SWE",
+   "no": 18,
    "goals": 2,
    "ownGoals": 0
   },
@@ -25,6 +28,7 @@
    "id": "430150",
    "name": "Alexander ISAK",
    "code": "SWE",
+   "no": 9,
    "goals": 1,
    "ownGoals": 0
   },
@@ -32,6 +36,7 @@
    "id": "430822",
    "name": "Amad DIALLO",
    "code": "CIV",
+   "no": 15,
    "goals": 1,
    "ownGoals": 0
   },
@@ -39,6 +44,7 @@
    "id": "385067",
    "name": "BOUALEM KHOUKHI",
    "code": "QAT",
+   "no": 16,
    "goals": 1,
    "ownGoals": 0
   },
@@ -46,6 +52,7 @@
    "id": "430452",
    "name": "Connor METCALFE",
    "code": "AUS",
+   "no": 8,
    "goals": 1,
    "ownGoals": 0
   },
@@ -53,6 +60,7 @@
    "id": "489518",
    "name": "Crysencio SUMMERVILLE",
    "code": "NED",
+   "no": 24,
    "goals": 1,
    "ownGoals": 0
   },
@@ -60,6 +68,7 @@
    "id": "390670",
    "name": "Cyle LARIN",
    "code": "CAN",
+   "no": 9,
    "goals": 1,
    "ownGoals": 0
   },
@@ -67,6 +76,7 @@
    "id": "484851",
    "name": "Deniz UNDAV",
    "code": "GER",
+   "no": 26,
    "goals": 1,
    "ownGoals": 0
   },
@@ -74,6 +84,7 @@
    "id": "393480",
    "name": "EMBOLO",
    "code": "SUI",
+   "no": 7,
    "goals": 1,
    "ownGoals": 0
   },
@@ -81,6 +92,7 @@
    "id": "448586",
    "name": "H G OH",
    "code": "KOR",
+   "no": 18,
    "goals": 1,
    "ownGoals": 0
   },
@@ -88,6 +100,7 @@
    "id": "395084",
    "name": "HWANG Inbeom",
    "code": "KOR",
+   "no": 6,
    "goals": 1,
    "ownGoals": 0
   },
@@ -95,6 +108,7 @@
    "id": "401334",
    "name": "John McGINN",
    "code": "SCO",
+   "no": 7,
    "goals": 1,
    "ownGoals": 0
   },
@@ -102,6 +116,7 @@
    "id": "519954",
    "name": "Jovo LUKIC",
    "code": "BIH",
+   "no": 25,
    "goals": 1,
    "ownGoals": 0
   },
@@ -109,6 +124,7 @@
    "id": "429157",
    "name": "Julian QUINONES",
    "code": "MEX",
+   "no": 16,
    "goals": 1,
    "ownGoals": 0
   },
@@ -116,6 +132,7 @@
    "id": "448557",
    "name": "KAMADA",
    "code": "JPN",
+   "no": 15,
    "goals": 1,
    "ownGoals": 0
   },
@@ -123,6 +140,7 @@
    "id": "441170",
    "name": "Ladislav KREJCI",
    "code": "CZE",
+   "no": 7,
    "goals": 1,
    "ownGoals": 0
   },
@@ -130,6 +148,7 @@
    "id": "494989",
    "name": "Livano COMENENCIA",
    "code": "CUW",
+   "no": 8,
    "goals": 1,
    "ownGoals": 0
   },
@@ -137,6 +156,7 @@
    "id": "433795",
    "name": "Mattias SVANBERG",
    "code": "SWE",
+   "no": 19,
    "goals": 1,
    "ownGoals": 0
   },
@@ -144,6 +164,7 @@
    "id": "495046",
    "name": "MAURICIO",
    "code": "PAR",
+   "no": 11,
    "goals": 1,
    "ownGoals": 0
   },
@@ -151,6 +172,7 @@
    "id": "429642",
    "name": "MUSIALA",
    "code": "GER",
+   "no": 10,
    "goals": 1,
    "ownGoals": 0
   },
@@ -158,6 +180,7 @@
    "id": "405522",
    "name": "NAKAMURA",
    "code": "JPN",
+   "no": 13,
    "goals": 1,
    "ownGoals": 0
   },
@@ -165,6 +188,7 @@
    "id": "511015",
    "name": "Nathaniel BROWN",
    "code": "GER",
+   "no": 18,
    "goals": 1,
    "ownGoals": 0
   },
@@ -172,6 +196,7 @@
    "id": "486306",
    "name": "Nestory IRANKUNDA",
    "code": "AUS",
+   "no": 17,
    "goals": 1,
    "ownGoals": 0
   },
@@ -179,6 +204,7 @@
    "id": "492363",
    "name": "NMECHA",
    "code": "GER",
+   "no": 23,
    "goals": 1,
    "ownGoals": 0
   },
@@ -186,6 +212,7 @@
    "id": "433367",
    "name": "Omar REKIK",
    "code": "TUN",
+   "no": 4,
    "goals": 1,
    "ownGoals": 0
   },
@@ -193,6 +220,7 @@
    "id": "356731",
    "name": "RAÚL",
    "code": "MEX",
+   "no": 9,
    "goals": 1,
    "ownGoals": 0
   },
@@ -200,6 +228,7 @@
    "id": "419068",
    "name": "REYNA",
    "code": "USA",
+   "no": 7,
    "goals": 1,
    "ownGoals": 0
   },
@@ -207,6 +236,7 @@
    "id": "448598",
    "name": "SAIBARI",
    "code": "MAR",
+   "no": 11,
    "goals": 1,
    "ownGoals": 0
   },
@@ -214,6 +244,7 @@
    "id": "430667",
    "name": "SCHLOTTERBECK",
    "code": "GER",
+   "no": 15,
    "goals": 1,
    "ownGoals": 0
   },
@@ -221,6 +252,7 @@
    "id": "483327",
    "name": "Viktor GYOKERES",
    "code": "SWE",
+   "no": 17,
    "goals": 1,
    "ownGoals": 0
   },
@@ -228,6 +260,7 @@
    "id": "405742",
    "name": "VINI JR.",
    "code": "BRA",
+   "no": 7,
    "goals": 1,
    "ownGoals": 0
   },
@@ -235,6 +268,7 @@
    "id": "397786",
    "name": "Virgil VAN DIJK",
    "code": "NED",
+   "no": 4,
    "goals": 1,
    "ownGoals": 0
   }
@@ -247,6 +281,7 @@
     "id": "395516",
     "name": "Cesar MONTES",
     "code": "MEX",
+    "no": 3,
     "y": 0,
     "r": 1
    },
@@ -254,6 +289,7 @@
     "id": "390475",
     "name": "SITHOLE",
     "code": "RSA",
+    "no": 13,
     "y": 0,
     "r": 1
    },
@@ -261,6 +297,7 @@
     "id": "395984",
     "name": "ZWANE",
     "code": "RSA",
+    "no": 11,
     "y": 0,
     "r": 1
    },
@@ -268,6 +305,7 @@
     "id": "442428",
     "name": "Aaron HICKEY",
     "code": "SCO",
+    "no": 2,
     "y": 1,
     "r": 0
    },
@@ -275,6 +313,7 @@
     "id": "485802",
     "name": "Alex ARCE",
     "code": "PAR",
+    "no": 18,
     "y": 1,
     "r": 0
    },
@@ -282,6 +321,7 @@
     "id": "441252",
     "name": "Alistair JOHNSTON",
     "code": "CAN",
+    "no": 2,
     "y": 1,
     "r": 0
    },
@@ -289,6 +329,7 @@
     "id": "464533",
     "name": "Brian GUTIERREZ",
     "code": "MEX",
+    "no": 26,
     "y": 1,
     "r": 0
    },
@@ -296,6 +337,7 @@
     "id": "308386",
     "name": "CASEMIRO",
     "code": "BRA",
+    "no": 5,
     "y": 1,
     "r": 0
    },
@@ -303,6 +345,7 @@
     "id": "489518",
     "name": "Crysencio SUMMERVILLE",
     "code": "NED",
+    "no": 24,
     "y": 1,
     "r": 0
    },
@@ -310,6 +353,7 @@
     "id": "463128",
     "name": "Diego GOMEZ",
     "code": "PAR",
+    "no": 8,
     "y": 1,
     "r": 0
    },
@@ -317,6 +361,7 @@
     "id": "436743",
     "name": "Ermedin DEMIROVIC",
     "code": "BIH",
+    "no": 10,
     "y": 1,
     "r": 0
    },
@@ -324,6 +369,7 @@
     "id": "520217",
     "name": "Findlay CURTIS",
     "code": "SCO",
+    "no": 25,
     "y": 1,
     "r": 0
    },
@@ -331,6 +377,7 @@
     "id": "486317",
     "name": "Guela DOUE",
     "code": "CIV",
+    "no": 17,
     "y": 1,
     "r": 0
    },
@@ -338,6 +385,7 @@
     "id": "419003",
     "name": "Jackson POROZO",
     "code": "ECU",
+    "no": 25,
     "y": 1,
     "r": 0
    },
@@ -345,6 +393,7 @@
     "id": "419473",
     "name": "JASSEM GABER",
     "code": "QAT",
+    "no": 5,
     "y": 1,
     "r": 0
    },
@@ -352,6 +401,7 @@
     "id": "430697",
     "name": "Jean-Ricner BELLEGARDE",
     "code": "HAI",
+    "no": 10,
     "y": 1,
     "r": 0
    },
@@ -359,6 +409,7 @@
     "id": "519954",
     "name": "Jovo LUKIC",
     "code": "BIH",
+    "no": 25,
     "y": 1,
     "r": 0
    },
@@ -366,6 +417,7 @@
     "id": "479601",
     "name": "Juan Jose CACERES",
     "code": "PAR",
+    "no": 4,
     "y": 1,
     "r": 0
    },
@@ -373,6 +425,7 @@
     "id": "369749",
     "name": "Junior ALONSO",
     "code": "PAR",
+    "no": 6,
     "y": 1,
     "r": 0
    },
@@ -380,6 +433,7 @@
     "id": "484051",
     "name": "Kenny McLEAN",
     "code": "SCO",
+    "no": 23,
     "y": 1,
     "r": 0
    }
@@ -446,12 +500,5 @@
    }
   ]
  },
- "upset": {
-  "p": 21,
-  "id": "400021467",
-  "h": "CIV",
-  "a": "ECU",
-  "hs": 1,
-  "as": 0
- }
+ "upset": null
 }

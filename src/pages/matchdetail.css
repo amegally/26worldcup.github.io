@@ -291,6 +291,13 @@ a.md-side {
   min-width: 0;
   overflow-wrap: anywhere;
 }
+a.md-plink {
+  color: inherit;
+}
+a.md-plink:hover {
+  color: var(--accent-2);
+  text-decoration: underline;
+}
 .md-cap {
   flex: none;
   align-self: center;
@@ -470,6 +477,12 @@ a.md-side {
 /* bench: came-on minute */
 .md-sub-on {
   color: var(--accent-2);
+  font-size: 0.74rem;
+  font-weight: 650;
+  white-space: nowrap;
+}
+/* bench: goal minutes */
+.md-sub-goal {
   font-size: 0.74rem;
   font-weight: 650;
   white-space: nowrap;

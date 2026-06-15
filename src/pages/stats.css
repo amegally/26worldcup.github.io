@@ -101,6 +101,13 @@
 .sx-player {
   font-weight: 650;
 }
+.sx-pname {
+  color: inherit;
+}
+.sx-pname:hover {
+  color: var(--accent-2);
+  text-decoration: underline;
+}
 .sx-team-cell {
   width: 76px;
   white-space: nowrap;

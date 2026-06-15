@@ -15,8 +15,13 @@
    "goals": 0,
    "club": "Al-Rayyan",
    "clubNat": "QAT",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Rayyan_SC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Mahmud_Abunada"
+   "wiki": "https://en.wikipedia.org/wiki/Mahmud_Abunada",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 1,
+   "wcRed": 0
   },
   {
    "id": "salah-zakaria",
@@ -28,8 +33,13 @@
    "goals": 0,
    "club": "Al-Duhail",
    "clubNat": "QAT",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al_Duhail_SC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Salah_Zakaria"
+   "wiki": "https://en.wikipedia.org/wiki/Salah_Zakaria",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "meshaal-barsham",
@@ -41,8 +51,13 @@
    "goals": 0,
    "club": "Al-Sadd",
    "clubNat": "QAT",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al_Sadd_SC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Meshaal_Barsham"
+   "wiki": "https://en.wikipedia.org/wiki/Meshaal_Barsham",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "pedro-miguel",
@@ -54,8 +69,13 @@
    "goals": 3,
    "club": "Al-Sadd",
    "clubNat": "QAT",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al_Sadd_SC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Pedro_Miguel_(footballer)"
+   "wiki": "https://en.wikipedia.org/wiki/Pedro_Miguel_(footballer)",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "lucas-mendes",
@@ -67,8 +87,13 @@
    "goals": 1,
    "club": "Al-Wakrah",
    "clubNat": "QAT",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Wakrah_SC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Lucas_Mendes_(footballer%2C_born_1990)"
+   "wiki": "https://en.wikipedia.org/wiki/Lucas_Mendes_(footballer%2C_born_1990)",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "issa-laye",
@@ -80,8 +105,13 @@
    "goals": 0,
    "club": "Al-Arabi",
    "clubNat": "QAT",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Arabi_SC_(Qatar)",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Issa_Laye"
+   "wiki": "https://en.wikipedia.org/wiki/Issa_Laye",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jassem-gaber",
@@ -93,8 +123,13 @@
    "goals": 1,
    "club": "Al-Rayyan",
    "clubNat": "QAT",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Rayyan_SC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jassem_Gaber"
+   "wiki": "https://en.wikipedia.org/wiki/Jassem_Gaber",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 1,
+   "wcRed": 0
   },
   {
    "id": "ayoub-al-oui",
@@ -106,8 +141,13 @@
    "goals": 0,
    "club": "Al-Gharafa",
    "clubNat": "QAT",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Gharafa_SC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ayoub_Al-Oui"
+   "wiki": "https://en.wikipedia.org/wiki/Ayoub_Al-Oui",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "homam-ahmed",
@@ -119,8 +159,13 @@
    "goals": 3,
    "club": "Cultural Leonesa",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/Cultural_y_Deportiva_Leonesa",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Homam_Ahmed"
+   "wiki": "https://en.wikipedia.org/wiki/Homam_Ahmed",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "boualem-khoukhi",
@@ -132,8 +177,13 @@
    "goals": 20,
    "club": "Al-Sadd",
    "clubNat": "QAT",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al_Sadd_SC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Boualem_Khoukhi"
+   "wiki": "https://en.wikipedia.org/wiki/Boualem_Khoukhi",
+   "wcApps": 1,
+   "wcGoals": 1,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "sultan-al-brake",
@@ -145,8 +195,13 @@
    "goals": 0,
    "club": "Al-Duhail",
    "clubNat": "QAT",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al_Duhail_SC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Sultan_Al-Brake"
+   "wiki": "https://en.wikipedia.org/wiki/Sultan_Al-Brake",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "al-hashmi-al-hussain",
@@ -158,8 +213,13 @@
    "goals": 0,
    "club": "Al-Arabi",
    "clubNat": "QAT",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Arabi_SC_(Qatar)",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Al-Hashmi_Al-Hussain"
+   "wiki": "https://en.wikipedia.org/wiki/Al-Hashmi_Al-Hussain",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "abdulaziz-hatem",
@@ -171,8 +231,13 @@
    "goals": 11,
    "club": "Al-Rayyan",
    "clubNat": "QAT",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Rayyan_SC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Abdulaziz_Hatem"
+   "wiki": "https://en.wikipedia.org/wiki/Abdulaziz_Hatem",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "karim-boudiaf",
@@ -184,8 +249,13 @@
    "goals": 5,
    "club": "Al-Duhail",
    "clubNat": "QAT",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al_Duhail_SC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Karim_Boudiaf"
+   "wiki": "https://en.wikipedia.org/wiki/Karim_Boudiaf",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ahmed-al-ganehi",
@@ -197,8 +267,13 @@
    "goals": 1,
    "club": "Al-Gharafa",
    "clubNat": "QAT",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Gharafa_SC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ahmed_Al-Ganehi"
+   "wiki": "https://en.wikipedia.org/wiki/Ahmed_Al-Ganehi",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ahmed-fathy",
@@ -210,8 +285,13 @@
    "goals": 0,
    "club": "Al-Arabi",
    "clubNat": "QAT",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Arabi_SC_(Qatar)",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ahmed_Fathy_(Qatari_footballer)"
+   "wiki": "https://en.wikipedia.org/wiki/Ahmed_Fathy_(Qatari_footballer)",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "assim-madibo",
@@ -223,8 +303,13 @@
    "goals": 0,
    "club": "Al-Wakrah",
    "clubNat": "QAT",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Wakrah_SC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Assim_Madibo"
+   "wiki": "https://en.wikipedia.org/wiki/Assim_Madibo",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ahmed-alaaeldin",
@@ -236,8 +321,13 @@
    "goals": 9,
    "club": "Al-Rayyan",
    "clubNat": "QAT",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Rayyan_SC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ahmed_Alaaeldin"
+   "wiki": "https://en.wikipedia.org/wiki/Ahmed_Alaaeldin",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "edmilson-junior",
@@ -249,8 +339,13 @@
    "goals": 0,
    "club": "Al-Duhail",
    "clubNat": "QAT",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al_Duhail_SC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Edmilson_Junior"
+   "wiki": "https://en.wikipedia.org/wiki/Edmilson_Junior",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "mohammed-muntari",
@@ -262,8 +357,13 @@
    "goals": 16,
    "club": "Al-Gharafa",
    "clubNat": "QAT",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Gharafa_SC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Mohammed_Muntari"
+   "wiki": "https://en.wikipedia.org/wiki/Mohammed_Muntari",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "hassan-al-haydos",
@@ -275,8 +375,13 @@
    "goals": 41,
    "club": "Al-Sadd",
    "clubNat": "QAT",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al_Sadd_SC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Hassan_Al-Haydos"
+   "wiki": "https://en.wikipedia.org/wiki/Hassan_Al-Haydos",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "akram-afif",
@@ -288,8 +393,13 @@
    "goals": 39,
    "club": "Al-Sadd",
    "clubNat": "QAT",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al_Sadd_SC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Akram_Afif"
+   "wiki": "https://en.wikipedia.org/wiki/Akram_Afif",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "yusuf-abdurisag",
@@ -301,8 +411,13 @@
    "goals": 3,
    "club": "Al-Wakrah",
    "clubNat": "QAT",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Wakrah_SC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Yusuf_Abdurisag"
+   "wiki": "https://en.wikipedia.org/wiki/Yusuf_Abdurisag",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "almoez-ali",
@@ -314,8 +429,13 @@
    "goals": 55,
    "club": "Al-Duhail",
    "clubNat": "QAT",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al_Duhail_SC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Almoez_Ali"
+   "wiki": "https://en.wikipedia.org/wiki/Almoez_Ali",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "tahsin-jamshid",
@@ -327,8 +447,13 @@
    "goals": 0,
    "club": "Al-Duhail",
    "clubNat": "QAT",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al_Duhail_SC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Tahsin_Jamshid"
+   "wiki": "https://en.wikipedia.org/wiki/Tahsin_Jamshid",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "mohamed-manai",
@@ -340,8 +465,13 @@
    "goals": 0,
    "club": "Al-Shamal",
    "clubNat": "QAT",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Shamal_SC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Mohamed_Manai"
+   "wiki": "https://en.wikipedia.org/wiki/Mohamed_Manai",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   }
  ]
 }

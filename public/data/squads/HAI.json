@@ -15,8 +15,13 @@
    "goals": 0,
    "club": "Bastia",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/SC_Bastia",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Johny_Placide"
+   "wiki": "https://en.wikipedia.org/wiki/Johny_Placide",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "alexandre-pierre",
@@ -28,8 +33,13 @@
    "goals": 0,
    "club": "Sochaux",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Sochaux-Montb%C3%A9liard",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Alexandre_Pierre"
+   "wiki": "https://en.wikipedia.org/wiki/Alexandre_Pierre",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "josue-duverger",
@@ -41,8 +51,13 @@
    "goals": 0,
    "club": "Cosmos Koblenz",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Cosmos_Koblenz",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Josu%C3%A9_Duverger"
+   "wiki": "https://en.wikipedia.org/wiki/Josu%C3%A9_Duverger",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "carlens-arcus",
@@ -54,8 +69,13 @@
    "goals": 1,
    "club": "Angers",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Angers_SCO",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Carlens_Arcus"
+   "wiki": "https://en.wikipedia.org/wiki/Carlens_Arcus",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "keeto-thermoncy",
@@ -67,8 +87,13 @@
    "goals": 0,
    "club": "Young Boys",
    "clubNat": "SUI",
+   "clubWiki": "https://en.wikipedia.org/wiki/BSC_Young_Boys",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Keeto_Thermoncy"
+   "wiki": "https://en.wikipedia.org/wiki/Keeto_Thermoncy",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ricardo-ade",
@@ -80,8 +105,13 @@
    "goals": 2,
    "club": "LDU Quito",
    "clubNat": "ECU",
+   "clubWiki": "https://en.wikipedia.org/wiki/LDU_Quito",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ricardo_Ad%C3%A9"
+   "wiki": "https://en.wikipedia.org/wiki/Ricardo_Ad%C3%A9",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "hannes-delcroix",
@@ -93,8 +123,13 @@
    "goals": 0,
    "club": "Lugano",
    "clubNat": "SUI",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Lugano",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Hannes_Delcroix"
+   "wiki": "https://en.wikipedia.org/wiki/Hannes_Delcroix",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "martin-experience",
@@ -106,8 +141,13 @@
    "goals": 0,
    "club": "Nancy",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/AS_Nancy_Lorraine",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Martin_Exp%C3%A9rience"
+   "wiki": "https://en.wikipedia.org/wiki/Martin_Exp%C3%A9rience",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "duke-lacroix",
@@ -119,8 +159,13 @@
    "goals": 3,
    "club": "Colorado Springs Switchbacks FC",
    "clubNat": "USA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Colorado_Springs_Switchbacks_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Duke_Lacroix"
+   "wiki": "https://en.wikipedia.org/wiki/Duke_Lacroix",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "garven-metusala",
@@ -132,8 +177,13 @@
    "goals": 0,
    "club": "Colorado Springs Switchbacks FC",
    "clubNat": "USA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Colorado_Springs_Switchbacks_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Garven_Metusala"
+   "wiki": "https://en.wikipedia.org/wiki/Garven_Metusala",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jean-kevin-duverne",
@@ -145,8 +195,13 @@
    "goals": 1,
    "club": "Gent",
    "clubNat": "BEL",
+   "clubWiki": "https://en.wikipedia.org/wiki/KAA_Gent",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jean-K%C3%A9vin_Duverne"
+   "wiki": "https://en.wikipedia.org/wiki/Jean-K%C3%A9vin_Duverne",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "wilguens-paugain",
@@ -158,8 +213,13 @@
    "goals": 0,
    "club": "Zulte Waregem",
    "clubNat": "BEL",
+   "clubWiki": "https://en.wikipedia.org/wiki/SV_Zulte_Waregem",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Wilguens_Paugain"
+   "wiki": "https://en.wikipedia.org/wiki/Wilguens_Paugain",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "carl-sainte",
@@ -171,8 +231,13 @@
    "goals": 0,
    "club": "El Paso Locomotive FC",
    "clubNat": "USA",
+   "clubWiki": "https://en.wikipedia.org/wiki/El_Paso_Locomotive_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Carl_Saint%C3%A9"
+   "wiki": "https://en.wikipedia.org/wiki/Carl_Saint%C3%A9",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jean-ricner-bellegarde",
@@ -184,8 +249,13 @@
    "goals": 0,
    "club": "Wolverhampton Wanderers",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Wolverhampton_Wanderers_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jean-Ricner_Bellegarde"
+   "wiki": "https://en.wikipedia.org/wiki/Jean-Ricner_Bellegarde",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 1,
+   "wcRed": 0
   },
   {
    "id": "danley-jean-jacques",
@@ -197,8 +267,13 @@
    "goals": 6,
    "club": "Philadelphia Union",
    "clubNat": "USA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Philadelphia_Union",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Danley_Jean_Jacques"
+   "wiki": "https://en.wikipedia.org/wiki/Danley_Jean_Jacques",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "dominique-simon",
@@ -210,8 +285,13 @@
    "goals": 0,
    "club": "Tatran Prešov",
    "clubNat": "SVK",
+   "clubWiki": "https://en.wikipedia.org/wiki/1._FC_Tatran_Pre%C5%A1ov",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Dominique_Simon"
+   "wiki": "https://en.wikipedia.org/wiki/Dominique_Simon",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "woodensky-pierre",
@@ -223,8 +303,13 @@
    "goals": 0,
    "club": "Violette",
    "clubNat": "HAI",
+   "clubWiki": "https://en.wikipedia.org/wiki/Violette_AC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Woodensky_Pierre"
+   "wiki": "https://en.wikipedia.org/wiki/Woodensky_Pierre",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "derrick-etienne-jr-",
@@ -236,8 +321,13 @@
    "goals": 8,
    "club": "Toronto FC",
    "clubNat": "CAN",
+   "clubWiki": "https://en.wikipedia.org/wiki/Toronto_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Derrick_Etienne_Jr."
+   "wiki": "https://en.wikipedia.org/wiki/Derrick_Etienne_Jr.",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "duckens-nazon",
@@ -249,8 +339,13 @@
    "goals": 44,
    "club": "Esteghlal",
    "clubNat": "IRN",
+   "clubWiki": "https://en.wikipedia.org/wiki/Esteghlal_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Duckens_Nazon"
+   "wiki": "https://en.wikipedia.org/wiki/Duckens_Nazon",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "louicius-deedson",
@@ -262,8 +357,13 @@
    "goals": 10,
    "club": "FC Dallas",
    "clubNat": "USA",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Dallas",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Louicius_Deedson"
+   "wiki": "https://en.wikipedia.org/wiki/Louicius_Deedson",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ruben-providence",
@@ -275,8 +375,13 @@
    "goals": 3,
    "club": "Almere City",
    "clubNat": "NED",
+   "clubWiki": "https://en.wikipedia.org/wiki/Almere_City_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ruben_Providence"
+   "wiki": "https://en.wikipedia.org/wiki/Ruben_Providence",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "lenny-joseph",
@@ -288,8 +393,13 @@
    "goals": 1,
    "club": "Ferencváros",
    "clubNat": "HUN",
+   "clubWiki": "https://en.wikipedia.org/wiki/Ferencv%C3%A1rosi_TC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Lenny_Joseph"
+   "wiki": "https://en.wikipedia.org/wiki/Lenny_Joseph",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "wilson-isidor",
@@ -301,8 +411,13 @@
    "goals": 2,
    "club": "Sunderland",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Sunderland_A.F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Wilson_Isidor"
+   "wiki": "https://en.wikipedia.org/wiki/Wilson_Isidor",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "yassin-fortune",
@@ -314,8 +429,13 @@
    "goals": 0,
    "club": "Vizela",
    "clubNat": "POR",
+   "clubWiki": "https://en.wikipedia.org/wiki/F.C._Vizela",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Yassin_Fortun%C3%A9"
+   "wiki": "https://en.wikipedia.org/wiki/Yassin_Fortun%C3%A9",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "frantzdy-pierrot",
@@ -327,8 +447,13 @@
    "goals": 34,
    "club": "Çaykur Rizespor",
    "clubNat": "TUR",
+   "clubWiki": "https://en.wikipedia.org/wiki/%C3%87aykur_Rizespor",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Frantzdy_Pierrot"
+   "wiki": "https://en.wikipedia.org/wiki/Frantzdy_Pierrot",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "josue-casimir",
@@ -340,8 +465,13 @@
    "goals": 0,
    "club": "Auxerre",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/AJ_Auxerre",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Josu%C3%A9_Casimir"
+   "wiki": "https://en.wikipedia.org/wiki/Josu%C3%A9_Casimir",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   }
  ]
 }

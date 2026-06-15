@@ -15,8 +15,13 @@
    "goals": 0,
    "club": "Çaykur Rizespor",
    "clubNat": "TUR",
+   "clubWiki": "https://en.wikipedia.org/wiki/%C3%87aykur_Rizespor",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Yahia_Fofana"
+   "wiki": "https://en.wikipedia.org/wiki/Yahia_Fofana",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "mohamed-kone",
@@ -28,8 +33,13 @@
    "goals": 0,
    "club": "Charleroi",
    "clubNat": "BEL",
+   "clubWiki": "https://en.wikipedia.org/wiki/Royal_Charleroi_SC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Mohamed_Kon%C3%A9_(footballer%2C_born_2002)"
+   "wiki": "https://en.wikipedia.org/wiki/Mohamed_Kon%C3%A9_(footballer%2C_born_2002)",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "alban-lafont",
@@ -41,8 +51,13 @@
    "goals": 0,
    "club": "Panathinaikos",
    "clubNat": "GRE",
+   "clubWiki": "https://en.wikipedia.org/wiki/Panathinaikos_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Alban_Lafont"
+   "wiki": "https://en.wikipedia.org/wiki/Alban_Lafont",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ousmane-diomande",
@@ -54,8 +69,13 @@
    "goals": 1,
    "club": "Sporting CP",
    "clubNat": "POR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Sporting_CP",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ousmane_Diomande"
+   "wiki": "https://en.wikipedia.org/wiki/Ousmane_Diomande",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ghislain-konan",
@@ -67,8 +87,13 @@
    "goals": 0,
    "club": "Gil Vicente",
    "clubNat": "POR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Gil_Vicente_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ghislain_Konan"
+   "wiki": "https://en.wikipedia.org/wiki/Ghislain_Konan",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "wilfried-singo",
@@ -80,8 +105,13 @@
    "goals": 1,
    "club": "Galatasaray",
    "clubNat": "TUR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Galatasaray_S.K._(football)",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Wilfried_Singo"
+   "wiki": "https://en.wikipedia.org/wiki/Wilfried_Singo",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "odilon-kossounou",
@@ -93,8 +123,13 @@
    "goals": 0,
    "club": "Atalanta",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Atalanta_BC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Odilon_Kossounou"
+   "wiki": "https://en.wikipedia.org/wiki/Odilon_Kossounou",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "christopher-operi",
@@ -106,8 +141,13 @@
    "goals": 0,
    "club": "İstanbul Başakşehir",
    "clubNat": "TUR",
+   "clubWiki": "https://en.wikipedia.org/wiki/%C4%B0stanbul_Ba%C5%9Fak%C5%9Fehir_F.K.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Christopher_Op%C3%A9ri"
+   "wiki": "https://en.wikipedia.org/wiki/Christopher_Op%C3%A9ri",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "guela-doue",
@@ -119,8 +159,13 @@
    "goals": 3,
    "club": "Strasbourg",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/RC_Strasbourg_Alsace",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Gu%C3%A9la_Dou%C3%A9"
+   "wiki": "https://en.wikipedia.org/wiki/Gu%C3%A9la_Dou%C3%A9",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 1,
+   "wcRed": 0
   },
   {
    "id": "emmanuel-agbadou",
@@ -132,8 +177,13 @@
    "goals": 2,
    "club": "Beşiktaş",
    "clubNat": "TUR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Be%C5%9Fikta%C5%9F_J.K.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Emmanuel_Agbadou"
+   "wiki": "https://en.wikipedia.org/wiki/Emmanuel_Agbadou",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "evan-ndicka",
@@ -145,8 +195,13 @@
    "goals": 0,
    "club": "Roma",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/AS_Roma",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Evan_Ndicka"
+   "wiki": "https://en.wikipedia.org/wiki/Evan_Ndicka",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jean-michael-seri",
@@ -158,8 +213,13 @@
    "goals": 4,
    "club": "Maribor",
    "clubNat": "SVN",
+   "clubWiki": "https://en.wikipedia.org/wiki/NK_Maribor",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jean_Micha%C3%ABl_Seri"
+   "wiki": "https://en.wikipedia.org/wiki/Jean_Micha%C3%ABl_Seri",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "seko-fofana",
@@ -171,8 +231,13 @@
    "goals": 7,
    "club": "Porto",
    "clubNat": "POR",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Porto",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Seko_Fofana"
+   "wiki": "https://en.wikipedia.org/wiki/Seko_Fofana",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 1,
+   "wcRed": 0
   },
   {
    "id": "franck-kessie",
@@ -184,8 +249,13 @@
    "goals": 15,
    "club": "Al-Ahli",
    "clubNat": "KSA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Ahli_Saudi_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Franck_Kessi%C3%A9"
+   "wiki": "https://en.wikipedia.org/wiki/Franck_Kessi%C3%A9",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 1,
+   "wcRed": 0
   },
   {
    "id": "ibrahim-sangare",
@@ -197,8 +267,13 @@
    "goals": 12,
    "club": "Nottingham Forest",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Nottingham_Forest_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ibrahim_Sangar%C3%A9_(Ivorian_footballer)"
+   "wiki": "https://en.wikipedia.org/wiki/Ibrahim_Sangar%C3%A9_(Ivorian_footballer)",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "parfait-guiagon",
@@ -210,8 +285,13 @@
    "goals": 0,
    "club": "Charleroi",
    "clubNat": "BEL",
+   "clubWiki": "https://en.wikipedia.org/wiki/Royal_Charleroi_SC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Parfait_Guiagon"
+   "wiki": "https://en.wikipedia.org/wiki/Parfait_Guiagon",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "christ-inao-oulai",
@@ -223,8 +303,13 @@
    "goals": 0,
    "club": "Trabzonspor",
    "clubNat": "TUR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Trabzonspor",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Christ_Inao_Oula%C3%AF"
+   "wiki": "https://en.wikipedia.org/wiki/Christ_Inao_Oula%C3%AF",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ange-yoan-bonny",
@@ -236,8 +321,13 @@
    "goals": 0,
    "club": "Inter Milan",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Inter_Milan",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ange-Yoan_Bonny"
+   "wiki": "https://en.wikipedia.org/wiki/Ange-Yoan_Bonny",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "simon-adingra",
@@ -249,8 +339,13 @@
    "goals": 5,
    "club": "Monaco",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/AS_Monaco_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Simon_Adingra"
+   "wiki": "https://en.wikipedia.org/wiki/Simon_Adingra",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "yan-diomande",
@@ -262,8 +357,13 @@
    "goals": 3,
    "club": "RB Leipzig",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/RB_Leipzig",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Yan_Diomande"
+   "wiki": "https://en.wikipedia.org/wiki/Yan_Diomande",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "elye-wahi",
@@ -275,8 +375,13 @@
    "goals": 0,
    "club": "Nice",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/OGC_Nice",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Elye_Wahi"
+   "wiki": "https://en.wikipedia.org/wiki/Elye_Wahi",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "oumar-diakite",
@@ -288,8 +393,13 @@
    "goals": 6,
    "club": "Cercle Brugge",
    "clubNat": "BEL",
+   "clubWiki": "https://en.wikipedia.org/wiki/Cercle_Brugge_KSV",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Oumar_Diakit%C3%A9"
+   "wiki": "https://en.wikipedia.org/wiki/Oumar_Diakit%C3%A9",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "amad-diallo",
@@ -301,8 +411,13 @@
    "goals": 6,
    "club": "Manchester United",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Manchester_United_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Amad_Diallo"
+   "wiki": "https://en.wikipedia.org/wiki/Amad_Diallo",
+   "wcApps": 1,
+   "wcGoals": 1,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "nicolas-pepe",
@@ -314,8 +429,13 @@
    "goals": 12,
    "club": "Villarreal",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/Villarreal_CF",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Nicolas_P%C3%A9p%C3%A9"
+   "wiki": "https://en.wikipedia.org/wiki/Nicolas_P%C3%A9p%C3%A9",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "evann-guessand",
@@ -327,8 +447,13 @@
    "goals": 4,
    "club": "Crystal Palace",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Crystal_Palace_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Evann_Guessand"
+   "wiki": "https://en.wikipedia.org/wiki/Evann_Guessand",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "bazoumana-toure",
@@ -340,8 +465,13 @@
    "goals": 2,
    "club": "TSG Hoffenheim",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/TSG_1899_Hoffenheim",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Bazoumana_Tour%C3%A9"
+   "wiki": "https://en.wikipedia.org/wiki/Bazoumana_Tour%C3%A9",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   }
  ]
 }

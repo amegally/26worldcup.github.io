@@ -63,6 +63,73 @@ export function fifaMatchUrl(match: Match, lang: Lang): string {
   return `https://www.fifa.com/${sl}/match-centre/match/17/285023/${FIFA_STAGE_ID[match.stage]}/${match.id}`
 }
 
+// team code -> fifa.com URL slug for the WC2026 squad page. The pages use a name
+// slug (not the tri-code) and a few differ from the plain English name, so these
+// are verified against fifa.com; anything missing derives from the English name.
+export const FIFA_TEAM_SLUG: Record<string, string> = {
+  ALG: 'algeria',
+  ARG: 'argentina',
+  AUS: 'australia',
+  AUT: 'austria',
+  BEL: 'belgium',
+  BIH: 'bosnia-herzegovina',
+  BRA: 'brazil',
+  CAN: 'canada',
+  CIV: 'cote-d-ivoire',
+  COD: 'congo-dr',
+  COL: 'colombia',
+  CPV: 'cabo-verde',
+  CRO: 'croatia',
+  CUW: 'curacao',
+  CZE: 'czechia',
+  ECU: 'ecuador',
+  EGY: 'egypt',
+  ENG: 'england',
+  ESP: 'spain',
+  FRA: 'france',
+  GER: 'germany',
+  GHA: 'ghana',
+  HAI: 'haiti',
+  IRN: 'ir-iran',
+  IRQ: 'iraq',
+  JOR: 'jordan',
+  JPN: 'japan',
+  KOR: 'korea-republic',
+  KSA: 'saudi-arabia',
+  MAR: 'morocco',
+  MEX: 'mexico',
+  NED: 'netherlands',
+  NOR: 'norway',
+  NZL: 'new-zealand',
+  PAN: 'panama',
+  PAR: 'paraguay',
+  POR: 'portugal',
+  QAT: 'qatar',
+  RSA: 'south-africa',
+  SCO: 'scotland',
+  SEN: 'senegal',
+  SUI: 'switzerland',
+  SWE: 'sweden',
+  TUN: 'tunisia',
+  TUR: 'turkiye',
+  URU: 'uruguay',
+  USA: 'usa',
+  UZB: 'uzbekistan',
+}
+function deriveFifaSlug(en: string): string {
+  return en
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+}
+export function fifaSquadUrl(team: Team, lang: Lang): string {
+  const sl = FIFA_SITE_LANG[lang] ?? 'en'
+  const slug = FIFA_TEAM_SLUG[team.code] || deriveFifaSlug(team.name.en || team.code)
+  return `https://www.fifa.com/${sl}/tournaments/mens/worldcup/canadamexicousa2026/teams/${slug}/squad`
+}
+
 // flags are downloaded into public/flags/ by `npm run update`: flat, official
 // aspect ratio, 120px tall (flagcdn h120); the <Flag> box letterboxes them
 const FLAG_BASE = `${import.meta.env.BASE_URL}flags/`

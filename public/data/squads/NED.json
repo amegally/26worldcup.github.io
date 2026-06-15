@@ -15,8 +15,13 @@
    "goals": 0,
    "club": "Brighton & Hove Albion",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Brighton_%26_Hove_Albion_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Bart_Verbruggen"
+   "wiki": "https://en.wikipedia.org/wiki/Bart_Verbruggen",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "robin-roefs",
@@ -28,8 +33,13 @@
    "goals": 0,
    "club": "Sunderland",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Sunderland_A.F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Robin_Roefs"
+   "wiki": "https://en.wikipedia.org/wiki/Robin_Roefs",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "mark-flekken",
@@ -41,8 +51,13 @@
    "goals": 0,
    "club": "Bayer Leverkusen",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/Bayer_04_Leverkusen",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Mark_Flekken"
+   "wiki": "https://en.wikipedia.org/wiki/Mark_Flekken",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "lutsharel-geertruida",
@@ -54,8 +69,13 @@
    "goals": 0,
    "club": "Sunderland",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Sunderland_AFC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Lutsharel_Geertruida"
+   "wiki": "https://en.wikipedia.org/wiki/Lutsharel_Geertruida",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "virgil-van-dijk",
@@ -67,8 +87,13 @@
    "goals": 12,
    "club": "Liverpool",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Liverpool_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Virgil_van_Dijk"
+   "wiki": "https://en.wikipedia.org/wiki/Virgil_van_Dijk",
+   "wcApps": 1,
+   "wcGoals": 1,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "nathan-ake",
@@ -80,8 +105,13 @@
    "goals": 5,
    "club": "Manchester City",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Manchester_City_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Nathan_Ak%C3%A9"
+   "wiki": "https://en.wikipedia.org/wiki/Nathan_Ak%C3%A9",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jan-paul-van-hecke",
@@ -93,8 +123,13 @@
    "goals": 0,
    "club": "Brighton & Hove Albion",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Brighton_%26_Hove_Albion_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jan_Paul_van_Hecke"
+   "wiki": "https://en.wikipedia.org/wiki/Jan_Paul_van_Hecke",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "mats-wieffer",
@@ -106,8 +141,13 @@
    "goals": 1,
    "club": "Brighton & Hove Albion",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Brighton_%26_Hove_Albion_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Mats_Wieffer"
+   "wiki": "https://en.wikipedia.org/wiki/Mats_Wieffer",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "micky-van-de-ven",
@@ -119,8 +159,13 @@
    "goals": 1,
    "club": "Tottenham Hotspur",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Tottenham_Hotspur_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Micky_van_de_Ven"
+   "wiki": "https://en.wikipedia.org/wiki/Micky_van_de_Ven",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 1,
+   "wcRed": 0
   },
   {
    "id": "denzel-dumfries",
@@ -132,8 +177,13 @@
    "goals": 11,
    "club": "Inter Milan",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Inter_Milan",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Denzel_Dumfries"
+   "wiki": "https://en.wikipedia.org/wiki/Denzel_Dumfries",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jorrel-hato",
@@ -145,8 +195,13 @@
    "goals": 0,
    "club": "Chelsea",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Chelsea_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jorrel_Hato"
+   "wiki": "https://en.wikipedia.org/wiki/Jorrel_Hato",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "marten-de-roon",
@@ -158,8 +213,13 @@
    "goals": 1,
    "club": "Atalanta",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Atalanta_BC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Marten_de_Roon"
+   "wiki": "https://en.wikipedia.org/wiki/Marten_de_Roon",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "justin-kluivert",
@@ -171,8 +231,13 @@
    "goals": 0,
    "club": "Bournemouth",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/AFC_Bournemouth",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Justin_Kluivert"
+   "wiki": "https://en.wikipedia.org/wiki/Justin_Kluivert",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ryan-gravenberch",
@@ -184,8 +249,13 @@
    "goals": 1,
    "club": "Liverpool",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Liverpool_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ryan_Gravenberch"
+   "wiki": "https://en.wikipedia.org/wiki/Ryan_Gravenberch",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "tijjani-reijnders",
@@ -197,8 +267,13 @@
    "goals": 7,
    "club": "Manchester City",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Manchester_City_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Tijjani_Reijnders"
+   "wiki": "https://en.wikipedia.org/wiki/Tijjani_Reijnders",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "guus-til",
@@ -210,8 +285,13 @@
    "goals": 1,
    "club": "PSV Eindhoven",
    "clubNat": "NED",
+   "clubWiki": "https://en.wikipedia.org/wiki/PSV_Eindhoven",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Guus_Til"
+   "wiki": "https://en.wikipedia.org/wiki/Guus_Til",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "teun-koopmeiners",
@@ -223,8 +303,13 @@
    "goals": 3,
    "club": "Juventus",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Juventus_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Teun_Koopmeiners"
+   "wiki": "https://en.wikipedia.org/wiki/Teun_Koopmeiners",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "frenkie-de-jong",
@@ -236,8 +321,13 @@
    "goals": 2,
    "club": "Barcelona",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Barcelona",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Frenkie_de_Jong"
+   "wiki": "https://en.wikipedia.org/wiki/Frenkie_de_Jong",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "quinten-timber",
@@ -249,8 +339,13 @@
    "goals": 1,
    "club": "Marseille",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Olympique_de_Marseille",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Quinten_Timber"
+   "wiki": "https://en.wikipedia.org/wiki/Quinten_Timber",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "wout-weghorst",
@@ -262,8 +357,13 @@
    "goals": 14,
    "club": "Ajax",
    "clubNat": "NED",
+   "clubWiki": "https://en.wikipedia.org/wiki/AFC_Ajax",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Wout_Weghorst"
+   "wiki": "https://en.wikipedia.org/wiki/Wout_Weghorst",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "memphis-depay",
@@ -275,8 +375,13 @@
    "goals": 55,
    "club": "Corinthians",
    "clubNat": "BRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/SC_Corinthians_Paulista",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Memphis_Depay"
+   "wiki": "https://en.wikipedia.org/wiki/Memphis_Depay",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 1,
+   "wcRed": 0
   },
   {
    "id": "cody-gakpo",
@@ -288,8 +393,13 @@
    "goals": 21,
    "club": "Liverpool",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Liverpool_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Cody_Gakpo"
+   "wiki": "https://en.wikipedia.org/wiki/Cody_Gakpo",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "noa-lang",
@@ -301,8 +411,13 @@
    "goals": 3,
    "club": "Galatasaray",
    "clubNat": "TUR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Galatasaray_S.K._(football)",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Noa_Lang"
+   "wiki": "https://en.wikipedia.org/wiki/Noa_Lang",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "donyell-malen",
@@ -314,8 +429,13 @@
    "goals": 13,
    "club": "Roma",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/AS_Roma",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Donyell_Malen"
+   "wiki": "https://en.wikipedia.org/wiki/Donyell_Malen",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "brian-brobbey",
@@ -327,8 +447,13 @@
    "goals": 1,
    "club": "Sunderland",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Sunderland_A.F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Brian_Brobbey"
+   "wiki": "https://en.wikipedia.org/wiki/Brian_Brobbey",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "crysencio-summerville",
@@ -340,8 +465,13 @@
    "goals": 0,
    "club": "West Ham United",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/West_Ham_United_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Crysencio_Summerville"
+   "wiki": "https://en.wikipedia.org/wiki/Crysencio_Summerville",
+   "wcApps": 1,
+   "wcGoals": 1,
+   "wcYellow": 1,
+   "wcRed": 0
   }
  ]
 }

@@ -15,8 +15,13 @@
    "goals": 0,
    "club": "New England Revolution",
    "clubNat": "USA",
+   "clubWiki": "https://en.wikipedia.org/wiki/New_England_Revolution",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Matt_Turner_(soccer)"
+   "wiki": "https://en.wikipedia.org/wiki/Matt_Turner_(soccer)",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "matt-freese",
@@ -28,8 +33,13 @@
    "goals": 0,
    "club": "New York City FC",
    "clubNat": "USA",
+   "clubWiki": "https://en.wikipedia.org/wiki/New_York_City_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Matt_Freese"
+   "wiki": "https://en.wikipedia.org/wiki/Matt_Freese",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "chris-brady",
@@ -41,8 +51,13 @@
    "goals": 0,
    "club": "Chicago Fire FC",
    "clubNat": "USA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Chicago_Fire_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Chris_Brady_(soccer)"
+   "wiki": "https://en.wikipedia.org/wiki/Chris_Brady_(soccer)",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "sergino-dest",
@@ -54,8 +69,13 @@
    "goals": 3,
    "club": "PSV Eindhoven",
    "clubNat": "NED",
+   "clubWiki": "https://en.wikipedia.org/wiki/PSV_Eindhoven",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Sergi%C3%B1o_Dest"
+   "wiki": "https://en.wikipedia.org/wiki/Sergi%C3%B1o_Dest",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "chris-richards",
@@ -67,8 +87,13 @@
    "goals": 3,
    "club": "Crystal Palace",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Crystal_Palace_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Chris_Richards_(soccer)"
+   "wiki": "https://en.wikipedia.org/wiki/Chris_Richards_(soccer)",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "antonee-robinson",
@@ -80,8 +105,13 @@
    "goals": 5,
    "club": "Fulham",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Fulham_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Antonee_Robinson"
+   "wiki": "https://en.wikipedia.org/wiki/Antonee_Robinson",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "auston-trusty",
@@ -93,8 +123,13 @@
    "goals": 0,
    "club": "Celtic",
    "clubNat": "SCO",
+   "clubWiki": "https://en.wikipedia.org/wiki/Celtic_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Auston_Trusty"
+   "wiki": "https://en.wikipedia.org/wiki/Auston_Trusty",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "miles-robinson",
@@ -106,8 +141,13 @@
    "goals": 3,
    "club": "FC Cincinnati",
    "clubNat": "USA",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Cincinnati",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Miles_Robinson_(soccer)"
+   "wiki": "https://en.wikipedia.org/wiki/Miles_Robinson_(soccer)",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "tim-ream",
@@ -119,8 +159,13 @@
    "goals": 1,
    "club": "Charlotte FC",
    "clubNat": "USA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Charlotte_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Tim_Ream"
+   "wiki": "https://en.wikipedia.org/wiki/Tim_Ream",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "alex-freeman",
@@ -132,8 +177,13 @@
    "goals": 2,
    "club": "Villarreal",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/Villarreal_CF",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Alex_Freeman"
+   "wiki": "https://en.wikipedia.org/wiki/Alex_Freeman",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "max-arfsten",
@@ -145,8 +195,13 @@
    "goals": 1,
    "club": "Columbus Crew",
    "clubNat": "USA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Columbus_Crew",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Max_Arfsten"
+   "wiki": "https://en.wikipedia.org/wiki/Max_Arfsten",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "mark-mckenzie",
@@ -158,8 +213,13 @@
    "goals": 0,
    "club": "Toulouse",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Toulouse_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Mark_McKenzie_(soccer%2C_born_1999)"
+   "wiki": "https://en.wikipedia.org/wiki/Mark_McKenzie_(soccer%2C_born_1999)",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "joe-scally",
@@ -171,8 +231,13 @@
    "goals": 0,
    "club": "Borussia Mönchengladbach",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/Borussia_M%C3%B6nchengladbach",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Joe_Scally"
+   "wiki": "https://en.wikipedia.org/wiki/Joe_Scally",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "tyler-adams",
@@ -184,8 +249,13 @@
    "goals": 2,
    "club": "Bournemouth",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/AFC_Bournemouth",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Tyler_Adams"
+   "wiki": "https://en.wikipedia.org/wiki/Tyler_Adams",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 1,
+   "wcRed": 0
   },
   {
    "id": "giovanni-reyna",
@@ -197,8 +267,13 @@
    "goals": 9,
    "club": "Borussia Mönchengladbach",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/Borussia_M%C3%B6nchengladbach",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Giovanni_Reyna"
+   "wiki": "https://en.wikipedia.org/wiki/Giovanni_Reyna",
+   "wcApps": 1,
+   "wcGoals": 1,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "weston-mckennie",
@@ -210,8 +285,13 @@
    "goals": 12,
    "club": "Juventus",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Juventus_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Weston_McKennie"
+   "wiki": "https://en.wikipedia.org/wiki/Weston_McKennie",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "sebastian-berhalter",
@@ -223,8 +303,13 @@
    "goals": 1,
    "club": "Vancouver Whitecaps FC",
    "clubNat": "CAN",
+   "clubWiki": "https://en.wikipedia.org/wiki/Vancouver_Whitecaps_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Sebastian_Berhalter"
+   "wiki": "https://en.wikipedia.org/wiki/Sebastian_Berhalter",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "cristian-roldan",
@@ -236,8 +321,13 @@
    "goals": 0,
    "club": "Seattle Sounders FC",
    "clubNat": "USA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Seattle_Sounders_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Cristian_Roldan"
+   "wiki": "https://en.wikipedia.org/wiki/Cristian_Roldan",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "malik-tillman",
@@ -249,8 +339,13 @@
    "goals": 3,
    "club": "Bayer Leverkusen",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/Bayer_04_Leverkusen",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Malik_Tillman"
+   "wiki": "https://en.wikipedia.org/wiki/Malik_Tillman",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ricardo-pepi",
@@ -262,8 +357,13 @@
    "goals": 13,
    "club": "PSV Eindhoven",
    "clubNat": "NED",
+   "clubWiki": "https://en.wikipedia.org/wiki/PSV_Eindhoven",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ricardo_Pepi"
+   "wiki": "https://en.wikipedia.org/wiki/Ricardo_Pepi",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "christian-pulisic",
@@ -275,8 +375,13 @@
    "goals": 33,
    "club": "Milan",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/AC_Milan",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Christian_Pulisic"
+   "wiki": "https://en.wikipedia.org/wiki/Christian_Pulisic",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "brenden-aaronson",
@@ -288,8 +393,13 @@
    "goals": 9,
    "club": "Leeds United",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Leeds_United_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Brenden_Aaronson"
+   "wiki": "https://en.wikipedia.org/wiki/Brenden_Aaronson",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "haji-wright",
@@ -301,8 +411,13 @@
    "goals": 7,
    "club": "Coventry City",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Coventry_City_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Haji_Wright"
+   "wiki": "https://en.wikipedia.org/wiki/Haji_Wright",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "folarin-balogun",
@@ -314,8 +429,13 @@
    "goals": 9,
    "club": "Monaco",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/AS_Monaco_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Folarin_Balogun"
+   "wiki": "https://en.wikipedia.org/wiki/Folarin_Balogun",
+   "wcApps": 1,
+   "wcGoals": 2,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "timothy-weah",
@@ -327,8 +447,13 @@
    "goals": 7,
    "club": "Marseille",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Olympique_de_Marseille",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Timothy_Weah"
+   "wiki": "https://en.wikipedia.org/wiki/Timothy_Weah",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "alejandro-zendejas",
@@ -340,8 +465,13 @@
    "goals": 2,
    "club": "América",
    "clubNat": "MEX",
+   "clubWiki": "https://en.wikipedia.org/wiki/Club_Am%C3%A9rica",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Alejandro_Zendejas"
+   "wiki": "https://en.wikipedia.org/wiki/Alejandro_Zendejas",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   }
  ]
 }

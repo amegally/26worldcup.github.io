@@ -15,8 +15,13 @@
    "goals": 0,
    "club": "St. Gallen",
    "clubNat": "SUI",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_St._Gallen",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Lawrence_Ati-Zigi"
+   "wiki": "https://en.wikipedia.org/wiki/Lawrence_Ati-Zigi",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "joseph-anang",
@@ -28,8 +33,13 @@
    "goals": 0,
    "club": "St Patrick's Athletic",
    "clubNat": "IRL",
+   "clubWiki": "https://en.wikipedia.org/wiki/St_Patrick's_Athletic_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Joseph_Anang"
+   "wiki": "https://en.wikipedia.org/wiki/Joseph_Anang",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "benjamin-asare",
@@ -41,8 +51,13 @@
    "goals": 0,
    "club": "Hearts of Oak",
    "clubNat": "GHA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Accra_Hearts_of_Oak_S.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Benjamin_Asare"
+   "wiki": "https://en.wikipedia.org/wiki/Benjamin_Asare",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "alidu-seidu",
@@ -54,8 +69,13 @@
    "goals": 1,
    "club": "Rennes",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Stade_Rennais_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Alidu_Seidu"
+   "wiki": "https://en.wikipedia.org/wiki/Alidu_Seidu",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jonas-adjetey",
@@ -67,8 +87,13 @@
    "goals": 0,
    "club": "VfL Wolfsburg",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/VfL_Wolfsburg",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jonas_Adjetey"
+   "wiki": "https://en.wikipedia.org/wiki/Jonas_Adjetey",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "abdul-mumin",
@@ -80,8 +105,13 @@
    "goals": 0,
    "club": "Rayo Vallecano",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/Rayo_Vallecano",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Abdul_Mumin"
+   "wiki": "https://en.wikipedia.org/wiki/Abdul_Mumin",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "gideon-mensah",
@@ -93,8 +123,13 @@
    "goals": 0,
    "club": "Auxerre",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/AJ_Auxerre",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Gideon_Mensah_(footballer%2C_born_1998)"
+   "wiki": "https://en.wikipedia.org/wiki/Gideon_Mensah_(footballer%2C_born_1998)",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "abdul-rahman-baba",
@@ -106,8 +141,13 @@
    "goals": 1,
    "club": "PAOK",
    "clubNat": "GRE",
+   "clubWiki": "https://en.wikipedia.org/wiki/PAOK_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Abdul_Rahman_Baba"
+   "wiki": "https://en.wikipedia.org/wiki/Abdul_Rahman_Baba",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jerome-opoku",
@@ -119,8 +159,13 @@
    "goals": 1,
    "club": "İstanbul Başakşehir",
    "clubNat": "TUR",
+   "clubWiki": "https://en.wikipedia.org/wiki/%C4%B0stanbul_Ba%C5%9Fak%C5%9Fehir_F.K.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jerome_Opoku"
+   "wiki": "https://en.wikipedia.org/wiki/Jerome_Opoku",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "kojo-peprah-oppong",
@@ -132,8 +177,13 @@
    "goals": 0,
    "club": "Nice",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/OGC_Nice",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Kojo_Peprah_Oppong"
+   "wiki": "https://en.wikipedia.org/wiki/Kojo_Peprah_Oppong",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "derrick-luckassen",
@@ -145,8 +195,13 @@
    "goals": 0,
    "club": "Pafos",
    "clubNat": "CYP",
+   "clubWiki": "https://en.wikipedia.org/wiki/Pafos_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Derrick_Luckassen"
+   "wiki": "https://en.wikipedia.org/wiki/Derrick_Luckassen",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "marvin-senaya",
@@ -158,8 +213,13 @@
    "goals": 0,
    "club": "Auxerre",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/AJ_Auxerre",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Marvin_Senaya"
+   "wiki": "https://en.wikipedia.org/wiki/Marvin_Senaya",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "caleb-yirenkyi",
@@ -171,8 +231,13 @@
    "goals": 1,
    "club": "Nordsjælland",
    "clubNat": "DEN",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Nordsj%C3%A6lland",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Caleb_Yirenkyi"
+   "wiki": "https://en.wikipedia.org/wiki/Caleb_Yirenkyi",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "thomas-partey",
@@ -184,8 +249,13 @@
    "goals": 15,
    "club": "Villarreal",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/Villarreal_CF",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Thomas_Partey"
+   "wiki": "https://en.wikipedia.org/wiki/Thomas_Partey",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "kwasi-sibo",
@@ -197,8 +267,13 @@
    "goals": 0,
    "club": "Oviedo",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/Real_Oviedo",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Kwasi_Sibo"
+   "wiki": "https://en.wikipedia.org/wiki/Kwasi_Sibo",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "antoine-semenyo",
@@ -210,8 +285,13 @@
    "goals": 3,
    "club": "Manchester City",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Manchester_City_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Antoine_Semenyo"
+   "wiki": "https://en.wikipedia.org/wiki/Antoine_Semenyo",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "elisha-owusu",
@@ -223,8 +303,13 @@
    "goals": 0,
    "club": "Auxerre",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/AJ_Auxerre",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Elisha_Owusu"
+   "wiki": "https://en.wikipedia.org/wiki/Elisha_Owusu",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "augustine-boakye",
@@ -236,8 +321,13 @@
    "goals": 0,
    "club": "Saint-Étienne",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/AS_Saint-%C3%89tienne",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Augustine_Boakye"
+   "wiki": "https://en.wikipedia.org/wiki/Augustine_Boakye",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "abdul-fatawu",
@@ -249,8 +339,13 @@
    "goals": 3,
    "club": "Leicester City",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Leicester_City_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Abdul_Fatawu"
+   "wiki": "https://en.wikipedia.org/wiki/Abdul_Fatawu",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jordan-ayew",
@@ -262,8 +357,13 @@
    "goals": 34,
    "club": "Leicester City",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Leicester_City_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jordan_Ayew"
+   "wiki": "https://en.wikipedia.org/wiki/Jordan_Ayew",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "brandon-thomas-asante",
@@ -275,8 +375,13 @@
    "goals": 1,
    "club": "Coventry City",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Coventry_City_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Brandon_Thomas-Asante"
+   "wiki": "https://en.wikipedia.org/wiki/Brandon_Thomas-Asante",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "christopher-bonsu-baah",
@@ -288,8 +393,13 @@
    "goals": 0,
    "club": "Al-Qadsiah",
    "clubNat": "KSA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al_Qadsiah_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Christopher_Bonsu_Baah"
+   "wiki": "https://en.wikipedia.org/wiki/Christopher_Bonsu_Baah",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "inaki-williams",
@@ -301,8 +411,13 @@
    "goals": 2,
    "club": "Athletic Bilbao",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/Athletic_Bilbao",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/I%C3%B1aki_Williams"
+   "wiki": "https://en.wikipedia.org/wiki/I%C3%B1aki_Williams",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "kamaldeen-sulemana",
@@ -314,8 +429,13 @@
    "goals": 1,
    "club": "Atalanta",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Atalanta_BC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Kamaldeen_Sulemana"
+   "wiki": "https://en.wikipedia.org/wiki/Kamaldeen_Sulemana",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ernest-nuamah",
@@ -327,8 +447,13 @@
    "goals": 4,
    "club": "Lyon",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Olympique_Lyonnais",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ernest_Nuamah"
+   "wiki": "https://en.wikipedia.org/wiki/Ernest_Nuamah",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "prince-kwabena-adu",
@@ -340,8 +465,13 @@
    "goals": 0,
    "club": "Viktoria Plzeň",
    "clubNat": "CZE",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Viktoria_Plze%C5%88",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Prince_Kwabena_Adu"
+   "wiki": "https://en.wikipedia.org/wiki/Prince_Kwabena_Adu",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   }
  ]
 }

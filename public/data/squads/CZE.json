@@ -15,8 +15,13 @@
    "goals": 0,
    "club": "PSV Eindhoven",
    "clubNat": "NED",
+   "clubWiki": "https://en.wikipedia.org/wiki/PSV_Eindhoven",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Mat%C4%9Bj_Kov%C3%A1%C5%99"
+   "wiki": "https://en.wikipedia.org/wiki/Mat%C4%9Bj_Kov%C3%A1%C5%99",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jindrich-stanek",
@@ -28,8 +33,13 @@
    "goals": 0,
    "club": "Slavia Prague",
    "clubNat": "CZE",
+   "clubWiki": "https://en.wikipedia.org/wiki/SK_Slavia_Prague",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jind%C5%99ich_Stan%C4%9Bk"
+   "wiki": "https://en.wikipedia.org/wiki/Jind%C5%99ich_Stan%C4%9Bk",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "lukas-hornicek",
@@ -41,8 +51,13 @@
    "goals": 0,
    "club": "Braga",
    "clubNat": "POR",
+   "clubWiki": "https://en.wikipedia.org/wiki/S.C._Braga",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Luk%C3%A1%C5%A1_Horn%C3%AD%C4%8Dek"
+   "wiki": "https://en.wikipedia.org/wiki/Luk%C3%A1%C5%A1_Horn%C3%AD%C4%8Dek",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "david-zima",
@@ -54,8 +69,13 @@
    "goals": 1,
    "club": "Slavia Prague",
    "clubNat": "CZE",
+   "clubWiki": "https://en.wikipedia.org/wiki/SK_Slavia_Prague",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/David_Zima"
+   "wiki": "https://en.wikipedia.org/wiki/David_Zima",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "tomas-holes",
@@ -67,8 +87,13 @@
    "goals": 2,
    "club": "Slavia Prague",
    "clubNat": "CZE",
+   "clubWiki": "https://en.wikipedia.org/wiki/SK_Slavia_Prague",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Tom%C3%A1%C5%A1_Hole%C5%A1"
+   "wiki": "https://en.wikipedia.org/wiki/Tom%C3%A1%C5%A1_Hole%C5%A1",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "robin-hranac",
@@ -80,8 +105,13 @@
    "goals": 1,
    "club": "TSG Hoffenheim",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/TSG_1899_Hoffenheim",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Robin_Hran%C3%A1%C4%8D"
+   "wiki": "https://en.wikipedia.org/wiki/Robin_Hran%C3%A1%C4%8D",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "vladimir-coufal",
@@ -93,8 +123,13 @@
    "goals": 2,
    "club": "TSG Hoffenheim",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/TSG_1899_Hoffenheim",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Vladim%C3%ADr_Coufal"
+   "wiki": "https://en.wikipedia.org/wiki/Vladim%C3%ADr_Coufal",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "stepan-chaloupek",
@@ -106,8 +141,13 @@
    "goals": 0,
    "club": "Slavia Prague",
    "clubNat": "CZE",
+   "clubWiki": "https://en.wikipedia.org/wiki/SK_Slavia_Prague",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/%C5%A0t%C4%9Bp%C3%A1n_Chaloupek"
+   "wiki": "https://en.wikipedia.org/wiki/%C5%A0t%C4%9Bp%C3%A1n_Chaloupek",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ladislav-krejci",
@@ -119,8 +159,13 @@
    "goals": 5,
    "club": "Wolverhampton Wanderers",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Wolverhampton_Wanderers_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ladislav_Krej%C4%8D%C3%AD_(footballer%2C_born_1999)"
+   "wiki": "https://en.wikipedia.org/wiki/Ladislav_Krej%C4%8D%C3%AD_(footballer%2C_born_1999)",
+   "wcApps": 1,
+   "wcGoals": 1,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "david-jurasek",
@@ -132,8 +177,13 @@
    "goals": 1,
    "club": "Slavia Prague",
    "clubNat": "CZE",
+   "clubWiki": "https://en.wikipedia.org/wiki/SK_Slavia_Prague",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/David_Jur%C3%A1sek"
+   "wiki": "https://en.wikipedia.org/wiki/David_Jur%C3%A1sek",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jaroslav-zeleny",
@@ -145,8 +195,13 @@
    "goals": 0,
    "club": "Sparta Prague",
    "clubNat": "CZE",
+   "clubWiki": "https://en.wikipedia.org/wiki/AC_Sparta_Prague",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jaroslav_Zelen%C3%BD"
+   "wiki": "https://en.wikipedia.org/wiki/Jaroslav_Zelen%C3%BD",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "david-doudera",
@@ -158,8 +213,13 @@
    "goals": 2,
    "club": "Slavia Prague",
    "clubNat": "CZE",
+   "clubWiki": "https://en.wikipedia.org/wiki/SK_Slavia_Prague",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/David_Doud%C4%9Bra"
+   "wiki": "https://en.wikipedia.org/wiki/David_Doud%C4%9Bra",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "vladimir-darida",
@@ -171,8 +231,13 @@
    "goals": 8,
    "club": "Hradec Králové",
    "clubNat": "CZE",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Hradec_Kr%C3%A1lov%C3%A9",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Vladim%C3%ADr_Darida"
+   "wiki": "https://en.wikipedia.org/wiki/Vladim%C3%ADr_Darida",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "lukas-cerv",
@@ -184,8 +249,13 @@
    "goals": 2,
    "club": "Viktoria Plzeň",
    "clubNat": "CZE",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Viktoria_Plze%C5%88",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Luk%C3%A1%C5%A1_%C4%8Cerv"
+   "wiki": "https://en.wikipedia.org/wiki/Luk%C3%A1%C5%A1_%C4%8Cerv",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "lukas-provod",
@@ -197,8 +267,13 @@
    "goals": 3,
    "club": "Slavia Prague",
    "clubNat": "CZE",
+   "clubWiki": "https://en.wikipedia.org/wiki/SK_Slavia_Prague",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Luk%C3%A1%C5%A1_Provod"
+   "wiki": "https://en.wikipedia.org/wiki/Luk%C3%A1%C5%A1_Provod",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "michal-sadilek",
@@ -210,8 +285,13 @@
    "goals": 1,
    "club": "Slavia Prague",
    "clubNat": "CZE",
+   "clubWiki": "https://en.wikipedia.org/wiki/SK_Slavia_Prague",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Michal_Sad%C3%ADlek"
+   "wiki": "https://en.wikipedia.org/wiki/Michal_Sad%C3%ADlek",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "tomas-soucek",
@@ -223,8 +303,13 @@
    "goals": 17,
    "club": "West Ham United",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/West_Ham_United_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Tom%C3%A1%C5%A1_Sou%C4%8Dek"
+   "wiki": "https://en.wikipedia.org/wiki/Tom%C3%A1%C5%A1_Sou%C4%8Dek",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "alexandr-sojka",
@@ -236,8 +321,13 @@
    "goals": 0,
    "club": "Viktoria Plzeň",
    "clubNat": "CZE",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Viktoria_Plze%C5%88",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Alexandr_Sojka"
+   "wiki": "https://en.wikipedia.org/wiki/Alexandr_Sojka",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "hugo-sochurek",
@@ -249,8 +339,13 @@
    "goals": 0,
    "club": "Sparta Prague",
    "clubNat": "CZE",
+   "clubWiki": "https://en.wikipedia.org/wiki/AC_Sparta_Prague",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Hugo_Soch%C5%AFrek"
+   "wiki": "https://en.wikipedia.org/wiki/Hugo_Soch%C5%AFrek",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "adam-hlozek",
@@ -262,8 +357,13 @@
    "goals": 5,
    "club": "TSG Hoffenheim",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/TSG_1899_Hoffenheim",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Adam_Hlo%C5%BEek"
+   "wiki": "https://en.wikipedia.org/wiki/Adam_Hlo%C5%BEek",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "patrik-schick",
@@ -275,8 +375,13 @@
    "goals": 26,
    "club": "Bayer Leverkusen",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/Bayer_04_Leverkusen",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Patrik_Schick"
+   "wiki": "https://en.wikipedia.org/wiki/Patrik_Schick",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jan-kuchta",
@@ -288,8 +393,13 @@
    "goals": 3,
    "club": "Sparta Prague",
    "clubNat": "CZE",
+   "clubWiki": "https://en.wikipedia.org/wiki/AC_Sparta_Prague",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jan_Kuchta"
+   "wiki": "https://en.wikipedia.org/wiki/Jan_Kuchta",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "mojmir-chytil",
@@ -301,8 +411,13 @@
    "goals": 6,
    "club": "Slavia Prague",
    "clubNat": "CZE",
+   "clubWiki": "https://en.wikipedia.org/wiki/SK_Slavia_Prague",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Mojm%C3%ADr_Chytil"
+   "wiki": "https://en.wikipedia.org/wiki/Mojm%C3%ADr_Chytil",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "pavel-sulc",
@@ -314,8 +429,13 @@
    "goals": 5,
    "club": "Lyon",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Olympique_Lyonnais",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Pavel_%C5%A0ulc"
+   "wiki": "https://en.wikipedia.org/wiki/Pavel_%C5%A0ulc",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "tomas-chory",
@@ -327,8 +447,13 @@
    "goals": 7,
    "club": "Slavia Prague",
    "clubNat": "CZE",
+   "clubWiki": "https://en.wikipedia.org/wiki/SK_Slavia_Prague",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Tom%C3%A1%C5%A1_Chor%C3%BD"
+   "wiki": "https://en.wikipedia.org/wiki/Tom%C3%A1%C5%A1_Chor%C3%BD",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "denis-visinsky",
@@ -340,8 +465,13 @@
    "goals": 1,
    "club": "Viktoria Plzeň",
    "clubNat": "CZE",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Viktoria_Plze%C5%88",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Denis_Vi%C5%A1insk%C3%BD"
+   "wiki": "https://en.wikipedia.org/wiki/Denis_Vi%C5%A1insk%C3%BD",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   }
  ]
 }

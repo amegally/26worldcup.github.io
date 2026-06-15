@@ -5,7 +5,17 @@ interface PitchProps {
   away: TeamLineup | null
   homeName: string
   awayName: string
+  /** FIFA codes, used to link each team label to /team/<code> */
+  homeCode?: string
+  awayCode?: string
+  /** flag image URLs shown before each team label */
+  homeFlag?: string
+  awayFlag?: string
   marks?: Record<string, { card?: 'y' | 'r' }>
+  /** player id -> minute they were substituted off (shown under the XI name) */
+  subOff?: Record<string, string>
+  /** player id -> goal minutes string, e.g. "5', 90'" (shown under the XI name) */
+  goals?: Record<string, string>
 }
 
 interface Placed {
@@ -74,8 +84,45 @@ function layout(tl: TeamLineup, half: 'top' | 'bottom'): Placed[] {
   return out
 }
 
-function PlayerDot({ pl, side, card }: { pl: Placed; side: 'home' | 'away'; card?: 'y' | 'r' }) {
+function PlayerDot({
+  pl,
+  side,
+  card,
+  off,
+  goals,
+  code,
+}: {
+  pl: Placed
+  side: 'home' | 'away'
+  card?: 'y' | 'r'
+  off?: string
+  goals?: string
+  code?: string
+}) {
   const c = COLORS[side]
+  const href = code && pl.p.number != null ? `#/team/${code}?p=${pl.p.number}` : null
+  // annotation lines stacked under the name: goals (⚽) then sub-off (↓)
+  const notes = [
+    goals ? { text: `⚽ ${goals}`, fill: '#ffffff' } : null,
+    off ? { text: `↓ ${off}`, fill: '#ff9d9d' } : null,
+  ].filter((n): n is { text: string; fill: string } => n !== null)
+  const nameText = (
+    <text
+      textAnchor="middle"
+      y={7.9}
+      style={{
+        fontSize: 2.4,
+        fontWeight: 650,
+        fill: '#ffffff',
+        paintOrder: 'stroke',
+        stroke: 'rgb(0 0 0 / 0.5)',
+        strokeWidth: 0.5,
+        cursor: href ? 'pointer' : undefined,
+      }}
+    >
+      {shortName(pl.p.name)}
+    </text>
+  )
   return (
     <g transform={`translate(${pl.x} ${pl.y})`}>
       <circle r={4.3} style={{ fill: c.dot, stroke: 'rgb(0 0 0 / 0.35)', strokeWidth: 0.5 }} />
@@ -106,26 +153,103 @@ function PlayerDot({ pl, side, card }: { pl: Placed; side: 'home' | 'away'; card
           </text>
         </g>
       )}
-      <text
-        textAnchor="middle"
-        y={7.9}
-        style={{
-          fontSize: 2.4,
-          fontWeight: 650,
-          fill: '#ffffff',
-          paintOrder: 'stroke',
-          stroke: 'rgb(0 0 0 / 0.5)',
-          strokeWidth: 0.5,
-        }}
-      >
-        {shortName(pl.p.name)}
-      </text>
+      {href ? (
+        <a href={href} aria-label={pl.p.name ?? undefined}>
+          {nameText}
+        </a>
+      ) : (
+        nameText
+      )}
+      {notes.map((n, i) => (
+        <text
+          key={n.text}
+          textAnchor="middle"
+          y={10.8 + i * 2.9}
+          style={{
+            fontSize: 2.1,
+            fontWeight: 700,
+            fill: n.fill,
+            paintOrder: 'stroke',
+            stroke: 'rgb(0 0 0 / 0.55)',
+            strokeWidth: 0.45,
+          }}
+        >
+          {n.text}
+        </text>
+      ))}
     </g>
   )
 }
 
+/** team label row: color dot + flag + name (· tactics), linking to /team/<code> */
+function TeamLabel({
+  side,
+  cy,
+  textY,
+  name,
+  tactics,
+  code,
+  flag,
+}: {
+  side: 'home' | 'away'
+  cy: number
+  textY: number
+  name: string
+  tactics?: string | null
+  code?: string
+  flag?: string
+}) {
+  const flagX = 7.2
+  const flagW = 5
+  const flagH = 3.75
+  const textX = flag ? flagX + flagW + 0.8 : 8.6
+  const body = (
+    <>
+      <circle
+        cx={4.8}
+        cy={cy}
+        r={1.9}
+        style={{ fill: COLORS[side].dot, stroke: 'rgb(0 0 0 / 0.25)', strokeWidth: 0.4 }}
+      />
+      {flag && (
+        <image
+          href={flag}
+          x={flagX}
+          y={cy - flagH / 2}
+          width={flagW}
+          height={flagH}
+          preserveAspectRatio="xMidYMid meet"
+        />
+      )}
+      <text x={textX} y={textY} style={{ fontSize: 3.8, fontWeight: 700, fill: 'var(--text)' }}>
+        {name}
+        {tactics ? `  ·  ${tactics}` : ''}
+      </text>
+    </>
+  )
+  return code ? (
+    <a href={`#/team/${code}`} aria-label={name} style={{ cursor: 'pointer' }}>
+      {body}
+    </a>
+  ) : (
+    <g>{body}</g>
+  )
+}
+
 /** vertical football pitch with both starting XIs placed by tactics; pure SVG, responsive */
-export default function Pitch({ home, away, homeName, awayName, marks }: PitchProps) {
+export default function Pitch({
+  home,
+  away,
+  homeName,
+  awayName,
+  homeCode,
+  awayCode,
+  homeFlag,
+  awayFlag,
+  marks,
+  subOff,
+  goals,
+}: PitchProps) {
   const homePlaced = home ? layout(home, 'bottom') : []
   const awayPlaced = away ? layout(away, 'top') : []
   if (!homePlaced.length && !awayPlaced.length) return null
@@ -138,16 +262,15 @@ export default function Pitch({ home, away, homeName, awayName, marks }: PitchPr
       style={{ width: '100%', maxWidth: 460, height: 'auto', display: 'block', margin: '0 auto' }}
     >
       {/* team label: away (top half) */}
-      <circle
-        cx={4.8}
+      <TeamLabel
+        side="away"
         cy={4.6}
-        r={1.9}
-        style={{ fill: COLORS.away.dot, stroke: 'rgb(0 0 0 / 0.25)', strokeWidth: 0.4 }}
+        textY={6}
+        name={awayName}
+        tactics={away?.tactics}
+        code={awayCode}
+        flag={awayFlag}
       />
-      <text x={8.6} y={6} style={{ fontSize: 3.8, fontWeight: 700, fill: 'var(--text)' }}>
-        {awayName}
-        {away?.tactics ? `  ·  ${away.tactics}` : ''}
-      </text>
 
       {/* turf */}
       <rect x={0} y={8} width={100} height={148} rx={2} style={{ fill: 'var(--pitch)' }} />
@@ -188,23 +311,38 @@ export default function Pitch({ home, away, homeName, awayName, marks }: PitchPr
 
       {/* players */}
       {awayPlaced.map((pl) => (
-        <PlayerDot key={pl.p.id} pl={pl} side="away" card={marks?.[pl.p.id]?.card} />
+        <PlayerDot
+          key={pl.p.id}
+          pl={pl}
+          side="away"
+          card={marks?.[pl.p.id]?.card}
+          off={subOff?.[pl.p.id]}
+          goals={goals?.[pl.p.id]}
+          code={awayCode}
+        />
       ))}
       {homePlaced.map((pl) => (
-        <PlayerDot key={pl.p.id} pl={pl} side="home" card={marks?.[pl.p.id]?.card} />
+        <PlayerDot
+          key={pl.p.id}
+          pl={pl}
+          side="home"
+          card={marks?.[pl.p.id]?.card}
+          off={subOff?.[pl.p.id]}
+          goals={goals?.[pl.p.id]}
+          code={homeCode}
+        />
       ))}
 
       {/* team label: home (bottom half) */}
-      <circle
-        cx={4.8}
+      <TeamLabel
+        side="home"
         cy={159.4}
-        r={1.9}
-        style={{ fill: COLORS.home.dot, stroke: 'rgb(0 0 0 / 0.25)', strokeWidth: 0.4 }}
+        textY={160.8}
+        name={homeName}
+        tactics={home?.tactics}
+        code={homeCode}
+        flag={homeFlag}
       />
-      <text x={8.6} y={160.8} style={{ fontSize: 3.8, fontWeight: 700, fill: 'var(--text)' }}>
-        {homeName}
-        {home?.tactics ? `  ·  ${home.tactics}` : ''}
-      </text>
     </svg>
   )
 }

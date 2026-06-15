@@ -15,8 +15,13 @@
    "goals": 0,
    "club": "FC St. Pauli",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_St._Pauli",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Nikola_Vasilj"
+   "wiki": "https://en.wikipedia.org/wiki/Nikola_Vasilj",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "mladen-jurkas",
@@ -28,8 +33,13 @@
    "goals": 0,
    "club": "Borac Banja Luka",
    "clubNat": "BIH",
+   "clubWiki": "https://en.wikipedia.org/wiki/FK_Borac_Banja_Luka",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Mladen_Jurkas"
+   "wiki": "https://en.wikipedia.org/wiki/Mladen_Jurkas",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "martin-zlomislic",
@@ -41,8 +51,13 @@
    "goals": 0,
    "club": "Rijeka",
    "clubNat": "CRO",
+   "clubWiki": "https://en.wikipedia.org/wiki/HNK_Rijeka",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Martin_Zlomisli%C4%87"
+   "wiki": "https://en.wikipedia.org/wiki/Martin_Zlomisli%C4%87",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "nihad-mujakic",
@@ -54,8 +69,13 @@
    "goals": 1,
    "club": "Gaziantep",
    "clubNat": "TUR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Gaziantep_F.K.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Nihad_Mujaki%C4%87"
+   "wiki": "https://en.wikipedia.org/wiki/Nihad_Mujaki%C4%87",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "dennis-hadzikadunic",
@@ -67,8 +87,13 @@
    "goals": 0,
    "club": "Sampdoria",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/UC_Sampdoria",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Dennis_Had%C5%BEikaduni%C4%87"
+   "wiki": "https://en.wikipedia.org/wiki/Dennis_Had%C5%BEikaduni%C4%87",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "tarik-muharemovic",
@@ -80,8 +105,13 @@
    "goals": 1,
    "club": "Sassuolo",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/US_Sassuolo_Calcio",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Tarik_Muharemovi%C4%87"
+   "wiki": "https://en.wikipedia.org/wiki/Tarik_Muharemovi%C4%87",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "sead-kolasinac",
@@ -93,8 +123,13 @@
    "goals": 0,
    "club": "Atalanta",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Atalanta_BC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Sead_Kola%C5%A1inac"
+   "wiki": "https://en.wikipedia.org/wiki/Sead_Kola%C5%A1inac",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "amar-dedic",
@@ -106,8 +141,13 @@
    "goals": 1,
    "club": "Benfica",
    "clubNat": "POR",
+   "clubWiki": "https://en.wikipedia.org/wiki/S.L._Benfica",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Amar_Dedi%C4%87"
+   "wiki": "https://en.wikipedia.org/wiki/Amar_Dedi%C4%87",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "nikola-katic",
@@ -119,8 +159,13 @@
    "goals": 2,
    "club": "Schalke 04",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Schalke_04",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Nikola_Kati%C4%87"
+   "wiki": "https://en.wikipedia.org/wiki/Nikola_Kati%C4%87",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 1,
+   "wcRed": 0
   },
   {
    "id": "stjepan-radeljic",
@@ -132,8 +177,13 @@
    "goals": 0,
    "club": "Rijeka",
    "clubNat": "CRO",
+   "clubWiki": "https://en.wikipedia.org/wiki/HNK_Rijeka",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Stjepan_Radelji%C4%87"
+   "wiki": "https://en.wikipedia.org/wiki/Stjepan_Radelji%C4%87",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "arjan-malic",
@@ -145,8 +195,13 @@
    "goals": 0,
    "club": "Sturm Graz",
    "clubNat": "AUT",
+   "clubWiki": "https://en.wikipedia.org/wiki/SK_Sturm_Graz",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Arjan_Mali%C4%87"
+   "wiki": "https://en.wikipedia.org/wiki/Arjan_Mali%C4%87",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "benjamin-tahirovic",
@@ -158,8 +213,13 @@
    "goals": 2,
    "club": "Brøndby",
    "clubNat": "DEN",
+   "clubWiki": "https://en.wikipedia.org/wiki/Br%C3%B8ndby_IF",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Benjamin_Tahirovi%C4%87"
+   "wiki": "https://en.wikipedia.org/wiki/Benjamin_Tahirovi%C4%87",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "armin-gigovic",
@@ -171,8 +231,13 @@
    "goals": 1,
    "club": "Young Boys",
    "clubNat": "SUI",
+   "clubWiki": "https://en.wikipedia.org/wiki/BSC_Young_Boys",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Armin_Gigovi%C4%87"
+   "wiki": "https://en.wikipedia.org/wiki/Armin_Gigovi%C4%87",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ivan-basic",
@@ -184,8 +249,13 @@
    "goals": 0,
    "club": "Astana",
    "clubNat": "KAZ",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Astana",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ivan_Ba%C5%A1i%C4%87"
+   "wiki": "https://en.wikipedia.org/wiki/Ivan_Ba%C5%A1i%C4%87",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ivan-sunjic",
@@ -197,8 +267,13 @@
    "goals": 0,
    "club": "Pafos",
    "clubNat": "CYP",
+   "clubWiki": "https://en.wikipedia.org/wiki/Pafos_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ivan_%C5%A0unji%C4%87"
+   "wiki": "https://en.wikipedia.org/wiki/Ivan_%C5%A0unji%C4%87",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "amar-memic",
@@ -210,8 +285,13 @@
    "goals": 1,
    "club": "Viktoria Plzeň",
    "clubNat": "CZE",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Viktoria_Plze%C5%88",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Amar_Memi%C4%87"
+   "wiki": "https://en.wikipedia.org/wiki/Amar_Memi%C4%87",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "amir-hadziahmetovic",
@@ -223,8 +303,13 @@
    "goals": 0,
    "club": "Hull City",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Hull_City_A.F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Amir_Had%C5%BEiahmetovi%C4%87"
+   "wiki": "https://en.wikipedia.org/wiki/Amir_Had%C5%BEiahmetovi%C4%87",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "dzenis-burnic",
@@ -236,8 +321,13 @@
    "goals": 0,
    "club": "Karlsruher SC",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/Karlsruher_SC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/D%C5%BEenis_Burni%C4%87"
+   "wiki": "https://en.wikipedia.org/wiki/D%C5%BEenis_Burni%C4%87",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ermin-mahmic",
@@ -249,8 +339,13 @@
    "goals": 0,
    "club": "Slovan Liberec",
    "clubNat": "CZE",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Slovan_Liberec",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ermin_Mahmi%C4%87"
+   "wiki": "https://en.wikipedia.org/wiki/Ermin_Mahmi%C4%87",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "samed-bazdar",
@@ -262,8 +357,13 @@
    "goals": 1,
    "club": "Jagiellonia Białystok",
    "clubNat": "POL",
+   "clubWiki": "https://en.wikipedia.org/wiki/Jagiellonia_Bia%C5%82ystok",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Samed_Ba%C5%BEdar"
+   "wiki": "https://en.wikipedia.org/wiki/Samed_Ba%C5%BEdar",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ermedin-demirovic",
@@ -275,8 +375,13 @@
    "goals": 4,
    "club": "VfB Stuttgart",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/VfB_Stuttgart",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ermedin_Demirovi%C4%87"
+   "wiki": "https://en.wikipedia.org/wiki/Ermedin_Demirovi%C4%87",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 1,
+   "wcRed": 0
   },
   {
    "id": "edin-dzeko",
@@ -288,8 +393,13 @@
    "goals": 73,
    "club": "Schalke 04",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Schalke_04",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Edin_D%C5%BEeko"
+   "wiki": "https://en.wikipedia.org/wiki/Edin_D%C5%BEeko",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "kerim-alajbegovic",
@@ -301,8 +411,13 @@
    "goals": 1,
    "club": "Red Bull Salzburg",
    "clubNat": "AUT",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Red_Bull_Salzburg",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Kerim_Alajbegovi%C4%87"
+   "wiki": "https://en.wikipedia.org/wiki/Kerim_Alajbegovi%C4%87",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "esmir-bajraktarevic",
@@ -314,8 +429,13 @@
    "goals": 1,
    "club": "PSV Eindhoven",
    "clubNat": "NED",
+   "clubWiki": "https://en.wikipedia.org/wiki/PSV_Eindhoven",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Esmir_Bajraktarevi%C4%87"
+   "wiki": "https://en.wikipedia.org/wiki/Esmir_Bajraktarevi%C4%87",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "haris-tabakovic",
@@ -327,8 +447,13 @@
    "goals": 4,
    "club": "Borussia Mönchengladbach",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/Borussia_M%C3%B6nchengladbach",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Haris_Tabakovi%C4%87"
+   "wiki": "https://en.wikipedia.org/wiki/Haris_Tabakovi%C4%87",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jovo-lukic",
@@ -340,8 +465,13 @@
    "goals": 0,
    "club": "Universitatea Cluj",
    "clubNat": "ROU",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Universitatea_Cluj",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jovo_Luki%C4%87"
+   "wiki": "https://en.wikipedia.org/wiki/Jovo_Luki%C4%87",
+   "wcApps": 1,
+   "wcGoals": 1,
+   "wcYellow": 1,
+   "wcRed": 0
   }
  ]
 }

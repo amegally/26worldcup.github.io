@@ -15,8 +15,13 @@
    "goals": 0,
    "club": "Rennes",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Stade_Rennais_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Brice_Samba"
+   "wiki": "https://en.wikipedia.org/wiki/Brice_Samba",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "mike-maignan",
@@ -28,8 +33,13 @@
    "goals": 0,
    "club": "Milan",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/AC_Milan",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Mike_Maignan"
+   "wiki": "https://en.wikipedia.org/wiki/Mike_Maignan",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "robin-risser",
@@ -41,8 +51,13 @@
    "goals": 0,
    "club": "Lens",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/RC_Lens",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Robin_Risser"
+   "wiki": "https://en.wikipedia.org/wiki/Robin_Risser",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "malo-gusto",
@@ -54,8 +69,13 @@
    "goals": 0,
    "club": "Chelsea",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Chelsea_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Malo_Gusto"
+   "wiki": "https://en.wikipedia.org/wiki/Malo_Gusto",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "lucas-digne",
@@ -67,8 +87,13 @@
    "goals": 0,
    "club": "Aston Villa",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Aston_Villa_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Lucas_Digne"
+   "wiki": "https://en.wikipedia.org/wiki/Lucas_Digne",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "dayot-upamecano",
@@ -80,8 +105,13 @@
    "goals": 2,
    "club": "Bayern Munich",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Bayern_Munich",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Dayot_Upamecano"
+   "wiki": "https://en.wikipedia.org/wiki/Dayot_Upamecano",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jules-kounde",
@@ -93,8 +123,13 @@
    "goals": 0,
    "club": "Barcelona",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Barcelona",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jules_Kound%C3%A9"
+   "wiki": "https://en.wikipedia.org/wiki/Jules_Kound%C3%A9",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ibrahima-konate",
@@ -106,8 +141,13 @@
    "goals": 0,
    "club": "Liverpool",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Liverpool_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ibrahima_Konat%C3%A9"
+   "wiki": "https://en.wikipedia.org/wiki/Ibrahima_Konat%C3%A9",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "william-saliba",
@@ -119,8 +159,13 @@
    "goals": 0,
    "club": "Arsenal",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Arsenal_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/William_Saliba"
+   "wiki": "https://en.wikipedia.org/wiki/William_Saliba",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "theo-hernandez",
@@ -132,8 +177,13 @@
    "goals": 2,
    "club": "Al-Hilal",
    "clubNat": "KSA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al_Hilal_SFC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Th%C3%A9o_Hernandez"
+   "wiki": "https://en.wikipedia.org/wiki/Th%C3%A9o_Hernandez",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "lucas-hernandez",
@@ -145,8 +195,13 @@
    "goals": 0,
    "club": "Paris Saint-Germain",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Paris_Saint-Germain_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Lucas_Hernandez"
+   "wiki": "https://en.wikipedia.org/wiki/Lucas_Hernandez",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "maxence-lacroix",
@@ -158,8 +213,13 @@
    "goals": 0,
    "club": "Crystal Palace",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Crystal_Palace_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Maxence_Lacroix"
+   "wiki": "https://en.wikipedia.org/wiki/Maxence_Lacroix",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "manu-kone",
@@ -171,8 +231,13 @@
    "goals": 0,
    "club": "Roma",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/AS_Roma",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Manu_Kon%C3%A9"
+   "wiki": "https://en.wikipedia.org/wiki/Manu_Kon%C3%A9",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "aurelien-tchouameni",
@@ -184,8 +249,13 @@
    "goals": 3,
    "club": "Real Madrid",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/Real_Madrid_CF",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Aur%C3%A9lien_Tchouam%C3%A9ni"
+   "wiki": "https://en.wikipedia.org/wiki/Aur%C3%A9lien_Tchouam%C3%A9ni",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "n-golo-kante",
@@ -197,8 +267,13 @@
    "goals": 2,
    "club": "Fenerbahçe",
    "clubNat": "TUR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Fenerbah%C3%A7e_S.K._(football)",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/N'Golo_Kant%C3%A9"
+   "wiki": "https://en.wikipedia.org/wiki/N'Golo_Kant%C3%A9",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "adrien-rabiot",
@@ -210,8 +285,13 @@
    "goals": 7,
    "club": "Milan",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/AC_Milan",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Adrien_Rabiot"
+   "wiki": "https://en.wikipedia.org/wiki/Adrien_Rabiot",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "warren-zaire-emery",
@@ -223,8 +303,13 @@
    "goals": 1,
    "club": "Paris Saint-Germain",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Paris_Saint-Germain_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Warren_Za%C3%AFre-Emery"
+   "wiki": "https://en.wikipedia.org/wiki/Warren_Za%C3%AFre-Emery",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "rayan-cherki",
@@ -236,8 +321,13 @@
    "goals": 2,
    "club": "Manchester City",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Manchester_City_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Rayan_Cherki"
+   "wiki": "https://en.wikipedia.org/wiki/Rayan_Cherki",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "maghnes-akliouche",
@@ -249,8 +339,13 @@
    "goals": 1,
    "club": "Monaco",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/AS_Monaco_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Maghnes_Akliouche"
+   "wiki": "https://en.wikipedia.org/wiki/Maghnes_Akliouche",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ousmane-dembele",
@@ -262,8 +357,13 @@
    "goals": 7,
    "club": "Paris Saint-Germain",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Paris_Saint-Germain_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ousmane_Demb%C3%A9l%C3%A9"
+   "wiki": "https://en.wikipedia.org/wiki/Ousmane_Demb%C3%A9l%C3%A9",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "marcus-thuram",
@@ -275,8 +375,13 @@
    "goals": 3,
    "club": "Inter Milan",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Inter_Milan",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Marcus_Thuram"
+   "wiki": "https://en.wikipedia.org/wiki/Marcus_Thuram",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "kylian-mbappe",
@@ -288,8 +393,13 @@
    "goals": 56,
    "club": "Real Madrid",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/Real_Madrid_CF",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Kylian_Mbapp%C3%A9"
+   "wiki": "https://en.wikipedia.org/wiki/Kylian_Mbapp%C3%A9",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "michael-olise",
@@ -301,8 +411,13 @@
    "goals": 7,
    "club": "Bayern Munich",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Bayern_Munich",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Michael_Olise"
+   "wiki": "https://en.wikipedia.org/wiki/Michael_Olise",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "bradley-barcola",
@@ -314,8 +429,13 @@
    "goals": 3,
    "club": "Paris Saint-Germain",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Paris_Saint-Germain_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Bradley_Barcola"
+   "wiki": "https://en.wikipedia.org/wiki/Bradley_Barcola",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "desire-doue",
@@ -327,8 +447,13 @@
    "goals": 2,
    "club": "Paris Saint-Germain",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Paris_Saint-Germain_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/D%C3%A9sir%C3%A9_Dou%C3%A9"
+   "wiki": "https://en.wikipedia.org/wiki/D%C3%A9sir%C3%A9_Dou%C3%A9",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jean-philippe-mateta",
@@ -340,8 +465,13 @@
    "goals": 2,
    "club": "Crystal Palace",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Crystal_Palace_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jean-Philippe_Mateta"
+   "wiki": "https://en.wikipedia.org/wiki/Jean-Philippe_Mateta",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   }
  ]
 }

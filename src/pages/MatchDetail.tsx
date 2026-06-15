@@ -9,6 +9,7 @@ import {
   detectMarket,
   fifaMatchUrl,
   fifaToIso2,
+  flagSrc,
   fmtSpeed,
   fmtTemp,
   localizedNote,
@@ -22,6 +23,7 @@ import Icon from '../components/Icon'
 import MapLinks from '../components/MapLinks'
 import MatchCard from '../components/MatchCard'
 import Pitch from '../components/Pitch'
+import TeamName from '../components/TeamName'
 import './matchdetail.css'
 
 const ROLE_KEY: Record<string, string> = {
@@ -144,11 +146,13 @@ export default function MatchDetail() {
   }, [lu, m])
 
   // red cards (incl. second yellow) shown under the score; card marks for the
-  // pitch dots; substitution minutes for the bench list
+  // pitch dots; substitution minutes (subOn -> bench list, subOff -> pitch XI)
   const cardInfo = useMemo(() => {
     const reds: GoalRow[] = []
     const marks: Record<string, { card?: 'y' | 'r' }> = {}
     const subOn: Record<string, string> = {}
+    const subOff: Record<string, string> = {}
+    const goalMins: Record<string, string[]> = {}
     const sides: [TeamLineup | null | undefined, string | null][] = [
       [lu?.home, m?.home?.code ?? null],
       [lu?.away, m?.away?.code ?? null],
@@ -169,10 +173,23 @@ export default function MatchDetail() {
             pen: false,
           })
       })
-      for (const sub of tl.substitutions ?? []) if (sub.minute) subOn[sub.on] = sub.minute
+      for (const sub of tl.substitutions ?? [])
+        if (sub.minute) {
+          subOn[sub.on] = sub.minute
+          subOff[sub.off] = sub.minute
+        }
+      // a player's goal minutes (open play + penalties; own goals & shootout excluded)
+      for (const g of tl.goals ?? []) {
+        if (g.type === 3 || g.period === 11 || !g.minute) continue
+        goalMins[g.player] = goalMins[g.player] ?? []
+        goalMins[g.player].push(g.minute)
+      }
     }
     reds.sort((a, b) => (parseInt(a.minute || '0', 10) || 0) - (parseInt(b.minute || '0', 10) || 0))
-    return { reds, marks, subOn }
+    const goals: Record<string, string> = {}
+    for (const [id, mins] of Object.entries(goalMins))
+      goals[id] = mins.sort((a, b) => (parseInt(a, 10) || 0) - (parseInt(b, 10) || 0)).join(', ')
+    return { reds, marks, subOn, subOff, goals }
   }, [lu, m])
   const redRows = cardInfo.reds
 
@@ -203,6 +220,8 @@ export default function MatchDetail() {
     : m.phB
       ? placeholderLabel(m.phB, t)
       : t('tbd')
+  const homeIso2 = m.home ? teams[m.home.code]?.iso2 : null
+  const awayIso2 = m.away ? teams[m.away.code]?.iso2 : null
   const fifaName = venue ? pick(venue.fifaName) : ''
   const monthKey: 'jun' | 'jul' = dayKey(m.date, venue?.tz).slice(5, 7) === '07' ? 'jul' : 'jun'
   const clim = venue?.climate?.[monthKey]
@@ -576,24 +595,38 @@ export default function MatchDetail() {
             away={lu.away}
             homeName={homeLabel}
             awayName={awayLabel}
+            homeCode={m.home?.code}
+            awayCode={m.away?.code}
+            homeFlag={homeIso2 ? flagSrc(homeIso2) : undefined}
+            awayFlag={awayIso2 ? flagSrc(awayIso2) : undefined}
             marks={cardInfo.marks}
+            subOff={cardInfo.subOff}
+            goals={cardInfo.goals}
           />
           {((lu.home?.subs.length ?? 0) > 0 || (lu.away?.subs.length ?? 0) > 0) && (
             <div className="md-subs">
               {(
                 [
-                  ['home', lu.home, homeLabel],
-                  ['away', lu.away, awayLabel],
+                  ['home', lu.home, homeLabel, m.home?.code],
+                  ['away', lu.away, awayLabel, m.away?.code],
                 ] as const
-              ).map(([k, tl, label]) =>
+              ).map(([k, tl, label, code]) =>
                 tl?.subs.length ? (
                   <div key={k}>
-                    <div className="md-subhead">{label}</div>
+                    <div className="md-subhead">
+                      {code && teams[code] ? <TeamName code={code} flagSize={20} bold /> : label}
+                    </div>
                     <h4>{t('substitutes')}</h4>
                     {tl.subs.map((p) => (
                       <div className="md-sub" key={p.id}>
                         <span className="no tnum">{p.number ?? ''}</span>
-                        <span className="nm">{p.name}</span>
+                        {code && p.number != null ? (
+                          <Link className="nm md-plink" to={`/team/${code}?p=${p.number}`}>
+                            {p.name}
+                          </Link>
+                        ) : (
+                          <span className="nm">{p.name}</span>
+                        )}
                         {p.captain && (
                           <span className="md-cap" title={t('captain')}>
                             C
@@ -601,6 +634,9 @@ export default function MatchDetail() {
                         )}
                         {cardInfo.subOn[p.id] && (
                           <span className="md-sub-on tnum">↑ {cardInfo.subOn[p.id]}</span>
+                        )}
+                        {cardInfo.goals[p.id] && (
+                          <span className="md-sub-goal tnum">⚽ {cardInfo.goals[p.id]}</span>
                         )}
                         {cardInfo.marks[p.id]?.card === 'y' && <span aria-hidden="true">🟨</span>}
                         {cardInfo.marks[p.id]?.card === 'r' && <span aria-hidden="true">🟥</span>}

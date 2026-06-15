@@ -15,8 +15,13 @@
    "goals": 0,
    "club": "Guadalajara",
    "clubNat": "MEX",
+   "clubWiki": "https://en.wikipedia.org/wiki/C.D._Guadalajara",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ra%C3%BAl_Rangel_(footballer)"
+   "wiki": "https://en.wikipedia.org/wiki/Ra%C3%BAl_Rangel_(footballer)",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "carlos-acevedo",
@@ -28,8 +33,13 @@
    "goals": 0,
    "club": "Santos Laguna",
    "clubNat": "MEX",
+   "clubWiki": "https://en.wikipedia.org/wiki/Santos_Laguna",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Carlos_Acevedo"
+   "wiki": "https://en.wikipedia.org/wiki/Carlos_Acevedo",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "guillermo-ochoa",
@@ -41,8 +51,13 @@
    "goals": 0,
    "club": "AEL Limassol",
    "clubNat": "CYP",
+   "clubWiki": "https://en.wikipedia.org/wiki/AEL_Limassol",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Guillermo_Ochoa"
+   "wiki": "https://en.wikipedia.org/wiki/Guillermo_Ochoa",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jorge-sanchez",
@@ -54,8 +69,13 @@
    "goals": 3,
    "club": "PAOK",
    "clubNat": "GRE",
+   "clubWiki": "https://en.wikipedia.org/wiki/PAOK_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jorge_S%C3%A1nchez_(footballer%2C_born_1997)"
+   "wiki": "https://en.wikipedia.org/wiki/Jorge_S%C3%A1nchez_(footballer%2C_born_1997)",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "cesar-montes",
@@ -67,8 +87,13 @@
    "goals": 4,
    "club": "Lokomotiv Moscow",
    "clubNat": "RUS",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Lokomotiv_Moscow",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/C%C3%A9sar_Montes"
+   "wiki": "https://en.wikipedia.org/wiki/C%C3%A9sar_Montes",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 1
   },
   {
    "id": "edson-alvarez",
@@ -80,8 +105,13 @@
    "goals": 7,
    "club": "Fenerbahçe",
    "clubNat": "TUR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Fenerbah%C3%A7e_S.K._(football)",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Edson_%C3%81lvarez"
+   "wiki": "https://en.wikipedia.org/wiki/Edson_%C3%81lvarez",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "johan-vasquez",
@@ -93,8 +123,13 @@
    "goals": 3,
    "club": "Genoa",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Genoa_CFC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Johan_V%C3%A1squez_(footballer%2C_born_1998)"
+   "wiki": "https://en.wikipedia.org/wiki/Johan_V%C3%A1squez_(footballer%2C_born_1998)",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "israel-reyes",
@@ -106,8 +141,13 @@
    "goals": 2,
    "club": "América",
    "clubNat": "MEX",
+   "clubWiki": "https://en.wikipedia.org/wiki/Club_Am%C3%A9rica",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Israel_Reyes"
+   "wiki": "https://en.wikipedia.org/wiki/Israel_Reyes",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "mateo-chavez",
@@ -119,8 +159,13 @@
    "goals": 0,
    "club": "AZ",
    "clubNat": "NED",
+   "clubWiki": "https://en.wikipedia.org/wiki/AZ_Alkmaar",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Mateo_Ch%C3%A1vez"
+   "wiki": "https://en.wikipedia.org/wiki/Mateo_Ch%C3%A1vez",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jesus-gallardo",
@@ -132,8 +177,13 @@
    "goals": 3,
    "club": "Toluca",
    "clubNat": "MEX",
+   "clubWiki": "https://en.wikipedia.org/wiki/Toluca_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jes%C3%BAs_Gallardo"
+   "wiki": "https://en.wikipedia.org/wiki/Jes%C3%BAs_Gallardo",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "erik-lira",
@@ -145,8 +195,13 @@
    "goals": 0,
    "club": "Cruz Azul",
    "clubNat": "MEX",
+   "clubWiki": "https://en.wikipedia.org/wiki/Cruz_Azul",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/%C3%89rik_Lira"
+   "wiki": "https://en.wikipedia.org/wiki/%C3%89rik_Lira",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "luis-romo",
@@ -158,8 +213,13 @@
    "goals": 4,
    "club": "Guadalajara",
    "clubNat": "MEX",
+   "clubWiki": "https://en.wikipedia.org/wiki/C.D._Guadalajara",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Luis_Romo"
+   "wiki": "https://en.wikipedia.org/wiki/Luis_Romo",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "alvaro-fidalgo",
@@ -171,8 +231,13 @@
    "goals": 0,
    "club": "Real Betis",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/Real_Betis",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/%C3%81lvaro_Fidalgo"
+   "wiki": "https://en.wikipedia.org/wiki/%C3%81lvaro_Fidalgo",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "orbelin-pineda",
@@ -184,8 +249,13 @@
    "goals": 12,
    "club": "AEK Athens",
    "clubNat": "GRE",
+   "clubWiki": "https://en.wikipedia.org/wiki/AEK_Athens_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Orbel%C3%ADn_Pineda"
+   "wiki": "https://en.wikipedia.org/wiki/Orbel%C3%ADn_Pineda",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "obed-vargas",
@@ -197,8 +267,13 @@
    "goals": 0,
    "club": "Atlético Madrid",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Madrid",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Obed_Vargas"
+   "wiki": "https://en.wikipedia.org/wiki/Obed_Vargas",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "gilberto-mora",
@@ -210,8 +285,13 @@
    "goals": 0,
    "club": "Tijuana",
    "clubNat": "MEX",
+   "clubWiki": "https://en.wikipedia.org/wiki/Club_Tijuana",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Gilberto_Mora_(footballer%2C_born_2008)"
+   "wiki": "https://en.wikipedia.org/wiki/Gilberto_Mora_(footballer%2C_born_2008)",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "luis-chavez",
@@ -223,8 +303,13 @@
    "goals": 5,
    "club": "Dynamo Moscow",
    "clubNat": "RUS",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Dynamo_Moscow",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Luis_Ch%C3%A1vez_(footballer)"
+   "wiki": "https://en.wikipedia.org/wiki/Luis_Ch%C3%A1vez_(footballer)",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "brian-gutierrez",
@@ -236,8 +321,13 @@
    "goals": 2,
    "club": "Guadalajara",
    "clubNat": "MEX",
+   "clubWiki": "https://en.wikipedia.org/wiki/C.D._Guadalajara",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Brian_Guti%C3%A9rrez"
+   "wiki": "https://en.wikipedia.org/wiki/Brian_Guti%C3%A9rrez",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 1,
+   "wcRed": 0
   },
   {
    "id": "raul-jimenez",
@@ -249,8 +339,13 @@
    "goals": 45,
    "club": "Fulham",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Fulham_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ra%C3%BAl_Jim%C3%A9nez"
+   "wiki": "https://en.wikipedia.org/wiki/Ra%C3%BAl_Jim%C3%A9nez",
+   "wcApps": 1,
+   "wcGoals": 1,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "alexis-vega",
@@ -262,8 +357,13 @@
    "goals": 7,
    "club": "Toluca",
    "clubNat": "MEX",
+   "clubWiki": "https://en.wikipedia.org/wiki/Toluca_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Alexis_Vega_(Mexican_footballer)"
+   "wiki": "https://en.wikipedia.org/wiki/Alexis_Vega_(Mexican_footballer)",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "santiago-gimenez",
@@ -275,8 +375,13 @@
    "goals": 6,
    "club": "Milan",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/AC_Milan",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Santiago_Gim%C3%A9nez"
+   "wiki": "https://en.wikipedia.org/wiki/Santiago_Gim%C3%A9nez",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "armando-gonzalez",
@@ -288,8 +393,13 @@
    "goals": 1,
    "club": "Guadalajara",
    "clubNat": "MEX",
+   "clubWiki": "https://en.wikipedia.org/wiki/C.D._Guadalajara",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Armando_Gonz%C3%A1lez_(footballer%2C_born_2003)"
+   "wiki": "https://en.wikipedia.org/wiki/Armando_Gonz%C3%A1lez_(footballer%2C_born_2003)",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "julian-quinones",
@@ -301,8 +411,13 @@
    "goals": 2,
    "club": "Al-Qadsiah",
    "clubNat": "KSA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al_Qadsiah_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Juli%C3%A1n_Qui%C3%B1ones"
+   "wiki": "https://en.wikipedia.org/wiki/Juli%C3%A1n_Qui%C3%B1ones",
+   "wcApps": 1,
+   "wcGoals": 1,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "cesar-huerta",
@@ -314,8 +429,13 @@
    "goals": 3,
    "club": "Anderlecht",
    "clubNat": "BEL",
+   "clubWiki": "https://en.wikipedia.org/wiki/RSC_Anderlecht",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/C%C3%A9sar_Huerta"
+   "wiki": "https://en.wikipedia.org/wiki/C%C3%A9sar_Huerta",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "guillermo-martinez",
@@ -327,8 +447,13 @@
    "goals": 3,
    "club": "Pumas UNAM",
    "clubNat": "MEX",
+   "clubWiki": "https://en.wikipedia.org/wiki/Pumas_UNAM",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Guillermo_Mart%C3%ADnez_(footballer)"
+   "wiki": "https://en.wikipedia.org/wiki/Guillermo_Mart%C3%ADnez_(footballer)",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "roberto-alvarado",
@@ -340,8 +465,13 @@
    "goals": 5,
    "club": "Guadalajara",
    "clubNat": "MEX",
+   "clubWiki": "https://en.wikipedia.org/wiki/C.D._Guadalajara",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Roberto_Alvarado"
+   "wiki": "https://en.wikipedia.org/wiki/Roberto_Alvarado",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   }
  ]
 }

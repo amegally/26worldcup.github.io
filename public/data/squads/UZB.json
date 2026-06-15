@@ -15,8 +15,13 @@
    "goals": 0,
    "club": "Navbahor Namangan",
    "clubNat": "UZB",
+   "clubWiki": "https://en.wikipedia.org/wiki/PFC_Navbahor_Namangan",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Utkir_Yusupov"
+   "wiki": "https://en.wikipedia.org/wiki/Utkir_Yusupov",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "abduvohid-nematov",
@@ -28,8 +33,13 @@
    "goals": 0,
    "club": "Nasaf",
    "clubNat": "UZB",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Nasaf",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Abduvohid_Nematov"
+   "wiki": "https://en.wikipedia.org/wiki/Abduvohid_Nematov",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "botirali-ergashev",
@@ -41,8 +51,13 @@
    "goals": 0,
    "club": "Neftchi Fergana",
    "clubNat": "UZB",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Neftchi_Fergana",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Botirali_Ergashev"
+   "wiki": "https://en.wikipedia.org/wiki/Botirali_Ergashev",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "abdukodir-khusanov",
@@ -54,8 +69,13 @@
    "goals": 0,
    "club": "Manchester City",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Manchester_City_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Abdukodir_Khusanov"
+   "wiki": "https://en.wikipedia.org/wiki/Abdukodir_Khusanov",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "khojiakbar-alijonov",
@@ -67,8 +87,13 @@
    "goals": 2,
    "club": "Pakhtakor",
    "clubNat": "UZB",
+   "clubWiki": "https://en.wikipedia.org/wiki/Pakhtakor_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Khojiakbar_Alijonov"
+   "wiki": "https://en.wikipedia.org/wiki/Khojiakbar_Alijonov",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "farrukh-sayfiev",
@@ -80,8 +105,13 @@
    "goals": 1,
    "club": "Neftchi Fergana",
    "clubNat": "UZB",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Neftchi_Fergana",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Farrukh_Sayfiev"
+   "wiki": "https://en.wikipedia.org/wiki/Farrukh_Sayfiev",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "rustam-ashurmatov",
@@ -93,8 +123,13 @@
    "goals": 1,
    "club": "Esteghlal",
    "clubNat": "IRN",
+   "clubWiki": "https://en.wikipedia.org/wiki/Esteghlal_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Rustam_Ashurmatov"
+   "wiki": "https://en.wikipedia.org/wiki/Rustam_Ashurmatov",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "sherzod-nasrullaev",
@@ -106,8 +141,13 @@
    "goals": 2,
    "club": "Nasaf",
    "clubNat": "UZB",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Nasaf",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Sherzod_Nasrullaev"
+   "wiki": "https://en.wikipedia.org/wiki/Sherzod_Nasrullaev",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "umar-eshmurodov",
@@ -119,8 +159,13 @@
    "goals": 0,
    "club": "Nasaf",
    "clubNat": "UZB",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Nasaf",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Umar_Eshmurodov"
+   "wiki": "https://en.wikipedia.org/wiki/Umar_Eshmurodov",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "abdulla-abdullaev",
@@ -132,8 +177,13 @@
    "goals": 0,
    "club": "Dibba",
    "clubNat": "UAE",
+   "clubWiki": "https://en.wikipedia.org/wiki/Dibba_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Abdulla_Abdullaev"
+   "wiki": "https://en.wikipedia.org/wiki/Abdulla_Abdullaev",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "bekhruz-karimov",
@@ -145,8 +195,13 @@
    "goals": 0,
    "club": "Surkhon Termiz",
    "clubNat": "UZB",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Surkhon",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Bekhruz_Karimov"
+   "wiki": "https://en.wikipedia.org/wiki/Bekhruz_Karimov",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "avazbek-ulmasaliev",
@@ -158,8 +213,13 @@
    "goals": 0,
    "club": "AGMK",
    "clubNat": "UZB",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_AGMK",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Avazbek_Ulmasaliev"
+   "wiki": "https://en.wikipedia.org/wiki/Avazbek_Ulmasaliev",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jakhongir-urozov",
@@ -171,8 +231,13 @@
    "goals": 0,
    "club": "Dinamo Samarqand",
    "clubNat": "UZB",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Dinamo_Samarqand",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jakhongir_Urozov"
+   "wiki": "https://en.wikipedia.org/wiki/Jakhongir_Urozov",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "akmal-mozgovoy",
@@ -184,8 +249,13 @@
    "goals": 1,
    "club": "Pakhtakor",
    "clubNat": "UZB",
+   "clubWiki": "https://en.wikipedia.org/wiki/Pakhtakor_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Akmal_Mozgovoy"
+   "wiki": "https://en.wikipedia.org/wiki/Akmal_Mozgovoy",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "otabek-shukurov",
@@ -197,8 +267,13 @@
    "goals": 9,
    "club": "Baniyas",
    "clubNat": "UAE",
+   "clubWiki": "https://en.wikipedia.org/wiki/Baniyas_Club",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Otabek_Shukurov"
+   "wiki": "https://en.wikipedia.org/wiki/Otabek_Shukurov",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jamshid-iskanderov",
@@ -210,8 +285,13 @@
    "goals": 4,
    "club": "Neftchi Fergana",
    "clubNat": "UZB",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Neftchi_Fergana",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jamshid_Iskanderov"
+   "wiki": "https://en.wikipedia.org/wiki/Jamshid_Iskanderov",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "odiljon-hamrobekov",
@@ -223,8 +303,13 @@
    "goals": 1,
    "club": "Tractor",
    "clubNat": "IRN",
+   "clubWiki": "https://en.wikipedia.org/wiki/Tractor_S.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Odiljon_Hamrobekov"
+   "wiki": "https://en.wikipedia.org/wiki/Odiljon_Hamrobekov",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jaloliddin-masharipov",
@@ -236,8 +321,13 @@
    "goals": 12,
    "club": "Esteghlal",
    "clubNat": "IRN",
+   "clubWiki": "https://en.wikipedia.org/wiki/Esteghlal_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jaloliddin_Masharipov"
+   "wiki": "https://en.wikipedia.org/wiki/Jaloliddin_Masharipov",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "oston-urunov",
@@ -249,8 +339,13 @@
    "goals": 10,
    "club": "Persepolis",
    "clubNat": "IRN",
+   "clubWiki": "https://en.wikipedia.org/wiki/Persepolis_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Oston_Urunov"
+   "wiki": "https://en.wikipedia.org/wiki/Oston_Urunov",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "dostonbek-khamdamov",
@@ -262,8 +357,13 @@
    "goals": 5,
    "club": "Pakhtakor",
    "clubNat": "UZB",
+   "clubWiki": "https://en.wikipedia.org/wiki/Pakhtakor_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Dostonbek_Khamdamov"
+   "wiki": "https://en.wikipedia.org/wiki/Dostonbek_Khamdamov",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "azizjon-ganiev",
@@ -275,8 +375,13 @@
    "goals": 0,
    "club": "Al Bataeh",
    "clubNat": "UAE",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al_Bataeh_Club",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Azizjon_Ganiev"
+   "wiki": "https://en.wikipedia.org/wiki/Azizjon_Ganiev",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "abbosbek-fayzullaev",
@@ -288,8 +393,13 @@
    "goals": 8,
    "club": "İstanbul Başakşehir",
    "clubNat": "TUR",
+   "clubWiki": "https://en.wikipedia.org/wiki/%C4%B0stanbul_Ba%C5%9Fak%C5%9Fehir_F.K.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Abbosbek_Fayzullaev"
+   "wiki": "https://en.wikipedia.org/wiki/Abbosbek_Fayzullaev",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "sherzod-esanov",
@@ -301,8 +411,13 @@
    "goals": 0,
    "club": "Bukhara",
    "clubNat": "UZB",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Bukhara",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Sherzod_Esanov"
+   "wiki": "https://en.wikipedia.org/wiki/Sherzod_Esanov",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "eldor-shomurodov",
@@ -314,8 +429,13 @@
    "goals": 44,
    "club": "İstanbul Başakşehir",
    "clubNat": "TUR",
+   "clubWiki": "https://en.wikipedia.org/wiki/%C4%B0stanbul_Ba%C5%9Fak%C5%9Fehir_F.K.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Eldor_Shomurodov"
+   "wiki": "https://en.wikipedia.org/wiki/Eldor_Shomurodov",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "azizbek-amonov",
@@ -327,8 +447,13 @@
    "goals": 2,
    "club": "Dinamo Samarqand",
    "clubNat": "UZB",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Dinamo_Samarqand",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Azizbek_Amonov"
+   "wiki": "https://en.wikipedia.org/wiki/Azizbek_Amonov",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "igor-sergeev",
@@ -340,8 +465,13 @@
    "goals": 25,
    "club": "Persepolis",
    "clubNat": "IRN",
+   "clubWiki": "https://en.wikipedia.org/wiki/Persepolis_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Igor_Sergeev"
+   "wiki": "https://en.wikipedia.org/wiki/Igor_Sergeev",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   }
  ]
 }

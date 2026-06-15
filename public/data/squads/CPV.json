@@ -15,8 +15,13 @@
    "goals": 0,
    "club": "Chaves",
    "clubNat": "POR",
+   "clubWiki": "https://en.wikipedia.org/wiki/G.D._Chaves",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Vozinha"
+   "wiki": "https://en.wikipedia.org/wiki/Vozinha",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "marcio-rosa",
@@ -28,8 +33,13 @@
    "goals": 0,
    "club": "Montana",
    "clubNat": "BUL",
+   "clubWiki": "https://en.wikipedia.org/wiki/PFC_Montana",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/M%C3%A1rcio_Rosa"
+   "wiki": "https://en.wikipedia.org/wiki/M%C3%A1rcio_Rosa",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "cj-dos-santos",
@@ -41,8 +51,13 @@
    "goals": 0,
    "club": "San Diego FC",
    "clubNat": "USA",
+   "clubWiki": "https://en.wikipedia.org/wiki/San_Diego_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/CJ_dos_Santos"
+   "wiki": "https://en.wikipedia.org/wiki/CJ_dos_Santos",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "stopira",
@@ -54,8 +69,13 @@
    "goals": 4,
    "club": "Torreense",
    "clubNat": "POR",
+   "clubWiki": "https://en.wikipedia.org/wiki/S.C.U._Torreense",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Stopira"
+   "wiki": "https://en.wikipedia.org/wiki/Stopira",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "diney",
@@ -67,8 +87,13 @@
    "goals": 2,
    "club": "Al Bataeh",
    "clubNat": "UAE",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al_Bataeh_Club",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Diney_(footballer%2C_born_1995)"
+   "wiki": "https://en.wikipedia.org/wiki/Diney_(footballer%2C_born_1995)",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "roberto-lopes",
@@ -80,8 +105,13 @@
    "goals": 0,
    "club": "Shamrock Rovers",
    "clubNat": "IRL",
+   "clubWiki": "https://en.wikipedia.org/wiki/Shamrock_Rovers_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Roberto_Lopes_(footballer%2C_born_1992)"
+   "wiki": "https://en.wikipedia.org/wiki/Roberto_Lopes_(footballer%2C_born_1992)",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "logan-costa",
@@ -93,8 +123,13 @@
    "goals": 0,
    "club": "Villarreal",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/Villarreal_CF",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Logan_Costa"
+   "wiki": "https://en.wikipedia.org/wiki/Logan_Costa",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "sidny-lopes-cabral",
@@ -106,8 +141,13 @@
    "goals": 3,
    "club": "Benfica",
    "clubNat": "POR",
+   "clubWiki": "https://en.wikipedia.org/wiki/S.L._Benfica",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Sidny_Lopes_Cabral"
+   "wiki": "https://en.wikipedia.org/wiki/Sidny_Lopes_Cabral",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "steven-moreira",
@@ -119,8 +159,13 @@
    "goals": 0,
    "club": "Columbus Crew",
    "clubNat": "USA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Columbus_Crew",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Steven_Moreira"
+   "wiki": "https://en.wikipedia.org/wiki/Steven_Moreira",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "wagner-pina",
@@ -132,8 +177,13 @@
    "goals": 0,
    "club": "Trabzonspor",
    "clubNat": "TUR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Trabzonspor",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Wagner_Pina"
+   "wiki": "https://en.wikipedia.org/wiki/Wagner_Pina",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "kelvin-pires",
@@ -145,8 +195,13 @@
    "goals": 1,
    "club": "SJK",
    "clubNat": "FIN",
+   "clubWiki": "https://en.wikipedia.org/wiki/Sein%C3%A4joen_Jalkapallokerho",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Kelvin_Pires"
+   "wiki": "https://en.wikipedia.org/wiki/Kelvin_Pires",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "kevin-pina",
@@ -158,8 +213,13 @@
    "goals": 3,
    "club": "Krasnodar",
    "clubNat": "RUS",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Krasnodar",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Kevin_Pina_(footballer)"
+   "wiki": "https://en.wikipedia.org/wiki/Kevin_Pina_(footballer)",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jovane-cabral",
@@ -171,8 +231,13 @@
    "goals": 3,
    "club": "Estrela Amadora",
    "clubNat": "POR",
+   "clubWiki": "https://en.wikipedia.org/wiki/C.F._Estrela_da_Amadora",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jovane_Cabral"
+   "wiki": "https://en.wikipedia.org/wiki/Jovane_Cabral",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "joao-paulo",
@@ -184,8 +249,13 @@
    "goals": 1,
    "club": "FCSB",
    "clubNat": "ROU",
+   "clubWiki": "https://en.wikipedia.org/wiki/FCSB",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jo%C3%A3o_Paulo_Fernandes_(footballer)"
+   "wiki": "https://en.wikipedia.org/wiki/Jo%C3%A3o_Paulo_Fernandes_(footballer)",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jamiro-monteiro",
@@ -197,8 +267,13 @@
    "goals": 5,
    "club": "PEC Zwolle",
    "clubNat": "NED",
+   "clubWiki": "https://en.wikipedia.org/wiki/PEC_Zwolle",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jamiro_Monteiro"
+   "wiki": "https://en.wikipedia.org/wiki/Jamiro_Monteiro",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "garry-rodrigues",
@@ -210,8 +285,13 @@
    "goals": 10,
    "club": "Apollon Limassol",
    "clubNat": "CYP",
+   "clubWiki": "https://en.wikipedia.org/wiki/Apollon_Limassol_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Garry_Rodrigues"
+   "wiki": "https://en.wikipedia.org/wiki/Garry_Rodrigues",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "deroy-duarte",
@@ -223,8 +303,13 @@
    "goals": 0,
    "club": "Ludogorets Razgrad",
    "clubNat": "BUL",
+   "clubWiki": "https://en.wikipedia.org/wiki/PFC_Ludogorets_Razgrad",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Deroy_Duarte"
+   "wiki": "https://en.wikipedia.org/wiki/Deroy_Duarte",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "laros-duarte",
@@ -236,8 +321,13 @@
    "goals": 1,
    "club": "Puskás Akadémia",
    "clubNat": "HUN",
+   "clubWiki": "https://en.wikipedia.org/wiki/Pusk%C3%A1s_Akad%C3%A9mia_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Laros_Duarte"
+   "wiki": "https://en.wikipedia.org/wiki/Laros_Duarte",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "yannick-semedo",
@@ -249,8 +339,13 @@
    "goals": 1,
    "club": "Farense",
    "clubNat": "POR",
+   "clubWiki": "https://en.wikipedia.org/wiki/S.C._Farense",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Yannick_Semedo"
+   "wiki": "https://en.wikipedia.org/wiki/Yannick_Semedo",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "willy-semedo",
@@ -262,8 +357,13 @@
    "goals": 3,
    "club": "Omonia",
    "clubNat": "CYP",
+   "clubWiki": "https://en.wikipedia.org/wiki/AC_Omonia",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Willy_Semedo"
+   "wiki": "https://en.wikipedia.org/wiki/Willy_Semedo",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "telmo-arcanjo",
@@ -275,8 +375,13 @@
    "goals": 1,
    "club": "Vitória de Guimarães",
    "clubNat": "POR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Vit%C3%B3ria_S.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Telmo_Arcanjo"
+   "wiki": "https://en.wikipedia.org/wiki/Telmo_Arcanjo",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "nuno-da-costa",
@@ -288,8 +393,13 @@
    "goals": 2,
    "club": "İstanbul Başakşehir",
    "clubNat": "TUR",
+   "clubWiki": "https://en.wikipedia.org/wiki/%C4%B0stanbul_Ba%C5%9Fak%C5%9Fehir_F.K.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Nuno_da_Costa"
+   "wiki": "https://en.wikipedia.org/wiki/Nuno_da_Costa",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "helio-varela",
@@ -301,8 +411,13 @@
    "goals": 0,
    "club": "Maccabi Tel Aviv",
    "clubNat": "ISR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Maccabi_Tel_Aviv_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/H%C3%A9lio_Varela"
+   "wiki": "https://en.wikipedia.org/wiki/H%C3%A9lio_Varela",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "gilson-benchimol",
@@ -314,8 +429,13 @@
    "goals": 6,
    "club": "Akron Tolyatti",
    "clubNat": "RUS",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Akron_Tolyatti",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Gilson_Benchimol"
+   "wiki": "https://en.wikipedia.org/wiki/Gilson_Benchimol",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "dailon-livramento",
@@ -327,8 +447,13 @@
    "goals": 7,
    "club": "Casa Pia",
    "clubNat": "POR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Casa_Pia_A.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Dailon_Livramento"
+   "wiki": "https://en.wikipedia.org/wiki/Dailon_Livramento",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ryan-mendes",
@@ -340,8 +465,13 @@
    "goals": 22,
    "club": "Iğdır",
    "clubNat": "TUR",
+   "clubWiki": "https://en.wikipedia.org/wiki/I%C4%9Fd%C4%B1r_F.K.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ryan_Mendes"
+   "wiki": "https://en.wikipedia.org/wiki/Ryan_Mendes",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   }
  ]
 }

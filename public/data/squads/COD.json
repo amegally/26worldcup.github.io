@@ -15,8 +15,13 @@
    "goals": 0,
    "club": "Le Havre",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Le_Havre_AC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Lionel_Mpasi"
+   "wiki": "https://en.wikipedia.org/wiki/Lionel_Mpasi",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "timothy-fayulu",
@@ -28,8 +33,13 @@
    "goals": 0,
    "club": "Noah",
    "clubNat": "ARM",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Noah",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Timothy_Fayulu"
+   "wiki": "https://en.wikipedia.org/wiki/Timothy_Fayulu",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "matthieu-epolo",
@@ -41,8 +51,13 @@
    "goals": 0,
    "club": "Standard Liège",
    "clubNat": "BEL",
+   "clubWiki": "https://en.wikipedia.org/wiki/Standard_Li%C3%A8ge",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Matthieu_Epolo"
+   "wiki": "https://en.wikipedia.org/wiki/Matthieu_Epolo",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "aaron-wan-bissaka",
@@ -54,8 +69,13 @@
    "goals": 0,
    "club": "West Ham United",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/West_Ham_United_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Aaron_Wan-Bissaka"
+   "wiki": "https://en.wikipedia.org/wiki/Aaron_Wan-Bissaka",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "steve-kapuadi",
@@ -67,8 +87,13 @@
    "goals": 0,
    "club": "Widzew Łódź",
    "clubNat": "POL",
+   "clubWiki": "https://en.wikipedia.org/wiki/Widzew_%C5%81%C3%B3d%C5%BA",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Steve_Kapuadi"
+   "wiki": "https://en.wikipedia.org/wiki/Steve_Kapuadi",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "axel-tuanzebe",
@@ -80,8 +105,13 @@
    "goals": 1,
    "club": "Burnley",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Burnley_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Axel_Tuanzebe"
+   "wiki": "https://en.wikipedia.org/wiki/Axel_Tuanzebe",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "dylan-batubinsika",
@@ -93,8 +123,13 @@
    "goals": 1,
    "club": "AEL",
    "clubNat": "GRE",
+   "clubWiki": "https://en.wikipedia.org/wiki/Athlitiki_Enosi_Larissa_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Dylan_Batubinsika"
+   "wiki": "https://en.wikipedia.org/wiki/Dylan_Batubinsika",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "joris-kayembe",
@@ -106,8 +141,13 @@
    "goals": 1,
    "club": "Genk",
    "clubNat": "BEL",
+   "clubWiki": "https://en.wikipedia.org/wiki/KRC_Genk",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Joris_Kayembe"
+   "wiki": "https://en.wikipedia.org/wiki/Joris_Kayembe",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "chancel-mbemba",
@@ -119,8 +159,13 @@
    "goals": 7,
    "club": "Lille",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Lille_OSC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Chancel_Mbemba"
+   "wiki": "https://en.wikipedia.org/wiki/Chancel_Mbemba",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "gedeon-kalulu",
@@ -132,8 +177,13 @@
    "goals": 0,
    "club": "Aris Limassol",
    "clubNat": "CYP",
+   "clubWiki": "https://en.wikipedia.org/wiki/Aris_Limassol_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/G%C3%A9d%C3%A9on_Kalulu"
+   "wiki": "https://en.wikipedia.org/wiki/G%C3%A9d%C3%A9on_Kalulu",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "arthur-masuaku",
@@ -145,8 +195,13 @@
    "goals": 4,
    "club": "Lens",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/RC_Lens",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Arthur_Masuaku"
+   "wiki": "https://en.wikipedia.org/wiki/Arthur_Masuaku",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ngal-ayel-mukau",
@@ -158,8 +213,13 @@
    "goals": 0,
    "club": "Lille",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Lille_OSC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ngal'ayel_Mukau"
+   "wiki": "https://en.wikipedia.org/wiki/Ngal'ayel_Mukau",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "nathanael-mbuku",
@@ -171,8 +231,13 @@
    "goals": 2,
    "club": "Montpellier",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Montpellier_HSC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Nathana%C3%ABl_Mbuku"
+   "wiki": "https://en.wikipedia.org/wiki/Nathana%C3%ABl_Mbuku",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "samuel-moutoussamy",
@@ -184,8 +249,13 @@
    "goals": 0,
    "club": "Atromitos",
    "clubNat": "GRE",
+   "clubWiki": "https://en.wikipedia.org/wiki/Atromitos_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Samuel_Moutoussamy"
+   "wiki": "https://en.wikipedia.org/wiki/Samuel_Moutoussamy",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "theo-bongonda",
@@ -197,8 +267,13 @@
    "goals": 7,
    "club": "Spartak Moscow",
    "clubNat": "RUS",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Spartak_Moscow",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Th%C3%A9o_Bongonda"
+   "wiki": "https://en.wikipedia.org/wiki/Th%C3%A9o_Bongonda",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "noah-sadiki",
@@ -210,8 +285,13 @@
    "goals": 0,
    "club": "Sunderland",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Sunderland_A.F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Noah_Sadiki"
+   "wiki": "https://en.wikipedia.org/wiki/Noah_Sadiki",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "aaron-tshibola",
@@ -223,8 +303,13 @@
    "goals": 1,
    "club": "Kilmarnock",
    "clubNat": "SCO",
+   "clubWiki": "https://en.wikipedia.org/wiki/Kilmarnock_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Aaron_Tshibola"
+   "wiki": "https://en.wikipedia.org/wiki/Aaron_Tshibola",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "charles-pickel",
@@ -236,8 +321,13 @@
    "goals": 1,
    "club": "Espanyol",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/RCD_Espanyol",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Charles_Pickel"
+   "wiki": "https://en.wikipedia.org/wiki/Charles_Pickel",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "edo-kayembe",
@@ -249,8 +339,13 @@
    "goals": 2,
    "club": "Watford",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Watford_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Edo_Kayembe"
+   "wiki": "https://en.wikipedia.org/wiki/Edo_Kayembe",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "brian-cipenga",
@@ -262,8 +357,13 @@
    "goals": 0,
    "club": "Castellón",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/CD_Castell%C3%B3n",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Brian_Cipenga"
+   "wiki": "https://en.wikipedia.org/wiki/Brian_Cipenga",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "gael-kakuta",
@@ -275,8 +375,13 @@
    "goals": 5,
    "club": "AEL",
    "clubNat": "GRE",
+   "clubWiki": "https://en.wikipedia.org/wiki/Athlitiki_Enosi_Larissa_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ga%C3%ABl_Kakuta"
+   "wiki": "https://en.wikipedia.org/wiki/Ga%C3%ABl_Kakuta",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "meschak-elia",
@@ -288,8 +393,13 @@
    "goals": 12,
    "club": "Alanyaspor",
    "clubNat": "TUR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Alanyaspor",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Meschak_Elia"
+   "wiki": "https://en.wikipedia.org/wiki/Meschak_Elia",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "cedric-bakambu",
@@ -301,8 +411,13 @@
    "goals": 21,
    "club": "Real Betis",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/Real_Betis",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/C%C3%A9dric_Bakambu"
+   "wiki": "https://en.wikipedia.org/wiki/C%C3%A9dric_Bakambu",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "fiston-mayele",
@@ -314,8 +429,13 @@
    "goals": 6,
    "club": "Pyramids",
    "clubNat": "EGY",
+   "clubWiki": "https://en.wikipedia.org/wiki/Pyramids_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Fiston_Mayele"
+   "wiki": "https://en.wikipedia.org/wiki/Fiston_Mayele",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "yoane-wissa",
@@ -327,8 +447,13 @@
    "goals": 9,
    "club": "Newcastle United",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Newcastle_United_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Yoane_Wissa"
+   "wiki": "https://en.wikipedia.org/wiki/Yoane_Wissa",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "simon-banza",
@@ -340,8 +465,13 @@
    "goals": 2,
    "club": "Al Jazira",
    "clubNat": "UAE",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al_Jazira_Club",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Simon_Banza"
+   "wiki": "https://en.wikipedia.org/wiki/Simon_Banza",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   }
  ]
 }

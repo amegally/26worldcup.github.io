@@ -15,8 +15,13 @@
    "goals": 0,
    "club": "Bayern Munich",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Bayern_Munich",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Manuel_Neuer"
+   "wiki": "https://en.wikipedia.org/wiki/Manuel_Neuer",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "oliver-baumann",
@@ -28,8 +33,13 @@
    "goals": 0,
    "club": "TSG Hoffenheim",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/TSG_1899_Hoffenheim",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Oliver_Baumann"
+   "wiki": "https://en.wikipedia.org/wiki/Oliver_Baumann",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "alexander-nubel",
@@ -41,8 +51,13 @@
    "goals": 0,
    "club": "VfB Stuttgart",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/VfB_Stuttgart",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Alexander_N%C3%BCbel"
+   "wiki": "https://en.wikipedia.org/wiki/Alexander_N%C3%BCbel",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "antonio-rudiger",
@@ -54,8 +69,13 @@
    "goals": 3,
    "club": "Real Madrid",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/Real_Madrid_CF",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Antonio_R%C3%BCdiger"
+   "wiki": "https://en.wikipedia.org/wiki/Antonio_R%C3%BCdiger",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "waldemar-anton",
@@ -67,8 +87,13 @@
    "goals": 0,
    "club": "Borussia Dortmund",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/Borussia_Dortmund",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Waldemar_Anton"
+   "wiki": "https://en.wikipedia.org/wiki/Waldemar_Anton",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jonathan-tah",
@@ -80,8 +105,13 @@
    "goals": 1,
    "club": "Bayern Munich",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Bayern_Munich",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jonathan_Tah"
+   "wiki": "https://en.wikipedia.org/wiki/Jonathan_Tah",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "joshua-kimmich",
@@ -93,8 +123,13 @@
    "goals": 10,
    "club": "Bayern Munich",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Bayern_Munich",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Joshua_Kimmich"
+   "wiki": "https://en.wikipedia.org/wiki/Joshua_Kimmich",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "nico-schlotterbeck",
@@ -106,8 +141,13 @@
    "goals": 0,
    "club": "Borussia Dortmund",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/Borussia_Dortmund",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Nico_Schlotterbeck"
+   "wiki": "https://en.wikipedia.org/wiki/Nico_Schlotterbeck",
+   "wcApps": 1,
+   "wcGoals": 1,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "nathaniel-brown",
@@ -119,8 +159,13 @@
    "goals": 0,
    "club": "Eintracht Frankfurt",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/Eintracht_Frankfurt",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Nathaniel_Brown_(footballer)"
+   "wiki": "https://en.wikipedia.org/wiki/Nathaniel_Brown_(footballer)",
+   "wcApps": 1,
+   "wcGoals": 1,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "david-raum",
@@ -132,8 +177,13 @@
    "goals": 1,
    "club": "RB Leipzig",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/RB_Leipzig",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/David_Raum"
+   "wiki": "https://en.wikipedia.org/wiki/David_Raum",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "malick-thiaw",
@@ -145,8 +195,13 @@
    "goals": 0,
    "club": "Newcastle United",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Newcastle_United_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Malick_Thiaw"
+   "wiki": "https://en.wikipedia.org/wiki/Malick_Thiaw",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "aleksandar-pavlovic",
@@ -158,8 +213,13 @@
    "goals": 1,
    "club": "Bayern Munich",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Bayern_Munich",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Aleksandar_Pavlovi%C4%87_(footballer)"
+   "wiki": "https://en.wikipedia.org/wiki/Aleksandar_Pavlovi%C4%87_(footballer)",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "leon-goretzka",
@@ -171,8 +231,13 @@
    "goals": 15,
    "club": "Bayern Munich",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Bayern_Munich",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Leon_Goretzka"
+   "wiki": "https://en.wikipedia.org/wiki/Leon_Goretzka",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jamie-leweling",
@@ -184,8 +249,13 @@
    "goals": 1,
    "club": "VfB Stuttgart",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/VfB_Stuttgart",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jamie_Leweling"
+   "wiki": "https://en.wikipedia.org/wiki/Jamie_Leweling",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jamal-musiala",
@@ -197,8 +267,13 @@
    "goals": 9,
    "club": "Bayern Munich",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Bayern_Munich",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jamal_Musiala"
+   "wiki": "https://en.wikipedia.org/wiki/Jamal_Musiala",
+   "wcApps": 1,
+   "wcGoals": 1,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "pascal-gro-",
@@ -210,8 +285,13 @@
    "goals": 1,
    "club": "Brighton & Hove Albion",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Brighton_%26_Hove_Albion_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Pascal_Gro%C3%9F"
+   "wiki": "https://en.wikipedia.org/wiki/Pascal_Gro%C3%9F",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "angelo-stiller",
@@ -223,8 +303,13 @@
    "goals": 0,
    "club": "VfB Stuttgart",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/VfB_Stuttgart",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Angelo_Stiller"
+   "wiki": "https://en.wikipedia.org/wiki/Angelo_Stiller",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "florian-wirtz",
@@ -236,8 +321,13 @@
    "goals": 11,
    "club": "Liverpool",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Liverpool_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Florian_Wirtz"
+   "wiki": "https://en.wikipedia.org/wiki/Florian_Wirtz",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "leroy-sane",
@@ -249,8 +339,13 @@
    "goals": 17,
    "club": "Galatasaray",
    "clubNat": "TUR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Galatasaray_S.K._(football)",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Leroy_San%C3%A9"
+   "wiki": "https://en.wikipedia.org/wiki/Leroy_San%C3%A9",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "nadiem-amiri",
@@ -262,8 +357,13 @@
    "goals": 1,
    "club": "Mainz 05",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/1._FSV_Mainz_05",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Nadiem_Amiri"
+   "wiki": "https://en.wikipedia.org/wiki/Nadiem_Amiri",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "felix-nmecha",
@@ -275,8 +375,13 @@
    "goals": 1,
    "club": "Borussia Dortmund",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/Borussia_Dortmund",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Felix_Nmecha"
+   "wiki": "https://en.wikipedia.org/wiki/Felix_Nmecha",
+   "wcApps": 1,
+   "wcGoals": 1,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "assan-ouedraogo",
@@ -288,8 +393,13 @@
    "goals": 1,
    "club": "RB Leipzig",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/RB_Leipzig",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Assan_Ou%C3%A9draogo"
+   "wiki": "https://en.wikipedia.org/wiki/Assan_Ou%C3%A9draogo",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "kai-havertz",
@@ -301,8 +411,13 @@
    "goals": 22,
    "club": "Arsenal",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Arsenal_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Kai_Havertz"
+   "wiki": "https://en.wikipedia.org/wiki/Kai_Havertz",
+   "wcApps": 1,
+   "wcGoals": 2,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "nick-woltemade",
@@ -314,8 +429,13 @@
    "goals": 4,
    "club": "Newcastle United",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Newcastle_United_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Nick_Woltemade"
+   "wiki": "https://en.wikipedia.org/wiki/Nick_Woltemade",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "maximilian-beier",
@@ -327,8 +447,13 @@
    "goals": 0,
    "club": "Borussia Dortmund",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/Borussia_Dortmund",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Maximilian_Beier"
+   "wiki": "https://en.wikipedia.org/wiki/Maximilian_Beier",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "deniz-undav",
@@ -340,8 +465,13 @@
    "goals": 6,
    "club": "VfB Stuttgart",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/VfB_Stuttgart",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Deniz_Undav"
+   "wiki": "https://en.wikipedia.org/wiki/Deniz_Undav",
+   "wcApps": 1,
+   "wcGoals": 1,
+   "wcYellow": 0,
+   "wcRed": 0
   }
  ]
 }

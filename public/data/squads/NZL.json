@@ -15,8 +15,13 @@
    "goals": 0,
    "club": "Millwall",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Millwall_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Max_Crocombe"
+   "wiki": "https://en.wikipedia.org/wiki/Max_Crocombe",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "alex-paulsen",
@@ -28,8 +33,13 @@
    "goals": 0,
    "club": "Lechia Gdańsk",
    "clubNat": "POL",
+   "clubWiki": "https://en.wikipedia.org/wiki/Lechia_Gda%C5%84sk",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Alex_Paulsen"
+   "wiki": "https://en.wikipedia.org/wiki/Alex_Paulsen",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "michael-woud",
@@ -41,8 +51,13 @@
    "goals": 0,
    "club": "Auckland FC",
    "clubNat": "NZL",
+   "clubWiki": "https://en.wikipedia.org/wiki/Auckland_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Michael_Woud"
+   "wiki": "https://en.wikipedia.org/wiki/Michael_Woud",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "tim-payne",
@@ -54,8 +69,13 @@
    "goals": 3,
    "club": "Wellington Phoenix",
    "clubNat": "NZL",
+   "clubWiki": "https://en.wikipedia.org/wiki/Wellington_Phoenix_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Tim_Payne_(footballer)"
+   "wiki": "https://en.wikipedia.org/wiki/Tim_Payne_(footballer)",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "francis-de-vries",
@@ -67,8 +87,13 @@
    "goals": 1,
    "club": "Auckland FC",
    "clubNat": "NZL",
+   "clubWiki": "https://en.wikipedia.org/wiki/Auckland_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Francis_de_Vries"
+   "wiki": "https://en.wikipedia.org/wiki/Francis_de_Vries",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "tyler-bindon",
@@ -80,8 +105,13 @@
    "goals": 3,
    "club": "Sheffield United",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Sheffield_United_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Tyler_Bindon"
+   "wiki": "https://en.wikipedia.org/wiki/Tyler_Bindon",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "michael-boxall",
@@ -93,8 +123,13 @@
    "goals": 1,
    "club": "Minnesota United FC",
    "clubNat": "USA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Minnesota_United_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Michael_Boxall"
+   "wiki": "https://en.wikipedia.org/wiki/Michael_Boxall",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "liberato-cacace",
@@ -106,8 +141,13 @@
    "goals": 1,
    "club": "Wrexham",
    "clubNat": "WAL",
+   "clubWiki": "https://en.wikipedia.org/wiki/Wrexham_A.F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Liberato_Cacace"
+   "wiki": "https://en.wikipedia.org/wiki/Liberato_Cacace",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "nando-pijnaker",
@@ -119,8 +159,13 @@
    "goals": 0,
    "club": "Auckland FC",
    "clubNat": "NZL",
+   "clubWiki": "https://en.wikipedia.org/wiki/Auckland_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Nando_Pijnaker"
+   "wiki": "https://en.wikipedia.org/wiki/Nando_Pijnaker",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "finn-surman",
@@ -132,8 +177,13 @@
    "goals": 2,
    "club": "Portland Timbers",
    "clubNat": "USA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Portland_Timbers",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Finn_Surman"
+   "wiki": "https://en.wikipedia.org/wiki/Finn_Surman",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "callan-elliot",
@@ -145,8 +195,13 @@
    "goals": 0,
    "club": "Auckland FC",
    "clubNat": "NZL",
+   "clubWiki": "https://en.wikipedia.org/wiki/Auckland_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Callan_Elliot"
+   "wiki": "https://en.wikipedia.org/wiki/Callan_Elliot",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "tommy-smith",
@@ -158,8 +213,13 @@
    "goals": 2,
    "club": "Braintree Town",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Braintree_Town_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Tommy_Smith_(footballer%2C_born_1990)"
+   "wiki": "https://en.wikipedia.org/wiki/Tommy_Smith_(footballer%2C_born_1990)",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "joe-bell",
@@ -171,8 +231,13 @@
    "goals": 1,
    "club": "Viking",
    "clubNat": "NOR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Viking_FK",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Joe_Bell_(footballer)"
+   "wiki": "https://en.wikipedia.org/wiki/Joe_Bell_(footballer)",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "matthew-garbett",
@@ -184,8 +249,13 @@
    "goals": 5,
    "club": "Peterborough United",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Peterborough_United_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Matthew_Garbett"
+   "wiki": "https://en.wikipedia.org/wiki/Matthew_Garbett",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "marko-stamenic",
@@ -197,8 +267,13 @@
    "goals": 3,
    "club": "Swansea City",
    "clubNat": "WAL",
+   "clubWiki": "https://en.wikipedia.org/wiki/Swansea_City_A.F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Marko_Stameni%C4%87"
+   "wiki": "https://en.wikipedia.org/wiki/Marko_Stameni%C4%87",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "sarpreet-singh",
@@ -210,8 +285,13 @@
    "goals": 3,
    "club": "Wellington Phoenix",
    "clubNat": "NZL",
+   "clubWiki": "https://en.wikipedia.org/wiki/Wellington_Phoenix_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Sarpreet_Singh"
+   "wiki": "https://en.wikipedia.org/wiki/Sarpreet_Singh",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "elijah-just",
@@ -223,8 +303,13 @@
    "goals": 9,
    "club": "Motherwell",
    "clubNat": "SCO",
+   "clubWiki": "https://en.wikipedia.org/wiki/Motherwell_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Elijah_Just"
+   "wiki": "https://en.wikipedia.org/wiki/Elijah_Just",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "alex-rufer",
@@ -236,8 +321,13 @@
    "goals": 0,
    "club": "Wellington Phoenix",
    "clubNat": "NZL",
+   "clubWiki": "https://en.wikipedia.org/wiki/Wellington_Phoenix_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Alex_Rufer"
+   "wiki": "https://en.wikipedia.org/wiki/Alex_Rufer",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ben-old",
@@ -249,8 +339,13 @@
    "goals": 2,
    "club": "Saint-Étienne",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/AS_Saint-%C3%89tienne",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ben_Old"
+   "wiki": "https://en.wikipedia.org/wiki/Ben_Old",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "callum-mccowatt",
@@ -262,8 +357,13 @@
    "goals": 4,
    "club": "Silkeborg",
    "clubNat": "DEN",
+   "clubWiki": "https://en.wikipedia.org/wiki/Silkeborg_IF",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Callum_McCowatt"
+   "wiki": "https://en.wikipedia.org/wiki/Callum_McCowatt",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ryan-thomas",
@@ -275,8 +375,13 @@
    "goals": 3,
    "club": "PEC Zwolle",
    "clubNat": "NED",
+   "clubWiki": "https://en.wikipedia.org/wiki/PEC_Zwolle",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ryan_Thomas_(footballer)"
+   "wiki": "https://en.wikipedia.org/wiki/Ryan_Thomas_(footballer)",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "lachlan-bayliss",
@@ -288,8 +393,13 @@
    "goals": 0,
    "club": "Newcastle Jets",
    "clubNat": "AUS",
+   "clubWiki": "https://en.wikipedia.org/wiki/Newcastle_Jets_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Lachlan_Bayliss"
+   "wiki": "https://en.wikipedia.org/wiki/Lachlan_Bayliss",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "chris-wood",
@@ -301,8 +411,13 @@
    "goals": 45,
    "club": "Nottingham Forest",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Nottingham_Forest_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Chris_Wood_(footballer%2C_born_1991)"
+   "wiki": "https://en.wikipedia.org/wiki/Chris_Wood_(footballer%2C_born_1991)",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "kosta-barbarouses",
@@ -314,8 +429,13 @@
    "goals": 10,
    "club": "Western Sydney Wanderers",
    "clubNat": "AUS",
+   "clubWiki": "https://en.wikipedia.org/wiki/Western_Sydney_Wanderers_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Kosta_Barbarouses"
+   "wiki": "https://en.wikipedia.org/wiki/Kosta_Barbarouses",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ben-waine",
@@ -327,8 +447,13 @@
    "goals": 9,
    "club": "Port Vale",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Port_Vale_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ben_Waine"
+   "wiki": "https://en.wikipedia.org/wiki/Ben_Waine",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jesse-randall",
@@ -340,8 +465,13 @@
    "goals": 2,
    "club": "Auckland FC",
    "clubNat": "NZL",
+   "clubWiki": "https://en.wikipedia.org/wiki/Auckland_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jesse_Randall"
+   "wiki": "https://en.wikipedia.org/wiki/Jesse_Randall",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   }
  ]
 }

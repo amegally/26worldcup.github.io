@@ -15,8 +15,13 @@
    "goals": 0,
    "club": "Fenerbahçe",
    "clubNat": "TUR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Fenerbah%C3%A7e_S.K._(football)",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Mert_G%C3%BCnok"
+   "wiki": "https://en.wikipedia.org/wiki/Mert_G%C3%BCnok",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "altay-bay-nd-r",
@@ -28,8 +33,13 @@
    "goals": 0,
    "club": "Manchester United",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Manchester_United_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Altay_Bay%C4%B1nd%C4%B1r"
+   "wiki": "https://en.wikipedia.org/wiki/Altay_Bay%C4%B1nd%C4%B1r",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ugurcan-cak-r",
@@ -41,8 +51,13 @@
    "goals": 0,
    "club": "Galatasaray",
    "clubNat": "TUR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Galatasaray_S.K._(football)",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/U%C4%9Furcan_%C3%87ak%C4%B1r"
+   "wiki": "https://en.wikipedia.org/wiki/U%C4%9Furcan_%C3%87ak%C4%B1r",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "zeki-celik",
@@ -54,8 +69,13 @@
    "goals": 3,
    "club": "Roma",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/AS_Roma",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Zeki_%C3%87elik"
+   "wiki": "https://en.wikipedia.org/wiki/Zeki_%C3%87elik",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "merih-demiral",
@@ -67,8 +87,13 @@
    "goals": 6,
    "club": "Al-Ahli",
    "clubNat": "KSA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Ahli_Saudi_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Merih_Demiral"
+   "wiki": "https://en.wikipedia.org/wiki/Merih_Demiral",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "caglar-soyuncu",
@@ -80,8 +105,13 @@
    "goals": 2,
    "club": "Fenerbahçe",
    "clubNat": "TUR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Fenerbah%C3%A7e_S.K._(football)",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/%C3%87a%C4%9Flar_S%C3%B6y%C3%BCnc%C3%BC"
+   "wiki": "https://en.wikipedia.org/wiki/%C3%87a%C4%9Flar_S%C3%B6y%C3%BCnc%C3%BC",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "eren-elmal-",
@@ -93,8 +123,13 @@
    "goals": 0,
    "club": "Galatasaray",
    "clubNat": "TUR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Galatasaray_S.K._(football)",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Eren_Elmal%C4%B1"
+   "wiki": "https://en.wikipedia.org/wiki/Eren_Elmal%C4%B1",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "abdulkerim-bardakc-",
@@ -106,8 +141,13 @@
    "goals": 2,
    "club": "Galatasaray",
    "clubNat": "TUR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Galatasaray_S.K._(football)",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Abd%C3%BClkerim_Bardakc%C4%B1"
+   "wiki": "https://en.wikipedia.org/wiki/Abd%C3%BClkerim_Bardakc%C4%B1",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ozan-kabak",
@@ -119,8 +159,13 @@
    "goals": 2,
    "club": "TSG Hoffenheim",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/TSG_1899_Hoffenheim",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ozan_Kabak"
+   "wiki": "https://en.wikipedia.org/wiki/Ozan_Kabak",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "mert-muldur",
@@ -132,8 +177,13 @@
    "goals": 3,
    "club": "Fenerbahçe",
    "clubNat": "TUR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Fenerbah%C3%A7e_S.K._(football)",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Mert_M%C3%BCld%C3%BCr"
+   "wiki": "https://en.wikipedia.org/wiki/Mert_M%C3%BCld%C3%BCr",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ferdi-kad-oglu",
@@ -145,8 +195,13 @@
    "goals": 2,
    "club": "Brighton & Hove Albion",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Brighton_%26_Hove_Albion_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ferdi_Kad%C4%B1o%C4%9Flu"
+   "wiki": "https://en.wikipedia.org/wiki/Ferdi_Kad%C4%B1o%C4%9Flu",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "samet-akaydin",
@@ -158,8 +213,13 @@
    "goals": 1,
    "club": "Çaykur Rizespor",
    "clubNat": "TUR",
+   "clubWiki": "https://en.wikipedia.org/wiki/%C3%87aykur_Rizespor",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Samet_Akaydin"
+   "wiki": "https://en.wikipedia.org/wiki/Samet_Akaydin",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "salih-ozcan",
@@ -171,8 +231,13 @@
    "goals": 1,
    "club": "Borussia Dortmund",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/Borussia_Dortmund",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Salih_%C3%96zcan"
+   "wiki": "https://en.wikipedia.org/wiki/Salih_%C3%96zcan",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "orkun-kokcu",
@@ -184,8 +249,13 @@
    "goals": 4,
    "club": "Beşiktaş",
    "clubNat": "TUR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Be%C5%9Fikta%C5%9F_J.K.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Orkun_K%C3%B6k%C3%A7%C3%BC"
+   "wiki": "https://en.wikipedia.org/wiki/Orkun_K%C3%B6k%C3%A7%C3%BC",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "hakan-calhanoglu",
@@ -197,8 +267,13 @@
    "goals": 22,
    "club": "Inter Milan",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Inter_Milan",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Hakan_%C3%87alhano%C4%9Flu"
+   "wiki": "https://en.wikipedia.org/wiki/Hakan_%C3%87alhano%C4%9Flu",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ismail-yuksek",
@@ -210,8 +285,13 @@
    "goals": 1,
    "club": "Fenerbahçe",
    "clubNat": "TUR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Fenerbah%C3%A7e_S.K._(football)",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/%C4%B0smail_Y%C3%BCksek"
+   "wiki": "https://en.wikipedia.org/wiki/%C4%B0smail_Y%C3%BCksek",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "kaan-ayhan",
@@ -223,8 +303,13 @@
    "goals": 5,
    "club": "Galatasaray",
    "clubNat": "TUR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Galatasaray_S.K._(football)",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Kaan_Ayhan"
+   "wiki": "https://en.wikipedia.org/wiki/Kaan_Ayhan",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "kerem-akturkoglu",
@@ -236,8 +321,13 @@
    "goals": 15,
    "club": "Fenerbahçe",
    "clubNat": "TUR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Fenerbah%C3%A7e_S.K._(football)",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Kerem_Akt%C3%BCrko%C4%9Flu"
+   "wiki": "https://en.wikipedia.org/wiki/Kerem_Akt%C3%BCrko%C4%9Flu",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "arda-guler",
@@ -249,8 +339,13 @@
    "goals": 6,
    "club": "Real Madrid",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/Real_Madrid_CF",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Arda_G%C3%BCler"
+   "wiki": "https://en.wikipedia.org/wiki/Arda_G%C3%BCler",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "deniz-gul",
@@ -262,8 +357,13 @@
    "goals": 2,
    "club": "Porto",
    "clubNat": "POR",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Porto",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Deniz_G%C3%BCl"
+   "wiki": "https://en.wikipedia.org/wiki/Deniz_G%C3%BCl",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "kenan-y-ld-z",
@@ -275,8 +375,13 @@
    "goals": 5,
    "club": "Juventus",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Juventus_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Kenan_Y%C4%B1ld%C4%B1z"
+   "wiki": "https://en.wikipedia.org/wiki/Kenan_Y%C4%B1ld%C4%B1z",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "irfan-can-kahveci",
@@ -288,8 +393,13 @@
    "goals": 6,
    "club": "Kasımpaşa",
    "clubNat": "TUR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Kas%C4%B1mpa%C5%9Fa_S.K.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/%C4%B0rfan_Can_Kahveci"
+   "wiki": "https://en.wikipedia.org/wiki/%C4%B0rfan_Can_Kahveci",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "yunus-akgun",
@@ -301,8 +411,13 @@
    "goals": 4,
    "club": "Galatasaray",
    "clubNat": "TUR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Galatasaray_S.K._(football)",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Yunus_Akg%C3%BCn"
+   "wiki": "https://en.wikipedia.org/wiki/Yunus_Akg%C3%BCn",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 1,
+   "wcRed": 0
   },
   {
    "id": "bar-s-alper-y-lmaz",
@@ -314,8 +429,13 @@
    "goals": 4,
    "club": "Galatasaray",
    "clubNat": "TUR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Galatasaray_S.K._(football)",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Bar%C4%B1%C5%9F_Alper_Y%C4%B1lmaz"
+   "wiki": "https://en.wikipedia.org/wiki/Bar%C4%B1%C5%9F_Alper_Y%C4%B1lmaz",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "oguz-ayd-n",
@@ -327,8 +447,13 @@
    "goals": 0,
    "club": "Fenerbahçe",
    "clubNat": "TUR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Fenerbah%C3%A7e_S.K._(football)",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/O%C4%9Fuz_Ayd%C4%B1n"
+   "wiki": "https://en.wikipedia.org/wiki/O%C4%9Fuz_Ayd%C4%B1n",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "can-uzun",
@@ -340,8 +465,13 @@
    "goals": 1,
    "club": "Eintracht Frankfurt",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/Eintracht_Frankfurt",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Can_Uzun"
+   "wiki": "https://en.wikipedia.org/wiki/Can_Uzun",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   }
  ]
 }

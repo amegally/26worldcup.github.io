@@ -15,8 +15,13 @@
    "goals": 0,
    "club": "Tractor",
    "clubNat": "IRN",
+   "clubWiki": "https://en.wikipedia.org/wiki/Tractor_S.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Alireza_Beiranvand"
+   "wiki": "https://en.wikipedia.org/wiki/Alireza_Beiranvand",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "payam-niazmand",
@@ -28,8 +33,13 @@
    "goals": 0,
    "club": "Persepolis",
    "clubNat": "IRN",
+   "clubWiki": "https://en.wikipedia.org/wiki/Persepolis_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Payam_Niazmand"
+   "wiki": "https://en.wikipedia.org/wiki/Payam_Niazmand",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "hossein-hosseini",
@@ -41,8 +51,13 @@
    "goals": 0,
    "club": "Sepahan",
    "clubNat": "IRN",
+   "clubWiki": "https://en.wikipedia.org/wiki/Sepahan_S.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Hossein_Hosseini_(footballer%2C_born_1992)"
+   "wiki": "https://en.wikipedia.org/wiki/Hossein_Hosseini_(footballer%2C_born_1992)",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "saleh-hardani",
@@ -54,8 +69,13 @@
    "goals": 1,
    "club": "Esteghlal",
    "clubNat": "IRN",
+   "clubWiki": "https://en.wikipedia.org/wiki/Esteghlal_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Saleh_Hardani"
+   "wiki": "https://en.wikipedia.org/wiki/Saleh_Hardani",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ehsan-hajsafi",
@@ -67,8 +87,13 @@
    "goals": 7,
    "club": "Sepahan",
    "clubNat": "IRN",
+   "clubWiki": "https://en.wikipedia.org/wiki/Sepahan_S.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ehsan_Hajsafi"
+   "wiki": "https://en.wikipedia.org/wiki/Ehsan_Hajsafi",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "shojae-khalilzadeh",
@@ -80,8 +105,13 @@
    "goals": 2,
    "club": "Tractor",
    "clubNat": "IRN",
+   "clubWiki": "https://en.wikipedia.org/wiki/Tractor_S.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Shojae_Khalilzadeh"
+   "wiki": "https://en.wikipedia.org/wiki/Shojae_Khalilzadeh",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "milad-mohammadi",
@@ -93,8 +123,13 @@
    "goals": 1,
    "club": "Persepolis",
    "clubNat": "IRN",
+   "clubWiki": "https://en.wikipedia.org/wiki/Persepolis_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Milad_Mohammadi"
+   "wiki": "https://en.wikipedia.org/wiki/Milad_Mohammadi",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "hossein-kanaanizadegan",
@@ -106,8 +141,13 @@
    "goals": 6,
    "club": "Persepolis",
    "clubNat": "IRN",
+   "clubWiki": "https://en.wikipedia.org/wiki/Persepolis_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Hossein_Kanaanizadegan"
+   "wiki": "https://en.wikipedia.org/wiki/Hossein_Kanaanizadegan",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "aria-yousefi",
@@ -119,8 +159,13 @@
    "goals": 1,
    "club": "Sepahan",
    "clubNat": "IRN",
+   "clubWiki": "https://en.wikipedia.org/wiki/Sepahan_S.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Aria_Yousefi"
+   "wiki": "https://en.wikipedia.org/wiki/Aria_Yousefi",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ali-nemati",
@@ -132,8 +177,13 @@
    "goals": 0,
    "club": "Foolad",
    "clubNat": "IRN",
+   "clubWiki": "https://en.wikipedia.org/wiki/Foolad_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ali_Nemati"
+   "wiki": "https://en.wikipedia.org/wiki/Ali_Nemati",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ramin-rezaeian",
@@ -145,8 +195,13 @@
    "goals": 8,
    "club": "Foolad",
    "clubNat": "IRN",
+   "clubWiki": "https://en.wikipedia.org/wiki/Foolad_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ramin_Rezaeian"
+   "wiki": "https://en.wikipedia.org/wiki/Ramin_Rezaeian",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "danial-eiri",
@@ -158,8 +213,13 @@
    "goals": 0,
    "club": "Malavan",
    "clubNat": "IRN",
+   "clubWiki": "https://en.wikipedia.org/wiki/Malavan_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Danial_Eiri"
+   "wiki": "https://en.wikipedia.org/wiki/Danial_Eiri",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "saeid-ezatolahi",
@@ -171,8 +231,13 @@
    "goals": 2,
    "club": "Shabab Al Ahli",
    "clubNat": "UAE",
+   "clubWiki": "https://en.wikipedia.org/wiki/Shabab_Al_Ahli_Club",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Saeid_Ezatolahi"
+   "wiki": "https://en.wikipedia.org/wiki/Saeid_Ezatolahi",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "alireza-jahanbakhsh",
@@ -184,8 +249,13 @@
    "goals": 17,
    "club": "Dender",
    "clubNat": "BEL",
+   "clubWiki": "https://en.wikipedia.org/wiki/FCV_Dender_EH",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Alireza_Jahanbakhsh"
+   "wiki": "https://en.wikipedia.org/wiki/Alireza_Jahanbakhsh",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "mohammad-mohebi",
@@ -197,8 +267,13 @@
    "goals": 14,
    "club": "Rostov",
    "clubNat": "RUS",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Rostov",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Mohammad_Mohebi"
+   "wiki": "https://en.wikipedia.org/wiki/Mohammad_Mohebi",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "saman-ghoddos",
@@ -210,8 +285,13 @@
    "goals": 3,
    "club": "Kalba",
    "clubNat": "UAE",
+   "clubWiki": "https://en.wikipedia.org/wiki/Kalba_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Saman_Ghoddos"
+   "wiki": "https://en.wikipedia.org/wiki/Saman_Ghoddos",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "rouzbeh-cheshmi",
@@ -223,8 +303,13 @@
    "goals": 3,
    "club": "Esteghlal",
    "clubNat": "IRN",
+   "clubWiki": "https://en.wikipedia.org/wiki/Esteghlal_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Rouzbeh_Cheshmi"
+   "wiki": "https://en.wikipedia.org/wiki/Rouzbeh_Cheshmi",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "mehdi-torabi",
@@ -236,8 +321,13 @@
    "goals": 7,
    "club": "Tractor",
    "clubNat": "IRN",
+   "clubWiki": "https://en.wikipedia.org/wiki/Tractor_S.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Mehdi_Torabi"
+   "wiki": "https://en.wikipedia.org/wiki/Mehdi_Torabi",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "mohammad-ghorbani",
@@ -249,8 +339,13 @@
    "goals": 0,
    "club": "Al Wahda",
    "clubNat": "UAE",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al_Wahda_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Mohammad_Ghorbani_(footballer)"
+   "wiki": "https://en.wikipedia.org/wiki/Mohammad_Ghorbani_(footballer)",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "amirmohammad-razzaghinia",
@@ -262,8 +357,13 @@
    "goals": 0,
    "club": "Esteghlal",
    "clubNat": "IRN",
+   "clubWiki": "https://en.wikipedia.org/wiki/Esteghlal_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Amirmohammad_Razzaghinia"
+   "wiki": "https://en.wikipedia.org/wiki/Amirmohammad_Razzaghinia",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "mehdi-taremi",
@@ -275,8 +375,13 @@
    "goals": 60,
    "club": "Olympiacos",
    "clubNat": "GRE",
+   "clubWiki": "https://en.wikipedia.org/wiki/Olympiacos_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Mehdi_Taremi"
+   "wiki": "https://en.wikipedia.org/wiki/Mehdi_Taremi",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "mehdi-ghayedi",
@@ -288,8 +393,13 @@
    "goals": 10,
    "club": "Al Nasr",
    "clubNat": "UAE",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Nasr_SC_(Dubai)",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Mehdi_Ghayedi"
+   "wiki": "https://en.wikipedia.org/wiki/Mehdi_Ghayedi",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ali-alipour",
@@ -301,8 +411,13 @@
    "goals": 1,
    "club": "Persepolis",
    "clubNat": "IRN",
+   "clubWiki": "https://en.wikipedia.org/wiki/Persepolis_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ali_Alipour"
+   "wiki": "https://en.wikipedia.org/wiki/Ali_Alipour",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "amirhossein-hosseinzadeh",
@@ -314,8 +429,13 @@
    "goals": 5,
    "club": "Tractor",
    "clubNat": "IRN",
+   "clubWiki": "https://en.wikipedia.org/wiki/Tractor_S.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Amirhossein_Hosseinzadeh"
+   "wiki": "https://en.wikipedia.org/wiki/Amirhossein_Hosseinzadeh",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "shahriyar-moghanlou",
@@ -327,8 +447,13 @@
    "goals": 2,
    "club": "Kalba",
    "clubNat": "UAE",
+   "clubWiki": "https://en.wikipedia.org/wiki/Kalba_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Shahriyar_Moghanlou"
+   "wiki": "https://en.wikipedia.org/wiki/Shahriyar_Moghanlou",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "dennis-eckert",
@@ -340,8 +465,13 @@
    "goals": 0,
    "club": "Standard Liège",
    "clubNat": "BEL",
+   "clubWiki": "https://en.wikipedia.org/wiki/Standard_Li%C3%A8ge",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Dennis_Eckert"
+   "wiki": "https://en.wikipedia.org/wiki/Dennis_Eckert",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   }
  ]
 }

@@ -15,8 +15,13 @@
    "goals": 0,
    "club": "Borussia Dortmund",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/Borussia_Dortmund",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Gregor_Kobel"
+   "wiki": "https://en.wikipedia.org/wiki/Gregor_Kobel",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "yvon-mvogo",
@@ -28,8 +33,13 @@
    "goals": 0,
    "club": "Lorient",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Lorient",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Yvon_Mvogo"
+   "wiki": "https://en.wikipedia.org/wiki/Yvon_Mvogo",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "marvin-keller",
@@ -41,8 +51,13 @@
    "goals": 0,
    "club": "Young Boys",
    "clubNat": "SUI",
+   "clubWiki": "https://en.wikipedia.org/wiki/BSC_Young_Boys",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Marvin_Keller_(footballer)"
+   "wiki": "https://en.wikipedia.org/wiki/Marvin_Keller_(footballer)",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "miro-muheim",
@@ -54,8 +69,13 @@
    "goals": 0,
    "club": "Hamburger SV",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/Hamburger_SV",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Miro_Muheim"
+   "wiki": "https://en.wikipedia.org/wiki/Miro_Muheim",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "silvan-widmer",
@@ -67,8 +87,13 @@
    "goals": 5,
    "club": "Mainz 05",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/1._FSV_Mainz_05",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Silvan_Widmer"
+   "wiki": "https://en.wikipedia.org/wiki/Silvan_Widmer",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "nico-elvedi",
@@ -80,8 +105,13 @@
    "goals": 3,
    "club": "Borussia Mönchengladbach",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/Borussia_M%C3%B6nchengladbach",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Nico_Elvedi"
+   "wiki": "https://en.wikipedia.org/wiki/Nico_Elvedi",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "manuel-akanji",
@@ -93,8 +123,13 @@
    "goals": 4,
    "club": "Inter Milan",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Inter_Milan",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Manuel_Akanji"
+   "wiki": "https://en.wikipedia.org/wiki/Manuel_Akanji",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ricardo-rodriguez",
@@ -106,8 +141,13 @@
    "goals": 9,
    "club": "Real Betis",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/Real_Betis",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ricardo_Rodriguez_(footballer)"
+   "wiki": "https://en.wikipedia.org/wiki/Ricardo_Rodriguez_(footballer)",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "eray-comert",
@@ -119,8 +159,13 @@
    "goals": 0,
    "club": "Valencia",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/Valencia_CF",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Eray_C%C3%B6mert"
+   "wiki": "https://en.wikipedia.org/wiki/Eray_C%C3%B6mert",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "aurele-amenda",
@@ -132,8 +177,13 @@
    "goals": 0,
    "club": "Eintracht Frankfurt",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/Eintracht_Frankfurt",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Aur%C3%A8le_Amenda"
+   "wiki": "https://en.wikipedia.org/wiki/Aur%C3%A8le_Amenda",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "luca-jaquez",
@@ -145,8 +195,13 @@
    "goals": 0,
    "club": "VfB Stuttgart",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/VfB_Stuttgart",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Luca_Jaquez"
+   "wiki": "https://en.wikipedia.org/wiki/Luca_Jaquez",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "denis-zakaria",
@@ -158,8 +213,13 @@
    "goals": 3,
    "club": "Monaco",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/AS_Monaco_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Denis_Zakaria"
+   "wiki": "https://en.wikipedia.org/wiki/Denis_Zakaria",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 1,
+   "wcRed": 0
   },
   {
    "id": "remo-freuler",
@@ -171,8 +231,13 @@
    "goals": 11,
    "club": "Bologna",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Bologna_FC_1909",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Remo_Freuler"
+   "wiki": "https://en.wikipedia.org/wiki/Remo_Freuler",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "johan-manzambi",
@@ -184,8 +249,13 @@
    "goals": 3,
    "club": "SC Freiburg",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/SC_Freiburg",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Johan_Manzambi"
+   "wiki": "https://en.wikipedia.org/wiki/Johan_Manzambi",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "granit-xhaka",
@@ -197,8 +267,13 @@
    "goals": 17,
    "club": "Sunderland",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Sunderland_A.F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Granit_Xhaka"
+   "wiki": "https://en.wikipedia.org/wiki/Granit_Xhaka",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ardon-jashari",
@@ -210,8 +285,13 @@
    "goals": 0,
    "club": "Milan",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/AC_Milan",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ardon_Jashari"
+   "wiki": "https://en.wikipedia.org/wiki/Ardon_Jashari",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "djibril-sow",
@@ -223,8 +303,13 @@
    "goals": 0,
    "club": "Sevilla",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/Sevilla_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Djibril_Sow"
+   "wiki": "https://en.wikipedia.org/wiki/Djibril_Sow",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "michel-aebischer",
@@ -236,8 +321,13 @@
    "goals": 2,
    "club": "Pisa",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Pisa_SC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Michel_Aebischer"
+   "wiki": "https://en.wikipedia.org/wiki/Michel_Aebischer",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "fabian-rieder",
@@ -249,8 +339,13 @@
    "goals": 1,
    "club": "FC Augsburg",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Augsburg",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Fabian_Rieder"
+   "wiki": "https://en.wikipedia.org/wiki/Fabian_Rieder",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "breel-embolo",
@@ -262,8 +357,13 @@
    "goals": 24,
    "club": "Rennes",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Stade_Rennais_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Breel_Embolo"
+   "wiki": "https://en.wikipedia.org/wiki/Breel_Embolo",
+   "wcApps": 1,
+   "wcGoals": 1,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "dan-ndoye",
@@ -275,8 +375,13 @@
    "goals": 8,
    "club": "Nottingham Forest",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Nottingham_Forest_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Dan_Ndoye"
+   "wiki": "https://en.wikipedia.org/wiki/Dan_Ndoye",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "christian-fassnacht",
@@ -288,8 +393,13 @@
    "goals": 5,
    "club": "Young Boys",
    "clubNat": "SUI",
+   "clubWiki": "https://en.wikipedia.org/wiki/BSC_Young_Boys",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Christian_Fassnacht"
+   "wiki": "https://en.wikipedia.org/wiki/Christian_Fassnacht",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ruben-vargas",
@@ -301,8 +411,13 @@
    "goals": 11,
    "club": "Sevilla",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/Sevilla_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Rub%C3%A9n_Vargas"
+   "wiki": "https://en.wikipedia.org/wiki/Rub%C3%A9n_Vargas",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "noah-okafor",
@@ -314,8 +429,13 @@
    "goals": 2,
    "club": "Leeds United",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Leeds_United_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Noah_Okafor"
+   "wiki": "https://en.wikipedia.org/wiki/Noah_Okafor",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "zeki-amdouni",
@@ -327,8 +447,13 @@
    "goals": 11,
    "club": "Burnley",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Burnley_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Zeki_Amdouni"
+   "wiki": "https://en.wikipedia.org/wiki/Zeki_Amdouni",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "cedric-itten",
@@ -340,8 +465,13 @@
    "goals": 5,
    "club": "Fortuna Düsseldorf",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/Fortuna_D%C3%BCsseldorf",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Cedric_Itten"
+   "wiki": "https://en.wikipedia.org/wiki/Cedric_Itten",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   }
  ]
 }

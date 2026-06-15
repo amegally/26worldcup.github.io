@@ -15,8 +15,13 @@
    "goals": 0,
    "club": "Huracán",
    "clubNat": "ARG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_Hurac%C3%A1n",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Hern%C3%A1n_Gal%C3%ADndez"
+   "wiki": "https://en.wikipedia.org/wiki/Hern%C3%A1n_Gal%C3%ADndez",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "moises-ramirez",
@@ -28,8 +33,13 @@
    "goals": 0,
    "club": "Kifisia",
    "clubNat": "GRE",
+   "clubWiki": "https://en.wikipedia.org/wiki/A.E._Kifisia_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Mois%C3%A9s_Ram%C3%ADrez"
+   "wiki": "https://en.wikipedia.org/wiki/Mois%C3%A9s_Ram%C3%ADrez",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "gonzalo-valle",
@@ -41,8 +51,13 @@
    "goals": 0,
    "club": "LDU Quito",
    "clubNat": "ECU",
+   "clubWiki": "https://en.wikipedia.org/wiki/LDU_Quito",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Gonzalo_Valle"
+   "wiki": "https://en.wikipedia.org/wiki/Gonzalo_Valle",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "felix-torres",
@@ -54,8 +69,13 @@
    "goals": 5,
    "club": "Internacional",
    "clubNat": "BRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/SC_Internacional",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/F%C3%A9lix_Torres_(footballer%2C_born_1997)"
+   "wiki": "https://en.wikipedia.org/wiki/F%C3%A9lix_Torres_(footballer%2C_born_1997)",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "piero-hincapie",
@@ -67,8 +87,13 @@
    "goals": 3,
    "club": "Arsenal",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Arsenal_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Piero_Hincapi%C3%A9"
+   "wiki": "https://en.wikipedia.org/wiki/Piero_Hincapi%C3%A9",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "joel-ordonez",
@@ -80,8 +105,13 @@
    "goals": 0,
    "club": "Club Brugge",
    "clubNat": "BEL",
+   "clubWiki": "https://en.wikipedia.org/wiki/Club_Brugge_KV",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Joel_Ord%C3%B3%C3%B1ez"
+   "wiki": "https://en.wikipedia.org/wiki/Joel_Ord%C3%B3%C3%B1ez",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "willian-pacho",
@@ -93,8 +123,13 @@
    "goals": 2,
    "club": "Paris Saint-Germain",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Paris_Saint-Germain_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Willian_Pacho"
+   "wiki": "https://en.wikipedia.org/wiki/Willian_Pacho",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "pervis-estupinan",
@@ -106,8 +141,13 @@
    "goals": 5,
    "club": "Milan",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/AC_Milan",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Pervis_Estupi%C3%B1%C3%A1n"
+   "wiki": "https://en.wikipedia.org/wiki/Pervis_Estupi%C3%B1%C3%A1n",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "angelo-preciado",
@@ -119,8 +159,13 @@
    "goals": 0,
    "club": "Atlético Mineiro",
    "clubNat": "BRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Clube_Atl%C3%A9tico_Mineiro",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/%C3%81ngelo_Preciado"
+   "wiki": "https://en.wikipedia.org/wiki/%C3%81ngelo_Preciado",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jackson-porozo",
@@ -132,8 +177,13 @@
    "goals": 1,
    "club": "Tijuana",
    "clubNat": "MEX",
+   "clubWiki": "https://en.wikipedia.org/wiki/Club_Tijuana",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jackson_Porozo"
+   "wiki": "https://en.wikipedia.org/wiki/Jackson_Porozo",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 1,
+   "wcRed": 0
   },
   {
    "id": "yaimar-medina",
@@ -145,8 +195,13 @@
    "goals": 0,
    "club": "Genk",
    "clubNat": "BEL",
+   "clubWiki": "https://en.wikipedia.org/wiki/KRC_Genk",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Yaimar_Medina"
+   "wiki": "https://en.wikipedia.org/wiki/Yaimar_Medina",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jordy-alcivar",
@@ -158,8 +213,13 @@
    "goals": 1,
    "club": "Independiente del Valle",
    "clubNat": "ECU",
+   "clubWiki": "https://en.wikipedia.org/wiki/Independiente_del_Valle",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jordy_Alc%C3%ADvar"
+   "wiki": "https://en.wikipedia.org/wiki/Jordy_Alc%C3%ADvar",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "anthony-valencia",
@@ -171,8 +231,13 @@
    "goals": 1,
    "club": "Antwerp",
    "clubNat": "BEL",
+   "clubWiki": "https://en.wikipedia.org/wiki/Royal_Antwerp_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Anthony_Valencia"
+   "wiki": "https://en.wikipedia.org/wiki/Anthony_Valencia",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "kendry-paez",
@@ -184,8 +249,13 @@
    "goals": 2,
    "club": "River Plate",
    "clubNat": "ARG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_River_Plate",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Kendry_P%C3%A1ez"
+   "wiki": "https://en.wikipedia.org/wiki/Kendry_P%C3%A1ez",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "alan-minda",
@@ -197,8 +267,13 @@
    "goals": 2,
    "club": "Atlético Mineiro",
    "clubNat": "BRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Clube_Atl%C3%A9tico_Mineiro",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Alan_Minda"
+   "wiki": "https://en.wikipedia.org/wiki/Alan_Minda",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "pedro-vite",
@@ -210,8 +285,13 @@
    "goals": 1,
    "club": "Pumas UNAM",
    "clubNat": "MEX",
+   "clubWiki": "https://en.wikipedia.org/wiki/Pumas_UNAM",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Pedro_Vite"
+   "wiki": "https://en.wikipedia.org/wiki/Pedro_Vite",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "denil-castillo",
@@ -223,8 +303,13 @@
    "goals": 0,
    "club": "Midtjylland",
    "clubNat": "DEN",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Midtjylland",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Denil_Castillo"
+   "wiki": "https://en.wikipedia.org/wiki/Denil_Castillo",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "alan-franco",
@@ -236,8 +321,13 @@
    "goals": 1,
    "club": "Atlético Mineiro",
    "clubNat": "BRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Clube_Atl%C3%A9tico_Mineiro",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Alan_Franco_(footballer%2C_born_1998)"
+   "wiki": "https://en.wikipedia.org/wiki/Alan_Franco_(footballer%2C_born_1998)",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "moises-caicedo",
@@ -249,8 +339,13 @@
    "goals": 3,
    "club": "Chelsea",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Chelsea_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Mois%C3%A9s_Caicedo"
+   "wiki": "https://en.wikipedia.org/wiki/Mois%C3%A9s_Caicedo",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "john-yeboah",
@@ -262,8 +357,13 @@
    "goals": 3,
    "club": "Venezia",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Venezia_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/John_Yeboah"
+   "wiki": "https://en.wikipedia.org/wiki/John_Yeboah",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "kevin-rodriguez",
@@ -275,8 +375,13 @@
    "goals": 2,
    "club": "Union Saint-Gilloise",
    "clubNat": "BEL",
+   "clubWiki": "https://en.wikipedia.org/wiki/Royale_Union_Saint-Gilloise",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Kevin_Rodr%C3%ADguez_(footballer%2C_born_2000)"
+   "wiki": "https://en.wikipedia.org/wiki/Kevin_Rodr%C3%ADguez_(footballer%2C_born_2000)",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "enner-valencia",
@@ -288,8 +393,13 @@
    "goals": 49,
    "club": "Pachuca",
    "clubNat": "MEX",
+   "clubWiki": "https://en.wikipedia.org/wiki/C.F._Pachuca",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Enner_Valencia"
+   "wiki": "https://en.wikipedia.org/wiki/Enner_Valencia",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jordy-caicedo",
@@ -301,8 +411,13 @@
    "goals": 4,
    "club": "Huracán",
    "clubNat": "ARG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_Hurac%C3%A1n",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jordy_Caicedo"
+   "wiki": "https://en.wikipedia.org/wiki/Jordy_Caicedo",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "gonzalo-plata",
@@ -314,8 +429,13 @@
    "goals": 8,
    "club": "Flamengo",
    "clubNat": "BRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/CR_Flamengo",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Gonzalo_Plata"
+   "wiki": "https://en.wikipedia.org/wiki/Gonzalo_Plata",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "nilson-angulo",
@@ -327,8 +447,13 @@
    "goals": 2,
    "club": "Sunderland",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Sunderland_A.F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Nilson_Angulo"
+   "wiki": "https://en.wikipedia.org/wiki/Nilson_Angulo",
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jeremy-arevalo",
@@ -340,8 +465,13 @@
    "goals": 0,
    "club": "VfB Stuttgart",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/VfB_Stuttgart",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jeremy_Ar%C3%A9valo"
+   "wiki": "https://en.wikipedia.org/wiki/Jeremy_Ar%C3%A9valo",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   }
  ]
 }

@@ -15,8 +15,13 @@
    "goals": 0,
    "club": "Porto",
    "clubNat": "POR",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Porto",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Diogo_Costa"
+   "wiki": "https://en.wikipedia.org/wiki/Diogo_Costa",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jose-sa",
@@ -28,8 +33,13 @@
    "goals": 0,
    "club": "Wolverhampton Wanderers",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Wolverhampton_Wanderers_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jos%C3%A9_S%C3%A1"
+   "wiki": "https://en.wikipedia.org/wiki/Jos%C3%A9_S%C3%A1",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "rui-silva",
@@ -41,8 +51,13 @@
    "goals": 0,
    "club": "Sporting CP",
    "clubNat": "POR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Sporting_CP",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Rui_Silva_(footballer%2C_born_1994)"
+   "wiki": "https://en.wikipedia.org/wiki/Rui_Silva_(footballer%2C_born_1994)",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "nelson-semedo",
@@ -54,8 +69,13 @@
    "goals": 0,
    "club": "Fenerbahçe",
    "clubNat": "TUR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Fenerbah%C3%A7e_S.K._(football)",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/N%C3%A9lson_Semedo"
+   "wiki": "https://en.wikipedia.org/wiki/N%C3%A9lson_Semedo",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ruben-dias",
@@ -67,8 +87,13 @@
    "goals": 3,
    "club": "Manchester City",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Manchester_City_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/R%C3%BAben_Dias"
+   "wiki": "https://en.wikipedia.org/wiki/R%C3%BAben_Dias",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "tomas-araujo",
@@ -80,8 +105,13 @@
    "goals": 0,
    "club": "Benfica",
    "clubNat": "POR",
+   "clubWiki": "https://en.wikipedia.org/wiki/S.L._Benfica",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Tom%C3%A1s_Ara%C3%BAjo"
+   "wiki": "https://en.wikipedia.org/wiki/Tom%C3%A1s_Ara%C3%BAjo",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "diogo-dalot",
@@ -93,8 +123,13 @@
    "goals": 3,
    "club": "Manchester United",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Manchester_United_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Diogo_Dalot"
+   "wiki": "https://en.wikipedia.org/wiki/Diogo_Dalot",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "renato-veiga",
@@ -106,8 +141,13 @@
    "goals": 1,
    "club": "Villarreal",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/Villarreal_CF",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Renato_Veiga"
+   "wiki": "https://en.wikipedia.org/wiki/Renato_Veiga",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "goncalo-inacio",
@@ -119,8 +159,13 @@
    "goals": 2,
    "club": "Sporting CP",
    "clubNat": "POR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Sporting_CP",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Gon%C3%A7alo_In%C3%A1cio"
+   "wiki": "https://en.wikipedia.org/wiki/Gon%C3%A7alo_In%C3%A1cio",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "joao-cancelo",
@@ -132,8 +177,13 @@
    "goals": 12,
    "club": "Barcelona",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/FC_Barcelona",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jo%C3%A3o_Cancelo"
+   "wiki": "https://en.wikipedia.org/wiki/Jo%C3%A3o_Cancelo",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "samu-costa",
@@ -145,8 +195,13 @@
    "goals": 0,
    "club": "Mallorca",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/RCD_Mallorca",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Sam%C3%BA_Costa"
+   "wiki": "https://en.wikipedia.org/wiki/Sam%C3%BA_Costa",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "nuno-mendes",
@@ -158,8 +213,13 @@
    "goals": 1,
    "club": "Paris Saint-Germain",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Paris_Saint-Germain_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Nuno_Mendes_(footballer%2C_born_2002)"
+   "wiki": "https://en.wikipedia.org/wiki/Nuno_Mendes_(footballer%2C_born_2002)",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "matheus-nunes",
@@ -171,8 +231,13 @@
    "goals": 2,
    "club": "Manchester City",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Manchester_City_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Matheus_Nunes"
+   "wiki": "https://en.wikipedia.org/wiki/Matheus_Nunes",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "bruno-fernandes",
@@ -184,8 +249,13 @@
    "goals": 29,
    "club": "Manchester United",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Manchester_United_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Bruno_Fernandes"
+   "wiki": "https://en.wikipedia.org/wiki/Bruno_Fernandes",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "bernardo-silva",
@@ -197,8 +267,13 @@
    "goals": 14,
    "club": "Manchester City",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Manchester_City_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Bernardo_Silva"
+   "wiki": "https://en.wikipedia.org/wiki/Bernardo_Silva",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "joao-neves",
@@ -210,8 +285,13 @@
    "goals": 3,
    "club": "Paris Saint-Germain",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Paris_Saint-Germain_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jo%C3%A3o_Neves"
+   "wiki": "https://en.wikipedia.org/wiki/Jo%C3%A3o_Neves",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "ruben-neves",
@@ -223,8 +303,13 @@
    "goals": 1,
    "club": "Al-Hilal",
    "clubNat": "KSA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al_Hilal_SFC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/R%C3%BAben_Neves"
+   "wiki": "https://en.wikipedia.org/wiki/R%C3%BAben_Neves",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "vitinha",
@@ -236,8 +321,13 @@
    "goals": 0,
    "club": "Paris Saint-Germain",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Paris_Saint-Germain_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Vitinha"
+   "wiki": "https://en.wikipedia.org/wiki/Vitinha",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "cristiano-ronaldo",
@@ -249,8 +339,13 @@
    "goals": 143,
    "club": "Al-Nassr",
    "clubNat": "KSA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Nassr_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Cristiano_Ronaldo"
+   "wiki": "https://en.wikipedia.org/wiki/Cristiano_Ronaldo",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "goncalo-ramos",
@@ -262,8 +357,13 @@
    "goals": 10,
    "club": "Paris Saint-Germain",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Paris_Saint-Germain_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Gon%C3%A7alo_Ramos"
+   "wiki": "https://en.wikipedia.org/wiki/Gon%C3%A7alo_Ramos",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "joao-felix",
@@ -275,8 +375,13 @@
    "goals": 12,
    "club": "Al-Nassr",
    "clubNat": "KSA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Al-Nassr_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jo%C3%A3o_F%C3%A9lix"
+   "wiki": "https://en.wikipedia.org/wiki/Jo%C3%A3o_F%C3%A9lix",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "francisco-trincao",
@@ -288,8 +393,13 @@
    "goals": 3,
    "club": "Sporting CP",
    "clubNat": "POR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Sporting_CP",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Francisco_Trinc%C3%A3o"
+   "wiki": "https://en.wikipedia.org/wiki/Francisco_Trinc%C3%A3o",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "rafael-leao",
@@ -301,8 +411,13 @@
    "goals": 5,
    "club": "Milan",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/AC_Milan",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Rafael_Le%C3%A3o"
+   "wiki": "https://en.wikipedia.org/wiki/Rafael_Le%C3%A3o",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "pedro-neto",
@@ -314,8 +429,13 @@
    "goals": 3,
    "club": "Chelsea",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Chelsea_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Pedro_Neto"
+   "wiki": "https://en.wikipedia.org/wiki/Pedro_Neto",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "goncalo-guedes",
@@ -327,8 +447,13 @@
    "goals": 8,
    "club": "Real Sociedad",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/Real_Sociedad",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Gon%C3%A7alo_Guedes"
+   "wiki": "https://en.wikipedia.org/wiki/Gon%C3%A7alo_Guedes",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "francisco-conceicao",
@@ -340,8 +465,13 @@
    "goals": 4,
    "club": "Juventus",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Juventus_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Francisco_Concei%C3%A7%C3%A3o"
+   "wiki": "https://en.wikipedia.org/wiki/Francisco_Concei%C3%A7%C3%A3o",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   }
  ]
 }

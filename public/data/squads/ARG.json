@@ -15,8 +15,13 @@
    "goals": 0,
    "club": "Atlético Madrid",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Madrid",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Juan_Musso"
+   "wiki": "https://en.wikipedia.org/wiki/Juan_Musso",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "geronimo-rulli",
@@ -28,8 +33,13 @@
    "goals": 0,
    "club": "Marseille",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Olympique_de_Marseille",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Ger%C3%B3nimo_Rulli"
+   "wiki": "https://en.wikipedia.org/wiki/Ger%C3%B3nimo_Rulli",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "emiliano-martinez",
@@ -41,8 +51,13 @@
    "goals": 0,
    "club": "Aston Villa",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Aston_Villa_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Emiliano_Mart%C3%ADnez"
+   "wiki": "https://en.wikipedia.org/wiki/Emiliano_Mart%C3%ADnez",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "marcos-senesi",
@@ -54,8 +69,13 @@
    "goals": 0,
    "club": "Bournemouth",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/AFC_Bournemouth",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Marcos_Senesi"
+   "wiki": "https://en.wikipedia.org/wiki/Marcos_Senesi",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "nicolas-tagliafico",
@@ -67,8 +87,13 @@
    "goals": 1,
    "club": "Lyon",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Olympique_Lyonnais",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Nicol%C3%A1s_Tagliafico"
+   "wiki": "https://en.wikipedia.org/wiki/Nicol%C3%A1s_Tagliafico",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "gonzalo-montiel",
@@ -80,8 +105,13 @@
    "goals": 2,
    "club": "River Plate",
    "clubNat": "ARG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_River_Plate",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Gonzalo_Montiel"
+   "wiki": "https://en.wikipedia.org/wiki/Gonzalo_Montiel",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "lisandro-martinez",
@@ -93,8 +123,13 @@
    "goals": 1,
    "club": "Manchester United",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Manchester_United_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Lisandro_Mart%C3%ADnez"
+   "wiki": "https://en.wikipedia.org/wiki/Lisandro_Mart%C3%ADnez",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "cristian-romero",
@@ -106,8 +141,13 @@
    "goals": 3,
    "club": "Tottenham Hotspur",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Tottenham_Hotspur_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Cristian_Romero"
+   "wiki": "https://en.wikipedia.org/wiki/Cristian_Romero",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "nicolas-otamendi",
@@ -119,8 +159,13 @@
    "goals": 8,
    "club": "Benfica",
    "clubNat": "POR",
+   "clubWiki": "https://en.wikipedia.org/wiki/S.L._Benfica",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Nicol%C3%A1s_Otamendi"
+   "wiki": "https://en.wikipedia.org/wiki/Nicol%C3%A1s_Otamendi",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "facundo-medina",
@@ -132,8 +177,13 @@
    "goals": 0,
    "club": "Marseille",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Olympique_de_Marseille",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Facundo_Medina"
+   "wiki": "https://en.wikipedia.org/wiki/Facundo_Medina",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "nahuel-molina",
@@ -145,8 +195,13 @@
    "goals": 1,
    "club": "Atlético Madrid",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Madrid",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Nahuel_Molina"
+   "wiki": "https://en.wikipedia.org/wiki/Nahuel_Molina",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "leandro-paredes",
@@ -158,8 +213,13 @@
    "goals": 5,
    "club": "Boca Juniors",
    "clubNat": "ARG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Boca_Juniors",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Leandro_Paredes"
+   "wiki": "https://en.wikipedia.org/wiki/Leandro_Paredes",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "rodrigo-de-paul",
@@ -171,8 +231,13 @@
    "goals": 2,
    "club": "Inter Miami CF",
    "clubNat": "USA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Inter_Miami_CF",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Rodrigo_De_Paul"
+   "wiki": "https://en.wikipedia.org/wiki/Rodrigo_De_Paul",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "valentin-barco",
@@ -184,8 +249,13 @@
    "goals": 2,
    "club": "Strasbourg",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/RC_Strasbourg_Alsace",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Valent%C3%ADn_Barco"
+   "wiki": "https://en.wikipedia.org/wiki/Valent%C3%ADn_Barco",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "giovani-lo-celso",
@@ -197,8 +267,13 @@
    "goals": 4,
    "club": "Real Betis",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/Real_Betis",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Giovani_Lo_Celso"
+   "wiki": "https://en.wikipedia.org/wiki/Giovani_Lo_Celso",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "exequiel-palacios",
@@ -210,8 +285,13 @@
    "goals": 0,
    "club": "Bayer Leverkusen",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/Bayer_04_Leverkusen",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Exequiel_Palacios"
+   "wiki": "https://en.wikipedia.org/wiki/Exequiel_Palacios",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "nicolas-gonzalez",
@@ -223,8 +303,13 @@
    "goals": 6,
    "club": "Atlético Madrid",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Madrid",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Nicol%C3%A1s_Gonz%C3%A1lez_(footballer%2C_born_1998)"
+   "wiki": "https://en.wikipedia.org/wiki/Nicol%C3%A1s_Gonz%C3%A1lez_(footballer%2C_born_1998)",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "alexis-mac-allister",
@@ -236,8 +321,13 @@
    "goals": 6,
    "club": "Liverpool",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Liverpool_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Alexis_Mac_Allister"
+   "wiki": "https://en.wikipedia.org/wiki/Alexis_Mac_Allister",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "enzo-fernandez",
@@ -249,8 +339,13 @@
    "goals": 6,
    "club": "Chelsea",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Chelsea_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Enzo_Fern%C3%A1ndez"
+   "wiki": "https://en.wikipedia.org/wiki/Enzo_Fern%C3%A1ndez",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "julian-alvarez",
@@ -262,8 +357,13 @@
    "goals": 14,
    "club": "Atlético Madrid",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Madrid",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Juli%C3%A1n_Alvarez"
+   "wiki": "https://en.wikipedia.org/wiki/Juli%C3%A1n_Alvarez",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "lionel-messi",
@@ -275,8 +375,13 @@
    "goals": 117,
    "club": "Inter Miami CF",
    "clubNat": "USA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Inter_Miami_CF",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Lionel_Messi"
+   "wiki": "https://en.wikipedia.org/wiki/Lionel_Messi",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "thiago-almada",
@@ -288,8 +393,13 @@
    "goals": 5,
    "club": "Atlético Madrid",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Madrid",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Thiago_Almada"
+   "wiki": "https://en.wikipedia.org/wiki/Thiago_Almada",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "giuliano-simeone",
@@ -301,8 +411,13 @@
    "goals": 2,
    "club": "Atlético Madrid",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Madrid",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Giuliano_Simeone"
+   "wiki": "https://en.wikipedia.org/wiki/Giuliano_Simeone",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "nico-paz",
@@ -314,8 +429,13 @@
    "goals": 1,
    "club": "Como",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Como_1907",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Nico_Paz"
+   "wiki": "https://en.wikipedia.org/wiki/Nico_Paz",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jose-manuel-lopez",
@@ -327,8 +447,13 @@
    "goals": 0,
    "club": "Palmeiras",
    "clubNat": "BRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/SE_Palmeiras",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jos%C3%A9_Manuel_L%C3%B3pez_(footballer)"
+   "wiki": "https://en.wikipedia.org/wiki/Jos%C3%A9_Manuel_L%C3%B3pez_(footballer)",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "lautaro-martinez",
@@ -340,8 +465,13 @@
    "goals": 37,
    "club": "Inter Milan",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Inter_Milan",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Lautaro_Mart%C3%ADnez"
+   "wiki": "https://en.wikipedia.org/wiki/Lautaro_Mart%C3%ADnez",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   }
  ]
 }

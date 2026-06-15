@@ -15,8 +15,13 @@
    "goals": 0,
    "club": "Real Madrid",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/Real_Madrid_CF",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Thibaut_Courtois"
+   "wiki": "https://en.wikipedia.org/wiki/Thibaut_Courtois",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "senne-lammens",
@@ -28,8 +33,13 @@
    "goals": 0,
    "club": "Manchester United",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Manchester_United_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Senne_Lammens"
+   "wiki": "https://en.wikipedia.org/wiki/Senne_Lammens",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "mike-penders",
@@ -41,8 +51,13 @@
    "goals": 0,
    "club": "Strasbourg",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/RC_Strasbourg_Alsace",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Mike_Penders"
+   "wiki": "https://en.wikipedia.org/wiki/Mike_Penders",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "zeno-debast",
@@ -54,8 +69,13 @@
    "goals": 1,
    "club": "Sporting CP",
    "clubNat": "POR",
+   "clubWiki": "https://en.wikipedia.org/wiki/Sporting_CP",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Zeno_Debast"
+   "wiki": "https://en.wikipedia.org/wiki/Zeno_Debast",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "arthur-theate",
@@ -67,8 +87,13 @@
    "goals": 1,
    "club": "Eintracht Frankfurt",
    "clubNat": "GER",
+   "clubWiki": "https://en.wikipedia.org/wiki/Eintracht_Frankfurt",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Arthur_Theate"
+   "wiki": "https://en.wikipedia.org/wiki/Arthur_Theate",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "brandon-mechele",
@@ -80,8 +105,13 @@
    "goals": 1,
    "club": "Club Brugge",
    "clubNat": "BEL",
+   "clubWiki": "https://en.wikipedia.org/wiki/Club_Brugge_KV",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Brandon_Mechele"
+   "wiki": "https://en.wikipedia.org/wiki/Brandon_Mechele",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "maxim-de-cuyper",
@@ -93,8 +123,13 @@
    "goals": 4,
    "club": "Brighton & Hove Albion",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Brighton_%26_Hove_Albion_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Maxim_De_Cuyper"
+   "wiki": "https://en.wikipedia.org/wiki/Maxim_De_Cuyper",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "thomas-meunier",
@@ -106,8 +141,13 @@
    "goals": 10,
    "club": "Lille",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Lille_OSC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Thomas_Meunier"
+   "wiki": "https://en.wikipedia.org/wiki/Thomas_Meunier",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "koni-de-winter",
@@ -119,8 +159,13 @@
    "goals": 0,
    "club": "Milan",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/AC_Milan",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Koni_De_Winter"
+   "wiki": "https://en.wikipedia.org/wiki/Koni_De_Winter",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "joaquin-seys",
@@ -132,8 +177,13 @@
    "goals": 0,
    "club": "Club Brugge",
    "clubNat": "BEL",
+   "clubWiki": "https://en.wikipedia.org/wiki/Club_Brugge_KV",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Joaquin_Seys"
+   "wiki": "https://en.wikipedia.org/wiki/Joaquin_Seys",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "timothy-castagne",
@@ -145,8 +195,13 @@
    "goals": 2,
    "club": "Fulham",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Fulham_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Timothy_Castagne"
+   "wiki": "https://en.wikipedia.org/wiki/Timothy_Castagne",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "nathan-ngoy",
@@ -158,8 +213,13 @@
    "goals": 0,
    "club": "Lille",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Lille_OSC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Nathan_Ngoy"
+   "wiki": "https://en.wikipedia.org/wiki/Nathan_Ngoy",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "axel-witsel",
@@ -171,8 +231,13 @@
    "goals": 12,
    "club": "Girona",
    "clubNat": "ESP",
+   "clubWiki": "https://en.wikipedia.org/wiki/Girona_FC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Axel_Witsel"
+   "wiki": "https://en.wikipedia.org/wiki/Axel_Witsel",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "kevin-de-bruyne",
@@ -184,8 +249,13 @@
    "goals": 37,
    "club": "Napoli",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/SSC_Napoli",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Kevin_De_Bruyne"
+   "wiki": "https://en.wikipedia.org/wiki/Kevin_De_Bruyne",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "youri-tielemans",
@@ -197,8 +267,13 @@
    "goals": 13,
    "club": "Aston Villa",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Aston_Villa_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Youri_Tielemans"
+   "wiki": "https://en.wikipedia.org/wiki/Youri_Tielemans",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "diego-moreira",
@@ -210,8 +285,13 @@
    "goals": 0,
    "club": "Strasbourg",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/RC_Strasbourg_Alsace",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Diego_Moreira"
+   "wiki": "https://en.wikipedia.org/wiki/Diego_Moreira",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "hans-vanaken",
@@ -223,8 +303,13 @@
    "goals": 7,
    "club": "Club Brugge",
    "clubNat": "BEL",
+   "clubWiki": "https://en.wikipedia.org/wiki/Club_Brugge_KV",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Hans_Vanaken"
+   "wiki": "https://en.wikipedia.org/wiki/Hans_Vanaken",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "alexis-saelemaekers",
@@ -236,8 +321,13 @@
    "goals": 2,
    "club": "Milan",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/AC_Milan",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Alexis_Saelemaekers"
+   "wiki": "https://en.wikipedia.org/wiki/Alexis_Saelemaekers",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "nicolas-raskin",
@@ -249,8 +339,13 @@
    "goals": 2,
    "club": "Rangers",
    "clubNat": "SCO",
+   "clubWiki": "https://en.wikipedia.org/wiki/Rangers_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Nicolas_Raskin"
+   "wiki": "https://en.wikipedia.org/wiki/Nicolas_Raskin",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "amadou-onana",
@@ -262,8 +357,13 @@
    "goals": 1,
    "club": "Aston Villa",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Aston_Villa_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Amadou_Onana"
+   "wiki": "https://en.wikipedia.org/wiki/Amadou_Onana",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "romelu-lukaku",
@@ -275,8 +375,13 @@
    "goals": 90,
    "club": "Napoli",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/SSC_Napoli",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Romelu_Lukaku"
+   "wiki": "https://en.wikipedia.org/wiki/Romelu_Lukaku",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "leandro-trossard",
@@ -288,8 +393,13 @@
    "goals": 12,
    "club": "Arsenal",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Arsenal_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Leandro_Trossard"
+   "wiki": "https://en.wikipedia.org/wiki/Leandro_Trossard",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "jeremy-doku",
@@ -301,8 +411,13 @@
    "goals": 7,
    "club": "Manchester City",
    "clubNat": "ENG",
+   "clubWiki": "https://en.wikipedia.org/wiki/Manchester_City_F.C.",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/J%C3%A9r%C3%A9my_Doku"
+   "wiki": "https://en.wikipedia.org/wiki/J%C3%A9r%C3%A9my_Doku",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "dodi-lukebakio",
@@ -314,8 +429,13 @@
    "goals": 6,
    "club": "Benfica",
    "clubNat": "POR",
+   "clubWiki": "https://en.wikipedia.org/wiki/S.L._Benfica",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Dodi_Luk%C3%A9bakio"
+   "wiki": "https://en.wikipedia.org/wiki/Dodi_Luk%C3%A9bakio",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "charles-de-ketelaere",
@@ -327,8 +447,13 @@
    "goals": 6,
    "club": "Atalanta",
    "clubNat": "ITA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Atalanta_BC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Charles_De_Ketelaere"
+   "wiki": "https://en.wikipedia.org/wiki/Charles_De_Ketelaere",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   },
   {
    "id": "matias-fernandez-pardo",
@@ -340,8 +465,13 @@
    "goals": 0,
    "club": "Lille",
    "clubNat": "FRA",
+   "clubWiki": "https://en.wikipedia.org/wiki/Lille_OSC",
    "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Matias_Fernandez-Pardo"
+   "wiki": "https://en.wikipedia.org/wiki/Matias_Fernandez-Pardo",
+   "wcApps": 0,
+   "wcGoals": 0,
+   "wcYellow": 0,
+   "wcRed": 0
   }
  ]
 }
