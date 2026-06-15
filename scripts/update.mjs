@@ -255,7 +255,7 @@ async function fetchMatches() {
 
 // ---------------------------------------------------------------- standings
 
-function computeStandings(matches, teams) {
+function computeStandings(matches, teams, lineups = {}) {
   const groups = {}
   for (const [code, t] of Object.entries(teams)) {
     if (!t.group) continue
@@ -299,9 +299,44 @@ function computeStandings(matches, teams) {
     for (const r of Object.values(g)) r.gd = r.gf - r.ga
   }
 
-  // FIFA tiebreakers: pts, GD, GF, then head-to-head among the tied teams,
-  // reapplied recursively to any subset still tied, then drawing of lots
-  // (fair-play points omitted — card data not reliably available pre/free).
+  // fair-play score (criterion f): one deduction per player per group match,
+  // worst card only. Y -1, second yellow / yellow+red -3, direct red -4. The
+  // FIFA feed only codes card 1 (yellow) and 2 (sending-off); a red preceded by
+  // a yellow is read as a second yellow (the rarer yellow+direct-red -5 case
+  // can't be told apart from this data and collapses here).
+  const fairPlay = {}
+  for (const [code, t] of Object.entries(teams)) if (t.group) fairPlay[code] = 0
+  for (const m of groupMatches) {
+    if (m.status !== 'finished' || !m.home || !m.away) continue
+    const lu = lineups[m.id]
+    if (!lu) continue
+    for (const [side, code] of [
+      ['home', m.home.code],
+      ['away', m.away.code],
+    ]) {
+      const tl = lu[side]
+      if (!tl || fairPlay[code] === undefined) continue
+      const byPlayer = {}
+      for (const b of tl.bookings || []) {
+        byPlayer[b.player] = byPlayer[b.player] ?? []
+        byPlayer[b.player].push(b)
+      }
+      for (const cards of Object.values(byPlayer)) {
+        const reds = cards.filter((b) => (b.card ?? 0) >= 2).length
+        const yellows = cards.filter((b) => b.card === 1).length
+        if (reds > 0) fairPlay[code] += yellows >= 1 ? -3 : -4
+        else if (yellows >= 2) fairPlay[code] += -3
+        else if (yellows === 1) fairPlay[code] += -1
+      }
+    }
+  }
+  // FIFA position used by criterion g (lower is better); null sinks to last
+  const fifaRank = (code) => teams[code]?.ranking ?? Number.POSITIVE_INFINITY
+  const fifaRankPrev = (code) => teams[code]?.rankingPrev ?? Number.POSITIVE_INFINITY
+
+  // FIFA tiebreakers in order: points, then head-to-head among the tied teams
+  // (a pts, b GD, c GF) reapplied recursively to any still-level subset; then
+  // d overall GD, e overall GF, f fair play, g/h FIFA ranking, then lots.
 
   /** mini-table (pts/gd/gf) over the matches played strictly among tiedCodes */
   function buildMini(g, tiedCodes) {
@@ -331,12 +366,27 @@ function computeStandings(matches, teams) {
     return mini
   }
 
+  // criteria d-h for a set head-to-head can't separate: overall GD, overall GF,
+  // fair play, most recent then older FIFA ranking, then lots (alphabetical)
+  function breakRemaining(rows) {
+    return rows
+      .slice()
+      .sort(
+        (a, b) =>
+          b.gd - a.gd ||
+          b.gf - a.gf ||
+          (fairPlay[b.code] ?? 0) - (fairPlay[a.code] ?? 0) ||
+          fifaRank(a.code) - fifaRank(b.code) ||
+          fifaRankPrev(a.code) - fifaRankPrev(b.code) ||
+          a.code.localeCompare(b.code),
+      )
+  }
+
   /**
-   * Order a set of fully tied rows by their head-to-head mini-table; any
-   * subset still tied within the mini-table gets the criteria reapplied
-   * recursively (narrowed to that subset). A subset identical to the input
-   * cannot be separated — those fall to the drawing-of-lots placeholder
-   * (alphabetical), which also guarantees termination.
+   * Order a set of teams level on points by head-to-head (a pts, b GD, c GF).
+   * A subset still level after that but smaller than the input gets a-c
+   * reapplied to just that subset (recursively, recomputing the mini-table). A
+   * subset head-to-head cannot separate falls through to criteria d-h.
    */
   function resolveTie(g, rows) {
     if (rows.length < 2) return rows.slice()
@@ -348,34 +398,29 @@ function computeStandings(matches, teams) {
           mini[b.code].pts - mini[a.code].pts ||
           mini[b.code].gd - mini[a.code].gd ||
           mini[b.code].gf - mini[a.code].gf ||
-          a.code.localeCompare(b.code),
+          0,
       )
     const miniKey = (r) => `${mini[r.code].pts}|${mini[r.code].gd}|${mini[r.code].gf}`
     const out = []
     for (let i = 0; i < sub.length; ) {
       let j = i + 1
       while (j < sub.length && miniKey(sub[j]) === miniKey(sub[i])) j++
-      if (j - i > 1 && j - i < rows.length) out.push(...resolveTie(g, sub.slice(i, j)))
-      else out.push(...sub.slice(i, j))
+      const run = sub.slice(i, j)
+      if (run.length === 1) out.push(run[0])
+      else if (run.length < rows.length)
+        out.push(...resolveTie(g, run)) // h2h made progress
+      else out.push(...breakRemaining(run)) // h2h can't separate -> d-h
       i = j
     }
     return out
   }
 
   function rankGroup(g, rows) {
-    const sorted = rows
-      .slice()
-      .sort((a, b) => b.pts - a.pts || b.gd - a.gd || b.gf - a.gf || a.code.localeCompare(b.code))
-    // resolve full ties via head-to-head mini-table (recursive)
+    // primary: points; every set level on points goes through the FIFA procedure
+    const sorted = rows.slice().sort((a, b) => b.pts - a.pts)
     for (let i = 0; i < sorted.length; ) {
       let j = i + 1
-      while (
-        j < sorted.length &&
-        sorted[j].pts === sorted[i].pts &&
-        sorted[j].gd === sorted[i].gd &&
-        sorted[j].gf === sorted[i].gf
-      )
-        j++
+      while (j < sorted.length && sorted[j].pts === sorted[i].pts) j++
       if (j - i > 1) sorted.splice(i, j - i, ...resolveTie(g, sorted.slice(i, j)))
       i = j
     }
@@ -389,10 +434,21 @@ function computeStandings(matches, teams) {
     complete[g] = out[g].every((r) => r.p === 3)
   }
 
-  // best third-placed: top 8 of 12 advance (pts, GD, GF)
+  // best third-placed: top 8 of 12 advance. Criteria: pts, GD, GF, fair play,
+  // most recent then older FIFA ranking, then lots (no head-to-head: the third-
+  // placed teams come from different groups)
   const thirds = Object.entries(out)
     .map(([g, rows]) => ({ group: g, ...rows[2] }))
-    .sort((a, b) => b.pts - a.pts || b.gd - a.gd || b.gf - a.gf || a.group.localeCompare(b.group))
+    .sort(
+      (a, b) =>
+        b.pts - a.pts ||
+        b.gd - a.gd ||
+        b.gf - a.gf ||
+        (fairPlay[b.code] ?? 0) - (fairPlay[a.code] ?? 0) ||
+        fifaRank(a.code) - fifaRank(b.code) ||
+        fifaRankPrev(a.code) - fifaRankPrev(b.code) ||
+        a.group.localeCompare(b.group),
+    )
     .map((r, i) => ({
       ...r,
       thirdRank: i + 1,
@@ -1244,14 +1300,14 @@ async function main() {
     }
   }
 
-  // 6. standings
-  const standings = computeStandings(matches, teams)
-
-  // 7. live lineups + stats
+  // 6. live lineups + stats
   const lineups = await fetchLiveDetails(matches, rawById)
   const stats = computeStats(lineups, matches)
   stats.suspensions = computeSuspensions(lineups, matches)
   attachWcStats(squads, lineups, matches) // per-player apps/goals onto squads
+
+  // 7. standings (needs lineups for the fair-play tiebreaker)
+  const standings = computeStandings(matches, teams, lineups)
 
   // 8. weather
   let weather = (await readJsonSafe(path.join(OUT, 'weather.json'))) || {}
