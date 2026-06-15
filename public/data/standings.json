@@ -103,30 +103,30 @@
   "G": [
    {
     "code": "BEL",
-    "p": 0,
+    "p": 1,
     "w": 0,
-    "d": 0,
+    "d": 1,
     "l": 0,
-    "gf": 0,
-    "ga": 0,
+    "gf": 1,
+    "ga": 1,
     "gd": 0,
-    "pts": 0,
+    "pts": 1,
     "rank": 1
    },
    {
-    "code": "IRN",
-    "p": 0,
+    "code": "EGY",
+    "p": 1,
     "w": 0,
-    "d": 0,
+    "d": 1,
     "l": 0,
-    "gf": 0,
-    "ga": 0,
+    "gf": 1,
+    "ga": 1,
     "gd": 0,
-    "pts": 0,
+    "pts": 1,
     "rank": 2
    },
    {
-    "code": "EGY",
+    "code": "IRN",
     "p": 0,
     "w": 0,
     "d": 0,
@@ -663,8 +663,8 @@
    "qualifies": null
   },
   {
-   "group": "J",
-   "code": "ALG",
+   "group": "G",
+   "code": "IRN",
    "p": 0,
    "w": 0,
    "d": 0,
@@ -678,8 +678,8 @@
    "qualifies": null
   },
   {
-   "group": "G",
-   "code": "EGY",
+   "group": "J",
+   "code": "ALG",
    "p": 0,
    "w": 0,
    "d": 0,
