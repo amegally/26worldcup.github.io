@@ -12629,7 +12629,7 @@
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Ramin_Rezaeian",
     "wcApps": 1,
-    "wcGoals": 0,
+    "wcGoals": 1,
     "wcYellow": 0,
     "wcRed": 0
    },
@@ -12801,7 +12801,7 @@
     "pos": "FW",
     "name": "Mehdi Taremi",
     "dob": "1992-07-18",
-    "caps": 105,
+    "caps": 106,
     "goals": 60,
     "club": "Olympiacos",
     "clubNat": "GRE",
