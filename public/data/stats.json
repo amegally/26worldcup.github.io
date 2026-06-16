@@ -209,6 +209,14 @@
    "ownGoals": 0
   },
   {
+   "id": "389867",
+   "name": "MBAPPÉ",
+   "code": "FRA",
+   "no": 10,
+   "goals": 1,
+   "ownGoals": 0
+  },
+  {
    "id": "429642",
    "name": "MUSIALA",
    "code": "GER",
@@ -309,14 +317,6 @@
    "name": "VINI JR.",
    "code": "BRA",
    "no": 7,
-   "goals": 1,
-   "ownGoals": 0
-  },
-  {
-   "id": "397786",
-   "name": "Virgil VAN DIJK",
-   "code": "NED",
-   "no": 4,
    "goals": 1,
    "ownGoals": 0
   }
