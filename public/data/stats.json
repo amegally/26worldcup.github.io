@@ -322,7 +322,7 @@
   }
  ],
  "cards": {
-  "yellow": 47,
+  "yellow": 48,
   "red": 3,
   "players": [
    {
@@ -406,6 +406,14 @@
     "r": 0
    },
    {
+    "id": "506279",
+    "name": "Caleb YIRENKYI",
+    "code": "GHA",
+    "no": 3,
+    "y": 1,
+    "r": 0
+   },
+   {
     "id": "308386",
     "name": "CASEMIRO",
     "code": "BRA",
@@ -474,14 +482,6 @@
     "name": "Findlay CURTIS",
     "code": "SCO",
     "no": 25,
-    "y": 1,
-    "r": 0
-   },
-   {
-    "id": "486317",
-    "name": "Guela DOUE",
-    "code": "CIV",
-    "no": 17,
     "y": 1,
     "r": 0
    }
