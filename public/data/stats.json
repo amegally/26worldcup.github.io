@@ -1,6 +1,14 @@
 {
  "scorers": [
   {
+   "id": "229397",
+   "name": "MESSI",
+   "code": "ARG",
+   "no": 10,
+   "goals": 3,
+   "ownGoals": 0
+  },
+  {
    "id": "466624",
    "name": "Folarin BALOGUN",
    "code": "USA",
@@ -36,14 +44,6 @@
    "id": "389867",
    "name": "MBAPPÉ",
    "code": "FRA",
-   "no": 10,
-   "goals": 2,
-   "ownGoals": 0
-  },
-  {
-   "id": "229397",
-   "name": "MESSI",
-   "code": "ARG",
    "no": 10,
    "goals": 2,
    "ownGoals": 0

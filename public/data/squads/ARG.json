@@ -162,7 +162,7 @@
    "clubWiki": "https://en.wikipedia.org/wiki/S.L._Benfica",
    "captain": false,
    "wiki": "https://en.wikipedia.org/wiki/Nicol%C3%A1s_Otamendi",
-   "wcApps": 0,
+   "wcApps": 1,
    "wcGoals": 0,
    "wcYellow": 0,
    "wcRed": 0
@@ -379,7 +379,7 @@
    "captain": false,
    "wiki": "https://en.wikipedia.org/wiki/Lionel_Messi",
    "wcApps": 1,
-   "wcGoals": 2,
+   "wcGoals": 3,
    "wcYellow": 0,
    "wcRed": 0
   },
@@ -432,7 +432,7 @@
    "clubWiki": "https://en.wikipedia.org/wiki/Como_1907",
    "captain": false,
    "wiki": "https://en.wikipedia.org/wiki/Nico_Paz",
-   "wcApps": 0,
+   "wcApps": 1,
    "wcGoals": 0,
    "wcYellow": 0,
    "wcRed": 0
