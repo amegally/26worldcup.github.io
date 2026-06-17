@@ -113,6 +113,14 @@
    "ownGoals": 0
   },
   {
+   "id": "448202",
+   "name": "BELLINGHAM",
+   "code": "ENG",
+   "no": 10,
+   "goals": 1,
+   "ownGoals": 0
+  },
+  {
    "id": "385067",
    "name": "BOUALEM KHOUKHI",
    "code": "QAT",
@@ -309,14 +317,6 @@
    "name": "MUSIALA",
    "code": "GER",
    "no": 10,
-   "goals": 1,
-   "ownGoals": 0
-  },
-  {
-   "id": "405522",
-   "name": "NAKAMURA",
-   "code": "JPN",
-   "no": 13,
    "goals": 1,
    "ownGoals": 0
   }

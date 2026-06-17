@@ -1313,10 +1313,10 @@
    "date": "2026-06-17T20:00:00Z",
    "venueId": "400257526",
    "status": "live",
-   "time": "46'",
+   "time": "60'",
    "home": {
     "code": "ENG",
-    "score": 2,
+    "score": 3,
     "pen": null
    },
    "away": {

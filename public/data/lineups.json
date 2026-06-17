@@ -14739,6 +14739,12 @@
      "minute": "42'",
      "type": 2,
      "period": 3
+    },
+    {
+     "player": "448202",
+     "minute": "47'",
+     "type": 2,
+     "period": 5
     }
    ],
    "bookings": [],
@@ -15051,9 +15057,16 @@
     }
    ],
    "bookings": [],
-   "substitutions": []
+   "substitutions": [
+    {
+     "off": "241559",
+     "on": "339987",
+     "minute": "58'",
+     "period": 5
+    }
+   ]
   },
-  "matchTime": "46'",
+  "matchTime": "60'",
   "period": 5,
   "final": false
  },
