@@ -1640,16 +1640,16 @@
    "group": "B",
    "date": "2026-06-18T22:00:00Z",
    "venueId": "400248370",
-   "status": "scheduled",
-   "time": "0'",
+   "status": "live",
+   "time": null,
    "home": {
     "code": "CAN",
-    "score": null,
+    "score": 3,
     "pen": null
    },
    "away": {
     "code": "QAT",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "phA": "B1",

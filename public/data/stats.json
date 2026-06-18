@@ -9,6 +9,14 @@
    "ownGoals": 0
   },
   {
+   "id": "390670",
+   "name": "Cyle LARIN",
+   "code": "CAN",
+   "no": 9,
+   "goals": 2,
+   "ownGoals": 0
+  },
+  {
    "id": "466624",
    "name": "Folarin BALOGUN",
    "code": "USA",
@@ -37,6 +45,14 @@
    "name": "Johan MANZAMBI",
    "code": "SUI",
    "no": 9,
+   "goals": 2,
+   "ownGoals": 0
+  },
+  {
+   "id": "441257",
+   "name": "Jonathan DAVID",
+   "code": "CAN",
+   "no": 10,
    "goals": 2,
    "ownGoals": 0
   },
@@ -165,14 +181,6 @@
    "name": "Crysencio SUMMERVILLE",
    "code": "NED",
    "no": 24,
-   "goals": 1,
-   "ownGoals": 0
-  },
-  {
-   "id": "390670",
-   "name": "Cyle LARIN",
-   "code": "CAN",
-   "no": 9,
    "goals": 1,
    "ownGoals": 0
   },
@@ -311,25 +319,25 @@
    "no": 8,
    "goals": 1,
    "ownGoals": 0
-  },
-  {
-   "id": "428886",
-   "name": "Luis DIAZ",
-   "code": "COL",
-   "no": 7,
-   "goals": 1,
-   "ownGoals": 0
   }
  ],
  "cards": {
-  "yellow": 58,
-  "red": 4,
+  "yellow": 59,
+  "red": 5,
   "players": [
    {
     "id": "395516",
     "name": "Cesar MONTES",
     "code": "MEX",
     "no": 3,
+    "y": 0,
+    "r": 1
+   },
+   {
+    "id": "419441",
+    "name": "HOMAM AHMED",
+    "code": "QAT",
+    "no": 14,
     "y": 0,
     "r": 1
    },
@@ -474,14 +482,6 @@
     "name": "Chancel MBEMBA",
     "code": "COD",
     "no": 22,
-    "y": 1,
-    "r": 0
-   },
-   {
-    "id": "489518",
-    "name": "Crysencio SUMMERVILLE",
-    "code": "NED",
-    "no": 24,
     "y": 1,
     "r": 0
    }
@@ -646,6 +646,21 @@
       "type": "red",
       "due": [
        "400021446"
+      ],
+      "banned": "400021448"
+     }
+    ]
+   }
+  ],
+  "QAT": [
+   {
+    "id": "419441",
+    "name": "HOMAM AHMED",
+    "bans": [
+     {
+      "type": "red",
+      "due": [
+       "400021450"
       ],
       "banned": "400021448"
      }

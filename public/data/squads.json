@@ -2538,7 +2538,7 @@
     "wiki": "https://en.wikipedia.org/wiki/Derek_Cornelius",
     "wcApps": 2,
     "wcGoals": 0,
-    "wcYellow": 0,
+    "wcYellow": 1,
     "wcRed": 0
    },
    {
@@ -2753,7 +2753,7 @@
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Cyle_Larin",
     "wcApps": 2,
-    "wcGoals": 1,
+    "wcGoals": 2,
     "wcYellow": 0,
     "wcRed": 0
    },
@@ -2771,7 +2771,7 @@
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Jonathan_David",
     "wcApps": 2,
-    "wcGoals": 0,
+    "wcGoals": 2,
     "wcYellow": 0,
     "wcRed": 0
    },
@@ -3035,7 +3035,7 @@
     "wcApps": 2,
     "wcGoals": 0,
     "wcYellow": 0,
-    "wcRed": 0
+    "wcRed": 1
    },
    {
     "id": "boualem-khoukhi",
@@ -3068,7 +3068,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/Al_Duhail_SC",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Sultan_Al-Brake",
-    "wcApps": 0,
+    "wcApps": 1,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
