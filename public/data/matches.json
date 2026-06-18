@@ -1254,10 +1254,10 @@
    "date": "2026-06-17T23:00:00Z",
    "venueId": "400242032",
    "status": "live",
-   "time": "84'",
+   "time": "90'+8'",
    "home": {
     "code": "GHA",
-    "score": 0,
+    "score": 1,
     "pen": null
    },
    "away": {

@@ -129,6 +129,14 @@
    "ownGoals": 0
   },
   {
+   "id": "506279",
+   "name": "Caleb YIRENKYI",
+   "code": "GHA",
+   "no": 3,
+   "goals": 1,
+   "ownGoals": 0
+  },
+  {
    "id": "430452",
    "name": "Connor METCALFE",
    "code": "AUS",
@@ -309,14 +317,6 @@
    "name": "MBAYE",
    "code": "SEN",
    "no": 20,
-   "goals": 1,
-   "ownGoals": 0
-  },
-  {
-   "id": "429642",
-   "name": "MUSIALA",
-   "code": "GER",
-   "no": 10,
    "goals": 1,
    "ownGoals": 0
   }
