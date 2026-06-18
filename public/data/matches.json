@@ -1641,10 +1641,10 @@
    "date": "2026-06-18T22:00:00Z",
    "venueId": "400248370",
    "status": "live",
-   "time": "62'",
+   "time": "75'",
    "home": {
     "code": "CAN",
-    "score": 3,
+    "score": 5,
     "pen": null
    },
    "away": {
@@ -1655,7 +1655,7 @@
    "phA": "B1",
    "phB": "B3",
    "winner": null,
-   "attendance": null,
+   "attendance": 52497,
    "officials": [
     {
      "id": "416177",
@@ -1700,7 +1700,7 @@
    "date": "2026-06-19T01:00:00Z",
    "venueId": "400252150",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "MEX",
     "score": null,

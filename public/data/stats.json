@@ -322,7 +322,7 @@
   }
  ],
  "cards": {
-  "yellow": 59,
+  "yellow": 60,
   "red": 6,
   "players": [
    {
@@ -386,6 +386,14 @@
     "name": "Aaron HICKEY",
     "code": "SCO",
     "no": 2,
+    "y": 1,
+    "r": 0
+   },
+   {
+    "id": "433394",
+    "name": "AHMED FATHY",
+    "code": "QAT",
+    "no": 20,
     "y": 1,
     "r": 0
    },
@@ -474,14 +482,6 @@
     "name": "CASTAGNE",
     "code": "BEL",
     "no": 21,
-    "y": 1,
-    "r": 0
-   },
-   {
-    "id": "441242",
-    "name": "Cesar BLACKMAN",
-    "code": "PAN",
-    "no": 2,
     "y": 1,
     "r": 0
    }

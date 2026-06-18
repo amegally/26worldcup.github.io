@@ -306,8 +306,8 @@
    "clubWiki": "https://en.wikipedia.org/wiki/Los_Angeles_FC",
    "captain": false,
    "wiki": "https://en.wikipedia.org/wiki/Jacob_Shaffelburg",
-   "wcApps": 1,
-   "wcGoals": 0,
+   "wcApps": 2,
+   "wcGoals": 1,
    "wcYellow": 0,
    "wcRed": 0
   },
@@ -343,7 +343,7 @@
    "captain": false,
    "wiki": "https://en.wikipedia.org/wiki/Nathan_Saliba",
    "wcApps": 1,
-   "wcGoals": 0,
+   "wcGoals": 1,
    "wcYellow": 0,
    "wcRed": 0
   },
@@ -396,7 +396,7 @@
    "clubWiki": "https://en.wikipedia.org/wiki/Villarreal_CF",
    "captain": false,
    "wiki": "https://en.wikipedia.org/wiki/Tani_Oluwaseyi",
-   "wcApps": 1,
+   "wcApps": 2,
    "wcGoals": 0,
    "wcYellow": 0,
    "wcRed": 0

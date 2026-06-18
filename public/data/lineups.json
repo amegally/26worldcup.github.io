@@ -1330,16 +1330,581 @@
  "400021442": {
   "home": {
    "tactics": null,
-   "xi": [],
-   "subs": [],
+   "xi": [
+    {
+     "id": "485070",
+     "name": "Raul RANGEL",
+     "number": 1,
+     "captain": false,
+     "gk": true,
+     "start": true,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "403596",
+     "name": "Jorge SANCHEZ",
+     "number": 2,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "400634",
+     "name": "E. ÁLVAREZ",
+     "number": 4,
+     "captain": true,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "425701",
+     "name": "Johan VASQUEZ",
+     "number": 5,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "402772",
+     "name": "J. GALLARDO",
+     "number": 23,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "419518",
+     "name": "Erik LIRA",
+     "number": 6,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "430763",
+     "name": "Luis ROMO",
+     "number": 7,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "464533",
+     "name": "Brian GUTIERREZ",
+     "number": 26,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "356731",
+     "name": "RAÚL",
+     "number": 9,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "429157",
+     "name": "Julian QUINONES",
+     "number": 16,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "403585",
+     "name": "Roberto ALVARADO",
+     "number": 25,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    }
+   ],
+   "subs": [
+    {
+     "id": "441260",
+     "name": "Carlos ACEVEDO",
+     "number": 12,
+     "captain": false,
+     "gk": true,
+     "start": false,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "215285",
+     "name": "G. OCHOA",
+     "number": 13,
+     "captain": false,
+     "gk": true,
+     "start": false,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "441261",
+     "name": "Israel REYES",
+     "number": 15,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "500038",
+     "name": "Mateo CHAVEZ",
+     "number": 20,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "416576",
+     "name": "Alvaro FIDALGO",
+     "number": 8,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "372090",
+     "name": "Orbelin PINEDA",
+     "number": 17,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "461177",
+     "name": "VARGAS",
+     "number": 18,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "500037",
+     "name": "Gilberto MORA",
+     "number": 19,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "448051",
+     "name": "L.CHAVEZ",
+     "number": 24,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "430766",
+     "name": "Alexis VEGA",
+     "number": 10,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "430759",
+     "name": "Santiago GIMENEZ",
+     "number": 11,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "514336",
+     "name": "Armando GONZALEZ",
+     "number": 14,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "406135",
+     "name": "Cesar HUERTA",
+     "number": 21,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "386339",
+     "name": "G. MARTINEZ",
+     "number": 22,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    }
+   ],
    "goals": [],
    "bookings": [],
    "substitutions": []
   },
   "away": {
    "tactics": null,
-   "xi": [],
-   "subs": [],
+   "xi": [
+    {
+     "id": "274281",
+     "name": "S G KIM",
+     "number": 1,
+     "captain": false,
+     "gk": true,
+     "start": true,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "423874",
+     "name": "LEE Hanbeom",
+     "number": 2,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "395088",
+     "name": "KIM",
+     "number": 4,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "448580",
+     "name": "M H KIM",
+     "number": 15,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "429608",
+     "name": "SEOL Youngwoo",
+     "number": 22,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "492315",
+     "name": "LEE Gihyuk",
+     "number": 3,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "395084",
+     "name": "HWANG Inbeom",
+     "number": 6,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "402817",
+     "name": "PAIK Seungho",
+     "number": 8,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "390525",
+     "name": "J S LEE",
+     "number": 10,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "418490",
+     "name": "LEE KANG IN",
+     "number": 19,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "307849",
+     "name": "H M SON",
+     "number": 7,
+     "captain": true,
+     "gk": false,
+     "start": true,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    }
+   ],
+   "subs": [
+    {
+     "id": "402820",
+     "name": "SONG Bumkeun",
+     "number": 12,
+     "captain": false,
+     "gk": true,
+     "start": false,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "397753",
+     "name": "HYEONWOO",
+     "number": 21,
+     "captain": false,
+     "gk": true,
+     "start": false,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "418485",
+     "name": "KIM Taehyeon",
+     "number": 5,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "423880",
+     "name": "LEE Taeseok",
+     "number": 13,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "522282",
+     "name": "CHO Wije",
+     "number": 14,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "479316",
+     "name": "PARK Jinseob",
+     "number": 16,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "511828",
+     "name": "CASTROP Jens",
+     "number": 23,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "395083",
+     "name": "H C HWANG",
+     "number": 11,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "464374",
+     "name": "BAE Junho",
+     "number": 17,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "448585",
+     "name": "H J YANG",
+     "number": 20,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "430385",
+     "name": "KIM Jingyu",
+     "number": 24,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "423855",
+     "name": "EOM Jisung",
+     "number": 25,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "429600",
+     "name": "LEE Donggyeong",
+     "number": 26,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "430387",
+     "name": "CHO Guesung",
+     "number": 9,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "448586",
+     "name": "H G OH",
+     "number": 18,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    }
+   ],
    "goals": [],
    "bookings": [],
    "substitutions": []
@@ -4456,6 +5021,18 @@
      "minute": "45'+3'",
      "type": 2,
      "period": 3
+    },
+    {
+     "player": "423941",
+     "minute": "64'",
+     "type": 2,
+     "period": 5
+    },
+    {
+     "player": "448411",
+     "minute": "75'",
+     "type": 2,
+     "period": 5
     }
    ],
    "bookings": [
@@ -4477,6 +5054,18 @@
      "off": "441258",
      "on": "423941",
      "minute": "56'",
+     "period": 5
+    },
+    {
+     "off": "466687",
+     "on": "486929",
+     "minute": "71'",
+     "period": 5
+    },
+    {
+     "off": "480322",
+     "on": "448411",
+     "minute": "71'",
      "period": 5
     }
    ]
@@ -4783,8 +5372,14 @@
     },
     {
      "player": "386348",
-     "minute": "53'",
+     "minute": "51'",
      "card": 2,
+     "period": 5
+    },
+    {
+     "player": "433394",
+     "minute": "62'",
+     "card": 1,
      "period": 5
     }
    ],
@@ -4815,7 +5410,7 @@
     }
    ]
   },
-  "matchTime": "62'",
+  "matchTime": "75'",
   "period": 5,
   "final": false
  },
