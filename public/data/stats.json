@@ -322,7 +322,7 @@
   }
  ],
  "cards": {
-  "yellow": 49,
+  "yellow": 50,
   "red": 3,
   "players": [
    {
@@ -414,6 +414,14 @@
     "r": 0
    },
    {
+    "id": "418729",
+    "name": "Carlos HARVEY",
+    "code": "PAN",
+    "no": 14,
+    "y": 1,
+    "r": 0
+   },
+   {
     "id": "308386",
     "name": "CASEMIRO",
     "code": "BRA",
@@ -476,18 +484,10 @@
     "no": 3,
     "y": 1,
     "r": 0
-   },
-   {
-    "id": "436743",
-    "name": "Ermedin DEMIROVIC",
-    "code": "BIH",
-    "no": 10,
-    "y": 1,
-    "r": 0
    }
   ]
  },
- "attAvg": 65855,
+ "attAvg": 64859,
  "biggestWin": {
   "diff": 6,
   "id": "400021464",
@@ -545,6 +545,8 @@
    "ALG": 0,
    "AUT": -1,
    "JOR": 0,
+   "GHA": -1,
+   "PAN": -2,
    "ENG": 0,
    "CRO": 0,
    "POR": -3,
@@ -591,6 +593,8 @@
    "ALG": 0,
    "AUT": -1,
    "JOR": 0,
+   "GHA": -1,
+   "PAN": -2,
    "ENG": 0,
    "CRO": 0,
    "POR": -3,

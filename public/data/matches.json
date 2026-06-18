@@ -1253,8 +1253,8 @@
    "group": "L",
    "date": "2026-06-17T23:00:00Z",
    "venueId": "400242032",
-   "status": "live",
-   "time": "90'+8'",
+   "status": "finished",
+   "time": "102'",
    "home": {
     "code": "GHA",
     "score": 1,
@@ -1267,7 +1267,7 @@
    },
    "phA": "L3",
    "phB": "L4",
-   "winner": null,
+   "winner": "GHA",
    "attendance": 42942,
    "officials": [
     {
