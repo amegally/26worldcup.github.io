@@ -29,18 +29,18 @@
      "country": "BRA",
      "role": "referee",
      "name": {
-      "en": "Wilton Pereira Sampaio",
-      "fr": "Wilton Pereira Sampaio",
-      "zh": "桑帕约",
-      "ar": "Wilton Pereira Sampaio",
-      "es": "Wilton Pereira Sampaio",
-      "de": "Wilton Pereira Sampaio",
-      "pt": "Wilton Pereira Sampaio",
-      "it": "Wilton Pereira Sampaio",
-      "ja": "Wilton Pereira Sampaio",
-      "ko": "Wilton Pereira Sampaio",
-      "id": "Wilton Pereira Sampaio",
-      "ru": "Wilton Pereira Sampaio"
+      "en": "Wilton SAMPAIO",
+      "fr": "Wilton SAMPAIO",
+      "zh": "Wilton SAMPAIO",
+      "ar": "Wilton SAMPAIO",
+      "es": "Wilton SAMPAIO",
+      "de": "Wilton SAMPAIO",
+      "pt": "Wilton SAMPAIO",
+      "it": "Wilton SAMPAIO",
+      "ja": "Wilton SAMPAIO",
+      "ko": "Wilton SAMPAIO",
+      "id": "Wilton SAMPAIO",
+      "ru": "Wilton SAMPAIO"
      },
      "typeName": {
       "en": "Referee",
@@ -55,6 +55,39 @@
       "ko": "주심",
       "id": "Wasit",
       "ru": "Главный судья"
+     }
+    },
+    {
+     "id": "416159",
+     "country": "PAR",
+     "role": "fourth",
+     "name": {
+      "en": "Juan Gabriel BENITEZ",
+      "fr": "Juan Gabriel BENITEZ",
+      "zh": "Juan Gabriel BENITEZ",
+      "ar": "Juan Gabriel BENITEZ",
+      "es": "Juan Gabriel BENITEZ",
+      "de": "Juan Gabriel BENITEZ",
+      "pt": "Juan Gabriel BENITEZ",
+      "it": "Juan Gabriel BENITEZ",
+      "ja": "Juan Gabriel BENITEZ",
+      "ko": "Juan Gabriel BENITEZ",
+      "id": "Juan Gabriel BENITEZ",
+      "ru": "Juan Gabriel BENITEZ"
+     },
+     "typeName": {
+      "en": "Fourth official",
+      "fr": "Quatrième arbitre",
+      "zh": "第四官员",
+      "ar": "الحَكَم الرابع",
+      "es": "Cuarto/a árbitro/a",
+      "de": "Vierter Offizieller",
+      "pt": "Quarto árbitro",
+      "it": "Quarto arbitro",
+      "ja": "第 4 審判員",
+      "ko": "대기심",
+      "id": "Ofisial keempat",
+      "ru": "Четвертый судья"
      }
     }
    ]
@@ -147,18 +180,18 @@
      "country": "ARG",
      "role": "referee",
      "name": {
-      "en": "F. Tello",
-      "fr": "F. Tello",
-      "zh": "特略",
-      "ar": "F. Tello",
-      "es": "F. Tello",
-      "de": "F. Tello",
-      "pt": "F. Tello",
-      "it": "F. Tello",
-      "ja": "F. Tello",
-      "ko": "F. Tello",
-      "id": "F. Tello",
-      "ru": "F. Tello"
+      "en": "Facundo TELLO",
+      "fr": "Facundo TELLO",
+      "zh": "Facundo TELLO",
+      "ar": "Facundo TELLO",
+      "es": "Facundo TELLO",
+      "de": "Facundo TELLO",
+      "pt": "Facundo TELLO",
+      "it": "Facundo TELLO",
+      "ja": "Facundo TELLO",
+      "ko": "Facundo TELLO",
+      "id": "Facundo TELLO",
+      "ru": "Facundo TELLO"
      },
      "typeName": {
       "en": "Referee",
@@ -357,18 +390,18 @@
      "country": "VEN",
      "role": "referee",
      "name": {
-      "en": "J. Valenzuela",
-      "fr": "J. Valenzuela",
-      "zh": "巴伦苏埃拉",
-      "ar": "J. Valenzuela",
-      "es": "J. Valenzuela",
-      "de": "J. Valenzuela",
-      "pt": "J. Valenzuela",
-      "it": "J. Valenzuela",
-      "ja": "J. Valenzuela",
-      "ko": "J. Valenzuela",
-      "id": "J. Valenzuela",
-      "ru": "J. Valenzuela"
+      "en": "Jesus VALENZUELA",
+      "fr": "Jesus VALENZUELA",
+      "zh": "Jesus VALENZUELA",
+      "ar": "Jesus VALENZUELA",
+      "es": "Jesus VALENZUELA",
+      "de": "Jesus VALENZUELA",
+      "pt": "Jesus VALENZUELA",
+      "it": "Jesus VALENZUELA",
+      "ja": "Jesus VALENZUELA",
+      "ko": "Jesus VALENZUELA",
+      "id": "Jesus VALENZUELA",
+      "ru": "Jesus VALENZUELA"
      },
      "typeName": {
       "en": "Referee",
@@ -711,18 +744,18 @@
      "country": "ARG",
      "role": "referee",
      "name": {
-      "en": "Y. Falcón",
-      "fr": "Y. Falcón",
-      "zh": "法尔孔",
-      "ar": "Y. Falcón",
-      "es": "Y. Falcón",
-      "de": "Y. Falcón",
-      "pt": "Y. Falcón",
-      "it": "Y. Falcón",
-      "ja": "Y. Falcón",
-      "ko": "Y. Falcón",
-      "id": "Y. Falcón",
-      "ru": "Y. Falcón"
+      "en": "Yael FALCON PEREZ",
+      "fr": "Yael FALCON PEREZ",
+      "zh": "Yael FALCON PEREZ",
+      "ar": "Yael FALCON PEREZ",
+      "es": "Yael FALCON PEREZ",
+      "de": "Yael FALCON PEREZ",
+      "pt": "Yael FALCON PEREZ",
+      "it": "Yael FALCON PEREZ",
+      "ja": "Yael FALCON PEREZ",
+      "ko": "Yael FALCON PEREZ",
+      "id": "Yael FALCON PEREZ",
+      "ru": "Yael FALCON PEREZ"
      },
      "typeName": {
       "en": "Referee",
@@ -1490,7 +1523,7 @@
    "date": "2026-06-18T16:00:00Z",
    "venueId": "400098290",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "CZE",
     "score": null,
@@ -1629,18 +1662,18 @@
      "country": "CHI",
      "role": "referee",
      "name": {
-      "en": "C. Garay",
-      "fr": "C. Garay",
-      "zh": "加拉伊",
-      "ar": "C. Garay",
-      "es": "C. Garay",
-      "de": "C. Garay",
-      "pt": "C. Garay",
-      "it": "C. Garay",
-      "ja": "C. Garay",
-      "ko": "C. Garay",
-      "id": "C. Garay",
-      "ru": "C. Garay"
+      "en": "Cristian GARAY",
+      "fr": "Cristian GARAY",
+      "zh": "Cristian GARAY",
+      "ar": "Cristian GARAY",
+      "es": "Cristian GARAY",
+      "de": "Cristian GARAY",
+      "pt": "Cristian GARAY",
+      "it": "Cristian GARAY",
+      "ja": "Cristian GARAY",
+      "ko": "Cristian GARAY",
+      "id": "Cristian GARAY",
+      "ru": "Cristian GARAY"
      },
      "typeName": {
       "en": "Referee",
@@ -1688,18 +1721,18 @@
      "country": "URU",
      "role": "referee",
      "name": {
-      "en": "G. Tejera",
-      "fr": "G. Tejera",
-      "zh": "特赫拉",
-      "ar": "G. Tejera",
-      "es": "G. Tejera",
-      "de": "G. Tejera",
-      "pt": "G. Tejera",
-      "it": "G. Tejera",
-      "ja": "G. Tejera",
-      "ko": "G. Tejera",
-      "id": "G. Tejera",
-      "ru": "G. Tejera"
+      "en": "Gustavo TEJERA",
+      "fr": "Gustavo TEJERA",
+      "zh": "Gustavo TEJERA",
+      "ar": "Gustavo TEJERA",
+      "es": "Gustavo TEJERA",
+      "de": "Gustavo TEJERA",
+      "pt": "Gustavo TEJERA",
+      "it": "Gustavo TEJERA",
+      "ja": "Gustavo TEJERA",
+      "ko": "Gustavo TEJERA",
+      "id": "Gustavo TEJERA",
+      "ru": "Gustavo TEJERA"
      },
      "typeName": {
       "en": "Referee",
@@ -2010,7 +2043,41 @@
    "phB": "E3",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "416159",
+     "country": "PAR",
+     "role": "referee",
+     "name": {
+      "en": "Juan Gabriel BENITEZ",
+      "fr": "Juan Gabriel BENITEZ",
+      "zh": "Juan Gabriel BENITEZ",
+      "ar": "Juan Gabriel BENITEZ",
+      "es": "Juan Gabriel BENITEZ",
+      "de": "Juan Gabriel BENITEZ",
+      "pt": "Juan Gabriel BENITEZ",
+      "it": "Juan Gabriel BENITEZ",
+      "ja": "Juan Gabriel BENITEZ",
+      "ko": "Juan Gabriel BENITEZ",
+      "id": "Juan Gabriel BENITEZ",
+      "ru": "Juan Gabriel BENITEZ"
+     },
+     "typeName": {
+      "en": "Referee",
+      "fr": "Arbitre",
+      "zh": "裁判员",
+      "ar": "الحَكم",
+      "es": "Árbitro/a",
+      "de": "Schiedsrichter",
+      "pt": "Árbitro",
+      "it": "Arbitro",
+      "ja": "主審",
+      "ko": "주심",
+      "id": "Wasit",
+      "ru": "Главный судья"
+     }
+    }
+   ]
   },
   {
    "id": "400021465",
@@ -2035,7 +2102,41 @@
    "phB": "E2",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "328495",
+     "country": "CHN",
+     "role": "referee",
+     "name": {
+      "en": "MA Ning",
+      "fr": "MA Ning",
+      "zh": "MA Ning",
+      "ar": "MA Ning",
+      "es": "MA Ning",
+      "de": "MA Ning",
+      "pt": "MA Ning",
+      "it": "MA Ning",
+      "ja": "MA Ning",
+      "ko": "MA Ning",
+      "id": "MA Ning",
+      "ru": "MA Ning"
+     },
+     "typeName": {
+      "en": "Referee",
+      "fr": "Arbitre",
+      "zh": "裁判员",
+      "ar": "الحَكم",
+      "es": "Árbitro/a",
+      "de": "Schiedsrichter",
+      "pt": "Árbitro",
+      "it": "Arbitro",
+      "ja": "主審",
+      "ko": "주심",
+      "id": "Wasit",
+      "ru": "Главный судья"
+     }
+    }
+   ]
   },
   {
    "id": "400021472",
@@ -2060,7 +2161,41 @@
    "phB": "F3",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "347710",
+     "country": "ENG",
+     "role": "referee",
+     "name": {
+      "en": "Michael OLIVER",
+      "fr": "Michael OLIVER",
+      "zh": "Michael OLIVER",
+      "ar": "Michael OLIVER",
+      "es": "Michael OLIVER",
+      "de": "Michael OLIVER",
+      "pt": "Michael OLIVER",
+      "it": "Michael OLIVER",
+      "ja": "Michael OLIVER",
+      "ko": "Michael OLIVER",
+      "id": "Michael OLIVER",
+      "ru": "Michael OLIVER"
+     },
+     "typeName": {
+      "en": "Referee",
+      "fr": "Arbitre",
+      "zh": "裁判员",
+      "ar": "الحَكم",
+      "es": "Árbitro/a",
+      "de": "Schiedsrichter",
+      "pt": "Árbitro",
+      "it": "Arbitro",
+      "ja": "主審",
+      "ko": "주심",
+      "id": "Wasit",
+      "ru": "Главный судья"
+     }
+    }
+   ]
   },
   {
    "id": "400021475",
@@ -2085,7 +2220,41 @@
    "phB": "F2",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "314605",
+     "country": "ROU",
+     "role": "referee",
+     "name": {
+      "en": "Istvan KOVACS",
+      "fr": "Istvan KOVACS",
+      "zh": "Istvan KOVACS",
+      "ar": "Istvan KOVACS",
+      "es": "Istvan KOVACS",
+      "de": "Istvan KOVACS",
+      "pt": "Istvan KOVACS",
+      "it": "Istvan KOVACS",
+      "ja": "Istvan KOVACS",
+      "ko": "Istvan KOVACS",
+      "id": "Istvan KOVACS",
+      "ru": "Istvan KOVACS"
+     },
+     "typeName": {
+      "en": "Referee",
+      "fr": "Arbitre",
+      "zh": "裁判员",
+      "ar": "الحَكم",
+      "es": "Árbitro/a",
+      "de": "Schiedsrichter",
+      "pt": "Árbitro",
+      "it": "Arbitro",
+      "ja": "主審",
+      "ko": "주심",
+      "id": "Wasit",
+      "ru": "Главный судья"
+     }
+    }
+   ]
   },
   {
    "id": "400021487",
