@@ -302,19 +302,19 @@
   ],
   "K": [
    {
-    "code": "COD",
+    "code": "COL",
     "p": 1,
-    "w": 0,
-    "d": 1,
+    "w": 1,
+    "d": 0,
     "l": 0,
-    "gf": 1,
+    "gf": 3,
     "ga": 1,
-    "gd": 0,
-    "pts": 1,
+    "gd": 2,
+    "pts": 3,
     "rank": 1
    },
    {
-    "code": "POR",
+    "code": "COD",
     "p": 1,
     "w": 0,
     "d": 1,
@@ -326,26 +326,26 @@
     "rank": 2
    },
    {
-    "code": "COL",
-    "p": 0,
+    "code": "POR",
+    "p": 1,
     "w": 0,
-    "d": 0,
+    "d": 1,
     "l": 0,
-    "gf": 0,
-    "ga": 0,
+    "gf": 1,
+    "ga": 1,
     "gd": 0,
-    "pts": 0,
+    "pts": 1,
     "rank": 3
    },
    {
     "code": "UZB",
-    "p": 0,
+    "p": 1,
     "w": 0,
     "d": 0,
-    "l": 0,
-    "gf": 0,
-    "ga": 0,
-    "gd": 0,
+    "l": 1,
+    "gf": 1,
+    "ga": 3,
+    "gd": -2,
     "pts": 0,
     "rank": 4
    }
@@ -663,6 +663,21 @@
    "qualifies": null
   },
   {
+   "group": "K",
+   "code": "POR",
+   "p": 1,
+   "w": 0,
+   "d": 1,
+   "l": 0,
+   "gf": 1,
+   "ga": 1,
+   "gd": 0,
+   "pts": 1,
+   "rank": 3,
+   "thirdRank": 5,
+   "qualifies": null
+  },
+  {
    "group": "H",
    "code": "ESP",
    "p": 1,
@@ -673,21 +688,6 @@
    "ga": 0,
    "gd": 0,
    "pts": 1,
-   "rank": 3,
-   "thirdRank": 5,
-   "qualifies": null
-  },
-  {
-   "group": "K",
-   "code": "COL",
-   "p": 0,
-   "w": 0,
-   "d": 0,
-   "l": 0,
-   "gf": 0,
-   "ga": 0,
-   "gd": 0,
-   "pts": 0,
    "rank": 3,
    "thirdRank": 6,
    "qualifies": null
