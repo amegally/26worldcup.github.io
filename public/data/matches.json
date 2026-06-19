@@ -1699,16 +1699,16 @@
    "group": "A",
    "date": "2026-06-19T01:00:00Z",
    "venueId": "400252150",
-   "status": "scheduled",
-   "time": "0'",
+   "status": "live",
+   "time": "42'",
    "home": {
     "code": "MEX",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "away": {
     "code": "KOR",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "phA": "A1",

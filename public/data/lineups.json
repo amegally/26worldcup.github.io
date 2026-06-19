@@ -1906,11 +1906,18 @@
     }
    ],
    "goals": [],
-   "bookings": [],
+   "bookings": [
+    {
+     "player": "418490",
+     "minute": "4'",
+     "card": 1,
+     "period": 3
+    }
+   ],
    "substitutions": []
   },
-  "matchTime": "0'",
-  "period": 0,
+  "matchTime": "42'",
+  "period": 3,
   "final": false
  },
  "400021443": {
