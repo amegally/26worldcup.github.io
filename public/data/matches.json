@@ -1640,11 +1640,11 @@
    "group": "B",
    "date": "2026-06-18T22:00:00Z",
    "venueId": "400248370",
-   "status": "live",
-   "time": "90'",
+   "status": "finished",
+   "time": "100'",
    "home": {
     "code": "CAN",
-    "score": 5,
+    "score": 6,
     "pen": null
    },
    "away": {
@@ -1654,7 +1654,7 @@
    },
    "phA": "B1",
    "phB": "B3",
-   "winner": null,
+   "winner": "CAN",
    "attendance": 52497,
    "officials": [
     {
