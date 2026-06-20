@@ -323,8 +323,16 @@
  ],
  "cards": {
   "yellow": 77,
-  "red": 6,
+  "red": 7,
   "players": [
+   {
+    "id": "369761",
+    "name": "Miguel ALMIRON",
+    "code": "PAR",
+    "no": 10,
+    "y": 1,
+    "r": 1
+   },
    {
     "id": "386348",
     "name": "A. MADIBO",
@@ -473,14 +481,6 @@
     "name": "BERNARDO",
     "code": "POR",
     "no": 10,
-    "y": 1,
-    "r": 0
-   },
-   {
-    "id": "464533",
-    "name": "Brian GUTIERREZ",
-    "code": "MEX",
-    "no": 26,
     "y": 1,
     "r": 0
    }
@@ -660,6 +660,21 @@
        "400021450"
       ],
       "banned": "400021448"
+     }
+    ]
+   }
+  ],
+  "PAR": [
+   {
+    "id": "369761",
+    "name": "Miguel ALMIRON",
+    "bans": [
+     {
+      "type": "red",
+      "due": [
+       "400021460"
+      ],
+      "banned": "400021461"
      }
     ]
    }
