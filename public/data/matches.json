@@ -2415,7 +2415,7 @@
    "date": "2026-06-21T19:00:00Z",
    "venueId": "400017978",
    "status": "live",
-   "time": "70'",
+   "time": "84'",
    "home": {
     "code": "BEL",
     "score": 0,
@@ -2429,7 +2429,7 @@
    "phA": "G1",
    "phB": "G3",
    "winner": null,
-   "attendance": null,
+   "attendance": 70317,
    "officials": [
     {
      "id": "383174",
