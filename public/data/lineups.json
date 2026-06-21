@@ -19023,26 +19023,36 @@
      "player": "484320",
      "minute": "10'",
      "type": 2,
-     "period": 3,
-     "sec": 598
+     "period": 3
     },
     {
      "player": "430751",
      "minute": "21'",
      "type": 2,
-     "period": 3,
-     "sec": 1236
+     "period": 3
     },
     {
      "player": "430751",
      "minute": "24'",
      "type": 2,
-     "period": 3,
-     "sec": 1382
+     "period": 3
     }
    ],
    "bookings": [],
-   "substitutions": []
+   "substitutions": [
+    {
+     "off": "484320",
+     "on": "423658",
+     "minute": "",
+     "period": 4
+    },
+    {
+     "off": "430751",
+     "on": "405545",
+     "minute": "",
+     "period": 4
+    }
+   ]
   },
   "away": {
    "tactics": "5-4-1",
@@ -19345,10 +19355,23 @@
      "period": 3
     }
    ],
-   "substitutions": []
+   "substitutions": [
+    {
+     "off": "436537",
+     "on": "419302",
+     "minute": "",
+     "period": 4
+    },
+    {
+     "off": "411624",
+     "on": "407993",
+     "minute": "",
+     "period": 4
+    }
+   ]
   },
-  "matchTime": null,
-  "period": 4,
+  "matchTime": "49'",
+  "period": 5,
   "final": false,
   "secTried": true
  },
