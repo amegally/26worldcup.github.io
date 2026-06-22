@@ -19313,9 +19313,16 @@
      "period": 3
     }
    ],
-   "substitutions": []
+   "substitutions": [
+    {
+     "off": "429095",
+     "on": "344661",
+     "minute": "41'",
+     "period": 3
+    }
+   ]
   },
-  "matchTime": "34'",
+  "matchTime": "45'+2'",
   "period": 3,
   "final": false,
   "secTried": true
