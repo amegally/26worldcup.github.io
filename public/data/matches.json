@@ -2474,7 +2474,7 @@
    "date": "2026-06-22T01:00:00Z",
    "venueId": "400248370",
    "status": "live",
-   "time": "55'",
+   "time": "68'",
    "home": {
     "code": "NZL",
     "score": 1,
@@ -2482,13 +2482,13 @@
    },
    "away": {
     "code": "EGY",
-    "score": 0,
+    "score": 2,
     "pen": null
    },
    "phA": "G4",
    "phB": "G2",
    "winner": null,
-   "attendance": null,
+   "attendance": 52497,
    "officials": [
     {
      "id": "383421",
