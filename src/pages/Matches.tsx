@@ -105,7 +105,7 @@ export default function Matches() {
     } catch {
       /* blocked storage */
     }
-    return window.matchMedia('(min-width: 760px)').matches || anyFilter
+    return anyFilter
   })
   const setOpen = (fn: (o: boolean) => boolean) =>
     setOpenState((o) => {
@@ -117,6 +117,25 @@ export default function Matches() {
       }
       return v
     })
+
+  // teams filter as a dropdown: a popover of the team chips, closed by default
+  const [teamsOpen, setTeamsOpen] = useState(false)
+  const teamsDdRef = useRef<HTMLDivElement>(null)
+  useEffect(() => {
+    if (!teamsOpen) return
+    const onDown = (e: MouseEvent) => {
+      if (teamsDdRef.current && !teamsDdRef.current.contains(e.target as Node)) setTeamsOpen(false)
+    }
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setTeamsOpen(false)
+    }
+    document.addEventListener('mousedown', onDown)
+    document.addEventListener('keydown', onKey)
+    return () => {
+      document.removeEventListener('mousedown', onDown)
+      document.removeEventListener('keydown', onKey)
+    }
+  }, [teamsOpen])
 
   const setParam = (key: string, value: string) => {
     const next = new URLSearchParams(searchParams)
@@ -337,55 +356,73 @@ export default function Matches() {
 
           <div className={`mxp-panel${open ? ' open' : ''}`}>
             <div className="mxp-panel-in">
-              <div className="mxp-teams-row">
-                <div className="mxp-quick">
+              <div className="mxp-selects-row">
+                <div className="mxp-teamsdd" ref={teamsDdRef}>
                   <button
                     type="button"
-                    className={`mxp-tchip${teamCodes.length === 0 ? ' on' : ''}`}
-                    onClick={() => setParam('teams', '')}
+                    className="input mxp-select mxp-teamsdd-btn"
+                    aria-expanded={teamsOpen}
+                    aria-label={t('filterTeams')}
+                    onClick={() => setTeamsOpen((o) => !o)}
                   >
-                    {t('allTeams')}
+                    <span className="mxp-teamsdd-label">
+                      {teamCodes.length > 0 ? t('filterTeamsSel', { n: teamCodes.length }) : t('allTeams')}
+                    </span>
+                    <span className="mxp-teamsdd-caret" aria-hidden="true">
+                      ▾
+                    </span>
                   </button>
-                  {favs.length > 0 && (
-                    <button
-                      type="button"
-                      className={`mxp-tchip${favsActive ? ' on' : ''}`}
-                      onClick={() => setParam('teams', favs.join(','))}
-                    >
-                      <Icon name="star" size={14} />
-                      {t('favoritesOnly')}
-                    </button>
+                  {teamsOpen && (
+                    <div className="mxp-teamsdd-pop">
+                      <div className="mxp-quick">
+                        <button
+                          type="button"
+                          className={`mxp-tchip${teamCodes.length === 0 ? ' on' : ''}`}
+                          onClick={() => setParam('teams', '')}
+                        >
+                          {t('allTeams')}
+                        </button>
+                        {favs.length > 0 && (
+                          <button
+                            type="button"
+                            className={`mxp-tchip${favsActive ? ' on' : ''}`}
+                            onClick={() => setParam('teams', favs.join(','))}
+                          >
+                            <Icon name="star" size={14} />
+                            {t('favoritesOnly')}
+                          </button>
+                        )}
+                      </div>
+                      <div className="mxp-teams">{allCodes.map(teamChip)}</div>
+                    </div>
                   )}
-                  <span className="mxp-quick-selects">
-                    <select
-                      className="input mxp-select"
-                      value={stage}
-                      aria-label={t('filterStage')}
-                      onChange={(e) => setParam('stage', e.target.value)}
-                    >
-                      <option value="">{t('allStages')}</option>
-                      {STAGE_FILTERS.map((s) => (
-                        <option key={s} value={s}>
-                          {s === 'ko' ? t('filterKnockout') : t(STAGE_LABEL_KEY[s])}
-                        </option>
-                      ))}
-                    </select>
-                    <select
-                      className="input mxp-select"
-                      value={venueId}
-                      aria-label={t('filterVenue')}
-                      onChange={(e) => setParam('venue', e.target.value)}
-                    >
-                      <option value="">{t('allVenues')}</option>
-                      {venueList.map((v) => (
-                        <option key={v.id} value={v.id}>
-                          {v.realName} · {pick(v.cityName, v.city)}
-                        </option>
-                      ))}
-                    </select>
-                  </span>
                 </div>
-                <div className="mxp-teams">{allCodes.map(teamChip)}</div>
+                <select
+                  className="input mxp-select"
+                  value={stage}
+                  aria-label={t('filterStage')}
+                  onChange={(e) => setParam('stage', e.target.value)}
+                >
+                  <option value="">{t('allStages')}</option>
+                  {STAGE_FILTERS.map((s) => (
+                    <option key={s} value={s}>
+                      {s === 'ko' ? t('filterKnockout') : t(STAGE_LABEL_KEY[s])}
+                    </option>
+                  ))}
+                </select>
+                <select
+                  className="input mxp-select"
+                  value={venueId}
+                  aria-label={t('filterVenue')}
+                  onChange={(e) => setParam('venue', e.target.value)}
+                >
+                  <option value="">{t('allVenues')}</option>
+                  {venueList.map((v) => (
+                    <option key={v.id} value={v.id}>
+                      {v.realName} · {pick(v.cityName, v.city)}
+                    </option>
+                  ))}
+                </select>
               </div>
             </div>
           </div>

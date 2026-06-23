@@ -440,10 +440,7 @@ html.nav-fits .top-nav {
   width: 100%;
   max-width: var(--page-w);
   margin: 0 auto;
-  padding: 20px 16px 90px;
-}
-html.nav-fits .shell-main {
-  padding-bottom: 40px;
+  padding: 20px 16px 40px;
 }
 
 .shell-footer {
@@ -451,10 +448,7 @@ html.nav-fits .shell-main {
   color: var(--text-3);
   font-size: 0.78rem;
   text-align: center;
-  padding: 18px 16px calc(74px + env(safe-area-inset-bottom));
-}
-html.nav-fits .shell-footer {
-  padding-bottom: 18px;
+  padding: 18px 16px calc(18px + env(safe-area-inset-bottom));
 }
 
 /* mobile bottom tab bar */
@@ -491,6 +485,106 @@ html.nav-fits .shell-footer {
 }
 html.nav-fits .tab-bar {
   display: none;
+}
+
+/* mobile menu: hamburger toggle (right) + dropdown — only when the top nav can't fit */
+.nav-toggle {
+  display: none;
+  margin-inline-start: auto;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  flex-shrink: 0;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  color: var(--text);
+}
+html:not(.nav-fits) .nav-toggle {
+  display: inline-flex;
+}
+.nav-toggle-bars,
+.nav-toggle-bars::before,
+.nav-toggle-bars::after {
+  content: "";
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: currentColor;
+  border-radius: 2px;
+  transition:
+    transform 0.2s ease,
+    opacity 0.2s ease;
+}
+.nav-toggle-bars {
+  position: relative;
+}
+.nav-toggle-bars::before {
+  position: absolute;
+  top: -7px;
+}
+.nav-toggle-bars::after {
+  position: absolute;
+  top: 7px;
+}
+.nav-toggle[aria-expanded="true"] .nav-toggle-bars {
+  background: transparent;
+}
+.nav-toggle[aria-expanded="true"] .nav-toggle-bars::before {
+  top: 0;
+  transform: rotate(45deg);
+}
+.nav-toggle[aria-expanded="true"] .nav-toggle-bars::after {
+  top: 0;
+  transform: rotate(-45deg);
+}
+.nav-menu {
+  position: absolute;
+  top: 100%;
+  inset-inline-end: 8px;
+  z-index: 60;
+  min-width: 230px;
+  max-width: calc(100vw - 16px);
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-top: 2px solid var(--accent);
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.18);
+  padding: 8px;
+  max-height: calc(100vh - var(--hdr-h, 58px) - 12px);
+  overflow-y: auto;
+}
+.nav-menu-in {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.nav-menu-in a {
+  padding: 11px 12px;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 0.82rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-2);
+}
+.nav-menu-in a:hover {
+  background: var(--chip-bg);
+  color: var(--text);
+}
+.nav-menu-in a.active {
+  color: var(--accent-text);
+  background: color-mix(in srgb, var(--accent) 10%, transparent);
+}
+.nav-menu-in a.nav-menu-cta {
+  background: var(--accent);
+  color: #fbf6ea;
+}
+.nav-menu-rule {
+  border: 0;
+  border-top: 1px solid var(--border);
+  margin: 6px 4px;
 }
 
 /* ============ shared primitives ============ */
@@ -902,11 +996,15 @@ input.input {
   display: flex;
   align-items: center;
   padding: 4px 0;
+  flex-shrink: 0;
 }
 .masthead-logo {
-  height: 44px;
-  width: auto;
   display: block;
+  height: 40px;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+  flex-shrink: 0;
 }
 /* the logo art is dark; flip it to stay legible on dark themes (hue-rotate keeps the red) */
 [data-theme="dark"] .masthead-logo {

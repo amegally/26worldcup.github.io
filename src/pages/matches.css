@@ -114,6 +114,46 @@
   min-width: 0;
 }
 
+/* filter row: teams dropdown + stage + venue selects */
+.mxp-selects-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+.mxp-teamsdd {
+  position: relative;
+}
+.mxp-teamsdd-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  max-width: none;
+  cursor: pointer;
+}
+.mxp-teamsdd-caret {
+  font-size: 0.7em;
+  opacity: 0.7;
+}
+.mxp-teamsdd-pop {
+  position: absolute;
+  top: calc(100% + 6px);
+  inset-inline-start: 0;
+  z-index: 30;
+  width: min(440px, calc(100vw - 32px));
+  max-height: min(360px, 60vh);
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 12px;
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.18);
+}
+
 /* team chips: fixed quick actions + scrollable 2-row strip of 48 teams */
 .mxp-teams-row {
   display: flex;

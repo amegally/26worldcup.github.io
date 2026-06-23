@@ -1,7 +1,6 @@
-import { useEffect, useLayoutEffect, useRef } from 'react'
-import { Link, NavLink, Outlet } from 'react-router-dom'
+import { useEffect, useLayoutEffect, useRef, useState } from 'react'
+import { Link, NavLink, Outlet, useLocation } from 'react-router-dom'
 import { useI18n } from '../i18n'
-import Icon from './Icon'
 import type { IconName } from './Icon'
 import Freshness from './Freshness'
 import LeadLine from './LeadLine'
@@ -27,6 +26,39 @@ const FOOTER_NAV: { to: string; key: string }[] = [
 export default function Layout() {
   const { t } = useI18n()
   const headerRef = useRef<HTMLElement>(null)
+  const location = useLocation()
+
+  // mobile menu (hamburger): full nav, closed on navigation / outside click / Escape
+  const [menuOpen, setMenuOpen] = useState(false)
+  const menuRef = useRef<HTMLDivElement>(null)
+  const toggleRef = useRef<HTMLButtonElement>(null)
+  // biome-ignore lint/correctness/useExhaustiveDependencies: close the menu whenever the route changes
+  useEffect(() => {
+    setMenuOpen(false)
+  }, [location.pathname])
+  useEffect(() => {
+    if (!menuOpen) return
+    const onDown = (e: MouseEvent) => {
+      const tgt = e.target as Node
+      if (
+        menuRef.current &&
+        !menuRef.current.contains(tgt) &&
+        toggleRef.current &&
+        !toggleRef.current.contains(tgt)
+      ) {
+        setMenuOpen(false)
+      }
+    }
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setMenuOpen(false)
+    }
+    document.addEventListener('mousedown', onDown)
+    document.addEventListener('keydown', onKey)
+    return () => {
+      document.removeEventListener('mousedown', onDown)
+      document.removeEventListener('keydown', onKey)
+    }
+  }, [menuOpen])
 
   // sticky children (day headers, filter bars) offset themselves by the real
   // header height — it grows when the nav wraps to a second line
@@ -82,7 +114,39 @@ export default function Layout() {
               </NavLink>
             ))}
           </nav>
+          <button
+            type="button"
+            className="nav-toggle"
+            ref={toggleRef}
+            aria-label={t('navMore')}
+            aria-expanded={menuOpen}
+            onClick={() => setMenuOpen((o) => !o)}
+          >
+            <span className="nav-toggle-bars" aria-hidden="true" />
+          </button>
         </div>
+        {menuOpen && (
+          <div className="nav-menu" ref={menuRef}>
+            <nav className="nav-menu-in" aria-label={t('navMore')}>
+              {NAV.map((n) => (
+                <NavLink
+                  key={n.to}
+                  to={n.to}
+                  end={n.to === '/'}
+                  className={n.cta ? 'nav-menu-cta' : undefined}
+                >
+                  {t(n.key)}
+                </NavLink>
+              ))}
+              <hr className="nav-menu-rule" />
+              {FOOTER_NAV.map((l) => (
+                <NavLink key={l.to} to={l.to}>
+                  {t(l.key)}
+                </NavLink>
+              ))}
+            </nav>
+          </div>
+        )}
       </header>
 
       <main className="shell-main">
@@ -134,15 +198,6 @@ export default function Layout() {
           <Link to="/terms">{t('navTerms')}</Link>
         </div>
       </footer>
-
-      <nav className="tab-bar">
-        {NAV.map((n) => (
-          <NavLink key={n.to} to={n.to} end={n.to === '/'} className={n.cta ? 'tab-cta' : undefined}>
-            <Icon name={n.icon} />
-            {t(n.key)}
-          </NavLink>
-        ))}
-      </nav>
     </>
   )
 }
