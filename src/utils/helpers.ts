@@ -488,10 +488,10 @@ export function buildIcs(
   const lines = [
     'BEGIN:VCALENDAR',
     'VERSION:2.0',
-    'PRODID:-//wc2026-app//2026 World Cup//EN',
+    'PRODID:-//thepickpick-app//The PickPick Cup 2026//EN',
     'CALSCALE:GREGORIAN',
     'METHOD:PUBLISH',
-    'X-WR-CALNAME:2026 World Cup',
+    'X-WR-CALNAME:The PickPick — Cup 2026',
   ]
   const fmt = (ms: number) => {
     const d = new Date(ms)

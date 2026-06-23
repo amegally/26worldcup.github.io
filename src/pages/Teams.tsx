@@ -26,7 +26,11 @@ function TeamCard({ team }: { team: Team }) {
       <div className="tm-info">
         <div className="tm-name">{pick(team.name, team.code)}</div>
         <div className="tm-meta small muted">
-          {team.ranking !== null && <span className="chip tnum">FIFA #{team.ranking}</span>}
+          {team.ranking !== null && (
+            <span className="chip tnum" title={t('fifaRanking')}>
+              #{team.ranking}
+            </span>
+          )}
           {conf && <span className="chip">{conf}</span>}
         </div>
         {team.nickname && <div className="tm-nick">{team.nickname}</div>}

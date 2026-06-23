@@ -35,17 +35,3 @@ export function HomeMark({ size = 19, className }: MarkProps) {
     </svg>
   )
 }
-
-/** FIFA badge: the logo's leading "F" (white) trimmed onto a blue square */
-export function FifaMark({ size = 18, className }: MarkProps) {
-  return (
-    <svg className={className} width={size} height={size} viewBox="0 0 24 24" aria-hidden="true">
-      <rect width="24" height="24" rx="4" fill="#326295" />
-      <path
-        transform="translate(6.6 5) scale(0.0427)"
-        fill="#fff"
-        d="M0 0H253L227 72H104V138H203L177 210H104V328H0Z"
-      />
-    </svg>
-  )
-}

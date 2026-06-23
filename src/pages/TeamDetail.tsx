@@ -14,7 +14,7 @@ import {
   sortMatches,
   TEAM_CONFEDERATION,
 } from '../utils/helpers'
-import { FifaMark, HomeMark, WikipediaMark } from '../components/BrandMarks'
+import { HomeMark, WikipediaMark } from '../components/BrandMarks'
 import Flag from '../components/Flag'
 import Icon from '../components/Icon'
 import MapLinks from '../components/MapLinks'
@@ -375,7 +375,7 @@ export default function TeamDetail() {
                 title={t('fifaWorldCupPage')}
                 aria-label={t('fifaWorldCupPage')}
               >
-                <FifaMark size={19} />
+                <Icon name="globe" size={19} />
               </a>
               {squad?.wiki && (
                 <a

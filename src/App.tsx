@@ -15,6 +15,7 @@ const Venues = lazy(() => import('./pages/Venues'))
 const Watch = lazy(() => import('./pages/Watch'))
 const Stats = lazy(() => import('./pages/Stats'))
 const Forecast = lazy(() => import('./pages/Forecast'))
+const Predict = lazy(() => import('./pages/Predict'))
 const Settings = lazy(() => import('./pages/Settings'))
 const More = lazy(() => import('./pages/More'))
 
@@ -23,6 +24,7 @@ const TITLE_KEY: Record<string, string> = {
   match: 'navMatches',
   groups: 'navGroups',
   bracket: 'navBracket',
+  predict: 'navPredict',
   teams: 'navTeams',
   team: 'navTeams',
   venues: 'navVenues',
@@ -104,6 +106,7 @@ export default function App() {
             <Route path="/watch" element={<Watch />} />
             <Route path="/stats" element={<Stats />} />
             <Route path="/forecast" element={<Forecast />} />
+            <Route path="/predict" element={<Predict />} />
             <Route path="/settings" element={<Settings />} />
             <Route path="/more" element={<More />} />
             <Route path="*" element={<Matches />} />

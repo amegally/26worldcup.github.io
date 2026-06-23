@@ -11,16 +11,16 @@ export default defineConfig({
       includeAssets: ['favicon.svg', 'icons/apple-touch-icon.png'],
       manifest: {
         id: './',
-        name: '2026 World Cup Open Source Companion',
-        short_name: '2026 WC',
+        name: 'The PickPick — Cup 2026',
+        short_name: 'The PickPick',
         description:
-          '2026 World Cup: schedule, groups, bracket, teams, venues, weather, where to watch, win probabilities and tournament forecast, in 23 languages. Unofficial open-source PWA',
+          'The PickPick — Cup 2026: schedule, groups, bracket, teams, venues, weather, where to watch, win probabilities and tournament forecast. Unofficial open-source PWA',
         start_url: './',
         scope: './',
         display: 'standalone',
         orientation: 'any',
-        background_color: '#0b0e15',
-        theme_color: '#0b0e15',
+        background_color: '#f4efe3',
+        theme_color: '#f4efe3',
         categories: ['sports'],
         icons: [
           { src: 'icons/icon-192.png', sizes: '192x192', type: 'image/png' },
@@ -29,18 +29,18 @@ export default defineConfig({
         ],
         shortcuts: [
           {
-            name: 'Matches',
+            name: 'Schedule',
             url: './#/',
-            icons: [{ src: 'icons/icon-192.png', sizes: '192x192', type: 'image/png' }],
-          },
-          {
-            name: 'Groups',
-            url: './#/groups',
             icons: [{ src: 'icons/icon-192.png', sizes: '192x192', type: 'image/png' }],
           },
           {
             name: 'Bracket',
             url: './#/bracket',
+            icons: [{ src: 'icons/icon-192.png', sizes: '192x192', type: 'image/png' }],
+          },
+          {
+            name: 'Predict',
+            url: './#/predict',
             icons: [{ src: 'icons/icon-192.png', sizes: '192x192', type: 'image/png' }],
           },
         ],

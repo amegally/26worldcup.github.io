@@ -35,7 +35,10 @@
     "url": "git+https://github.com/26worldcup/26worldcup.github.io.git"
   },
   "license": "MIT",
-  "author": "Tom Chen (tomchen.org)",
+  "author": "amegally",
+  "contributors": [
+    "Tom Chen (tomchen.org) — original 2026 World Cup companion"
+  ],
   "type": "module",
   "engines": {
     "bun": ">=1.1"
