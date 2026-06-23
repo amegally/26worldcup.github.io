@@ -1,7 +1,6 @@
 import { useI18n } from '../i18n'
 import type { Team } from '../types'
 import Flag from './Flag'
-import Trophy from './Trophy'
 import LeadLine from './LeadLine'
 import './bracketcard.css'
 
@@ -57,9 +56,7 @@ export default function BracketCard({
       <div className="pr-card-champ">
         <Flag team={teams[champion]} size={52} />
         <div>
-          <div className="pr-card-champ-label kicker">
-            <Trophy size={15} /> {championLabel}
-          </div>
+          <div className="pr-card-champ-label kicker">{championLabel}</div>
           <div className="pr-card-champ-name">{name(champion)}</div>
         </div>
       </div>

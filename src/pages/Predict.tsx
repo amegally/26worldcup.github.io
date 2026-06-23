@@ -18,7 +18,6 @@ import {
 import type { SimModel } from '../sim/engine'
 import type { Team } from '../types'
 import Flag from '../components/Flag'
-import Trophy from '../components/Trophy'
 import Icon from '../components/Icon'
 import BracketCard from '../components/BracketCard'
 import LeadLine from '../components/LeadLine'
@@ -555,7 +554,6 @@ export default function Predict() {
       {complete && (
         <div className="pr-ready">
           <button type="button" className="pr-ready-btn" onClick={jumpToCard}>
-            <Trophy size={16} />
             {t('predictSeeCard')}
             <span aria-hidden="true">↑</span>
           </button>
@@ -591,9 +589,6 @@ function BracketTree({
       <div className="kob">
         <KoNode n={finalN} ctx={ctx} />
         <div className={`kob-champ${champion ? ' has' : ''}`}>
-          <div className="kob-champ-medal">
-            <Trophy size={26} />
-          </div>
           {champion ? (
             <>
               <Flag team={teams[champion]} size={34} />
@@ -667,9 +662,6 @@ function BracketSteps({
 
       {last && champion ? (
         <div className="kos-champ has">
-          <div className="kob-champ-medal">
-            <Trophy size={24} />
-          </div>
           <span className="kicker">{t('predictYourChampion')}</span>
           <span className="kos-champ-name">
             <Flag team={teams[champion]} size={30} />

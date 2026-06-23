@@ -49,6 +49,7 @@
     "update": "bun scripts/update.mjs",
     "genmap": "bun scripts/genmap.mjs",
     "gencron": "bun scripts/gencron.mjs",
+    "genbrand": "bun scripts/genbrand.mjs",
     "typecheck": "tsc -b",
     "lint": "biome check .",
     "a11y": "bun scripts/a11y.mjs",

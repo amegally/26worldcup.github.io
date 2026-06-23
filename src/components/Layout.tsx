@@ -73,8 +73,7 @@ export default function Layout() {
       <header className="shell-header" ref={headerRef}>
         <div className="shell-header-in">
           <NavLink to="/" className="masthead" aria-label={`${t('appName')} — ${t('appSub')}`}>
-            <span className="masthead-word">{t('appName')}</span>
-            <span className="masthead-sub">{t('appSub')}</span>
+            <img className="masthead-logo" src="/logo.png" alt={t('appName')} width={132} height={44} />
           </NavLink>
           <nav className="top-nav" ref={navRef}>
             {NAV.map((n) => (

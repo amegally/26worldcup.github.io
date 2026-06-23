@@ -8,7 +8,6 @@ import { displayTz, dayKey, fmtDateLong, relativeDay } from '../utils/time'
 import { involvesTeams, sortMatches, STAGE_LABEL_KEY } from '../utils/helpers'
 import MatchCard from '../components/MatchCard'
 import Flag from '../components/Flag'
-import Trophy from '../components/Trophy'
 import Icon from '../components/Icon'
 import './matches.css'
 
@@ -79,7 +78,7 @@ export default function Matches() {
   const anyFilter = stage !== '' || venueId !== '' || teamCodes.length > 0
 
   // mobile: collapsible filter panel; start open when arriving with filters in the URL
-  // title-odds strip: deliberately dismissible (remembered); a tiny trophy
+  // title-odds strip: deliberately dismissible (remembered); a tiny medal
   // chip stays behind to bring it back
   const [oddsHidden, setOddsHiddenState] = useState(() => {
     try {
@@ -261,9 +260,7 @@ export default function Matches() {
             <Link to="/forecast" className="mxp-odds" tabIndex={oddsHidden ? -1 : 0}>
               {meta.titleOdds[0].p >= 100 ? (
                 <>
-                  <span className="mxp-odds-label">
-                    <Trophy size={17} /> {t('champion')}
-                  </span>
+                  <span className="mxp-odds-label">{t('champion')}</span>
                   <span className="mxp-odds-champ">
                     <Flag team={teams[meta.titleOdds[0].c]} size={20} />
                     {pick(teams[meta.titleOdds[0].c]?.name, meta.titleOdds[0].c)}
@@ -271,9 +268,7 @@ export default function Matches() {
                 </>
               ) : (
                 <>
-                  <span className="mxp-odds-label">
-                    <Trophy size={17} /> {t('titleOdds')}
-                  </span>
+                  <span className="mxp-odds-label">{t('titleOdds')}</span>
                   <span className="mxp-odds-list tnum">
                     {meta.titleOdds.map((o) => (
                       <span key={o.c} className="mxp-odds-item">
@@ -313,7 +308,7 @@ export default function Matches() {
                 aria-hidden={!oddsHidden}
                 onClick={() => setOddsHidden(false)}
               >
-                <Trophy size={16} />
+                <span aria-hidden="true">🥇</span>
               </button>
             )}
             <span className="muted small tnum">{t('matchesShown', { n: filtered.length })}</span>

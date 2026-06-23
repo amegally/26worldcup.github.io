@@ -9,7 +9,6 @@ import { displayTz, fmtDate, fmtTime } from '../utils/time'
 import { placeholderLabel, STAGE_LABEL_KEY } from '../utils/helpers'
 import { resolvedSlots } from '../utils/bracketResolve'
 import Flag from '../components/Flag'
-import Trophy from '../components/Trophy'
 import TeamName from '../components/TeamName'
 import './bracket.css'
 
@@ -119,14 +118,7 @@ function BkNode({
       to={`/match/${m.id}`}
       className={`bk-node${big ? ' bk-big' : ''}${m.status === 'live' ? ' bk-on' : ''}`}
     >
-      {big && (
-        <div className="bk-final-head">
-          <span className="bk-cup" aria-hidden="true">
-            <Trophy size={16} />
-          </span>
-          {t(STAGE_LABEL_KEY.final)}
-        </div>
-      )}
+      {big && <div className="bk-final-head">{t(STAGE_LABEL_KEY.final)}</div>}
       <div className="bk-meta">
         <span className="bk-n tnum" title={t('matchN', { n: m.n })}>
           {m.n}
@@ -316,9 +308,6 @@ export default function Bracket() {
             <div className="bk-center-top">
               {championCode && (
                 <div className="bk-champion">
-                  <span className="bk-champ-cup" aria-hidden="true">
-                    <Trophy size={26} />
-                  </span>
                   <span className="bk-champ-label">{t('champion')}</span>
                   <TeamName code={championCode} bold flagSize={26} />
                 </div>
@@ -345,9 +334,6 @@ export default function Bracket() {
         <div className="bk-mobile-center">
           {championCode && (
             <div className="bk-champion">
-              <span className="bk-champ-cup" aria-hidden="true">
-                <Trophy size={26} />
-              </span>
               <span className="bk-champ-label">{t('champion')}</span>
               <TeamName code={championCode} bold flagSize={26} />
             </div>

@@ -5,7 +5,6 @@ import { DATA_FALLBACK, useI18n } from '../i18n'
 import { useSettings } from '../settings/SettingsContext'
 import { makeTeamMatcher } from '../utils/teamSearch'
 import Flag from './Flag'
-import Trophy from './Trophy'
 
 /** one team's outcome distribution (all values are probabilities 0..1).
  *  s1..s3 = group finishing position; the o* group is mutually exclusive and
@@ -67,7 +66,7 @@ export default function ForecastTable({ rows, teams }: { rows: FcRow[]; teams: R
     o4: { label: t('fcPos4'), title: t('podium4') },
     o3: { label: '🥉', title: t('podium3') },
     oRu: { label: '🥈', title: t('podium2') },
-    oChamp: { label: <Trophy size={16} />, title: t('simChampion'), champ: true },
+    oChamp: { label: '🥇', title: t('simChampion'), champ: true },
   }
 
   const groups = useMemo(

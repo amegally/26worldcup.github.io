@@ -837,12 +837,6 @@ input.input {
   }
 }
 
-/* inline trophy image (emoji replacement) */
-.trophy-img {
-  display: inline-block;
-  vertical-align: -0.15em;
-}
-
 /* footer link row */
 .shell-footer-links {
   display: flex;
@@ -906,26 +900,22 @@ input.input {
 /* masthead wordmark */
 .masthead {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  line-height: 1;
-  white-space: nowrap;
+  align-items: center;
   padding: 4px 0;
 }
-.masthead-word {
-  font-family: var(--font-serif);
-  font-weight: 800;
-  font-size: 1.65rem;
-  letter-spacing: -0.01em;
-  color: var(--text);
+.masthead-logo {
+  height: 44px;
+  width: auto;
+  display: block;
 }
-.masthead-sub {
-  margin-top: 4px;
-  font-size: 0.6rem;
-  font-weight: 700;
-  letter-spacing: 0.24em;
-  text-transform: uppercase;
-  color: var(--accent-text);
+/* the logo art is dark; flip it to stay legible on dark themes (hue-rotate keeps the red) */
+[data-theme="dark"] .masthead-logo {
+  filter: invert(1) hue-rotate(180deg);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .masthead-logo {
+    filter: invert(1) hue-rotate(180deg);
+  }
 }
 
 /* primary nav: small all-caps section labels, deep-red underline when active */

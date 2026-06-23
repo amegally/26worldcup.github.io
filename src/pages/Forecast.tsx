@@ -5,7 +5,6 @@ import { useAppData, useData } from '../data/DataContext'
 import { runTournament } from '../sim/engine'
 import type { Outcome, SimRun, SimScore } from '../sim/engine'
 import Flag from '../components/Flag'
-import Trophy from '../components/Trophy'
 import Icon from '../components/Icon'
 import InfoDot from '../components/InfoDot'
 import ForecastTable from '../components/ForecastTable'
@@ -342,9 +341,7 @@ export default function Forecast() {
             <div className="sim-champ-row">
               <Flag team={teams[last.champion]} size={44} />
               <div>
-                <div className="sim-champ-label">
-                  <Trophy size={16} /> {t('simChampion')}
-                </div>
+                <div className="sim-champ-label">{t('simChampion')}</div>
                 <div className="sim-champ-name">{pick(teams[last.champion]?.name, last.champion)}</div>
               </div>
             </div>
