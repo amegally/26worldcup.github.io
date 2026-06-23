@@ -1,0 +1,37 @@
+/* ============ legal pages (Privacy / Terms) ============ */
+.legal {
+  max-width: 72ch;
+}
+.legal h2 {
+  margin-top: 28px;
+  font-size: 1.16rem;
+}
+.legal p,
+.legal li {
+  color: var(--text-2);
+  line-height: 1.6;
+}
+.legal ul {
+  padding-inline-start: 20px;
+  margin: 0 0 0.9em;
+}
+.legal li {
+  margin-bottom: 0.5em;
+}
+.legal strong {
+  color: var(--text);
+}
+
+/* the must-have disclaimers stand out */
+.legal-callout {
+  border: 1px solid var(--border-strong);
+  background: var(--bg-elev);
+  border-radius: var(--r-md);
+  padding: 14px 16px;
+  margin: 12px 0;
+  color: var(--text);
+  line-height: 1.55;
+}
+.legal-callout strong {
+  color: var(--accent-text);
+}

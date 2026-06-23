@@ -4,17 +4,18 @@ import { useI18n } from '../i18n'
 import Icon from './Icon'
 import type { IconName } from './Icon'
 import Freshness from './Freshness'
+import LeadLine from './LeadLine'
 
-// primary navigation — exactly four destinations
-const NAV: { to: string; key: string; icon: IconName }[] = [
-  { to: '/', key: 'navSchedule', icon: 'calendar' },
+// primary navigation — the bracket builder leads as the call to action
+const NAV: { to: string; key: string; icon: IconName; cta?: boolean }[] = [
+  { to: '/predict', key: 'navPredict', icon: 'target', cta: true },
+  { to: '/schedule', key: 'navSchedule', icon: 'calendar' },
   { to: '/groups', key: 'navGroups', icon: 'table' },
-  { to: '/bracket', key: 'navBracket', icon: 'bracket' },
-  { to: '/predict', key: 'navPredict', icon: 'target' },
 ]
 
 // secondary pages: still fully functional, reached from the footer link list
 const FOOTER_NAV: { to: string; key: string }[] = [
+  { to: '/bracket', key: 'navBracket' },
   { to: '/teams', key: 'navTeams' },
   { to: '/venues', key: 'navVenues' },
   { to: '/watch', key: 'navWatch' },
@@ -64,8 +65,8 @@ export default function Layout() {
   }, [])
 
   // split the localized "by {name}" around the author link (word order varies)
-  const [byPre, byPost] = t('footerBy', { name: '\u0000' }).split('\u0000')
-  const [basedPre, basedPost] = t('footerBasedOn', { name: '~~' }).split('~~')
+  const [builtPre, builtPost] = t('footerBuiltBy', { name: '~~' }).split('~~')
+  const [origPre, origPost] = t('footerOriginalBy', { name: '~~' }).split('~~')
 
   return (
     <>
@@ -77,7 +78,7 @@ export default function Layout() {
           </NavLink>
           <nav className="top-nav" ref={navRef}>
             {NAV.map((n) => (
-              <NavLink key={n.to} to={n.to} end={n.to === '/'}>
+              <NavLink key={n.to} to={n.to} end={n.to === '/'} className={n.cta ? 'nav-cta' : undefined}>
                 {t(n.key)}
               </NavLink>
             ))}
@@ -100,25 +101,25 @@ export default function Layout() {
         <div className="shell-footer-meta">
           <Freshness />
         </div>
+        <p className="shell-footer-built">
+          {builtPre}
+          <a href="https://www.instagram.com/alfred.makes" target="_blank" rel="noreferrer">
+            alfred
+          </a>
+          {builtPost}
+        </p>
+        <LeadLine className="shell-footer-lead" />
         <div className="shell-footer-links">
           <a href="https://github.com/amegally/26worldcup.github.io" target="_blank" rel="noreferrer">
             GitHub
           </a>
           <span aria-hidden="true">·</span>
           <span>
-            {byPre}
-            <a href="https://github.com/amegally" target="_blank" rel="noreferrer">
-              amegally
-            </a>
-            {byPost}
-          </span>
-          <span aria-hidden="true">·</span>
-          <span>
-            {basedPre}
+            {origPre}
             <a href="https://github.com/tomchen" target="_blank" rel="noreferrer">
               Tom Chen
             </a>
-            {basedPost}
+            {origPost}
           </span>
           <span aria-hidden="true">·</span>
           <a
@@ -128,12 +129,16 @@ export default function Layout() {
           >
             {t('footerLicense')}
           </a>
+          <span aria-hidden="true">·</span>
+          <Link to="/privacy">{t('navPrivacy')}</Link>
+          <span aria-hidden="true">·</span>
+          <Link to="/terms">{t('navTerms')}</Link>
         </div>
       </footer>
 
       <nav className="tab-bar">
         {NAV.map((n) => (
-          <NavLink key={n.to} to={n.to} end={n.to === '/'}>
+          <NavLink key={n.to} to={n.to} end={n.to === '/'} className={n.cta ? 'tab-cta' : undefined}>
             <Icon name={n.icon} />
             {t(n.key)}
           </NavLink>

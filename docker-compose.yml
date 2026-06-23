@@ -12,5 +12,5 @@ services:
       # remote (default) = always-fresh data proxied from the live site.
       # bundled = baked-in snapshot. self = updater sidecar (docker-compose.self.yml).
       DATA_SOURCE: remote
-      REMOTE_DATA_HOST: 26worldcup.github.io
+      REMOTE_DATA_HOST: thepickpick.com
     restart: unless-stopped

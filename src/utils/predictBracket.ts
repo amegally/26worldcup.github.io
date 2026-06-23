@@ -43,6 +43,11 @@ export interface GroupView {
 /** the user's chosen [winner, runner-up] per group; absent = use today's top two */
 export type GroupSelections = Record<string, string[]>
 
+/** short display names for the few teams whose full name overruns a bracket slot */
+export const SHORT_NAME: Record<string, string> = {
+  BIH: 'Bosnia',
+}
+
 /**
  * Probability the home team advances past the away team in a single knockout
  * tie, splitting the regulation-draw mass by the same rating share the engine
@@ -123,8 +128,12 @@ export function effectiveGroupOrder(
       out[v.group] = v.order
       continue
     }
+    // only trust a stored selection if both codes are still in this group —
+    // a refresh or stale storage can leave a phantom code that would otherwise
+    // corrupt the order (wrong length / non-member) and desync the bracket
     const sel = selections[v.group]
-    const q = sel && sel.length === 2 ? sel : v.defaultTop2
+    const valid = sel?.length === 2 && sel.every((c) => v.order.includes(c))
+    const q = valid ? sel : v.defaultTop2
     const rest = v.order.filter((c) => !q.includes(c))
     out[v.group] = [q[0], q[1], ...rest]
   }
@@ -224,4 +233,54 @@ export function buildKnockout(
     },
     lockedKo,
   }
+}
+
+/** advance the model's favourite in every ready tie — a complete sample bracket */
+export function advanceModel(
+  bracket: PredBracket,
+  model: SimModel,
+): { winner: Record<number, string>; parts: Record<number, { home?: string; away?: string }> } {
+  const winner: Record<number, string> = {}
+  const parts: Record<number, { home?: string; away?: string }> = {}
+  for (const round of bracket.rounds) {
+    for (const pm of round) {
+      const home = pm.seedHome ?? (pm.feedHome != null ? winner[pm.feedHome] : undefined)
+      const away = pm.seedAway ?? (pm.feedAway != null ? winner[pm.feedAway] : undefined)
+      parts[pm.n] = { home, away }
+      if (home && away) {
+        winner[pm.n] = koWinProb(model, home, away, pm.venueCountry) >= 0.5 ? home : away
+      }
+    }
+  }
+  return { winner, parts }
+}
+
+/**
+ * The bracket as a funnel for the results card: every team grouped by the round
+ * its run ended in (the loser of each tie), latest exit first. Champion + these
+ * rows together account for all 32 teams, so it shows the whole bracket.
+ */
+export function bracketFunnel(
+  bracket: PredBracket,
+  parts: Record<number, { home?: string; away?: string }>,
+  winner: Record<number, string>,
+): { key: string; teams: string[] }[] {
+  const byStage: Record<string, string[]> = {}
+  for (const round of bracket.rounds) {
+    for (const pm of round) {
+      const { home, away } = parts[pm.n] ?? {}
+      const w = winner[pm.n]
+      if (!home || !away || !w) continue
+      const loser = w === home ? away : home
+      byStage[pm.stage] ??= []
+      byStage[pm.stage].push(loser)
+    }
+  }
+  return [
+    { key: 'predictRunnerUp', teams: byStage.final ?? [] },
+    { key: 'stageSf', teams: byStage.sf ?? [] },
+    { key: 'stageQf', teams: byStage.qf ?? [] },
+    { key: 'stageR16', teams: byStage.r16 ?? [] },
+    { key: 'stageR32', teams: byStage.r32 ?? [] },
+  ]
 }

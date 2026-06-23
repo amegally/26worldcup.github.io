@@ -967,6 +967,38 @@ input.input {
 .tab-bar a.active {
   color: var(--accent-text);
 }
+.tab-bar a.tab-cta {
+  color: var(--accent-text);
+}
+
+/* the bracket-builder call to action: inked deep-red, the one filled nav item */
+.top-nav a.nav-cta,
+.top-nav a.nav-cta.active {
+  background: var(--accent);
+  color: #fbf6ea;
+  border-bottom-color: transparent;
+  border-radius: 2px;
+  padding-inline: 14px;
+}
+.top-nav a.nav-cta:hover {
+  background: color-mix(in srgb, var(--accent) 88%, #000);
+  color: #fff;
+}
+
+/* lead-capture line (on the share card + under the finished bracket) */
+.lead-line {
+  margin: 0;
+  text-align: center;
+  font-size: 0.82rem;
+  line-height: 1.45;
+  color: var(--text-2);
+}
+.lead-line a {
+  color: var(--accent-text);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
 
 /* small all-caps kicker / label */
 .kicker {
@@ -1052,5 +1084,23 @@ input.input {
   color: var(--accent-text);
 }
 .shell-footer-meta {
-  margin-bottom: 6px;
+  margin-bottom: 8px;
+}
+/* primary credit, prominent; secondary credits stay in the small links row */
+.shell-footer-built {
+  margin: 0 0 6px;
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--text-2);
+}
+.shell-footer-built a {
+  color: var(--accent-text);
+  font-weight: 750;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.shell-footer-lead {
+  margin: 0 0 8px;
+  font-size: 0.78rem;
+  color: var(--text-3);
 }

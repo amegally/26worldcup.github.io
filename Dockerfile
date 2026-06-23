@@ -20,6 +20,7 @@ CMD ["sh", "-c", "while true; do echo '[updater] refreshing data'; bun scripts/u
 FROM nginx:alpine AS serve
 COPY --from=build /app/dist /usr/share/nginx/html
 COPY docker/nginx/snippets-common.conf  /etc/nginx/snippets/common.conf
+COPY docker/nginx/security-headers.conf /etc/nginx/snippets/security-headers.conf
 COPY docker/nginx/remote.conf.template  /etc/nginx/wc-templates/remote.conf.template
 COPY docker/nginx/local.conf            /etc/nginx/wc-templates/local.conf
 COPY docker/entrypoint.sh               /docker-entrypoint-wc.sh
@@ -27,6 +28,6 @@ RUN chmod +x /docker-entrypoint-wc.sh
 # remote (default) = always-fresh data proxied from the live site, no rebuild needed.
 # Override at run time: -e DATA_SOURCE=bundled|self  /  -e REMOTE_DATA_HOST=...
 ENV DATA_SOURCE=remote \
-    REMOTE_DATA_HOST=26worldcup.github.io
+    REMOTE_DATA_HOST=thepickpick.com
 EXPOSE 80
 ENTRYPOINT ["/docker-entrypoint-wc.sh"]

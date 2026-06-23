@@ -255,7 +255,26 @@ export function flagEmoji(iso2: string | null | undefined): string {
 
 export function assetUrl(p: string | null | undefined): string | null {
   if (!p) return null
-  return /^https?:/.test(p) ? p : import.meta.env.BASE_URL + p
+  return /^https?:\/\//i.test(p) ? p : import.meta.env.BASE_URL + p
+}
+
+export function httpUrl(value: string | null | undefined): string | null {
+  if (!value) return null
+  try {
+    const url = new URL(value)
+    return url.protocol === 'https:' || url.protocol === 'http:' ? url.href : null
+  } catch {
+    return null
+  }
+}
+
+export function wikipediaArticleUrl(titleOrUrl: string | null | undefined): string | null {
+  if (!titleOrUrl) return null
+  const url = httpUrl(titleOrUrl)
+  if (url) return url
+  const title = titleOrUrl.trim()
+  if (!title) return null
+  return `https://en.wikipedia.org/wiki/${encodeURIComponent(title.replace(/ /g, '_'))}`
 }
 
 // IANA timezone -> country, for the broadcast markets we carry. The device

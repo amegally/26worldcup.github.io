@@ -1,0 +1,76 @@
+/* ============ Home landing — the one job: build your bracket ============ */
+.home {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 36px 56px;
+  min-height: min(76vh, 760px);
+  padding: 8px 0 32px;
+}
+.home-kicker {
+  color: var(--accent-text);
+  margin-bottom: 12px;
+}
+.home-title {
+  font-size: clamp(2.4rem, 6vw, 4.4rem);
+  line-height: 1;
+  letter-spacing: -0.025em;
+  margin: 0 0 18px;
+  max-width: 13ch;
+}
+.home-sub {
+  font-size: clamp(1.02rem, 1.6vw, 1.18rem);
+  line-height: 1.5;
+  color: var(--text-2);
+  max-width: 44ch;
+  margin: 0 0 24px;
+}
+.home-cta {
+  font-size: 1.02rem;
+  font-weight: 700;
+  padding: 13px 26px;
+  gap: 10px;
+  background: var(--accent);
+  border-color: transparent;
+  color: #fbf6ea;
+}
+.home-cta:hover {
+  background: color-mix(in srgb, var(--accent) 88%, #000);
+  color: #fff;
+}
+.home-steps {
+  margin: 16px 0 0;
+  font-size: 0.84rem;
+  color: var(--text-3);
+}
+.home-aside {
+  width: 366px;
+  max-width: 100%;
+}
+.home-samplenote {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-3);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.home-samplenote:hover {
+  color: var(--accent-text);
+}
+
+@media (max-width: 860px) {
+  .home {
+    grid-template-columns: 1fr;
+    min-height: 0;
+    gap: 26px;
+    padding-top: 14px;
+  }
+  .home-aside {
+    width: 100%;
+    max-width: 420px;
+    margin: 0 auto;
+  }
+}

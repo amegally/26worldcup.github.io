@@ -301,7 +301,7 @@ export default function Matches() {
           </div>
         )}
         <div className="page-head mxp-head">
-          <h1>{t('navMatches')}</h1>
+          <h1>{t('navSchedule')}</h1>
           <span className="mxp-head-right">
             {meta.titleOdds && meta.titleOdds.length > 0 && (
               <button

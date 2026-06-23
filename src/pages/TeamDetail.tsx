@@ -10,9 +10,11 @@ import {
   CONF_REGION_KEY,
   fifaSquadUrl,
   fifaToIso2,
+  httpUrl,
   qualState,
   sortMatches,
   TEAM_CONFEDERATION,
+  wikipediaArticleUrl,
 } from '../utils/helpers'
 import { HomeMark, WikipediaMark } from '../components/BrandMarks'
 import Flag from '../components/Flag'
@@ -70,10 +72,12 @@ function ageFrom(dob: string): number {
 /** small Wikipedia-icon link */
 function WikiIcon({ url }: { url: string }) {
   const { t } = useI18n()
+  const safeUrl = httpUrl(url)
+  if (!safeUrl) return null
   return (
     <a
       className="td-wiki-icon"
-      href={url}
+      href={safeUrl}
       target="_blank"
       rel="noopener noreferrer"
       title={t('englishWikipedia')}
@@ -87,9 +91,7 @@ function WikiIcon({ url }: { url: string }) {
 function PlayerCard({ p }: { p: SquadPlayer }) {
   const { t } = useI18n()
   const clubIso = fifaToIso2(p.clubNat)
-  const clubUrl = p.club
-    ? p.clubWiki || `https://en.wikipedia.org/wiki/${encodeURIComponent(p.club.trim().replace(/ /g, '_'))}`
-    : null
+  const clubUrl = p.club ? wikipediaArticleUrl(p.clubWiki || p.club) : null
   const age = p.dob ? ageFrom(p.dob) : null
   const showStats = p.caps !== null || p.goals !== null || (p.wcApps ?? 0) > 0 || (p.wcGoals ?? 0) > 0
 
@@ -251,8 +253,8 @@ export default function TeamDetail() {
     baseCampText = joined && ctry ? `${joined}, ${ctry}` : joined || ctry || t('none')
   }
 
-  const webText = team.web ? team.web.replace(/^https?:\/\//, '') : null
-  const webUrl = webText ? `https://${webText}` : null
+  const webUrl = team.web ? httpUrl(/^https?:\/\//i.test(team.web) ? team.web : `https://${team.web}`) : null
+  const squadWikiUrl = httpUrl(squad?.wiki?.url)
 
   const rows = standings.groups[team.group] ?? []
 
@@ -320,12 +322,7 @@ export default function TeamDetail() {
               ) : squad?.coach ? (
                 <span className="td-coach">
                   {squad.coach}
-                  <WikiIcon
-                    url={
-                      squad.coachWiki ||
-                      `https://en.wikipedia.org/wiki/${encodeURIComponent(squad.coach.trim().replace(/ /g, '_'))}`
-                    }
-                  />
+                  <WikiIcon url={wikipediaArticleUrl(squad.coachWiki || squad.coach) || ''} />
                 </span>
               ) : (
                 t('none')
@@ -377,10 +374,10 @@ export default function TeamDetail() {
               >
                 <Icon name="globe" size={19} />
               </a>
-              {squad?.wiki && (
+              {squad?.wiki && squadWikiUrl && (
                 <a
                   className="td-link-icon td-link-wiki"
-                  href={squad.wiki.url}
+                  href={squadWikiUrl}
                   target="_blank"
                   rel="noopener noreferrer"
                   title={t('englishWikipedia')}

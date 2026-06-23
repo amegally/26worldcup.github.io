@@ -46,6 +46,9 @@ export default function Flag({ team, iso2, url, title, size = 22, className = ''
       title={title}
       loading="lazy"
       referrerPolicy="no-referrer"
+      // allow the bracket card to be rasterised to an image even if a flag
+      // ever falls back to the cross-origin CDN (keeps the canvas untainted)
+      crossOrigin="anonymous"
       onError={() => setFailed((prev) => new Set(prev).add(src))}
     />
   )

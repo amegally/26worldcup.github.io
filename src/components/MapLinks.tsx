@@ -1,3 +1,4 @@
+import { httpUrl } from '../utils/helpers'
 import { WikipediaMark } from './BrandMarks'
 
 /** Google Maps + Apple Maps links shown as the official app icons
@@ -13,6 +14,7 @@ export default function MapLinks({
   wiki?: { url: string; title: string }
 }) {
   const q = encodeURIComponent(query)
+  const wikiUrl = httpUrl(wiki?.url)
   return (
     <span className="maplinks">
       <a
@@ -33,8 +35,8 @@ export default function MapLinks({
       >
         <img src="/icons/amaps.png" alt="Apple Maps" width={size} height={size} loading="lazy" />
       </a>
-      {wiki && (
-        <a href={wiki.url} target="_blank" rel="noreferrer" title={wiki.title} aria-label={wiki.title}>
+      {wiki && wikiUrl && (
+        <a href={wikiUrl} target="_blank" rel="noreferrer" title={wiki.title} aria-label={wiki.title}>
           <WikipediaMark size={size} />
         </a>
       )}

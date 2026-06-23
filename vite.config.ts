@@ -29,18 +29,18 @@ export default defineConfig({
         ],
         shortcuts: [
           {
-            name: 'Schedule',
-            url: './#/',
-            icons: [{ src: 'icons/icon-192.png', sizes: '192x192', type: 'image/png' }],
-          },
-          {
-            name: 'Bracket',
-            url: './#/bracket',
-            icons: [{ src: 'icons/icon-192.png', sizes: '192x192', type: 'image/png' }],
-          },
-          {
-            name: 'Predict',
+            name: 'Build a Bracket',
             url: './#/predict',
+            icons: [{ src: 'icons/icon-192.png', sizes: '192x192', type: 'image/png' }],
+          },
+          {
+            name: 'Schedule',
+            url: './#/schedule',
+            icons: [{ src: 'icons/icon-192.png', sizes: '192x192', type: 'image/png' }],
+          },
+          {
+            name: 'Knockouts',
+            url: './#/bracket',
             icons: [{ src: 'icons/icon-192.png', sizes: '192x192', type: 'image/png' }],
           },
         ],

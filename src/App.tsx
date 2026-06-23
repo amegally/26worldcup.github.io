@@ -5,6 +5,7 @@ import { useI18n } from './i18n'
 import Layout from './components/Layout'
 
 // route-level code splitting: each page loads on demand (Venues also pulls the 42 KB map JSON)
+const Home = lazy(() => import('./pages/Home'))
 const Matches = lazy(() => import('./pages/Matches'))
 const MatchDetail = lazy(() => import('./pages/MatchDetail'))
 const Groups = lazy(() => import('./pages/Groups'))
@@ -18,9 +19,12 @@ const Forecast = lazy(() => import('./pages/Forecast'))
 const Predict = lazy(() => import('./pages/Predict'))
 const Settings = lazy(() => import('./pages/Settings'))
 const More = lazy(() => import('./pages/More'))
+const Privacy = lazy(() => import('./pages/Privacy'))
+const Terms = lazy(() => import('./pages/Terms'))
 
 // first path segment -> localized page-name key
 const TITLE_KEY: Record<string, string> = {
+  schedule: 'navSchedule',
   match: 'navMatches',
   groups: 'navGroups',
   bracket: 'navBracket',
@@ -33,6 +37,8 @@ const TITLE_KEY: Record<string, string> = {
   forecast: 'navSim',
   settings: 'navSettings',
   more: 'navMore',
+  privacy: 'navPrivacy',
+  terms: 'navTerms',
 }
 
 /** keeps document.title in sync with the route (and language) */
@@ -96,7 +102,8 @@ export default function App() {
       <Suspense fallback={<div className="page-loading" />}>
         <Routes>
           <Route element={<Layout />}>
-            <Route index element={<Matches />} />
+            <Route index element={<Home />} />
+            <Route path="/schedule" element={<Matches />} />
             <Route path="/match/:id" element={<MatchDetail />} />
             <Route path="/groups" element={<Groups />} />
             <Route path="/bracket" element={<Bracket />} />
@@ -108,8 +115,10 @@ export default function App() {
             <Route path="/forecast" element={<Forecast />} />
             <Route path="/predict" element={<Predict />} />
             <Route path="/settings" element={<Settings />} />
+            <Route path="/privacy" element={<Privacy />} />
+            <Route path="/terms" element={<Terms />} />
             <Route path="/more" element={<More />} />
-            <Route path="*" element={<Matches />} />
+            <Route path="*" element={<Home />} />
           </Route>
         </Routes>
       </Suspense>

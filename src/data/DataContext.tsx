@@ -1,4 +1,4 @@
-import { createContext, useContext, useEffect, useRef, useState, useMemo } from 'react'
+import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react'
 import type { ReactNode } from 'react'
 import type { AppData, Squads, WcHistory } from '../types'
 import type { SimModel } from '../sim/engine'
@@ -15,6 +15,8 @@ interface DataCtx {
   /** frozen World Cup history + qualification, loaded lazily on first use */
   wcHistory: WcHistory | null
   loadWcHistory: () => void
+  /** force an immediate refetch of the volatile data (results, standings, …) */
+  refresh: () => Promise<void>
 }
 
 const Ctx = createContext<DataCtx | null>(null)
@@ -100,40 +102,42 @@ export function DataProvider({ children }: { children: ReactNode }) {
     }
   }, [])
 
-  // silent refresh of the volatile files while matches are (plausibly) running;
-  // teams/venues are static for the whole tournament and are never refetched
-  useEffect(() => {
-    const refresh = async () => {
-      if (refreshing.current || !dataRef.current) return
-      refreshing.current = true
-      try {
-        const [m, standings, lineups, stats, probs, weather, meta] = await Promise.allSettled([
-          getJson<{ matches: AppData['matches'] }>('matches.json'),
-          getJson<AppData['standings']>('standings.json'),
-          getJson<AppData['lineups']>('lineups.json'),
-          getJson<AppData['stats']>('stats.json'),
-          getJson<AppData['probs']>('probs.json'),
-          getJson<AppData['weather']>('weather.json'),
-          getJson<AppData['meta']>('meta.json'),
-        ])
-        setData((prev) =>
-          prev
-            ? {
-                ...prev,
-                matches: m.status === 'fulfilled' ? m.value.matches : prev.matches,
-                standings: settled(standings, prev.standings),
-                lineups: settled(lineups, prev.lineups),
-                stats: settled(stats, prev.stats),
-                probs: settled(probs, prev.probs),
-                weather: settled(weather, prev.weather),
-                meta: settled(meta, prev.meta),
-              }
-            : prev,
-        )
-      } finally {
-        refreshing.current = false
-      }
+  // refetch the volatile files (results, standings, probabilities, …); the
+  // static teams/venues are loaded once and never refetched
+  const refresh = useCallback(async () => {
+    if (refreshing.current || !dataRef.current) return
+    refreshing.current = true
+    try {
+      const [m, standings, lineups, stats, probs, weather, meta] = await Promise.allSettled([
+        getJson<{ matches: AppData['matches'] }>('matches.json'),
+        getJson<AppData['standings']>('standings.json'),
+        getJson<AppData['lineups']>('lineups.json'),
+        getJson<AppData['stats']>('stats.json'),
+        getJson<AppData['probs']>('probs.json'),
+        getJson<AppData['weather']>('weather.json'),
+        getJson<AppData['meta']>('meta.json'),
+      ])
+      setData((prev) =>
+        prev
+          ? {
+              ...prev,
+              matches: m.status === 'fulfilled' ? m.value.matches : prev.matches,
+              standings: settled(standings, prev.standings),
+              lineups: settled(lineups, prev.lineups),
+              stats: settled(stats, prev.stats),
+              probs: settled(probs, prev.probs),
+              weather: settled(weather, prev.weather),
+              meta: settled(meta, prev.meta),
+            }
+          : prev,
+      )
+    } finally {
+      refreshing.current = false
     }
+  }, [])
+
+  // silent auto-refresh while matches are (plausibly) running
+  useEffect(() => {
     const matchInProgress = () => {
       const matches = dataRef.current?.matches
       if (!matches) return false
@@ -161,7 +165,7 @@ export function DataProvider({ children }: { children: ReactNode }) {
       clearInterval(timer)
       document.removeEventListener('visibilitychange', onVisibility)
     }
-  }, [])
+  }, [refresh])
 
   const loadSquads = () => {
     if (squadsRequested.current) return
@@ -214,6 +218,7 @@ export function DataProvider({ children }: { children: ReactNode }) {
         loadSimModel,
         wcHistory,
         loadWcHistory,
+        refresh,
       }}
     >
       {children}

@@ -16,6 +16,7 @@ server {
         proxy_set_header Accept-Encoding "";
         # let the app's service worker own freshness; don't surface upstream caching
         proxy_hide_header Cache-Control;
+        include /etc/nginx/snippets/security-headers.conf;
         add_header Cache-Control "no-cache" always;
     }
 }

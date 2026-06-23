@@ -1,8 +1,8 @@
-# [2026 World Cup Open Source Companion ⚽](https://26worldcup.github.io)
+# [2026 World Cup Open Source Companion ⚽](https://thepickpick.com)
 
 Clean and complete 2026 FIFA World Cup companion: schedule, groups, bracket, squads, venues, weather, where to watch, match win **probabilities** and tournament **forecast**, in 23 languages.
 
-👉 **[Click me to use 2026 World Cup Open Source Companion now!](https://26worldcup.github.io)** ⚽ ([26worldcup.github.io](https://26worldcup.github.io))
+👉 **[Click me to use 2026 World Cup Open Source Companion now!](https://thepickpick.com)** ⚽ ([thepickpick.com](https://thepickpick.com))
 
 Faster, simpler, easier way to look things up than FIFA&#46;com, Google or Wikipedia: every fact about the tournament is one or two taps away, in your language and your time zone, with nothing you don't need (no ads, no news feeds, no videos, no cookie banners, no sign-in).
 

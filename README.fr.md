@@ -1,8 +1,8 @@
-# [Compagnon Open Source de la Coupe du Monde 2026 ⚽](https://26worldcup.github.io)
+# [Compagnon Open Source de la Coupe du Monde 2026 ⚽](https://thepickpick.com)
 
 Compagnon clair et complet de la Coupe du Monde de la FIFA 2026 : calendrier, groupes, tableau final, effectifs, stades, météo, où regarder les matchs, **probabilités** de victoire et **prévisions** du tournoi, en 23 langues.
 
-👉 **[Cliquez ici pour utiliser dès maintenant le Compagnon Open Source de la Coupe du Monde 2026 !](https://26worldcup.github.io)** ⚽ ([26worldcup.github.io](https://26worldcup.github.io))
+👉 **[Cliquez ici pour utiliser dès maintenant le Compagnon Open Source de la Coupe du Monde 2026 !](https://thepickpick.com)** ⚽ ([thepickpick.com](https://thepickpick.com))
 
 Une façon plus rapide, plus simple et plus facile de chercher des informations que sur FIFA&#46;com, Google ou Wikipédia : chaque fait sur le tournoi est à une ou deux pressions de doigt, dans votre langue et votre fuseau horaire, sans rien dont vous n'avez pas besoin (pas de publicités, pas de fils d'actualité, pas de vidéos, pas de bandeaux de cookies, pas de connexion).
 

@@ -1,8 +1,8 @@
-# [2026 世界杯开源助手 ⚽](https://26worldcup.github.io)
+# [2026 世界杯开源助手 ⚽](https://thepickpick.com)
 
 简洁而完整的 2026 国际足联世界杯助手：赛程、小组、对阵图、参赛名单、球场、天气、观赛指南、比赛胜负**概率**与赛事**预测**，支持 23 种语言。
 
-👉 **[点我立即使用 2026 世界杯开源助手！](https://26worldcup.github.io)** ⚽ ([26worldcup.github.io](https://26worldcup.github.io))
+👉 **[点我立即使用 2026 世界杯开源助手！](https://thepickpick.com)** ⚽ ([thepickpick.com](https://thepickpick.com))
 
 比起 FIFA&#46;com、Google 或维基百科，这里查信息更快、更简单、更轻松：关于这届赛事的每一条信息都只需一两下点按即可获取，以你的语言、你的时区呈现，没有任何多余的东西（无广告、无新闻流、无视频、无 Cookie 横幅、无需登录）。
 

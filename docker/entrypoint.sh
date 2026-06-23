@@ -6,8 +6,15 @@
 set -eu
 
 DATA_SOURCE="${DATA_SOURCE:-remote}"
-REMOTE_DATA_HOST="${REMOTE_DATA_HOST:-26worldcup.github.io}"
+REMOTE_DATA_HOST="${REMOTE_DATA_HOST:-thepickpick.com}"
 OUT=/etc/nginx/conf.d/default.conf
+
+case "$REMOTE_DATA_HOST" in
+  *[!A-Za-z0-9.-]*|.*|*..*|*.)
+    echo "[wc] ERROR: invalid REMOTE_DATA_HOST='${REMOTE_DATA_HOST}' (expected hostname only)" >&2
+    exit 1
+    ;;
+esac
 
 case "$DATA_SOURCE" in
   remote)
