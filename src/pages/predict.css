@@ -553,6 +553,8 @@
 /* result: share + save-image actions under the card */
 .pr-result {
   margin-bottom: 16px;
+  /* the bracket card is intrinsically wide; let it scroll rather than overflow */
+  overflow-x: auto;
 }
 .pr-share {
   display: flex;

@@ -1,0 +1,236 @@
+/* ============ shareable bracket TREE card: flags only, two-sided, champion
+   crowned in the middle (used on /predict and the homepage) ============ */
+.brc {
+  position: relative;
+  width: max-content;
+  margin: 4px auto 6px;
+  background: var(--bg-elev);
+  border: 2px solid var(--text);
+  border-radius: var(--r-md);
+  padding: 22px 26px 18px;
+}
+.brc-badge {
+  position: absolute;
+  top: 12px;
+  inset-inline-end: 14px;
+  font-size: 0.54rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #fff;
+  background: var(--accent);
+  padding: 2px 7px;
+  border-radius: 2px;
+}
+.brc-masthead {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--accent);
+}
+.brc-word {
+  font-family: var(--font-serif);
+  font-weight: 800;
+  font-size: 1.5rem;
+  letter-spacing: -0.01em;
+}
+.brc-sub {
+  font-size: 0.58rem;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--accent-text);
+}
+.brc-tagline {
+  margin: 12px 0 2px;
+  color: var(--text-3);
+}
+.brc-date {
+  margin: 0 0 4px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--text-3);
+}
+
+/* ---- the two-sided tree ---- */
+.brc-bracket {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 14px 0 6px;
+}
+.brc-half {
+  display: flex;
+  align-items: center;
+}
+
+.brc-node {
+  display: flex;
+  align-items: center;
+}
+.brc-left .brc-node {
+  flex-direction: row-reverse; /* leaves drift outward, parent tie toward centre */
+}
+.brc-right .brc-node {
+  flex-direction: row; /* mirror */
+}
+
+/* a single matchup: two stacked flags */
+.brc-tie {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 5px 0;
+}
+.brc-left .brc-node:not(.is-leaf) > .brc-tie {
+  margin-left: 16px;
+}
+.brc-right .brc-node:not(.is-leaf) > .brc-tie {
+  margin-right: 16px;
+}
+
+.brc-children {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/* vertical bus joining the two child centres */
+.brc-left .brc-node:not(.is-leaf) > .brc-children::before,
+.brc-right .brc-node:not(.is-leaf) > .brc-children::before {
+  content: "";
+  position: absolute;
+  top: 25%;
+  bottom: 25%;
+}
+.brc-left .brc-node:not(.is-leaf) > .brc-children::before {
+  right: 0;
+  border-right: 1.5px solid var(--border-strong);
+}
+.brc-right .brc-node:not(.is-leaf) > .brc-children::before {
+  left: 0;
+  border-left: 1.5px solid var(--border-strong);
+}
+/* horizontal line from the bus across the gap to the parent tie */
+.brc-left .brc-node:not(.is-leaf) > .brc-children::after,
+.brc-right .brc-node:not(.is-leaf) > .brc-children::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 16px;
+  border-top: 1.5px solid var(--border-strong);
+}
+.brc-left .brc-node:not(.is-leaf) > .brc-children::after {
+  right: -16px;
+}
+.brc-right .brc-node:not(.is-leaf) > .brc-children::after {
+  left: -16px;
+}
+
+/* a flag slot — advancing side ringed, eliminated side faded */
+.brc-slot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 26px;
+}
+.brc-slot.lose {
+  opacity: 0.28;
+}
+.brc-slot.win .flag {
+  outline: 1.5px solid var(--win);
+  outline-offset: 0;
+}
+
+/* champion plate in the centre */
+.brc-champ {
+  position: relative;
+  flex: 0 0 132px;
+  margin: 0 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 14px 8px;
+  border: 2px solid var(--win);
+  border-radius: var(--r-md);
+  background: var(--bg);
+  text-align: center;
+}
+.brc-champ::before,
+.brc-champ::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 16px;
+  border-top: 1.5px solid var(--win);
+}
+.brc-champ::before {
+  left: -16px;
+}
+.brc-champ::after {
+  right: -16px;
+}
+.brc-champ-kick {
+  color: var(--win);
+}
+.brc-champ-name {
+  font-family: var(--font-serif);
+  font-weight: 800;
+  font-size: 1.16rem;
+  line-height: 1.05;
+  margin-top: 2px;
+}
+.brc-champ-ru {
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: var(--text-3);
+}
+
+.brc-foot {
+  margin-top: 14px;
+  padding-top: 10px;
+  border-top: 1px solid var(--border);
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
+  color: var(--text-2);
+  text-align: center;
+}
+.brc-lead {
+  margin-top: 8px;
+  font-size: 0.68rem;
+  line-height: 1.4;
+}
+
+/* ---- List ⇄ Bracket toggle (shared by /predict and the homepage) ---- */
+.pr-result-toggle {
+  display: flex;
+  width: max-content;
+  margin: 0 auto 12px;
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  overflow: hidden;
+  background: var(--bg-elev);
+}
+.pr-result-toggle button {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: var(--text-2);
+  padding: 7px 18px;
+}
+.pr-result-toggle button.on {
+  background: var(--text);
+  color: var(--bg-elev);
+}

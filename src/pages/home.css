@@ -47,6 +47,19 @@
   width: 366px;
   max-width: 100%;
 }
+/* scale-to-fit wrapper for the wide sample bracket (see FitToWidth) */
+.fit-w {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.fit-w-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: top left;
+  width: max-content;
+}
 .home-samplenote {
   display: block;
   text-align: center;

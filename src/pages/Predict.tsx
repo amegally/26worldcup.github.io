@@ -20,6 +20,7 @@ import type { Team } from '../types'
 import Flag from '../components/Flag'
 import Icon from '../components/Icon'
 import BracketCard from '../components/BracketCard'
+import BracketTreeCard from '../components/BracketTreeCard'
 import LeadLine from '../components/LeadLine'
 import './predict.css'
 
@@ -200,6 +201,7 @@ export default function Predict() {
   const [madeAt, setMadeAt] = useState<number | null>(() => importedBracket?.madeAt ?? loadMade())
   const [sharing, setSharing] = useState(false)
   const [copied, setCopied] = useState(false)
+  const [resultView, setResultView] = useState<'bracket' | 'list'>('bracket')
   const revealRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
@@ -483,18 +485,55 @@ export default function Predict() {
       <div ref={revealRef}>
         {showCard && champion && (
           <div className="pr-result">
-            <BracketCard
-              teams={teams}
-              champion={champion}
-              funnel={funnel}
-              appName={t('appName')}
-              appSub={t('appSub')}
-              tagline={t('predictCardTagline')}
-              championLabel={t('predictYourChampion')}
-              date={madeLabel}
-              id="predict-card"
-              lead
-            />
+            <div className="pr-result-toggle" role="tablist" aria-label={t('predictKnockoutTitle')}>
+              <button
+                type="button"
+                role="tab"
+                aria-selected={resultView === 'bracket'}
+                className={resultView === 'bracket' ? 'on' : ''}
+                onClick={() => setResultView('bracket')}
+              >
+                {t('predictResultBracket')}
+              </button>
+              <button
+                type="button"
+                role="tab"
+                aria-selected={resultView === 'list'}
+                className={resultView === 'list' ? 'on' : ''}
+                onClick={() => setResultView('list')}
+              >
+                {t('predictResultList')}
+              </button>
+            </div>
+            {resultView === 'bracket' ? (
+              <BracketTreeCard
+                teams={teams}
+                bracket={bracket}
+                parts={parts}
+                winner={winner}
+                champion={champion}
+                appName={t('appName')}
+                appSub={t('appSub')}
+                tagline={t('predictCardTagline')}
+                championLabel={t('predictYourChampion')}
+                date={madeLabel}
+                id="predict-card"
+                lead
+              />
+            ) : (
+              <BracketCard
+                teams={teams}
+                champion={champion}
+                funnel={funnel}
+                appName={t('appName')}
+                appSub={t('appSub')}
+                tagline={t('predictCardTagline')}
+                championLabel={t('predictYourChampion')}
+                date={madeLabel}
+                id="predict-card"
+                lead
+              />
+            )}
             <div className="pr-share">
               <button
                 type="button"

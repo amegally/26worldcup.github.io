@@ -372,7 +372,7 @@ const en: Dict = {
     'Call who tops every group and wins every knockout tie, right through to the champion — then get a card you can share.',
   homeHeroCta: 'Create your own bracket',
   homeHeroSteps: '12 groups · every knockout tie · one champion',
-  homeSampleNote: 'A sample, picked by the model. Yours is one tap away.',
+  homeSampleNote: "AI's predicted winners. Make your own predictions!",
   // ---- predict: you vs. the model ----
   predictTitle: 'Build your Cup 2026 bracket',
   predictSampleTagline: 'Sample bracket',
@@ -406,6 +406,9 @@ const en: Dict = {
   predictProgress: '{done} of {total} picks',
   predictYourChampion: 'Your champion',
   predictRunnerUp: 'Runner-up',
+  predictResultList: 'List',
+  predictResultBracket: 'Bracket',
+  predictDefeated: 'def. {team}',
   predictCardTagline: 'My Cup 2026 bracket',
   predictMadeOn: 'Made {date}',
   predictShare: 'Share',
